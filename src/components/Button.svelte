@@ -6,13 +6,13 @@
   export let size: 'sm' | 'md' = 'md';
 
   const VARIANT_MAP = {
-    primary: 'bg-sky-700 text-white hover:bg-sky-800',
+    primary: 'bg-amber-700 text-white hover:bg-amber-800',
     primaryDestructive: 'bg-rose-500 text-white hover:bg-rose-800',
 
-    secondary: 'border border-sky-700 text-sky-700 bg-white/25 hover:bg-black/5 dark:bg-white/5 dark:hover:bg-white/10 dark:border-sky-500 dark:text-sky-500',
+    secondary: 'border border-amber-700 text-amber-700 bg-white/25 hover:bg-black/5 dark:bg-white/5 dark:hover:bg-white/10 dark:border-amber-500 dark:text-amber-500',
     secondaryDestructive: 'border border-rose-500 text-rose-500 bg-white hover:bg-stone-100',
 
-    tertiary: 'text-sky-500 hover:bg-stone-600/10 dark:hover:bg-stone-400/10',
+    tertiary: 'text-amber-500 hover:bg-stone-600/10 dark:hover:bg-stone-400/10',
     tertiaryDestructive: 'text-rose-500 bg-opacity-0 hover:bg-stone-600/10 dark:hover:bg-stone-400/10',
   };
 

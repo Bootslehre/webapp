@@ -6,4 +6,9 @@ export default defineConfig({
   define: {
     __PACKAGE_VERSION__: JSON.stringify(process.env.npm_package_version),
   },
+  server: {
+    fs: {
+      allow: ['src', 'generated'],
+    },
+  }
 });

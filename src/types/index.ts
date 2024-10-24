@@ -22,6 +22,7 @@ export interface Answer {
 
 export interface Media {
     src: string;
+    fileName: string;
     title: string;
     alt: string;
 }

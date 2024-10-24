@@ -90,13 +90,7 @@ async function processImage(image: HTMLImageElement): Promise<Media | undefined>
     return;
   }
 
-  const fileName = media.src.split('/').at(-1)?.split('?').at(0);
-
-  if (!fileName) {
-    return;
-  }
-
-  await downloadFromUrl(media.src, fileName);
+  await downloadFromUrl(media.src, media.fileName);
 
   return media;
 }
@@ -105,12 +99,13 @@ function getImageMedia(img: HTMLImageElement): Media | undefined {
   const src = img.getAttribute('src') ?? '';
   const alt = img.getAttribute('alt') ?? '';
   const title = img.getAttribute('title') ?? '';
+  const fileName = src.split('/').at(-1)?.split('?').at(0);
 
-  if (!src) {
+  if (!src || !fileName) {
     return undefined;
   }
 
-  return { alt, title, src };
+  return { alt, title, src, fileName };
 }
 
 function clearDirectory(dir: string) {
