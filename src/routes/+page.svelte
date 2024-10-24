@@ -49,7 +49,8 @@
       {#each shuffledAnswers as answer, index}
         <ol>
           <button
-            class="text-sm p-6 {index === selectedAnswerIndex && answer.isCorrect ? 'bg-green-400' : undefined}
+            class="text-sm p-6 w-full text-left
+              {selectedAnswerIndex !== undefined && answer.isCorrect ? 'bg-green-400' : undefined}
               {index === selectedAnswerIndex && !answer.isCorrect ? 'bg-red-400' : undefined}"
             on:click={() => selectAnswer(index)}>{answer.text}</button
           >
