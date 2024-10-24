@@ -1,6 +1,11 @@
+export interface QuestionaireSource {
+  id: string;
+  url: string;
+}
+
 export interface Questionaire {
   id: string;
-  src: string;
+  questions: Array<Question>;
 }
 
 export interface Question {
