@@ -1,10 +1,15 @@
 import fs, { mkdirSync, rmdirSync } from 'fs';
 import jsdom from 'jsdom';
-import { join } from 'path';
+import { dirname, join } from 'path';
 import { chdir } from 'process';
+import { fileURLToPath } from 'url';
 import { type Media, type Question, type Questionaire, type QuestionaireSource } from '../src/types';
 import { QUESTIONAIRE_SOURCES } from './sources';
 import { downloadFromUrl, getHtmlForUrl, runInBand } from './utils';
+
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = dirname(__filename); // get the name of the directory
+
 
 async function processSource(source: QuestionaireSource) {
   console.log(`processing ${source.id}...`);
@@ -109,11 +114,11 @@ function getImageMedia(img: HTMLImageElement): Media | undefined {
 }
 
 function clearDirectory(dir: string) {
-  rmdirSync(dir, { recursive: true });
-
-  if (!fs.existsSync(dir)) {
-    mkdirSync(dir);
+  if (fs.existsSync(dir)) {
+    rmdirSync(dir, { recursive: true });
   }
+
+  mkdirSync(dir);
 }
 
 // ...
