@@ -10,7 +10,6 @@ import { downloadFromUrl, getHtmlForUrl, runInBand } from './utils';
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = dirname(__filename); // get the name of the directory
 
-
 async function processSource(source: QuestionaireSource) {
   console.log(`processing ${source.id}...`);
 
@@ -66,8 +65,7 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
     }
 
     // extract image data
-    const images: Array<HTMLImageElement> =
-      el.tagName === 'IMG' ? [el as HTMLImageElement] : Array.from(el.querySelectorAll('img'));
+    const images: Array<HTMLImageElement> = el.tagName === 'IMG' ? [el as HTMLImageElement] : Array.from(el.querySelectorAll('img'));
     const processedImages = await runInBand(images, processImage);
     const validProcessedImages = processedImages.filter(Boolean) as Array<Media>;
     question.media.push(...validProcessedImages);

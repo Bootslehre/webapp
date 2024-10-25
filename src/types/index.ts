@@ -1,28 +1,28 @@
 export interface QuestionaireSource {
-    id: string;
-    url: string;
+  id: string;
+  url: string;
 }
 
 export interface Questionaire {
-    id: string;
-    questions: Array<Question>;
+  id: string;
+  questions: Array<Question>;
 }
 
 export interface Question {
-    id: string;
-    text: string;
-    media: Array<Media>;
-    answers: Array<Answer>;
+  id: string;
+  text: string;
+  media: Array<Media>;
+  answers: Array<Answer>;
 }
 
 export interface Answer {
-    text: string;
-    isCorrect: boolean;
+  text: string;
+  isCorrect: boolean;
 }
 
 export interface Media {
-    src: string;
-    fileName: string;
-    title: string;
-    alt: string;
+  src: string;
+  fileName: string;
+  title: string;
+  alt: string;
 }

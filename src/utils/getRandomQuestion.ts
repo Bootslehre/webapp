@@ -1,6 +1,6 @@
-import { SBF } from '../../generated'
-import type { Question } from "../types"
+import type { Question, Questionaire } from '../types';
 
-export function getRandomQuestion(): Question {
-    return SBF.questions.at(Math.round(Math.random() * SBF.questions.length)) as Question
+export function getNextQuestion({ questions }: Questionaire): Question {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  return questions.at(randomIndex)!;
 }
