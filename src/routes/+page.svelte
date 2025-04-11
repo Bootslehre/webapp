@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { SBF_BINNEN_BASIS, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH, SBF_BINNEN_SEGEL } from '../../generated';
+  import { SBF_BINNEN_BASIS, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH, SBF_BINNEN_SEGEL } from '../../static/generated';
   import QuestionaireComponent from '../components/QuestionaireComponent.svelte';
   import type { Questionaire } from '../types';
 

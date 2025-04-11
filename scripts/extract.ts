@@ -13,7 +13,7 @@ const __dirname = dirname(__filename); // get the name of the directory
 async function processSource(source: QuestionaireSource) {
   console.log(`processing ${source.id}...`);
 
-  const dir = join(__dirname, '..', 'generated', source.id);
+  const dir = join(__dirname, '..', 'static', 'generated', source.id);
   clearDirectory(dir);
   chdir(dir);
 
@@ -120,4 +120,4 @@ function clearDirectory(dir: string) {
 
 const questionaires = await runInBand(QUESTIONAIRE_SOURCES, processSource);
 const indexFileContent = questionaires.map((q) => `export * from './${q.id}';`).join('\n') + '\n';
-fs.writeFileSync(join(__dirname, '..', 'generated', 'index.ts'), indexFileContent);
+fs.writeFileSync(join(__dirname, '..', 'static', 'generated', 'index.ts'), indexFileContent);

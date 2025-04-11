@@ -10,7 +10,7 @@ export default defineConfig({
   },
   server: {
     fs: {
-      allow: ['src', 'generated'],
+      allow: ['src', 'static'],
     },
   },
   test: {
