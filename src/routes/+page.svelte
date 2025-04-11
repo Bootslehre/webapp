@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { SBF, SBF_BINNEN, SBF_BINNEN_SEGEL } from '../../generated';
+  import { SBF_BINNEN_BASIS, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH, SBF_BINNEN_SEGEL } from '../../generated';
   import QuestionaireComponent from '../components/QuestionaireComponent.svelte';
   import type { Questionaire } from '../types';
 
-  let questionaire: Questionaire = SBF;
-  const all = [SBF, SBF_BINNEN, SBF_BINNEN_SEGEL];
+  const all = [SBF_BINNEN_BASIS, SBF_BINNEN_SEGEL, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH, SBF_BINNEN_SEGEL];
+  let questionaire: Questionaire = all[0];
 
   function selectQuestionaire(id: string) {
     questionaire = all.find((a) => a.id === id)!;
