@@ -1,5 +1,7 @@
-export function shuffle(array: Array<any>) {
-  let currentIndex = array.length;
+export function shuffle<T>(array: Array<T>) {
+  const clone = [...array];
+
+  let currentIndex = clone.length;
 
   // While there remain elements to shuffle...
   while (currentIndex != 0) {
@@ -8,6 +10,8 @@ export function shuffle(array: Array<any>) {
     currentIndex--;
 
     // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    [clone[currentIndex], clone[randomIndex]] = [clone[randomIndex], clone[currentIndex]];
   }
+
+  return clone;
 }

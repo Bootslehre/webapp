@@ -14,15 +14,22 @@
 
 <main class="flex h-full flex-col overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
   <div class="bg-white px-5 py-4 shadow-md">
-    <div class="mx-auto flex max-w-xl items-center gap-3">
-      <div class="text-blue-600">
-        <Anchor size="lg" />
-      </div>
-      <h2 class="text-lg font-medium text-blue-900">Maritime License</h2>
+    <div class="mx-auto">
+      <a
+        href="/"
+        class="flex max-w-xl items-center gap-3"
+      >
+        <div class="text-blue-600">
+          <Anchor size="lg" />
+        </div>
+        <h2 class="text-lg font-medium text-blue-900">Maritime License</h2>
+      </a>
     </div>
   </div>
 
-  {@render children()}
+  <div class="mx-auto w-full max-w-xl">
+    {@render children()}
+  </div>
 </main>
 
 <style>
