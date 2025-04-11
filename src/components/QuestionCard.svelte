@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getQuestionStats, setQuestionStats } from '../stores/stats.svelte';
+  import { statsService } from '../stores/stats.svelte';
   import type { Question, Questionaire } from '../types';
   import { goToNextQuestion } from '../utils/getRandomQuestion';
   import { shuffle } from '../utils/shuffle';
@@ -17,16 +17,15 @@
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
   let shuffledAnswers = $derived(shuffle(question.answers));
-  let stats = $derived(getQuestionStats(questionaire.id, question.id));
-
-  $inspect(stats);
+  let stats = $derived(statsService.getQuestionStats(questionaire.id, question.id));
 
   function nextQuestion() {
+    selectedAnswerIndex = undefined;
     goToNextQuestion(questionaire.id);
   }
 
   function skipQuestion() {
-    // questionStats = { ...questionStats, skip: questionStats.skip + 1 };
+    statsService.setQuestionStats(questionaire.id, question.id, { ...stats, skip: stats.skip + 1 });
     nextQuestion();
   }
 
@@ -34,19 +33,19 @@
     selectedAnswerIndex = index;
 
     if (shuffledAnswers[index].isCorrect) {
-      // questionStats = { ...questionStats, correct: questionStats.correct + 1 };
+      statsService.setQuestionStats(questionaire.id, question.id, { ...stats, correct: stats.correct + 1 });
     } else {
-      // questionStats = { ...questionStats, correct: questionStats.incorrect + 1 };
+      statsService.setQuestionStats(questionaire.id, question.id, { ...stats, incorrect: stats.incorrect + 1 });
     }
   }
 
   function goBack() {
+    selectedAnswerIndex = undefined;
     history.back();
   }
 
   function togglePinned() {
-    stats = { ...stats, pinned: !stats.pinned };
-    setQuestionStats(questionaire.id, question.id, stats);
+    statsService.setQuestionStats(questionaire.id, question.id, { ...stats, pinned: !stats.pinned });
   }
 </script>
 
@@ -113,5 +112,3 @@
     </div>
   </div>
 </Paper>
-
-<p>{JSON.stringify(stats, null, 2)}</p>

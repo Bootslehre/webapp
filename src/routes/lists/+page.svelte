@@ -1,5 +1,6 @@
 <script lang="ts">
   import Paper from '../../components/Paper.svelte';
+  import { statsService } from '../../stores/stats.svelte';
   import { QUESTIONAIRES } from '../../utils/questionaires';
 </script>
 
@@ -15,6 +16,7 @@
         >
           <span>{item.id}</span>
           <span class="text-xs text-gray-500">{item.questions.length} Questions</span>
+          <span class="text-xs text-gray-500">{statsService.getPinnedQuestionIds(item.id).length} pinned</span>
         </a>
       </li>
     {/each}
