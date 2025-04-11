@@ -12,13 +12,21 @@
 </script>
 
 <div class="p-6">
-  <h1 class="text-lg">Schein wählen</h1>
-
-  <select on:change={(event) => selectQuestionaire(event.target.value)}>
-    {#each all as q}
-      <option>{q.id}</option>
-    {/each}
-  </select>
+  <div class="max-w-xs">
+    <label
+      for="countries"
+      class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Schein wählen</label
+    >
+    <select
+      id="countries"
+      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+      on:change={(event) => selectQuestionaire(event.target.value)}
+    >
+      {#each all as q}
+        <option>{q.id}</option>
+      {/each}
+    </select>
+  </div>
 </div>
 
 <QuestionaireComponent {questionaire} />

@@ -1,6 +1,7 @@
 <script lang="ts">
   import Anchor from '../components/icons/Anchor.svelte';
   import './styles.css';
+  let { children } = $props();
 </script>
 
 <svelte:head>
@@ -11,9 +12,9 @@
   />
 </svelte:head>
 
-<main class="flex flex-col h-full overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
-  <div class="px-5 py-4 bg-white shadow-md">
-    <div class="mx-auto max-w-xl flex items-center gap-3">
+<main class="flex h-full flex-col overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
+  <div class="bg-white px-5 py-4 shadow-md">
+    <div class="mx-auto flex max-w-xl items-center gap-3">
       <div class="text-blue-600">
         <Anchor size="lg" />
       </div>
@@ -21,7 +22,7 @@
     </div>
   </div>
 
-  <slot />
+  {@render children()}
 </main>
 
 <style>

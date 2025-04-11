@@ -1,9 +1,19 @@
 <script lang="ts">
-  export let label: string;
-  export let type: 'button' | 'submit' | 'reset' | null | undefined = 'button';
-  export let disabled: boolean = false;
-  export let variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
-  export let size: 'sm' | 'md' = 'md';
+  import type { Snippet } from 'svelte';
+
+  interface Props {
+    label: string;
+    type?: 'button' | 'submit' | 'reset' | null | undefined;
+    disabled?: boolean;
+    variant?: 'primary' | 'secondary' | 'tertiary';
+    size?: 'sm' | 'md';
+    class?: string;
+    onclick?: (e: MouseEvent) => void;
+    iconLeft?: Snippet;
+    iconRight?: Snippet;
+  }
+
+  let { label, type = 'button', disabled = false, variant = 'primary', size = 'md', onclick, iconLeft, iconRight, class: className = '' }: Props = $props();
 
   const VARIANT_MAP = {
     primary: 'bg-blue-700 text-white hover:bg-blue-800',
@@ -18,12 +28,14 @@
 </script>
 
 <button
-  class="inline-flex items-center rounded-md font-semibold disabled:opacity-50 transition-colors disabled:cursor-not-allowed {VARIANT_MAP[variant]} {SIZE_MAP[size]}"
+  class="flex cursor-pointer items-center rounded-md font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50 {VARIANT_MAP[variant]} {SIZE_MAP[
+    size
+  ]} {className}"
   {type}
   {disabled}
-  on:click
+  {onclick}
 >
-  <slot name="iconLeft" />
+  {@render iconLeft?.()}
   {label}
-  <slot name="iconRight" />
+  {@render iconRight?.()}
 </button>

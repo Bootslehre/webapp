@@ -40,15 +40,15 @@
 
 <div class="mx-auto max-w-xl">
   {#if question}
-    <div class="border rounded-lg divide-y overflow-hidden shadow-md">
+    <div class="divide-y divide-gray-200 overflow-hidden rounded-lg border border-gray-200 shadow-md">
       <div class="p-5">
-        <div class="flex gap-3 items-start">
-          <div class="text-blue-600 pt-1"><QuestionMarkCircle size="lg" /></div>
+        <div class="flex items-start gap-3">
+          <div class="pt-1 text-blue-600"><QuestionMarkCircle size="lg" /></div>
           <h2 class="text-xl font-medium text-blue-900">{question?.text}</h2>
         </div>
 
         {#if question.media.length}
-          <div class="flex flex-row align-center justify-center gap-2 mt-5">
+          <div class="align-center mt-5 flex flex-row justify-center gap-2">
             {#each question.media as media}
               <img
                 src={`../../generated/${questionaire.id}/${media.fileName}`}
@@ -60,14 +60,14 @@
         {/if}
       </div>
 
-      <div class="p-6 bg-white">
+      <div class="bg-white p-6">
         <div class="space-y-4">
           {#each shuffledAnswers as answer, index}
             <button
-              class="text-sm p-4 w-full text-left border rounded-md transition-colors font-medium
-                {selectedAnswerIndex === undefined ? 'hover:bg-sky-50 hover:border-sky-200' : undefined}
-                {selectedAnswerIndex !== undefined && answer.isCorrect ? 'bg-green-300 border-green-400' : undefined}
-                {index === selectedAnswerIndex && !answer.isCorrect ? 'bg-red-300 border-red-400' : undefined}"
+              class="w-full cursor-pointer rounded-md border border-gray-200 p-4 text-left text-sm font-medium transition-colors
+                {selectedAnswerIndex === undefined ? 'hover:border-sky-200 hover:bg-sky-50' : undefined}
+                {selectedAnswerIndex !== undefined && answer.isCorrect ? 'border-green-400 bg-green-300' : undefined}
+                {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300' : undefined}"
               on:click={() => (selectedAnswerIndex === undefined ? selectAnswer(index) : nextQuestion())}>{answer.text}</button
             >
           {/each}
@@ -75,28 +75,28 @@
       </div>
 
       <div class="bg-white p-4">
-        <div class="flex justify-between w-full gap-4">
+        <div class="flex w-full justify-between gap-4">
           <Button
             label="Previous"
             variant="secondary"
-            on:click={goBack}
+            onclick={goBack}
           />
           <div class="flex gap-4">
             <Button
               label="Pin"
               variant="tertiary"
-              on:click={pinQuestion}
+              onclick={pinQuestion}
             />
             {#if selectedAnswerIndex === undefined}
               <Button
                 label="Skip"
                 variant="secondary"
-                on:click={skip}
+                onclick={skip}
               />
             {:else}
               <Button
                 label="Weiter"
-                on:click={nextQuestion}
+                onclick={nextQuestion}
               />
             {/if}
           </div>
@@ -104,9 +104,9 @@
       </div>
     </div>
 
-    <div class="flex justify-between w-full py-2 px-4">
-      <div class="text-xs text-sky-700 font-semibold">Nummer {question.id}</div>
-      <div class="text-xs text-sky-700 font-semibold">{questionaire.questions.length} Fragen</div>
+    <div class="flex w-full justify-between px-4 py-2">
+      <div class="text-xs font-semibold text-sky-700">Nummer {question.id}</div>
+      <div class="text-xs font-semibold text-sky-700">{questionaire.questions.length} Fragen</div>
     </div>
   {/if}
 </div>
