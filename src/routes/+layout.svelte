@@ -22,13 +22,15 @@
         <div class="text-blue-600">
           <Anchor size="lg" />
         </div>
-        <h2 class="text-lg font-medium text-blue-900">Maritime License</h2>
+        <h2 class="text-lg font-medium text-blue-900">SBF Trainer</h2>
       </a>
     </div>
   </div>
 
   <div class="mx-auto w-full max-w-xl">
-    {@render children()}
+    <div class="p-4">
+      {@render children()}
+    </div>
   </div>
 </main>
 

@@ -2,9 +2,7 @@ import { STORAGE_KEY } from "./constants";
 
 export class QuestionStats {
   constructor(
-    public skip: number = 0,
-    public correct: number = 0,
-    public incorrect: number = 0,
+    public progress: number = 0,
     public pinned: boolean = false,
   ) { }
 }
@@ -35,8 +33,15 @@ export function createStatsService() {
       const statsWithFallback = state[questionaireId] || {}
       return Object.keys(statsWithFallback).filter(key => statsWithFallback[key].pinned);
     },
-    getQuestionStats(questionaireId: string, questionId: string) {
-      return state?.[questionaireId]?.[questionId] || new QuestionStats();
+    getQuestionaireStatsSnapshot(questionaireId: string): QuestionaireStats {
+      return $state.snapshot(state?.[questionaireId]) || {}
+    },
+    getQuestionStats(questionaireId: string, questionId: string): QuestionStats | undefined {
+      return state?.[questionaireId]?.[questionId];
+    },
+    resetQuestionaireStats(questionaireId: string) {
+      state[questionaireId] = {};
+      persist();
     },
     setQuestionStats(questionaireId: string, questionId: string, stats: QuestionStats) {
       if (!state[questionaireId]) {
@@ -56,7 +61,7 @@ export const statsState = $state<QuestionaireStatsMap>(getProgressFromLocalStora
 export function getProgressFromLocalStorage(): QuestionaireStatsMap {
   try {
     const res = localStorage.getItem(STORAGE_KEY);
-    return JSON.parse(res!);
+    return JSON.parse(res!) || {};
   } catch {
     return {};
   }

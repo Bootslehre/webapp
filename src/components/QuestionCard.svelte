@@ -1,11 +1,14 @@
 <script lang="ts">
-  import { statsService } from '../stores/stats.svelte';
+  import { QuestionStats, statsService } from '../stores/stats.svelte';
   import type { Question, Questionaire } from '../types';
-  import { goToNextQuestion } from '../utils/getRandomQuestion';
+  import { goToNextQuestion } from '../utils/nextQuestion';
+  import { MAX_PROGESS } from '../utils/nextQuestionStrategy';
   import { shuffle } from '../utils/shuffle';
   import Button from './Button.svelte';
+  import Pin from './icons/Pin.svelte';
   import QuestionMarkCircle from './icons/QuestionMarkCircle.svelte';
   import Paper from './Paper.svelte';
+  import Rating from './Rating.svelte';
 
   let {
     questionaire,
@@ -21,22 +24,27 @@
 
   function nextQuestion() {
     selectedAnswerIndex = undefined;
-    goToNextQuestion(questionaire.id);
+    goToNextQuestion(questionaire.id, question.id);
   }
 
   function skipQuestion() {
-    statsService.setQuestionStats(questionaire.id, question.id, { ...stats, skip: stats.skip + 1 });
     nextQuestion();
   }
 
   function answerQuestion(index: number) {
     selectedAnswerIndex = index;
 
-    if (shuffledAnswers[index].isCorrect) {
-      statsService.setQuestionStats(questionaire.id, question.id, { ...stats, correct: stats.correct + 1 });
+    const newStats = new QuestionStats(stats?.progress, stats?.pinned);
+    const isCorrectlyAnswered = shuffledAnswers[index].isCorrect;
+
+    if (isCorrectlyAnswered) {
+      newStats.progress = Math.min(newStats.progress + 1, MAX_PROGESS);
     } else {
-      statsService.setQuestionStats(questionaire.id, question.id, { ...stats, incorrect: stats.incorrect + 1 });
+      // reset progress on incorrect answers
+      newStats.progress = 0;
     }
+
+    statsService.setQuestionStats(questionaire.id, question.id, newStats);
   }
 
   function goBack() {
@@ -45,15 +53,30 @@
   }
 
   function togglePinned() {
-    statsService.setQuestionStats(questionaire.id, question.id, { ...stats, pinned: !stats.pinned });
+    statsService.setQuestionStats(questionaire.id, question.id, {
+      progress: stats?.progress,
+      pinned: !stats?.pinned,
+    });
   }
 </script>
 
-<Paper class="divide-y divide-gray-200">
-  <div class="p-5">
+{#snippet pin()}
+  <Pin size="lg" />
+{/snippet}
+
+<Paper class="relative divide-y divide-gray-200 bg-white">
+  <Button
+    label=""
+    class="absolute top-0 right-0 translate-x-[50%] translate-y-[-50%]"
+    variant={stats?.pinned ? 'primary' : 'secondary'}
+    iconLeft={pin}
+    onclick={() => togglePinned()}
+  />
+
+  <div class="min-h-[100px] rounded-t-lg bg-blue-100 p-5">
     <div class="flex items-start gap-3">
       <div class="pt-1 text-blue-600"><QuestionMarkCircle size="lg" /></div>
-      <h2 class="text-xl font-medium text-blue-900">{question?.text}</h2>
+      <h2 class="text-xl font-medium text-pretty text-blue-900">{question?.text}</h2>
     </div>
 
     {#if question.media.length}
@@ -69,37 +92,41 @@
     {/if}
   </div>
 
-  <div class="bg-white p-6">
-    <div class="space-y-4">
+  <div class=" p-6">
+    <div class="min-h-[360px] space-y-4">
       {#each shuffledAnswers as answer, index}
-        <button
-          class="w-full cursor-pointer rounded-md border border-gray-200 p-4 text-left text-sm font-medium transition-colors
+        {#key answer.text}
+          <button
+            class="w-full cursor-pointer rounded-md border border-gray-200 p-4 text-left text-sm font-medium text-pretty transition-colors
                 {selectedAnswerIndex === undefined ? 'hover:border-sky-200 hover:bg-sky-50' : undefined}
-                {selectedAnswerIndex !== undefined && answer.isCorrect ? 'border-green-400 bg-green-300' : undefined}
-                {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300' : undefined}"
-          onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : nextQuestion())}>{answer.text}</button
-        >
+                {selectedAnswerIndex !== undefined && answer.isCorrect ? 'text-500 border-green-400 bg-green-300 text-green-950' : undefined}
+                {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300 text-red-950' : undefined}"
+            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : nextQuestion())}>{answer.text}</button
+          >
+        {/key}
       {/each}
     </div>
   </div>
 
-  <div class="bg-white p-4">
-    <div class="flex w-full justify-between gap-4">
-      <Button
-        label="Previous"
-        variant="secondary"
-        onclick={goBack}
-      />
-      <div class="flex gap-4">
+  <div class=" p-4">
+    <div class="flex w-full items-center justify-between gap-4">
+      <div class="flex-1 self-start">
         <Button
-          label={stats.pinned ? 'Unpin' : 'Pin'}
+          label="Vorherige"
           variant="tertiary"
-          onclick={() => togglePinned()}
+          onclick={goBack}
         />
+      </div>
+
+      {#key question.id}
+        <Rating progress={stats?.progress} />
+      {/key}
+
+      <div class="flex flex-1 justify-end">
         {#if selectedAnswerIndex === undefined}
           <Button
-            label="Skip"
-            variant="secondary"
+            label="Überspringen"
+            variant="tertiary"
             onclick={() => skipQuestion()}
           />
         {:else}
