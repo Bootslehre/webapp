@@ -72,7 +72,7 @@
 
     {#if question.media.length}
       <div class="align-center mt-5 flex flex-row justify-center gap-2">
-        {#each question.media as media}
+        {#each question.media as media (media.src)}
           <img
             src={`../../generated/${questionaire.id}/${media.fileName}`}
             alt={media.alt}
@@ -92,7 +92,7 @@
 
   <div class=" p-6">
     <div class="min-h-[360px] space-y-4">
-      {#each shuffledAnswers as answer, index}
+      {#each shuffledAnswers as answer, index (answer.text)}
         {#key answer.text}
           <button
             class="w-full cursor-pointer rounded-md border border-slate-200 p-4 text-left text-sm font-medium text-pretty transition-colors

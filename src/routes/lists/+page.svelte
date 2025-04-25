@@ -21,7 +21,7 @@
 
   <Paper class="bg-white p-6">
     <ul class="space-y-4">
-      {#each QUESTIONAIRES as item}
+      {#each QUESTIONAIRES as item (item.id)}
         <li>
           <a
             class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
