@@ -51,7 +51,7 @@
   }
 </script>
 
-<Paper class="divide-y divide-gray-200 bg-white">
+<Paper class="divide-y divide-slate-200 bg-white">
   <div class="relative min-h-[100px] rounded-t-lg bg-blue-100 p-5">
     <div class="flex items-start gap-3">
       <div class="pt-1 text-blue-600"><QuestionMarkCircle size="lg" /></div>
@@ -83,8 +83,8 @@
       {#each shuffledAnswers as answer, index}
         {#key answer.text}
           <button
-            class="w-full cursor-pointer rounded-md border border-gray-200 p-4 text-left text-sm font-medium text-pretty transition-colors
-                {selectedAnswerIndex === undefined ? 'hover:border-sky-200 hover:bg-sky-50' : undefined}
+            class="w-full cursor-pointer rounded-md border border-slate-200 p-4 text-left text-sm font-medium text-pretty transition-colors
+                {selectedAnswerIndex === undefined ? 'hover:border-blue-200 hover:bg-blue-50' : undefined}
                 {selectedAnswerIndex !== undefined && answer.isCorrect ? 'text-500 border-green-400 bg-green-300 text-green-950' : undefined}
                 {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300 text-red-950' : undefined}"
             onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : nextQuestion())}>{answer.text}</button

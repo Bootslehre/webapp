@@ -50,7 +50,7 @@
     <h1 class="flex w-full items-center justify-between text-lg font-semibold">
       <span class="flex flex-col">
         <span>{questionaireNameMap[questionaireId]}</span>
-        <div class="flex gap-2 text-gray-500">
+        <div class="flex gap-2 text-slate-500">
           <span class="text-xs">{questionaire?.questions?.length} Fragen</span>
           <span class="text-xs">({statsService.getPinnedQuestionIds(questionaireId).length} markiert)</span>
         </div>

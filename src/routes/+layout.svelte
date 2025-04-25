@@ -1,5 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
+  import Footer from '../components/Footer.svelte';
   import Anchor from '../components/icons/Anchor.svelte';
   import Tonne from '../components/Tonne/Tonne.svelte';
   import './styles.css';
@@ -40,17 +41,6 @@
     </div>
   </main>
 
-  <footer class="mt-auto">
-    <div class="mx-auto w-full max-w-xl">
-      <div class="flex items-center justify-center gap-12 px-4 py-4 text-xs text-slate-600">
-        <a
-          href="{base}/impressum"
-          class="hover:underline">Impressum</a
-        >
-        <span>Made with 💩</span>
-      </div>
-    </div>
-  </footer>
-
+  <Footer />
   <Tonne />
 </main>

@@ -35,6 +35,6 @@ export const VARIANT_STYLES_MAP: Record<ButtonVariant, string> = {
   outlinedDestructive: 'border border-red-700 text-red-700 bg-white/25 hover:bg-blue-800/50',
   text: 'text-blue-700 hover:bg-blue-600/10',
   textDestructive: 'text-red-700 hover:bg-red-600/10',
-  white: 'bg-white text-blue-700 hover:bg-gray-200',
-  whiteDestructive: 'bg-white text-red-700 hover:bg-gray-200',
+  white: 'bg-white text-blue-700 hover:bg-slate-200',
+  whiteDestructive: 'bg-white text-red-700 hover:bg-slate-200',
 };

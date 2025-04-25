@@ -24,13 +24,13 @@
       {#each QUESTIONAIRES as item}
         <li>
           <a
-            class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-gray-200 p-4 text-sm font-medium transition-colors hover:border-sky-200 hover:bg-sky-50"
+            class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
             href="{base}/lists/{item.id}"
           >
             <span>{questionaireNameMap[item.id]}</span>
             <div class="flex gap-2">
-              <span class="text-xs text-gray-500">{item.questions.length} Fragen</span>
-              <span class="text-xs text-gray-500">({statsService.getPinnedQuestionIds(item.id).length} markiert)</span>
+              <span class="text-xs text-slate-500">{item.questions.length} Fragen</span>
+              <span class="text-xs text-slate-500">({statsService.getPinnedQuestionIds(item.id).length} markiert)</span>
             </div>
           </a>
         </li>

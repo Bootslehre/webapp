@@ -9,7 +9,7 @@
 
   function getColor(stepProgress: number) {
     if (progress === undefined) {
-      return 'bg-gray-100';
+      return 'bg-slate-100';
     }
 
     if (progress === 0) {
@@ -20,7 +20,7 @@
       return 'bg-green-500';
     }
 
-    return 'bg-gray-100';
+    return 'bg-slate-100';
   }
 </script>
 
