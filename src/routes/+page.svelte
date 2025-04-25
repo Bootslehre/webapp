@@ -8,12 +8,11 @@
   <h1 class="mb-4 text-xl">Moin!</h1>
 
   <p class="prose prose-sm flex flex-col gap-4">
-    <span>Willkommen bei Bootslehre.de – deiner Online-Bootsschule für die Vorbereitung auf Bootsprüfungen in Deutschland.</span>
-    <span
-      >Hier findest du interaktive Kurse und hilfreiche Ressourcen, um deinen Bootsführerschein zu bestehen. Egal ob Anfänger oder Fortgeschrittener, wir begleiten dich auf deinem
-      Weg zum erfolgreichen Abschluss.</span
-    >
-    <span>Lass uns gemeinsam in See stechen und deine nautischen Fähigkeiten auf das nächste Level bringen!</span>
+    <span>Willkommen bei <span class="font-semibold text-blue-600">Bootslehre.de</span> – deiner Online-Bootsschule für die Vorbereitung auf Bootsprüfungen in Deutschland.</span>
+    <span>
+      Hier findest du interaktive Kurse und hilfreiche Ressourcen, um deinen Bootsführerschein zu bestehen. Lass uns gemeinsam in See stechen und deine nautischen Fähigkeiten auf
+      das nächste Level bringen!
+    </span>
   </p>
 
   <Button
