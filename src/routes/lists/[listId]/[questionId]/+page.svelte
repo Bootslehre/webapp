@@ -3,6 +3,7 @@
   import { page } from '$app/state';
   import Button from '../../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
+  import Progress from '../../../../components/Progress.svelte';
   import QuestionCard from '../../../../components/QuestionCard.svelte';
   import { QUESTIONAIRES } from '../../../../utils/questionaires';
 
@@ -13,11 +14,11 @@
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
 </script>
 
-<div class="flex flex-col items-start gap-2">
-  {#snippet chevronIcon()}
-    <ChevronLeft size="lg" />
-  {/snippet}
+{#snippet chevronIcon()}
+  <ChevronLeft size="lg" />
+{/snippet}
 
+<div class="mb-2 flex w-full items-center justify-between">
   <Button
     href="{base}/lists/{questionaireId}"
     variant="text"
@@ -25,14 +26,18 @@
     iconLeft={chevronIcon}>Zurück</Button
   >
 
-  <div>
-    {#if questionaire && question}
-      <QuestionCard
-        {questionaire}
-        {question}
-      />
-    {:else}
-      Not Found :/
-    {/if}
-  </div>
+  {#if questionaire}
+    <Progress {questionaire} />
+  {/if}
+</div>
+
+<div>
+  {#if questionaire && question}
+    <QuestionCard
+      {questionaire}
+      {question}
+    />
+  {:else}
+    Not Found :/
+  {/if}
 </div>

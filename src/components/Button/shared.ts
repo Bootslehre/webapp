@@ -8,7 +8,8 @@ export type ButtonVariant =
   | 'text'
   | 'textDestructive'
   | 'white'
-  | 'whiteDestructive';
+  | 'whiteDestructive'
+  | 'ghost';
 
 export type ButtonSize = 'sm' | 'md';
 
@@ -37,4 +38,5 @@ export const VARIANT_STYLES_MAP: Record<ButtonVariant, string> = {
   textDestructive: 'text-red-700 hover:bg-red-600/10',
   white: 'bg-white text-blue-700 hover:bg-slate-200',
   whiteDestructive: 'bg-white text-red-700 hover:bg-slate-200',
+  ghost: 'hover:bg-slate-200',
 };
