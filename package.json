@@ -6,8 +6,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vite dev",
-    "build": "vite build",
-    "build_original": "vite build && mv build/200.html build/index.html",
+    "build": "vite build && mv build/200.html build/index.html",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
