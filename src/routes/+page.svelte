@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from '../components/Button.svelte';
+  import Button from '../components/Button/Button.svelte';
   import Paper from '../components/Paper.svelte';
 </script>
 
@@ -11,7 +11,6 @@
 
   <Button
     class="mt-5 justify-self-end"
-    href="/lists"
-    label="Wähl deinen Schein"
-  />
+    href="/lists">Wähl deinen Schein</Button
+  >
 </Paper>

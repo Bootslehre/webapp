@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { QuestionStats, statsService } from '../stores/stats.svelte';
+  import { statsService } from '../stores/stats.svelte';
   import type { Question, Questionaire } from '../types';
   import { goToNextQuestion } from '../utils/nextQuestion';
-  import { MAX_PROGESS } from '../utils/nextQuestionStrategy';
   import { shuffle } from '../utils/shuffle';
-  import Button from './Button.svelte';
+  import Button from './Button/Button.svelte';
+  import IconButton from './Button/IconButton.svelte';
   import Pin from './icons/Pin.svelte';
   import QuestionMarkCircle from './icons/QuestionMarkCircle.svelte';
   import Paper from './Paper.svelte';
@@ -34,17 +34,11 @@
   function answerQuestion(index: number) {
     selectedAnswerIndex = index;
 
-    const newStats = new QuestionStats(stats?.progress, stats?.pinned);
-    const isCorrectlyAnswered = shuffledAnswers[index].isCorrect;
-
-    if (isCorrectlyAnswered) {
-      newStats.progress = Math.min(newStats.progress + 1, MAX_PROGESS);
+    if (shuffledAnswers[index].isCorrect) {
+      statsService.registerCorrectAnswer(questionaire.id, question.id);
     } else {
-      // reset progress on incorrect answers
-      newStats.progress = 0;
+      statsService.registerWrongAnswer(questionaire.id, question.id);
     }
-
-    statsService.setQuestionStats(questionaire.id, question.id, newStats);
   }
 
   function goBack() {
@@ -53,27 +47,12 @@
   }
 
   function togglePinned() {
-    statsService.setQuestionStats(questionaire.id, question.id, {
-      progress: stats?.progress,
-      pinned: !stats?.pinned,
-    });
+    statsService.toggleQuestionPinned(questionaire.id, question.id);
   }
 </script>
 
-{#snippet pin()}
-  <Pin size="lg" />
-{/snippet}
-
-<Paper class="relative divide-y divide-gray-200 bg-white">
-  <Button
-    label=""
-    class="absolute top-0 right-0 translate-x-[50%] translate-y-[-50%]"
-    variant={stats?.pinned ? 'primary' : 'secondary'}
-    iconLeft={pin}
-    onclick={() => togglePinned()}
-  />
-
-  <div class="min-h-[100px] rounded-t-lg bg-blue-100 p-5">
+<Paper class="divide-y divide-gray-200 bg-white">
+  <div class="relative min-h-[100px] rounded-t-lg bg-blue-100 p-5">
     <div class="flex items-start gap-3">
       <div class="pt-1 text-blue-600"><QuestionMarkCircle size="lg" /></div>
       <h2 class="text-xl font-medium text-pretty text-blue-900">{question?.text}</h2>
@@ -90,6 +69,13 @@
         {/each}
       </div>
     {/if}
+
+    <IconButton
+      label={stats?.pinned ? 'Unpin' : 'Pin'}
+      class="absolute right-0 bottom-0 translate-x-[50%] translate-y-[50%] shadow-md"
+      variant={stats?.pinned ? 'filled' : 'white'}
+      onclick={() => togglePinned()}><Pin size="lg" /></IconButton
+    >
   </div>
 
   <div class=" p-6">
@@ -112,10 +98,9 @@
     <div class="flex w-full items-center justify-between gap-4">
       <div class="flex-1 self-start">
         <Button
-          label="Vorherige"
-          variant="tertiary"
-          onclick={goBack}
-        />
+          variant="text"
+          onclick={goBack}>Vorherige</Button
+        >
       </div>
 
       {#key question.id}
@@ -125,15 +110,11 @@
       <div class="flex flex-1 justify-end">
         {#if selectedAnswerIndex === undefined}
           <Button
-            label="Überspringen"
-            variant="tertiary"
-            onclick={() => skipQuestion()}
-          />
+            variant="text"
+            onclick={() => skipQuestion()}>Überspringen</Button
+          >
         {:else}
-          <Button
-            label="Weiter"
-            onclick={nextQuestion}
-          />
+          <Button onclick={nextQuestion}>Weiter</Button>
         {/if}
       </div>
     </div>

@@ -1,23 +1,22 @@
 <script lang="ts">
-  import Button from '../../components/Button.svelte';
+  import Button from '../../components/Button/Button.svelte';
   import ChevronLeft from '../../components/icons/ChevronLeft.svelte';
   import Paper from '../../components/Paper.svelte';
   import { statsService } from '../../stores/stats.svelte';
   import { questionaireNameMap, QUESTIONAIRES } from '../../utils/questionaires';
 </script>
 
-<div class="flex flex-col items-start gap-4">
+<div class="flex flex-col items-start gap-2">
   {#snippet chevronIcon()}
     <ChevronLeft size="lg" />
   {/snippet}
 
   <Button
     href="/"
-    label="Zurück"
-    variant="tertiary"
+    variant="text"
     size="sm"
-    iconLeft={chevronIcon}
-  />
+    iconLeft={chevronIcon}>Zurück</Button
+  >
 
   <Paper class="bg-white p-6">
     <ul class="space-y-4">

@@ -28,7 +28,7 @@
   </div>
 
   <div class="mx-auto w-full max-w-xl">
-    <div class="p-4">
+    <div class="px-4 pt-8 pb-4">
       {@render children()}
     </div>
   </div>

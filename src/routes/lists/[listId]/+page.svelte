@@ -1,18 +1,19 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import Button from '../../../components/Button.svelte';
+  import Button from '../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Rating from '../../../components/Rating.svelte';
+  import { MAX_PROGESS } from '../../../stores/constants';
   import { statsService } from '../../../stores/stats.svelte';
   import { goToNextQuestion } from '../../../utils/nextQuestion';
-  import { MAX_PROGESS } from '../../../utils/nextQuestionStrategy';
   import { questionaireNameMap, QUESTIONAIRES } from '../../../utils/questionaires';
 
   const questionaireId = $derived(page.params.listId);
   const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === questionaireId));
   const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaireId));
 
+  const noProgress = $derived((questionaire?.questions.length || 0) - Object.keys(stats).length);
   const progress0 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 0).length);
   const progress1 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 1).length);
   const progress2 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 2).length);
@@ -21,7 +22,7 @@
   const progress5 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 5).length);
 
   const totalProgressPoints = $derived((questionaire?.questions.length || 0) * MAX_PROGESS);
-  const achievedProgressPoints = $derived(Object.keys(stats).reduce((sum, cur) => sum + stats[cur].progress, 0));
+  const achievedProgressPoints = $derived(Object.keys(stats).reduce((sum, cur) => sum + (stats[cur].progress || 0), 0));
 
   function start() {
     goToNextQuestion(questionaireId);
@@ -36,14 +37,13 @@
   <ChevronLeft size="lg" />
 {/snippet}
 
-<div class="flex flex-col items-start gap-4">
+<div class="flex flex-col items-start gap-2">
   <Button
     href="/lists"
-    label="Zurück"
-    variant="tertiary"
+    variant="text"
     size="sm"
-    iconLeft={chevronIcon}
-  />
+    iconLeft={chevronIcon}>Zurück</Button
+  >
 
   <Paper class="flex flex-col items-start gap-4 bg-white p-6">
     <h1 class="flex w-full items-center justify-between text-lg font-semibold">
@@ -65,36 +65,61 @@
       blanditiis doloremque, eaque, reprehenderit aperiam minima animi non.
     </p>
 
-    <table class="text-sm">
+    <table class="mx-auto my-8 w-[220px] text-sm">
       <thead>
         <tr>
           <th class="border-b border-stone-300 px-4 py-0.5 text-left font-semibold text-stone-600">Fortschritt</th>
-          <th class="border-b border-stone-300 px-4 py-0.5 text-left font-semibold text-stone-600">Anzahl</th>
+          <th class="border-b border-stone-300 px-4 py-0.5 text-right font-semibold text-stone-600">Anzahl</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={0} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={undefined} /></td
+          >
+          <td class="px-4 py-0.5 text-right">{noProgress}</td>
+        </tr>
+        <tr>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={0} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress0}</td>
         </tr>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={1} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={1} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress1}</td>
         </tr>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={2} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={2} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress2}</td>
         </tr>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={3} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={3} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress3}</td>
         </tr>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={4} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={4} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress4}</td>
         </tr>
         <tr>
-          <td class="px-4 py-0.5"><Rating progress={5} /></td>
+          <td
+            class="px-4 py-0.5"
+            style="justify-items: left;"><Rating progress={5} /></td
+          >
           <td class="px-4 py-0.5 text-right">{progress5}</td>
         </tr>
       </tbody>
@@ -104,15 +129,11 @@
 
     <div class="flex w-full justify-between">
       <Button
-        label="Lernstand zurücksetzen"
-        variant="tertiaryDestructive"
-        onclick={resetProgress}
-      />
+        variant="textDestructive"
+        onclick={resetProgress}>Lernstand zurücksetzen</Button
+      >
 
-      <Button
-        onclick={start}
-        label="Üben"
-      />
+      <Button onclick={start}>Üben</Button>
     </div>
   </Paper>
 </div>

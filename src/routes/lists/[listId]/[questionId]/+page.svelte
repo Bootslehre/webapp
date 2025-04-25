@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import Button from '../../../../components/Button.svelte';
+  import Button from '../../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
   import QuestionCard from '../../../../components/QuestionCard.svelte';
   import { QUESTIONAIRES } from '../../../../utils/questionaires';
@@ -12,18 +12,17 @@
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
 </script>
 
-<div class="flex flex-col items-start gap-4">
+<div class="flex flex-col items-start gap-2">
   {#snippet chevronIcon()}
     <ChevronLeft size="lg" />
   {/snippet}
 
   <Button
     href="/lists/{questionaireId}"
-    label="Zurück"
-    variant="tertiary"
+    variant="text"
     size="sm"
-    iconLeft={chevronIcon}
-  />
+    iconLeft={chevronIcon}>Zurück</Button
+  >
 
   <div>
     {#if questionaire && question}

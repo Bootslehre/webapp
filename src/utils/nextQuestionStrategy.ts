@@ -1,3 +1,4 @@
+import { MAX_PROGESS } from "../stores/constants";
 import type { QuestionaireStats } from "../stores/stats.svelte";
 import type { Question, Questionaire } from "../types";
 
@@ -14,7 +15,6 @@ export const RandomStrategy = new NextQuestionStrategy((questionaire, _stats, la
   return getRandomEntry(withoutLastQuestion);
 })
 
-export const MAX_PROGESS = 5;
 
 export const UnansweredFirstStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
   const questions = questionaire.questions
