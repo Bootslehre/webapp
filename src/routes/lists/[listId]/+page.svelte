@@ -41,6 +41,7 @@
 <div class="flex flex-col items-start gap-2">
   <Button
     href="{base}/lists"
+    data-testid="back-button"
     variant="text"
     size="sm"
     iconLeft={chevronIcon}>Zurück</Button
@@ -56,7 +57,10 @@
         </div>
       </span>
 
-      <span class="text-sm font-semibold text-stone-500">
+      <span
+        class="text-sm font-semibold text-stone-500"
+        data-testid="progress"
+      >
         {Math.round((achievedProgressPoints / totalProgressPoints) * 100)}% Fortschritt
       </span>
     </h1>

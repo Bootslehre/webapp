@@ -19,6 +19,7 @@
   {/snippet}
 
   <Button
+    data-testid="back-button"
     href="{base}/lists/{questionaireId}"
     variant="text"
     size="sm"

@@ -14,6 +14,7 @@
 
   <Button
     href="{base}/"
+    data-testid="back-button"
     variant="text"
     size="sm"
     iconLeft={chevronIcon}>Zurück</Button

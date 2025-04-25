@@ -1,14 +1,6 @@
 import type { Snippet } from 'svelte';
 
-export type ButtonVariant =
-  | 'filled'
-  | 'filledDestructive'
-  | 'outlined'
-  | 'outlinedDestructive'
-  | 'text'
-  | 'textDestructive'
-  | 'white'
-  | 'whiteDestructive';
+export type ButtonVariant = 'filled' | 'filledDestructive' | 'outlined' | 'outlinedDestructive' | 'text' | 'textDestructive' | 'white' | 'whiteDestructive';
 
 export type ButtonSize = 'sm' | 'md';
 
@@ -24,9 +16,10 @@ export interface ButtonProps {
   iconRight?: Snippet;
   children: Snippet;
   href?: string;
+  'data-testid'?: string;
 }
 
-export type IconButtonProps = Omit<ButtonProps, 'iconLeft' | 'iconRight'> & { children: Snippet }
+export type IconButtonProps = Omit<ButtonProps, 'iconLeft' | 'iconRight'> & { children: Snippet };
 
 export const VARIANT_STYLES_MAP: Record<ButtonVariant, string> = {
   filled: 'bg-blue-700 text-white hover:bg-blue-800',
@@ -38,3 +31,4 @@ export const VARIANT_STYLES_MAP: Record<ButtonVariant, string> = {
   white: 'bg-white text-blue-700 hover:bg-slate-200',
   whiteDestructive: 'bg-white text-red-700 hover:bg-slate-200',
 };
+
