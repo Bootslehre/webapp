@@ -72,7 +72,7 @@
 
     <IconButton
       label={stats?.pinned ? 'Unpin' : 'Pin'}
-      class="absolute right-0 bottom-0 translate-x-[50%] translate-y-[50%] shadow-md"
+      class="absolute right-0 bottom-0 translate-x-[50%] translate-y-[50%] shadow-lg"
       variant={stats?.pinned ? 'filled' : 'white'}
       onclick={() => togglePinned()}><Pin size="lg" /></IconButton
     >

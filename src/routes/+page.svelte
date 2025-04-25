@@ -4,10 +4,16 @@
   import Paper from '../components/Paper.svelte';
 </script>
 
-<Paper class="bg-white p-6">
-  <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque qui nobis eum est voluptas obcaecati officiis quae esse ipsa culpa adipisci, nihil molestiae aliquid
-    officia. Ducimus et facere repellat.
+<Paper class="relative z-[1] bg-white p-6">
+  <h1 class="mb-4 text-xl">Moin!</h1>
+
+  <p class="prose prose-sm flex flex-col gap-4">
+    <span>Willkommen bei Bootslehre.de – deiner Online-Bootsschule für die Vorbereitung auf Bootsprüfungen in Deutschland.</span>
+    <span
+      >Hier findest du interaktive Kurse und hilfreiche Ressourcen, um deinen Bootsführerschein zu bestehen. Egal ob Anfänger oder Fortgeschrittener, wir begleiten dich auf deinem
+      Weg zum erfolgreichen Abschluss.</span
+    >
+    <span>Lass uns gemeinsam in See stechen und deine nautischen Fähigkeiten auf das nächste Level bringen!</span>
   </p>
 
   <Button

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import Anchor from '../components/icons/Anchor.svelte';
+  import Tonne from '../components/Tonne/Tonne.svelte';
   import './styles.css';
 
   let { children } = $props();
@@ -50,7 +51,6 @@
       </div>
     </div>
   </footer>
-</main>
 
-<style>
-</style>
+  <Tonne />
+</main>
