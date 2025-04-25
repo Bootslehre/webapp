@@ -7,11 +7,14 @@
 </script>
 
 <svelte:head>
-  <title>Sail</title>
-
+  <title>Bootslehre</title>
   <meta
-    name="Sail"
-    content="Sail"
+    name="description"
+    content="Bootslehre hilft bei der Vorbereitung auf Bootsprüfungen in Deutschland. Interaktive Kurse und Ressourcen für den Bootsführerschein."
+  />
+  <meta
+    name="keywords"
+    content="Bootslehre, SBF, Bootsprüfung, Bootsführerschein, Online-Bootsschule, Nautik, Segeln, Prüfungsvorbereitung, Bootstraining, Deutschland"
   />
 </svelte:head>
 
@@ -25,7 +28,7 @@
         <div class="text-blue-600">
           <Anchor size="lg" />
         </div>
-        <h2 class="text-lg font-medium text-blue-900">SBF Trainer</h2>
+        <h2 class="text-lg font-medium text-blue-900">Bootslehre</h2>
       </a>
     </div>
   </div>
