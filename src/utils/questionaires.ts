@@ -7,7 +7,7 @@ import {
 
 export const QUESTIONAIRES = [SBF_BINNEN_BASIS, SBF_BINNEN_SEGEL, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH];
 
-export const questionaireNameMap: Record<string, string> = {
+export const QUESTIONAIRE_NAME_MAP: Record<string, string> = {
   [SBF_BINNEN_BASIS.id]: "Binnen Basis",
   [SBF_BINNEN_SEGEL.id]: "Binnen Segel",
   [SBF_BINNEN_SPEZIFISCH.id]: "Binnen Spezifisch",

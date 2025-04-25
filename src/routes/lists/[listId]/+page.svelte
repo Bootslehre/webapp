@@ -7,7 +7,7 @@
   import Progress from '../../../components/Progress.svelte';
   import { statsService } from '../../../stores/stats.svelte';
   import { goToNextQuestion } from '../../../utils/nextQuestion';
-  import { questionaireNameMap, QUESTIONAIRES } from '../../../utils/questionaires';
+  import { QUESTIONAIRE_NAME_MAP, QUESTIONAIRES } from '../../../utils/questionaires';
 
   const questionaireId = $derived(page.params.listId);
   const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === questionaireId));
@@ -15,51 +15,48 @@
   function start() {
     goToNextQuestion(questionaireId);
   }
-
-  function resetProgress() {
-    statsService.resetQuestionaireStats(questionaireId);
-  }
 </script>
 
 {#snippet chevronIcon()}
   <ChevronLeft size="lg" />
 {/snippet}
 
-<div class="mb-2 flex w-full items-center justify-between">
-  <Button
-    href="{base}/lists"
-    variant="text"
-    size="sm"
-    iconLeft={chevronIcon}>Zurück</Button
-  >
-
-  {#if questionaire}
-    <Progress {questionaire} />
-  {/if}
-</div>
-
-<Paper class="flex flex-col items-start gap-4 bg-white p-6">
-  <h1 class="flex w-full items-center justify-between text-lg font-semibold">
-    <span class="flex flex-col">
-      <span>{questionaireNameMap[questionaireId]}</span>
-      <div class="flex gap-2 text-slate-500">
-        <span class="text-xs">{questionaire?.questions?.length} Fragen</span>
-        <span class="text-xs">({statsService.getPinnedQuestionIds(questionaireId).length} markiert)</span>
-      </div>
-    </span>
-  </h1>
-
-  <p class="text-justify">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime ab corrupti delectus perferendis doloremque natus consequatur. Rem, quaerat voluptas nobis autem
-    blanditiis doloremque, eaque, reprehenderit aperiam minima animi non.
-  </p>
-
-  <div class="flex w-full justify-between">
+{#if questionaire}
+  <div class="mb-2 flex w-full items-center justify-between">
     <Button
-      variant="textDestructive"
-      onclick={resetProgress}>Lernstand zurücksetzen</Button
+      href="{base}/lists"
+      variant="text"
+      size="sm"
+      iconLeft={chevronIcon}>Zurück</Button
     >
 
-    <Button onclick={start}>Üben</Button>
+    <Progress {questionaire} />
   </div>
-</Paper>
+
+  <Paper class="flex flex-col items-start gap-4 bg-white p-6">
+    <h1 class="text-lg font-semibold">
+      {QUESTIONAIRE_NAME_MAP[questionaireId]}
+    </h1>
+
+    <p class="text-justify">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime ab corrupti delectus perferendis doloremque natus consequatur. Rem, quaerat voluptas nobis autem
+      blanditiis doloremque, eaque, reprehenderit aperiam minima animi non.
+    </p>
+
+    <div class="w-full space-y-4">
+      <button
+        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
+        onclick={start}
+      >
+        Alle {questionaire?.questions?.length} Fragen lernen
+      </button>
+
+      <button
+        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
+        onclick={start}
+      >
+        {statsService.getPinnedQuestionIds(questionaireId).length} markierte Fragen lernen
+      </button>
+    </div>
+  </Paper>
+{/if}

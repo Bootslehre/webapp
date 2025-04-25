@@ -25,59 +25,59 @@
 <table class="text-sm {className}">
   <thead>
     <tr>
-      <th class="border-b border-stone-300 px-4 py-0.5 text-left font-semibold text-stone-600">Fortschritt</th>
-      <th class="border-b border-stone-300 px-4 py-0.5 text-right font-semibold text-stone-600">Anzahl</th>
+      <th class="border-b border-stone-300 px-5 py-0.5 text-right font-semibold text-stone-600">Fragen</th>
+      <th class="border-b border-stone-300 px-5 py-0.5 text-left font-semibold text-stone-600">Fortschritt</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td class="px-5 py-0.5 text-right">{noProgress}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={undefined} /></td
       >
-      <td class="px-4 py-0.5 text-right">{noProgress}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress0}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={0} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress0}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress1}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={1} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress1}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress2}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={2} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress2}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress3}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={3} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress3}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress4}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={4} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress4}</td>
     </tr>
     <tr>
+      <td class="px-5 py-0.5 text-right">{progress5}</td>
       <td
-        class="px-4 py-0.5"
+        class="px-5 py-0.5"
         style="justify-items: left;"><Rating progress={5} /></td
       >
-      <td class="px-4 py-0.5 text-right">{progress5}</td>
     </tr>
   </tbody>
 </table>

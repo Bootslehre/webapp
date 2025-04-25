@@ -2,6 +2,8 @@
   import { MAX_PROGESS } from '../stores/constants';
   import { statsService } from '../stores/stats.svelte';
   import type { Questionaire } from '../types';
+  import { QUESTIONAIRE_NAME_MAP } from '../utils/questionaires';
+  import Button from './Button/Button.svelte';
   import IconButton from './Button/IconButton.svelte';
   import Dialog from './Dialog.svelte';
   import Info from './icons/Info.svelte';
@@ -20,13 +22,19 @@
   const achievedProgressPoints = $derived(Object.keys(stats).reduce((sum, cur) => sum + (stats[cur].progress || 0), 0));
 
   let open = $state(false);
+  let doubleConfirm = $state(false);
 
   function openDialog() {
     open = true;
   }
 
   function closeDialog() {
+    doubleConfirm = false;
     open = false;
+  }
+
+  function resetProgress() {
+    statsService.resetQuestionaireStats(questionaire.id);
   }
 </script>
 
@@ -47,6 +55,7 @@
 
 {#if open}
   <Dialog
+    class="w-md"
     title="Fortschritt"
     onClose={closeDialog}
   >
@@ -54,5 +63,29 @@
       {questionaire}
       class="mx-auto"
     />
+
+    <div class="mt-4 pt-4">
+      {#if doubleConfirm}
+        <div class="flex flex-col items-end gap-2">
+          <p class="text-sm font-normal">
+            Damit wird dein gesamter Lernfortschritt für <strong>{QUESTIONAIRE_NAME_MAP[questionaire.id]}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden.
+            Willst du fortfahren?
+          </p>
+          <Button
+            size="sm"
+            variant="textDestructive"
+            onclick={resetProgress}>Lernfortschritt zurücksetzen</Button
+          >
+        </div>
+      {:else}
+        <div class="flex flex-col items-end gap-2">
+          <Button
+            size="sm"
+            variant="textDestructive"
+            onclick={() => (doubleConfirm = true)}>Zurücksetzen</Button
+          >
+        </div>
+      {/if}
+    </div>
   </Dialog>
 {/if}
