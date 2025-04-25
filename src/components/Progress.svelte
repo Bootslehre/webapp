@@ -31,7 +31,10 @@
 </script>
 
 <div class="flex gap-1 {className} items-center">
-  <span class="text-sm font-semibold text-stone-500">
+  <span
+    class="text-sm font-semibold text-stone-500"
+    data-testid="progress"
+  >
     {Math.round((achievedProgressPoints / totalProgressPoints) * 100)}% Fortschritt
   </span>
 
