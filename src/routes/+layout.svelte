@@ -35,7 +35,7 @@
   </header>
 
   <main class="mx-auto w-full max-w-xl">
-    <div class="px-4 pt-8 pb-4">
+    <div class="relative z-[1] px-4 pt-8 pb-4">
       {@render children()}
     </div>
   </main>

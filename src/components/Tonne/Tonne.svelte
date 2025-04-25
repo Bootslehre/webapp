@@ -22,9 +22,10 @@
   }
 
   .wave {
-    @apply absolute right-[25%] bottom-[100px] block;
+    @apply absolute right-[15%] bottom-[100px] block select-none;
     animation: wave 2500ms infinite ease-in-out both alternate;
-    transform-origin: 50% 95%;
+    transform-origin: 50% 99%;
+    height: 180px;
   }
 
   @keyframes fadeIn {

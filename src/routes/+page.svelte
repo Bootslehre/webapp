@@ -4,7 +4,7 @@
   import Paper from '../components/Paper.svelte';
 </script>
 
-<Paper class="relative z-[1] bg-white p-6">
+<Paper class="bg-white p-6">
   <h1 class="mb-4 text-xl">Moin!</h1>
 
   <p class="prose prose-sm flex flex-col gap-4">
