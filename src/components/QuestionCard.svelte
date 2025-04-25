@@ -9,30 +9,20 @@
   import QuestionMarkCircle from './icons/QuestionMarkCircle.svelte';
   import Paper from './Paper.svelte';
   import Rating from './Rating.svelte';
-  import { afterNavigate } from '$app/navigation';
 
   let {
     questionaire,
     question,
+    hasPreviousQuestion,
   }: {
     questionaire: Questionaire;
     question: Question;
+    hasPreviousQuestion: boolean;
   } = $props();
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
   let shuffledAnswers = $derived(shuffle(question.answers));
   let stats = $derived(statsService.getQuestionStats(questionaire.id, question.id));
-  let previousQuestions = $state([question.id]);
-  let hasPreviousQuestion = $derived.by(() => {
-    const currentIndex = previousQuestions.findIndex((id) => id === question.id);
-    return currentIndex !== -1 && currentIndex > 0;
-  });
-
-  afterNavigate((nav) => {
-    if (nav.to?.params?.questionId) {
-      previousQuestions.push(nav.to.params.questionId);
-    }
-  });
 
   function nextQuestion() {
     selectedAnswerIndex = undefined;

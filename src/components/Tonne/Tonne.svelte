@@ -22,7 +22,7 @@
   }
 
   .wave {
-    @apply absolute right-[15%] bottom-[100px] block select-none;
+    @apply pointer-events-none absolute right-[15%] bottom-[100px] block;
     animation: wave 2500ms infinite ease-in-out both alternate;
     transform-origin: 50% 99%;
     height: 180px;
@@ -36,6 +36,7 @@
       opacity: 0.5;
     }
   }
+
   .fadeIn {
     opacity: 1;
     animation: fadeIn 2s 1 ease-in both;

@@ -1,8 +1,10 @@
 <script lang="ts">
+  import { afterNavigate } from '$app/navigation';
   import { base } from '$app/paths';
   import { page } from '$app/state';
   import Button from '../../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
+  import Progress from '../../../../components/Progress.svelte';
   import QuestionCard from '../../../../components/QuestionCard.svelte';
   import { QUESTIONAIRES } from '../../../../utils/questionaires';
 
@@ -11,13 +13,26 @@
 
   let questionId = $derived(page.params.questionId);
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
+
+  let previousQuestions = $state<string[]>([]);
+
+  let hasPreviousQuestion = $derived.by(() => {
+    const currentIndex = previousQuestions.findIndex((id) => id === questionId);
+    return currentIndex !== -1 && currentIndex > 0;
+  });
+
+  afterNavigate((nav) => {
+    if (nav.to?.params?.questionId) {
+      previousQuestions.push(nav.to.params.questionId);
+    }
+  });
 </script>
 
-<div class="flex flex-col items-start gap-2">
-  {#snippet chevronIcon()}
-    <ChevronLeft size="lg" />
-  {/snippet}
+{#snippet chevronIcon()}
+  <ChevronLeft size="lg" />
+{/snippet}
 
+<div class="mb-2 flex w-full items-center justify-between">
   <Button
     data-testid="back-button"
     href="{base}/lists/{questionaireId}"
@@ -26,14 +41,19 @@
     iconLeft={chevronIcon}>Zurück</Button
   >
 
-  <div>
-    {#if questionaire && question}
-      <QuestionCard
-        {questionaire}
-        {question}
-      />
-    {:else}
-      Not Found :/
-    {/if}
-  </div>
+  {#if questionaire}
+    <Progress {questionaire} />
+  {/if}
+</div>
+
+<div>
+  {#if questionaire && question}
+    <QuestionCard
+      {questionaire}
+      {question}
+      {hasPreviousQuestion}
+    />
+  {:else}
+    Not Found :/
+  {/if}
 </div>
