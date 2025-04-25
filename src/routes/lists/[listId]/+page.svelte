@@ -5,7 +5,6 @@
   import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Progress from '../../../components/Progress.svelte';
-  import ProgressTable from '../../../components/ProgressTable.svelte';
   import { statsService } from '../../../stores/stats.svelte';
   import { goToNextQuestion } from '../../../utils/nextQuestion';
   import { questionaireNameMap, QUESTIONAIRES } from '../../../utils/questionaires';
@@ -54,13 +53,6 @@
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime ab corrupti delectus perferendis doloremque natus consequatur. Rem, quaerat voluptas nobis autem
     blanditiis doloremque, eaque, reprehenderit aperiam minima animi non.
   </p>
-
-  {#if questionaire}
-    <ProgressTable
-      class="mx-auto my-8 w-[220px]"
-      {questionaire}
-    />
-  {/if}
 
   <div class="flex w-full justify-between">
     <Button

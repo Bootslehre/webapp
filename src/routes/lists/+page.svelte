@@ -15,7 +15,7 @@
   href="{base}/"
   variant="text"
   size="sm"
-  class="mb-2"
+  class="mb-2 justify-self-start"
   iconLeft={chevronIcon}>Zurück</Button
 >
 

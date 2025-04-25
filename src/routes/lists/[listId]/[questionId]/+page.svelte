@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { afterNavigate } from '$app/navigation';
   import { base } from '$app/paths';
   import { page } from '$app/state';
   import Button from '../../../../components/Button/Button.svelte';
@@ -12,6 +13,19 @@
 
   let questionId = $derived(page.params.questionId);
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
+
+  let previousQuestions = $state<string[]>([]);
+
+  let hasPreviousQuestion = $derived.by(() => {
+    const currentIndex = previousQuestions.findIndex((id) => id === questionId);
+    return currentIndex !== -1 && currentIndex > 0;
+  });
+
+  afterNavigate((nav) => {
+    if (nav.to?.params?.questionId) {
+      previousQuestions.push(nav.to.params.questionId);
+    }
+  });
 </script>
 
 {#snippet chevronIcon()}
@@ -36,6 +50,7 @@
     <QuestionCard
       {questionaire}
       {question}
+      {hasPreviousQuestion}
     />
   {:else}
     Not Found :/

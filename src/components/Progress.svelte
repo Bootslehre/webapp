@@ -3,7 +3,9 @@
   import { statsService } from '../stores/stats.svelte';
   import type { Questionaire } from '../types';
   import IconButton from './Button/IconButton.svelte';
+  import Dialog from './Dialog.svelte';
   import Info from './icons/Info.svelte';
+  import ProgressTable from './ProgressTable.svelte';
 
   let {
     class: className = '',
@@ -19,11 +21,11 @@
 
   let open = $state(false);
 
-  function openPopover() {
-    open = false;
+  function openDialog() {
+    open = true;
   }
 
-  function closePopover() {
+  function closeDialog() {
     open = false;
   }
 </script>
@@ -36,7 +38,7 @@
   <IconButton
     size="sm"
     variant="ghost"
-    onclick={openPopover}
+    onclick={openDialog}
     class="text-stone-500"
   >
     <Info />
@@ -44,10 +46,13 @@
 </div>
 
 {#if open}
-  <div>
-    <div>Test</div>
-    <IconButton onclick={closePopover}>
-      <Info /></IconButton
-    >
-  </div>
+  <Dialog
+    title="Fortschritt"
+    onClose={closeDialog}
+  >
+    <ProgressTable
+      {questionaire}
+      class="mx-auto"
+    />
+  </Dialog>
 {/if}
