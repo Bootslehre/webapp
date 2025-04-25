@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import { page } from '$app/state';
   import Button from '../../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
@@ -18,7 +19,7 @@
   {/snippet}
 
   <Button
-    href="/lists/{questionaireId}"
+    href="{base}/lists/{questionaireId}"
     variant="text"
     size="sm"
     iconLeft={chevronIcon}>Zurück</Button
