@@ -18,8 +18,8 @@
   />
 </svelte:head>
 
-<main class="flex h-full flex-col overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
-  <div class="bg-white px-5 py-4 shadow-md">
+<main class="flex h-full min-h-full flex-col overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
+  <header class="bg-white px-5 py-4 shadow-md">
     <div class="mx-auto">
       <a
         href="{base}/"
@@ -31,13 +31,25 @@
         <h2 class="text-lg font-medium text-blue-900">Bootslehre</h2>
       </a>
     </div>
-  </div>
+  </header>
 
-  <div class="mx-auto w-full max-w-xl">
+  <main class="mx-auto w-full max-w-xl">
     <div class="px-4 pt-8 pb-4">
       {@render children()}
     </div>
-  </div>
+  </main>
+
+  <footer class="mt-auto">
+    <div class="mx-auto w-full max-w-xl">
+      <div class="flex items-center justify-center gap-12 px-4 py-4 text-xs text-slate-600">
+        <a
+          href="{base}/impressum"
+          class="hover:underline">Impressum</a
+        >
+        <span>Made with 💩</span>
+      </div>
+    </div>
+  </footer>
 </main>
 
 <style>
