@@ -1,4 +1,5 @@
 import { goto } from '$app/navigation';
+import { base } from '$app/paths';
 import { statsService } from '../stores/stats.svelte';
 import type { Question } from '../types';
 import { type NextQuestionStrategies, UnansweredFirstStrategy, RandomStrategy } from './nextQuestionStrategy';
@@ -18,5 +19,5 @@ function getNextQuestion(strategy: NextQuestionStrategies, questionaireId: strin
 
 export function goToNextQuestion(questionaireId: string, lastQuestionId?: string) {
   const question = getNextQuestion('unansweredFirst', questionaireId, lastQuestionId)
-  goto(`/lists/${questionaireId}/${question.id}`);
+  goto(`${base}/lists/${questionaireId}/${question.id}`);
 }

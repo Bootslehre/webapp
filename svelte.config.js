@@ -6,7 +6,11 @@ const config = {
   kit: {
     adapter: adapter({
       fallback: '200.html', // may differ from host to host
-    })
+    }),
+    paths: {
+      relative: false,
+      base: process.argv.includes('dev') ? '/webapp' : process.env.BASE_PATH
+    }
   },
 };
 

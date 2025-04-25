@@ -1,11 +1,14 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import Anchor from '../components/icons/Anchor.svelte';
   import './styles.css';
+
   let { children } = $props();
 </script>
 
 <svelte:head>
   <title>Sail</title>
+
   <meta
     name="Sail"
     content="Sail"
@@ -16,7 +19,7 @@
   <div class="bg-white px-5 py-4 shadow-md">
     <div class="mx-auto">
       <a
-        href="/"
+        href="{base}/"
         class="flex max-w-xl items-center gap-3"
       >
         <div class="text-blue-600">
