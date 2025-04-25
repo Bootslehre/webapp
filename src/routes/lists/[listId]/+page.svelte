@@ -9,12 +9,8 @@
   import { goToNextQuestion } from '../../../utils/nextQuestion';
   import { QUESTIONAIRE_NAME_MAP, QUESTIONAIRES } from '../../../utils/questionaires';
 
-  const questionaireId = $derived(page.params.listId);
-  const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === questionaireId));
-
-  function start() {
-    goToNextQuestion(questionaireId);
-  }
+  const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === page.params.listId));
+  const pinnedQuestions = $derived(questionaire && statsService.getPinnedQuestionIds(questionaire.id).length);
 </script>
 
 {#snippet chevronIcon()}
@@ -35,7 +31,7 @@
 
   <Paper class="flex flex-col items-start gap-4 bg-white p-6">
     <h1 class="text-lg font-semibold">
-      {QUESTIONAIRE_NAME_MAP[questionaireId]}
+      {QUESTIONAIRE_NAME_MAP[questionaire.id]}
     </h1>
 
     <p class="text-justify">
@@ -46,16 +42,18 @@
     <div class="w-full space-y-4">
       <button
         class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-        onclick={start}
+        onclick={() => goToNextQuestion('relevance', questionaire.id)}
       >
         Alle {questionaire?.questions?.length} Fragen lernen
       </button>
 
+      <!-- todo extract this tile layout component into a reusable component and replace other usages -->
       <button
-        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-        onclick={start}
+        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
+        onclick={() => goToNextQuestion('pinned', questionaire.id)}
+        disabled={!pinnedQuestions}
       >
-        {statsService.getPinnedQuestionIds(questionaireId).length} markierte Fragen lernen
+        {pinnedQuestions} markierte Fragen lernen
       </button>
     </div>
   </Paper>
