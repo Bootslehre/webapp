@@ -36,6 +36,7 @@
       opacity: 0.5;
     }
   }
+
   .fadeIn {
     opacity: 1;
     animation: fadeIn 2s 1 ease-in both;

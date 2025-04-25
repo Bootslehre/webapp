@@ -16,7 +16,15 @@
   function stopPropagation(event: Event) {
     event.stopPropagation();
   }
+
+  function dismissOnEscKey(event: KeyboardEvent) {
+    if (event.key === 'Escape') {
+      onClose();
+    }
+  }
 </script>
+
+<svelte:window onkeydown={dismissOnEscKey} />
 
 <dialog
   class="fixed inset-0 isolate z-10 flex h-full w-full items-center justify-center bg-gray-950/50"
@@ -34,7 +42,7 @@
       <IconButton
         onclick={onClose}
         variant="ghost"
-        class="text-stone-500"
+        class="mr-[-6px] text-stone-500"
       >
         <Close size="lg" />
       </IconButton>
