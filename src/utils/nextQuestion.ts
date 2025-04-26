@@ -24,9 +24,9 @@ export function goToNextQuestion(strategy: NextQuestionStrategies, questionaireI
   const question = getNextQuestion(strategy, questionaireId, lastQuestionId)
 
   if (question) {
-    goto(`$/lists/${questionaireId}/${question.id}?${STRATEGY_QUERY_PARAM}=${strategy}`);
+    goto(`/lists/${questionaireId}/${question.id}?${STRATEGY_QUERY_PARAM}=${strategy}`);
   } else {
     // todo display error message
-    goto(`$/lists/${questionaireId}`);
+    goto(`/lists/${questionaireId}`);
   }
 }
