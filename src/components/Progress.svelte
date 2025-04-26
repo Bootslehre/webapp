@@ -51,6 +51,7 @@
     variant="ghost"
     onclick={openDialog}
     class="text-stone-500"
+    data-testid="open-progress-dialog"
   >
     <Info />
   </IconButton>
