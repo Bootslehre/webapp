@@ -4,13 +4,33 @@ import {
   SBF_BINNEN_SPEZIFISCH,
   SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH
 } from '../../static/generated';
+import type { Questionaire } from '../types';
 
-export const QUESTIONAIRES = [SBF_BINNEN_BASIS, SBF_BINNEN_SEGEL, SBF_BINNEN_SPEZIFISCH, SBF_SEE_BASIS, SBF_SEE_SPEZIFISCH];
-
-export const QUESTIONAIRE_NAME_MAP: Record<string, string> = {
-  [SBF_BINNEN_BASIS.id]: "Binnen Basis",
-  [SBF_BINNEN_SEGEL.id]: "Binnen Segel",
-  [SBF_BINNEN_SPEZIFISCH.id]: "Binnen Spezifisch",
-  [SBF_SEE_BASIS.id]: "See Basis",
-  [SBF_SEE_SPEZIFISCH.id]: "See Spezifisch",
+interface AdditionalInformation {
+  displayName: string;
+  description: string;
 }
+
+export type EnrichedQuestionaire = Questionaire & AdditionalInformation;
+
+export const QUESTIONAIRES: EnrichedQuestionaire[] = [{
+  ...SBF_BINNEN_BASIS,
+  displayName: "Binnen Basis",
+  description: 'Leck mich fett'
+}, {
+  ...SBF_BINNEN_SEGEL,
+  displayName: "Binnen Segel",
+  description: 'Leck mich fett'
+}, {
+  ...SBF_BINNEN_SPEZIFISCH,
+  displayName: "Binnen Spezifisch",
+  description: 'Leck mich fett'
+}, {
+  ...SBF_SEE_BASIS,
+  displayName: "See Basis",
+  description: 'Leck mich fett'
+}, {
+  ...SBF_SEE_SPEZIFISCH,
+  displayName: "See Spezifisch",
+  description: 'Leck mich fett'
+}];

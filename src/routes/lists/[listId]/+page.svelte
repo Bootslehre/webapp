@@ -7,7 +7,7 @@
   import Progress from '../../../components/Progress.svelte';
   import { statsService } from '../../../stores/stats.svelte';
   import { goToNextQuestion } from '../../../utils/nextQuestion';
-  import { QUESTIONAIRE_NAME_MAP, QUESTIONAIRES } from '../../../utils/questionaires';
+  import { QUESTIONAIRES } from '../../../utils/questionaires';
 
   const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === page.params.listId));
   const pinnedQuestions = $derived(questionaire && statsService.getPinnedQuestionIds(questionaire.id).length);
@@ -16,7 +16,6 @@
 {#snippet chevronIcon()}
   <ChevronLeft size="lg" />
 {/snippet}
-
 
 {#if questionaire}
   <div class="mb-2 flex w-full items-center justify-between">
@@ -33,12 +32,11 @@
 
   <Paper class="flex flex-col items-start gap-4 bg-white p-6">
     <h1 class="text-lg font-semibold">
-      {QUESTIONAIRE_NAME_MAP[questionaire.id]}
+      {questionaire.displayName}
     </h1>
 
     <p class="text-justify">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit maxime ab corrupti delectus perferendis doloremque natus consequatur. Rem, quaerat voluptas nobis autem
-      blanditiis doloremque, eaque, reprehenderit aperiam minima animi non.
+      {questionaire.description}
     </p>
 
     <div class="w-full space-y-4">

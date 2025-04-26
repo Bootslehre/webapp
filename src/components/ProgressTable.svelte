@@ -1,6 +1,6 @@
 <script lang="ts">
   import { statsService } from '../stores/stats.svelte';
-  import type { Questionaire } from '../types';
+  import type { EnrichedQuestionaire } from '../utils/questionaires';
   import Rating from './Rating.svelte';
 
   let {
@@ -8,7 +8,7 @@
     questionaire,
   }: {
     class?: string;
-    questionaire: Questionaire;
+    questionaire: EnrichedQuestionaire;
   } = $props();
 
   const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));

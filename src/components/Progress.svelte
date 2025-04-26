@@ -1,8 +1,7 @@
 <script lang="ts">
   import { MAX_PROGESS } from '../stores/constants';
   import { statsService } from '../stores/stats.svelte';
-  import type { Questionaire } from '../types';
-  import { QUESTIONAIRE_NAME_MAP } from '../utils/questionaires';
+  import { type EnrichedQuestionaire } from '../utils/questionaires';
   import Button from './Button/Button.svelte';
   import IconButton from './Button/IconButton.svelte';
   import Dialog from './Dialog.svelte';
@@ -14,7 +13,7 @@
     questionaire,
   }: {
     class?: string;
-    questionaire: Questionaire;
+    questionaire: EnrichedQuestionaire;
   } = $props();
 
   const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));
@@ -72,8 +71,8 @@
       {#if doubleConfirm}
         <div class="flex flex-col items-end gap-2">
           <p class="text-sm font-normal">
-            Damit wird dein gesamter Lernfortschritt für <strong>{QUESTIONAIRE_NAME_MAP[questionaire.id]}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden.
-            Willst du fortfahren?
+            Damit wird dein gesamter Lernfortschritt für <strong>{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht
+            werden. Willst du fortfahren?
           </p>
           <Button
             size="sm"
