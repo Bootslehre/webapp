@@ -4,8 +4,8 @@
   import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Progress from '../../../components/Progress.svelte';
+  import { STRATEGY_QUERY_PARAM } from '../../../stores/constants';
   import { statsService } from '../../../stores/stats.svelte';
-  import { goToNextQuestion } from '../../../utils/nextQuestion';
   import { QUESTIONAIRES } from '../../../utils/questionaires';
 
   const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === page.params.listId));
@@ -39,21 +39,22 @@
     </p>
 
     <div class="w-full space-y-4">
-      <button
+      <a
         class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-        onclick={() => goToNextQuestion('relevance', questionaire.id)}
+        href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=relevance"
       >
         Alle {questionaire?.questions?.length} Fragen lernen
-      </button>
+      </a>
 
       <!-- todo extract this tile layout component into a reusable component and replace other usages -->
-      <button
-        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
-        onclick={() => goToNextQuestion('pinned', questionaire.id)}
-        disabled={!pinnedQuestions}
-      >
-        {pinnedQuestions} markierte Fragen lernen
-      </button>
+      {#if pinnedQuestions}
+        <a
+          class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
+          href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=pinned"
+        >
+          {pinnedQuestions} markierte Fragen lernen
+        </a>
+      {/if}
     </div>
   </Paper>
 {/if}

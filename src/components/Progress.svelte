@@ -71,8 +71,7 @@
       {#if doubleConfirm}
         <div class="flex flex-col items-end gap-2">
           <p class="text-sm font-normal">
-            Damit wird dein gesamter Lernfortschritt für <strong>{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht
-            werden. Willst du fortfahren?
+            Damit wird dein gesamter Lernfortschritt für <strong>{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden. Willst du fortfahren?
           </p>
           <Button
             size="sm"

@@ -1,4 +1,4 @@
-import { STORAGE_KEY, MAX_PROGESS } from "./constants";
+import { STORAGE_KEY, MAX_PROGESS } from './constants';
 
 export interface QuestionStats {
   progress?: number;
@@ -21,7 +21,7 @@ export function createStatsService() {
   }
 
   function getQuestionStats(questionaireId: string, questionId: string): QuestionStats | undefined {
-    return state?.[questionaireId]?.[questionId]
+    return state?.[questionaireId]?.[questionId];
   }
 
   function setQuestionStats(questionaireId: string, questionId: string, stats: QuestionStats) {
@@ -35,20 +35,20 @@ export function createStatsService() {
 
   return {
     get stats() {
-      return state
+      return state;
     },
 
     set stats(v) {
-      state = v
+      state = v;
     },
 
     getPinnedQuestionIds(questionaireId: string) {
-      const statsWithFallback = state[questionaireId] || {}
-      return Object.keys(statsWithFallback).filter(key => statsWithFallback[key].pinned);
+      const statsWithFallback = state[questionaireId] || {};
+      return Object.keys(statsWithFallback).filter((key) => statsWithFallback[key].pinned);
     },
 
     getQuestionaireStatsSnapshot(questionaireId: string): QuestionaireStats {
-      return $state.snapshot(state?.[questionaireId]) || {}
+      return $state.snapshot(state?.[questionaireId]) || {};
     },
 
     getQuestionStats,
@@ -73,7 +73,7 @@ export function createStatsService() {
       setQuestionStats(questionaireId, questionId, {
         pinned: stats?.pinned,
         progress: 0,
-      })
+      });
     },
 
     toggleQuestionPinned(questionaireId: string, questionId: string) {
@@ -83,13 +83,11 @@ export function createStatsService() {
         progress: stats?.progress,
         pinned: !stats?.pinned,
       });
-    }
-  }
+    },
+  };
 }
 
 export const statsService = createStatsService();
-
-export const statsState = $state<QuestionaireStatsMap>(getProgressFromLocalStorage());
 
 export function getProgressFromLocalStorage(): QuestionaireStatsMap {
   try {

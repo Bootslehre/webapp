@@ -1,9 +1,6 @@
 <script lang="ts">
   import { statsService } from '../stores/stats.svelte';
-  import type { Question, Questionaire } from '../types';
-  import { goToNextQuestion } from '../utils/nextQuestion';
-  import type { NextQuestionStrategies } from '../utils/nextQuestionStrategy';
-  import type { EnrichedQuestionaire } from '../utils/questionaires';
+  import type { Question } from '../types';
   import { shuffle } from '../utils/shuffle';
   import Button from './Button/Button.svelte';
   import IconButton from './Button/IconButton.svelte';
@@ -13,47 +10,35 @@
   import Rating from './Rating.svelte';
 
   let {
-    questionaire,
+    questionaireId,
     question,
     hasPreviousQuestion,
-    strategy,
+    hasNextQuestion,
+    onNextQuestionClick,
+    onPreviousQuestionClick,
+    onPinClick,
   }: {
-    questionaire: EnrichedQuestionaire;
+    questionaireId: string;
     question: Question;
     hasPreviousQuestion: boolean;
-    strategy: NextQuestionStrategies;
+    hasNextQuestion: boolean;
+    onNextQuestionClick: () => void;
+    onPreviousQuestionClick: () => void;
+    onPinClick: () => void;
   } = $props();
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
   let shuffledAnswers = $derived(shuffle(question.answers));
-  let stats = $derived(statsService.getQuestionStats(questionaire.id, question.id));
-
-  function nextQuestion() {
-    selectedAnswerIndex = undefined;
-    goToNextQuestion(strategy, questionaire.id, question.id);
-  }
-
-  function skipQuestion() {
-    nextQuestion();
-  }
+  let stats = $derived(statsService.getQuestionStats(questionaireId, question.id));
 
   function answerQuestion(index: number) {
     selectedAnswerIndex = index;
 
     if (shuffledAnswers[index].isCorrect) {
-      statsService.registerCorrectAnswer(questionaire.id, question.id);
+      statsService.registerCorrectAnswer(questionaireId, question.id);
     } else {
-      statsService.registerWrongAnswer(questionaire.id, question.id);
+      statsService.registerWrongAnswer(questionaireId, question.id);
     }
-  }
-
-  function goBack() {
-    selectedAnswerIndex = undefined;
-    history.back();
-  }
-
-  function togglePinned() {
-    statsService.toggleQuestionPinned(questionaire.id, question.id);
   }
 </script>
 
@@ -68,7 +53,7 @@
       <div class="align-center mt-5 flex flex-row justify-center gap-2">
         {#each question.media as media (media.src)}
           <img
-            src={`../../generated/${questionaire.id}/${media.fileName}`}
+            src={`../../generated/${questionaireId}/${media.fileName}`}
             alt={media.alt}
             title={media.title}
           />
@@ -80,11 +65,11 @@
       label={stats?.pinned ? 'Unpin' : 'Pin'}
       class="absolute right-0 bottom-0 translate-x-[50%] translate-y-[50%] shadow-lg"
       variant={stats?.pinned ? 'filled' : 'white'}
-      onclick={() => togglePinned()}><Pin size="lg" /></IconButton
+      onclick={onPinClick}><Pin size="lg" /></IconButton
     >
   </div>
 
-  <div class=" p-6">
+  <div class="p-6">
     <div class="min-h-[360px] space-y-4">
       {#each shuffledAnswers as answer, index (answer.text)}
         {#key answer.text}
@@ -93,20 +78,20 @@
                 {selectedAnswerIndex === undefined ? 'hover:border-blue-200 hover:bg-blue-50' : undefined}
                 {selectedAnswerIndex !== undefined && answer.isCorrect ? 'text-500 border-green-400 bg-green-300 text-green-950' : undefined}
                 {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300 text-red-950' : undefined}"
-            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : nextQuestion())}>{answer.text}</button
+            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</button
           >
         {/key}
       {/each}
     </div>
   </div>
 
-  <div class=" p-4">
+  <div class="p-4">
     <div class="flex w-full items-center justify-between gap-4">
       <div class="flex-1 self-start">
         {#if hasPreviousQuestion}
           <Button
             variant="text"
-            onclick={goBack}>Vorherige</Button
+            onclick={onPreviousQuestionClick}>Vorherige</Button
           >
         {/if}
       </div>
@@ -119,10 +104,10 @@
         {#if selectedAnswerIndex === undefined}
           <Button
             variant="text"
-            onclick={() => skipQuestion()}>Überspringen</Button
+            onclick={onNextQuestionClick}>{hasNextQuestion ? 'Überspringen' : 'Beenden'}</Button
           >
         {:else}
-          <Button onclick={nextQuestion}>Weiter</Button>
+          <Button onclick={onNextQuestionClick}>Weiter</Button>
         {/if}
       </div>
     </div>

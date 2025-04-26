@@ -1,15 +1,6 @@
 import type { Snippet } from 'svelte';
 
-export type ButtonVariant =
-  | 'filled'
-  | 'filledDestructive'
-  | 'outlined'
-  | 'outlinedDestructive'
-  | 'text'
-  | 'textDestructive'
-  | 'white'
-  | 'whiteDestructive'
-  | 'ghost';
+export type ButtonVariant = 'filled' | 'filledDestructive' | 'outlined' | 'outlinedDestructive' | 'text' | 'textDestructive' | 'white' | 'whiteDestructive' | 'ghost';
 
 export type ButtonSize = 'sm' | 'md';
 
