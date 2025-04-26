@@ -6,16 +6,16 @@ export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned';
 
 class NextQuestionStrategy {
   constructor(
-    public next: (questionaire: Questionaire, stats: QuestionaireStats, lastQuestionId?: string) => Question | undefined
+    public next: (questionaire: Questionaire, stats: QuestionaireStats, currentQuestionId?: string) => Question | undefined
   ) { }
 }
 
-export const RandomStrategy = new NextQuestionStrategy((questionaire, _stats, lastQuestionId) => {
-  const withoutLastQuestion = questionaire.questions.filter(q => q.id !== lastQuestionId)
+export const RandomStrategy = new NextQuestionStrategy((questionaire, _stats, currentQuestionId) => {
+  const withoutLastQuestion = questionaire.questions.filter(q => q.id !== currentQuestionId)
   return getRandomEntry(withoutLastQuestion);
 })
 
-export const PinnedStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
+export const PinnedStrategy = new NextQuestionStrategy((questionaire, stats, currentQuestionId) => {
   const pinnedQuestionIds = Object.keys(stats)
     .filter(key => stats[key].pinned);
 
@@ -26,15 +26,15 @@ export const PinnedStrategy = new NextQuestionStrategy((questionaire, stats, las
         return true;
       }
 
-      return question.id !== lastQuestionId;
+      return question.id !== currentQuestionId;
     });
 
   return getRandomEntry(pinnedQuestions);
 })
 
-export const RelevanceStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
+export const RelevanceStrategy = new NextQuestionStrategy((questionaire, stats, currentQuestionId) => {
   const questions = questionaire.questions
-    .filter(q => q.id !== lastQuestionId)
+    .filter(q => q.id !== currentQuestionId)
     .map(question => {
       const progress = stats?.[question.id]?.progress || 0;
       // progress can range from -1 to 5. we ignore the negative values for the next question recommendation calculation

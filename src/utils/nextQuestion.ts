@@ -6,22 +6,22 @@ import type { Question } from '../types';
 import { type NextQuestionStrategies, PinnedStrategy, RelevanceStrategy, RandomStrategy } from './nextQuestionStrategy';
 import { QUESTIONAIRES } from './questionaires';
 
-function getNextQuestion(strategy: NextQuestionStrategies, questionaireId: string, lastQuestionId?: string,): Question | undefined {
+function getNextQuestion(strategy: NextQuestionStrategies, questionaireId: string, currentQuestionId?: string): Question | undefined {
   const questionaire = QUESTIONAIRES.find(q => q.id === questionaireId)!;
   const stats = statsService.getQuestionaireStatsSnapshot(questionaireId);
 
   switch (strategy) {
     case 'random':
-      return RandomStrategy.next(questionaire, stats, lastQuestionId);
+      return RandomStrategy.next(questionaire, stats, currentQuestionId);
     case 'relevance':
-      return RelevanceStrategy.next(questionaire, stats, lastQuestionId);
+      return RelevanceStrategy.next(questionaire, stats, currentQuestionId);
     case 'pinned':
-      return PinnedStrategy.next(questionaire, stats, lastQuestionId);
+      return PinnedStrategy.next(questionaire, stats, currentQuestionId);
   }
 }
 
-export function goToNextQuestion(strategy: NextQuestionStrategies, questionaireId: string, lastQuestionId?: string) {
-  const question = getNextQuestion(strategy, questionaireId, lastQuestionId)
+export function goToNextQuestion(strategy: NextQuestionStrategies, questionaireId: string, currentQuestionId?: string) {
+  const question = getNextQuestion(strategy, questionaireId, currentQuestionId)
 
   if (question) {
     goto(`/lists/${questionaireId}/${question.id}?${STRATEGY_QUERY_PARAM}=${strategy}`);
