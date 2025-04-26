@@ -17,10 +17,12 @@
   <ChevronLeft size="lg" />
 {/snippet}
 
+
 {#if questionaire}
   <div class="mb-2 flex w-full items-center justify-between">
     <Button
       href="{base}/lists"
+      data-testid="back-button"
       variant="text"
       size="sm"
       iconLeft={chevronIcon}>Zurück</Button

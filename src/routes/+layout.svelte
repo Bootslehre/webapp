@@ -26,6 +26,7 @@
       <a
         href="{base}/"
         class="flex max-w-xl items-center gap-3"
+        data-testid="header-logo"
       >
         <div class="text-blue-600">
           <Anchor size="lg" />

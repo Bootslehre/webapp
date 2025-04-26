@@ -16,6 +16,7 @@
   variant="text"
   size="sm"
   class="mb-2 justify-self-start"
+  data-testid="back-button"
   iconLeft={chevronIcon}>Zurück</Button
 >
 

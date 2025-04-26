@@ -45,6 +45,7 @@
         onclick={onClose}
         variant="ghost"
         class="mr-[-6px] text-stone-500"
+        data-testid="close-dialog"
       >
         <Close size="lg" />
       </IconButton>

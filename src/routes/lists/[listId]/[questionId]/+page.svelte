@@ -40,6 +40,7 @@
 
 <div class="mb-2 flex w-full items-center justify-between">
   <Button
+    data-testid="back-button"
     href="{base}/lists/{questionaireId}"
     variant="text"
     size="sm"
