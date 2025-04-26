@@ -6,6 +6,8 @@
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
   import Progress from '../../../../components/Progress.svelte';
   import QuestionCard from '../../../../components/QuestionCard.svelte';
+  import { STRATEGY_QUERY_PARAM } from '../../../../stores/constants';
+  import type { NextQuestionStrategies } from '../../../../utils/nextQuestionStrategy';
   import { QUESTIONAIRES } from '../../../../utils/questionaires';
 
   let questionaireId = $derived(page.params.listId);
@@ -13,6 +15,10 @@
 
   let questionId = $derived(page.params.questionId);
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
+
+  const strategy = $derived(page.url.searchParams.get(STRATEGY_QUERY_PARAM) as NextQuestionStrategies | undefined);
+
+  console.log({ strategy });
 
   let previousQuestions = $state<string[]>([]);
 
@@ -51,6 +57,7 @@
     <QuestionCard
       {questionaire}
       {question}
+      strategy={strategy || 'relevance'}
       {hasPreviousQuestion}
     />
   {:else}

@@ -7,10 +7,12 @@
     title,
     onClose,
     children,
+    class: className = '',
   }: {
     title: string;
     onClose: () => void;
     children: Snippet;
+    class?: string;
   } = $props();
 
   function stopPropagation(event: Event) {
@@ -33,11 +35,11 @@
   <!-- svelte-ignore a11y_click_events_have_key_events -->
   <!-- svelte-ignore a11y_no_static_element_interactions -->
   <div
-    class="relative max-w-md min-w-xs rounded-lg bg-white px-4 pt-2 pb-6 shadow-2xl"
+    class="relative rounded-lg bg-white px-4 pt-2 pb-4 shadow-2xl {className}"
     onclick={stopPropagation}
   >
     <div class="mb-8 flex w-full items-center justify-between gap-8">
-      <div class="text-xl font-semibold">{title}</div>
+      <div class="text-lg font-semibold">{title}</div>
 
       <IconButton
         onclick={onClose}

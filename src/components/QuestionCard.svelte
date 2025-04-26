@@ -2,6 +2,7 @@
   import { statsService } from '../stores/stats.svelte';
   import type { Question, Questionaire } from '../types';
   import { goToNextQuestion } from '../utils/nextQuestion';
+  import type { NextQuestionStrategies } from '../utils/nextQuestionStrategy';
   import { shuffle } from '../utils/shuffle';
   import Button from './Button/Button.svelte';
   import IconButton from './Button/IconButton.svelte';
@@ -14,10 +15,12 @@
     questionaire,
     question,
     hasPreviousQuestion,
+    strategy,
   }: {
     questionaire: Questionaire;
     question: Question;
     hasPreviousQuestion: boolean;
+    strategy: NextQuestionStrategies;
   } = $props();
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
@@ -26,7 +29,7 @@
 
   function nextQuestion() {
     selectedAnswerIndex = undefined;
-    goToNextQuestion(questionaire.id, question.id);
+    goToNextQuestion(strategy, questionaire.id, question.id);
   }
 
   function skipQuestion() {

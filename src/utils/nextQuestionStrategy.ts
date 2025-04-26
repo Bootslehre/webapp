@@ -2,11 +2,11 @@ import { MAX_PROGESS } from "../stores/constants";
 import type { QuestionaireStats } from "../stores/stats.svelte";
 import type { Question, Questionaire } from "../types";
 
-export type NextQuestionStrategies = 'random' | 'unansweredFirst'
+export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned';
 
 class NextQuestionStrategy {
   constructor(
-    public next: (questionaire: Questionaire, stats: QuestionaireStats, lastQuestionId?: string) => Question
+    public next: (questionaire: Questionaire, stats: QuestionaireStats, lastQuestionId?: string) => Question | undefined
   ) { }
 }
 
@@ -15,8 +15,24 @@ export const RandomStrategy = new NextQuestionStrategy((questionaire, _stats, la
   return getRandomEntry(withoutLastQuestion);
 })
 
+export const PinnedStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
+  const pinnedQuestionIds = Object.keys(stats)
+    .filter(key => stats[key].pinned);
 
-export const UnansweredFirstStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
+  const pinnedQuestions = pinnedQuestionIds
+    .map((id) => questionaire.questions.find(q => q.id === id)!)
+    .filter((question, _index, array) => {
+      if (array.length === 1) {
+        return true;
+      }
+
+      return question.id !== lastQuestionId;
+    });
+
+  return getRandomEntry(pinnedQuestions);
+})
+
+export const RelevanceStrategy = new NextQuestionStrategy((questionaire, stats, lastQuestionId) => {
   const questions = questionaire.questions
     .filter(q => q.id !== lastQuestionId)
     .map(question => {
