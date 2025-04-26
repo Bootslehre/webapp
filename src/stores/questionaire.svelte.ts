@@ -16,7 +16,6 @@ export function createQuestionaireService() {
     initialize(newQuestions: Question[]) {
       questions = newQuestions;
       currentQuestionIndex = 0;
-      console.log(newQuestions);
     },
 
     next() {
@@ -45,6 +44,10 @@ export function createQuestionaireService() {
 
     get previousQuestion(): Question | undefined {
       return previousQuestion;
+    },
+
+    get questions(): Question[] {
+      return questions;
     },
   };
 }

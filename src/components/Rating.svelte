@@ -24,7 +24,7 @@
   }
 </script>
 
-<div class="flex flex-1 justify-center gap-1.5 {className}">
+<div class="flex justify-center gap-1.5 {className}">
   <div class="h-2.5 w-2.5 rounded-full transition-colors {getColor(0)}"></div>
   <div class="h-2.5 w-2.5 rounded-full transition-colors {getColor(1)}"></div>
   <div class="h-2.5 w-2.5 rounded-full transition-colors {getColor(2)}"></div>

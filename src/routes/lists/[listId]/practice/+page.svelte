@@ -7,13 +7,14 @@
   import { STRATEGY_QUERY_PARAM } from '../../../../stores/constants';
   import { questionaireService } from '../../../../stores/questionaire.svelte';
   import { statsService } from '../../../../stores/stats.svelte';
-  import { QUESTIONAIRES } from '../../../../utils/questionaires';
+  import { getQuestionaire } from '../../../../utils/questionaires';
+  import SummaryPaper from '../SummaryPaper.svelte';
   import { applyStrategy, type NextQuestionStrategies } from './applyStrategy';
 
   const strategy = $derived((page.url.searchParams.get(STRATEGY_QUERY_PARAM) || 'relevance') as NextQuestionStrategies);
 
   let questionaireId = $derived(page.params.listId);
-  let questionaire = $derived(QUESTIONAIRES.find((q) => q.id === questionaireId))!;
+  let questionaire = $derived(getQuestionaire(page.params.listId));
   let questions = $derived(applyStrategy(strategy, questionaire)); // todo
 
   // todo is this really a problem?!?!?
@@ -57,7 +58,10 @@
       />
     {/key}
   {:else if hasPreviousQuestion}
-    <div>ALL DONE! O.O</div>
+    <SummaryPaper
+      {questionaire}
+      questions={questionaireService.questions}
+    />
   {:else}
     Not Found :/
   {/if}

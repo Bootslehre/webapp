@@ -35,3 +35,7 @@ export const QUESTIONAIRES: EnrichedQuestionaire[] = [
     description: '',
   },
 ];
+
+export function getQuestionaire(id: string): Questionaire | undefined {
+  return QUESTIONAIRES.find((q) => q.id === id);
+}

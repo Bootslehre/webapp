@@ -2,14 +2,19 @@
   import { page } from '$app/state';
   import Button from '../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
+  import Pin from '../../../components/icons/Pin.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Progress from '../../../components/Progress.svelte';
+  import Rating from '../../../components/Rating.svelte';
   import { STRATEGY_QUERY_PARAM } from '../../../stores/constants';
   import { statsService } from '../../../stores/stats.svelte';
-  import { QUESTIONAIRES } from '../../../utils/questionaires';
+  import { getQuestionaire } from '../../../utils/questionaires';
 
-  const questionaire = $derived(QUESTIONAIRES.find((q) => q.id === page.params.listId));
+  const questionaire = $derived(getQuestionaire(page.params.listId));
   const pinnedQuestions = $derived(questionaire && statsService.getPinnedQuestionIds(questionaire.id).length);
+
+  const stats = $derived((questionaire && statsService.getQuestionaireStatsSnapshot(questionaire.id)) || {});
+  const incorrectlyAnsweredQuestions = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 0).length);
 </script>
 
 {#snippet chevronIcon()}
@@ -53,6 +58,17 @@
           href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=pinned"
         >
           {pinnedQuestions} markierte Fragen lernen
+          <Pin />
+        </a>
+      {/if}
+
+      {#if incorrectlyAnsweredQuestions}
+        <a
+          class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
+          href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=incorrect"
+        >
+          {incorrectlyAnsweredQuestions} falsch beantwortete Fragen lernen
+          <Rating progress={0} />
         </a>
       {/if}
     </div>

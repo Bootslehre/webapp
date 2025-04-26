@@ -2,7 +2,7 @@ import { statsService, type QuestionaireStats } from '../../../../stores/stats.s
 import type { Questionaire } from '../../../../types';
 import { shuffle } from '../../../../utils/shuffle';
 
-export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned';
+export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned' | 'incorrect';
 
 export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Questionaire) {
   const stats = statsService.getQuestionaireStatsSnapshot(questionaire.id);
@@ -12,6 +12,8 @@ export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Qu
       return applyRelevanceStrategy(questionaire);
     case 'pinned':
       return applyPinnedStrategy(questionaire, stats);
+    case 'incorrect':
+      return applyIncorrectStrategy(questionaire, stats);
     case 'random':
       return applyRandomStrategy(questionaire);
     default:
@@ -28,9 +30,17 @@ function applyRandomStrategy(questionaire: Questionaire) {
 }
 
 function applyPinnedStrategy(questionaire: Questionaire, stats: QuestionaireStats) {
-  const pinnedQuestionIds = Object.keys(stats).filter((key) => stats[key].pinned);
+  const questions = Object.keys(stats)
+    .filter((key) => stats[key].pinned)
+    .map((id) => questionaire.questions.find((q) => q.id === id)!);
 
-  const pinnedQuestions = pinnedQuestionIds.map((id) => questionaire.questions.find((q) => q.id === id)!);
+  return shuffle(questions);
+}
 
-  return shuffle(pinnedQuestions);
+function applyIncorrectStrategy(questionaire: Questionaire, stats: QuestionaireStats) {
+  const questions = Object.keys(stats)
+    .filter((key) => stats[key].progress === 0)
+    .map((id) => questionaire.questions.find((q) => q.id === id)!);
+
+  return shuffle(questions);
 }
