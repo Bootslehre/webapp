@@ -9,7 +9,6 @@ const config = {
     }),
     paths: {
       relative: false,
-      base: process.argv.includes('dev') ? '/webapp' : process.env.BASE_PATH
     }
   },
 };
