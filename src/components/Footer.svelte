@@ -9,7 +9,7 @@
         href="{base}/impressum"
         class="hover:underline">Impressum</a
       >
-      <span>Made with 💩</span>
+      <span>Made with ❤️</span>
     </div>
   </div>
 </footer>
