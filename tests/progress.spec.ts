@@ -15,6 +15,8 @@ test('answering questions updates progress and progress can be reset', async ({ 
 
   await page.getByTestId('open-progress-dialog').click();
   await page.click('text=Zurücksetzen');
+
+  // second verification
   await page.click('text=Lernstand zurücksetzen');
   await page.getByTestId('close-dialog').click();
 
