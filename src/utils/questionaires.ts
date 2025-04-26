@@ -16,21 +16,21 @@ export type EnrichedQuestionaire = Questionaire & AdditionalInformation;
 export const QUESTIONAIRES: EnrichedQuestionaire[] = [{
   ...SBF_BINNEN_BASIS,
   displayName: "Binnen Basis",
-  description: 'Leck mich fett'
+  description: ''
 }, {
   ...SBF_BINNEN_SEGEL,
   displayName: "Binnen Segel",
-  description: 'Leck mich fett'
+  description: ''
 }, {
   ...SBF_BINNEN_SPEZIFISCH,
   displayName: "Binnen Spezifisch",
-  description: 'Leck mich fett'
+  description: ''
 }, {
   ...SBF_SEE_BASIS,
   displayName: "See Basis",
-  description: 'Leck mich fett'
+  description: ''
 }, {
   ...SBF_SEE_SPEZIFISCH,
   displayName: "See Spezifisch",
-  description: 'Leck mich fett'
+  description: ''
 }];

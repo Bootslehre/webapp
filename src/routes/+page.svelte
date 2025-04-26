@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from '$app/paths';
   import Button from '../components/Button/Button.svelte';
   import Paper from '../components/Paper.svelte';
 </script>
@@ -17,6 +16,6 @@
 
   <Button
     class="mt-5 justify-self-end"
-    href="{base}/lists">Wähl deinen Schein</Button
+    href="/lists">Wähl deinen Schein</Button
   >
 </Paper>

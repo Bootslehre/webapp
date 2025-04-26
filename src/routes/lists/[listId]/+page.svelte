@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from '$app/paths';
   import { page } from '$app/state';
   import Button from '../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
@@ -20,7 +19,7 @@
 {#if questionaire}
   <div class="mb-2 flex w-full items-center justify-between">
     <Button
-      href="{base}/lists"
+      href="/lists"
       data-testid="back-button"
       variant="text"
       size="sm"

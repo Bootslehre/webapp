@@ -1,6 +1,5 @@
 <script lang="ts">
   import { afterNavigate } from '$app/navigation';
-  import { base } from '$app/paths';
   import { page } from '$app/state';
   import Button from '../../../../components/Button/Button.svelte';
   import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
@@ -17,8 +16,6 @@
   let question = $derived(questionaire?.questions.find((q) => q.id === questionId));
 
   const strategy = $derived(page.url.searchParams.get(STRATEGY_QUERY_PARAM) as NextQuestionStrategies | undefined);
-
-  console.log({ strategy });
 
   let previousQuestions = $state<string[]>([]);
 
@@ -41,7 +38,7 @@
 <div class="mb-2 flex w-full items-center justify-between">
   <Button
     data-testid="back-button"
-    href="{base}/lists/{questionaireId}"
+    href="/lists/{questionaireId}"
     variant="text"
     size="sm"
     iconLeft={chevronIcon}>Zurück</Button

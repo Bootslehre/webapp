@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from '$app/paths';
   import Footer from '../components/Footer.svelte';
   import Anchor from '../components/icons/Anchor.svelte';
   import Tonne from '../components/Tonne/Tonne.svelte';
@@ -24,7 +23,7 @@
   <header class="bg-white px-5 py-4 shadow-md">
     <div class="mx-auto">
       <a
-        href="{base}/"
+        href="/"
         class="flex max-w-xl items-center gap-3"
         data-testid="header-logo"
       >

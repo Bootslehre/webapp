@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from '$app/paths';
   import Button from '../../components/Button/Button.svelte';
   import ChevronLeft from '../../components/icons/ChevronLeft.svelte';
   import Paper from '../../components/Paper.svelte';
@@ -12,7 +11,7 @@
 {/snippet}
 
 <Button
-  href="{base}/"
+  href="/"
   variant="text"
   size="sm"
   class="mb-2 justify-self-start"
@@ -26,7 +25,7 @@
       <li>
         <a
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-          href="{base}/lists/{questionaire.id}"
+          href="/lists/{questionaire.id}"
         >
           <span>{questionaire.displayName}</span>
           <div class="flex gap-2">
