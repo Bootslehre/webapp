@@ -1,7 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import Button from '../../../../components/Button/Button.svelte';
-  import ChevronLeft from '../../../../components/icons/ChevronLeft.svelte';
+  import BackButton from '../../../../components/BackButton.svelte';
   import Progress from '../../../../components/Progress.svelte';
   import QuestionCard from '../../../../components/QuestionCard.svelte';
   import { STRATEGY_QUERY_PARAM } from '../../../../stores/constants';
@@ -26,18 +25,8 @@
   let hasNextQuestion = $derived(Boolean(questionaireService.nextQuestion));
 </script>
 
-{#snippet chevronIcon()}
-  <ChevronLeft size="lg" />
-{/snippet}
-
 <div class="mb-2 flex w-full items-center justify-between">
-  <Button
-    data-testid="back-button"
-    href="/lists/{questionaireSlug}"
-    variant="text"
-    size="sm"
-    iconLeft={chevronIcon}>Zurück</Button
-  >
+  <BackButton href="/lists/{questionaireSlug}">Zurück</BackButton>
 
   {#if questionaire}
     <Progress {questionaire} />

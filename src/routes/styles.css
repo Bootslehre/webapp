@@ -5,5 +5,5 @@
 
 html,
 body {
-  @apply h-full bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100;
+  @apply h-full bg-stone-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100;
 }

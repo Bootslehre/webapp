@@ -38,7 +38,7 @@
     class="relative rounded-lg bg-white px-4 pt-2 pb-4 shadow-2xl {className}"
     onclick={stopPropagation}
   >
-    <div class="mb-8 flex w-full items-center justify-between gap-8">
+    <div class="mb-4 flex w-full items-center justify-between gap-8">
       <div class="text-lg font-semibold">{title}</div>
 
       <IconButton

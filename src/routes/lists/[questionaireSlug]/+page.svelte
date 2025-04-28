@@ -1,7 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import Button from '../../../components/Button/Button.svelte';
-  import ChevronLeft from '../../../components/icons/ChevronLeft.svelte';
+  import BackButton from '../../../components/BackButton.svelte';
   import Pin from '../../../components/icons/Pin.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Progress from '../../../components/Progress.svelte';
@@ -17,20 +16,9 @@
   const incorrectlyAnsweredQuestions = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 0).length);
 </script>
 
-{#snippet chevronIcon()}
-  <ChevronLeft size="lg" />
-{/snippet}
-
 {#if questionaire}
   <div class="mb-2 flex w-full items-center justify-between">
-    <Button
-      href="/lists"
-      data-testid="back-button"
-      variant="text"
-      size="sm"
-      iconLeft={chevronIcon}>Zurück</Button
-    >
-
+    <BackButton href="/lists">Zurück</BackButton>
     <Progress {questionaire} />
   </div>
 
