@@ -21,11 +21,11 @@
 
 <Paper class="bg-white p-6">
   <ul class="space-y-4">
-    {#each QUESTIONAIRES as questionaire}
+    {#each QUESTIONAIRES as questionaire (questionaire.id)}
       <li>
         <a
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-          href="/lists/{questionaire.id}"
+          href="/lists/{questionaire.slug}"
         >
           <span>{questionaire.displayName}</span>
           <div class="flex gap-2">
