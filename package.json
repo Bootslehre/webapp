@@ -15,7 +15,6 @@
     "lint": "prettier --check . && eslint .",
     "test:unit": "vitest",
     "extract": "npx tsx scripts/extract.ts",
-    "typecheck": "tsc --noEmit -p tsconfig.json",
     "test": "npm run test:unit -- --run"
   },
   "devDependencies": {

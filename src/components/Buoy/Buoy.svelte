@@ -29,7 +29,11 @@
   }
 
   .wave {
-    @apply pointer-events-none absolute right-[15%] bottom-[100px] block;
+    pointer-events: none;
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    display: block;
     animation: wave 2500ms infinite ease-in-out both alternate;
     transform-origin: 50% 99%;
     height: 180px;
