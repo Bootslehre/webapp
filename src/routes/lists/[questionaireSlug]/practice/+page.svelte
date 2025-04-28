@@ -7,15 +7,15 @@
   import { STRATEGY_QUERY_PARAM } from '../../../../stores/constants';
   import { questionaireService } from '../../../../stores/questionaire.svelte';
   import { statsService } from '../../../../stores/stats.svelte';
-  import { getQuestionaire } from '../../../../utils/questionaires';
+  import { getQuestionaireBySlug } from '../../../../utils/questionaires';
   import SummaryPaper from '../SummaryPaper.svelte';
   import { applyStrategy, type NextQuestionStrategies } from './applyStrategy';
 
   const strategy = $derived((page.url.searchParams.get(STRATEGY_QUERY_PARAM) || 'relevance') as NextQuestionStrategies);
 
   let questionaireId = $derived(page.params.listId);
-  let questionaire = $derived(getQuestionaire(page.params.listId));
-  let questions = $derived(applyStrategy(strategy, questionaire)); // todo
+  let questionaire = $derived(getQuestionaireBySlug(page.params.questionaireSlug));
+  let questions = $derived(questionaire ? applyStrategy(strategy, questionaire) : []); // todo handle 404 gracefully
 
   // todo is this really a problem?!?!?
   // svelte-ignore state_referenced_locally
@@ -57,7 +57,7 @@
         onPinClick={() => statsService.toggleQuestionPinned(questionaire.id, question.id)}
       />
     {/key}
-  {:else if hasPreviousQuestion}
+  {:else if hasPreviousQuestion && questionaire}
     <SummaryPaper
       {questionaire}
       questions={questionaireService.questions}

@@ -8,9 +8,9 @@
   import Rating from '../../../components/Rating.svelte';
   import { STRATEGY_QUERY_PARAM } from '../../../stores/constants';
   import { statsService } from '../../../stores/stats.svelte';
-  import { getQuestionaire } from '../../../utils/questionaires';
+  import { getQuestionaireBySlug } from '../../../utils/questionaires';
 
-  const questionaire = $derived(getQuestionaire(page.params.listId));
+  const questionaire = $derived(getQuestionaireBySlug(page.params.questionaireSlug));
   const pinnedQuestions = $derived(questionaire && statsService.getPinnedQuestionIds(questionaire.id).length);
 
   const stats = $derived((questionaire && statsService.getQuestionaireStatsSnapshot(questionaire.id)) || {});
@@ -46,7 +46,7 @@
     <div class="w-full space-y-4">
       <a
         class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-        href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=relevance"
+        href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=relevance"
       >
         Alle {questionaire?.questions?.length} Fragen lernen
       </a>
@@ -55,7 +55,7 @@
       {#if pinnedQuestions}
         <a
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
-          href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=pinned"
+          href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=pinned"
         >
           {pinnedQuestions} markierte Fragen lernen
           <Pin />
@@ -65,7 +65,7 @@
       {#if incorrectlyAnsweredQuestions}
         <a
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
-          href="/lists/{questionaire.id}/practice?{STRATEGY_QUERY_PARAM}=incorrect"
+          href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=incorrect"
         >
           {incorrectlyAnsweredQuestions} falsch beantwortete Fragen lernen
           <Rating progress={0} />

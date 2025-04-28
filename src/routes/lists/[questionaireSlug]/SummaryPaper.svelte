@@ -4,13 +4,14 @@
   import { statsService } from '../../../stores/stats.svelte';
   import type { Question, Questionaire } from '../../../types';
   import { pluralize } from '../../../utils/pluralize';
+  import type { EnrichedQuestionaire } from '../../../utils/questionaires';
 
   let {
     questions,
     questionaire,
   }: {
     questions: Question[];
-    questionaire: Questionaire;
+    questionaire: Questionaire | EnrichedQuestionaire;
   } = $props();
 
   const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));

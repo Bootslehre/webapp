@@ -1,10 +1,11 @@
 import { statsService, type QuestionaireStats } from '../../../../stores/stats.svelte';
 import type { Questionaire } from '../../../../types';
+import type { EnrichedQuestionaire } from '../../../../utils/questionaires';
 import { shuffle } from '../../../../utils/shuffle';
 
 export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned' | 'incorrect';
 
-export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Questionaire) {
+export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Questionaire | EnrichedQuestionaire) {
   const stats = statsService.getQuestionaireStatsSnapshot(questionaire.id);
 
   switch (strategy) {
@@ -44,3 +45,4 @@ function applyIncorrectStrategy(questionaire: Questionaire, stats: QuestionaireS
 
   return shuffle(questions);
 }
+

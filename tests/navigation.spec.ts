@@ -15,15 +15,15 @@ test('clicking the back button on /lists takes you back to home', async ({ page 
 });
 
 test('clicking the back button on /lists/{questionareId} takes you back to the list overview', async ({ page }) => {
-  await page.goto('/lists/SBF_BINNEN_BASIS');
+  await page.goto('/lists/binnen-basis');
   await page.getByTestId('back-button').click();
   await page.waitForURL('/lists');
   await expect(page).toHaveURL('/lists');
 });
 
 test('clicking the back button on /lists/{questionareId}/{questionId} takes you back to the questionare page', async ({ page }) => {
-  await page.goto('/lists/SBF_BINNEN_BASIS/21');
+  await page.goto('/lists/binnen-basis/practice');
   await page.getByTestId('back-button').click();
-  await page.waitForURL('/lists/SBF_BINNEN_BASIS');
-  await expect(page).toHaveURL('/lists/SBF_BINNEN_BASIS');
+  await page.waitForURL('/lists/binnen-basis');
+  await expect(page).toHaveURL('/lists/binnen-basis');
 });
