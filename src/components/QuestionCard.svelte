@@ -53,6 +53,7 @@
       <div class="align-center mt-5 flex flex-row justify-center gap-2">
         {#each question.media as media (media.src)}
           <img
+            class="pointer-events-none select-none"
             src={`../../generated/${questionaireId}/${media.fileName}`}
             alt={media.alt}
             title={media.title}
