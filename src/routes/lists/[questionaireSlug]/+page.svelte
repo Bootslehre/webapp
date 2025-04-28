@@ -48,7 +48,7 @@
         class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
         href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=relevance"
       >
-        Alle {questionaire?.questions?.length} Fragen lernen
+        Alle {questionaire?.questions?.length} Fragen üben
       </a>
 
       <!-- todo extract this tile layout component into a reusable component and replace other usages -->
@@ -57,7 +57,7 @@
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
           href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=pinned"
         >
-          {pinnedQuestions} markierte Fragen lernen
+          {pinnedQuestions} markierte Fragen üben
           <Pin />
         </a>
       {/if}
@@ -67,7 +67,7 @@
           class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
           href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=incorrect"
         >
-          {incorrectlyAnsweredQuestions} falsch beantwortete Fragen lernen
+          {incorrectlyAnsweredQuestions} falsch beantwortete Fragen üben
           <Rating progress={0} />
         </a>
       {/if}
