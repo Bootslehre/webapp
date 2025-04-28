@@ -1,7 +1,7 @@
 <script lang="ts">
   import Footer from '../components/Footer.svelte';
   import Anchor from '../components/icons/Anchor.svelte';
-  import Tonne from '../components/Tonne/Tonne.svelte';
+  import Buoy from '../components/Buoy/Buoy.svelte';
   import './styles.css';
 
   let { children } = $props();
@@ -43,5 +43,5 @@
 
   <Footer />
 
-  <Tonne />
+  <Buoy />
 </main>

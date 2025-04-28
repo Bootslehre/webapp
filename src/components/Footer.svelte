@@ -2,7 +2,7 @@
   <div class="mx-auto w-full max-w-xl">
     <div class="flex items-center justify-center gap-12 px-4 py-4 text-xs text-white">
       <a
-        href="/impressum"
+        href="/imprint"
         class="hover:underline">Impressum</a
       >
       <span>Made with ❤️</span>
