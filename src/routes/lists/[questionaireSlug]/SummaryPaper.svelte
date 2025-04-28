@@ -2,7 +2,7 @@
   import Button from '../../../components/Button/Button.svelte';
   import Paper from '../../../components/Paper.svelte';
   import { statsService } from '../../../stores/stats.svelte';
-  import type { Question, Questionaire } from '../../../types';
+  import type { Question } from '../../../types';
   import { pluralize } from '../../../utils/pluralize';
   import type { EnrichedQuestionaire } from '../../../utils/questionaires';
 
@@ -11,7 +11,7 @@
     questionaire,
   }: {
     questions: Question[];
-    questionaire: Questionaire | EnrichedQuestionaire;
+    questionaire: EnrichedQuestionaire;
   } = $props();
 
   const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));
@@ -34,6 +34,6 @@
 
   <Button
     class="justify-self-end"
-    href="/lists/{questionaire.id}">Wiederholen</Button
+    href="/lists/{questionaire.slug}">Wiederholen</Button
   >
 </Paper>

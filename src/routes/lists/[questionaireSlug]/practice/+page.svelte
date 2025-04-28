@@ -13,7 +13,7 @@
 
   const strategy = $derived((page.url.searchParams.get(STRATEGY_QUERY_PARAM) || 'relevance') as NextQuestionStrategies);
 
-  let questionaireId = $derived(page.params.listId);
+  let questionaireSlug = $derived(page.params.questionaireSlug);
   let questionaire = $derived(getQuestionaireBySlug(page.params.questionaireSlug));
   let questions = $derived(questionaire ? applyStrategy(strategy, questionaire) : []); // todo handle 404 gracefully
 
@@ -33,7 +33,7 @@
 <div class="mb-2 flex w-full items-center justify-between">
   <Button
     data-testid="back-button"
-    href="/lists/{questionaireId}"
+    href="/lists/{questionaireSlug}"
     variant="text"
     size="sm"
     iconLeft={chevronIcon}>Zurück</Button
@@ -48,7 +48,7 @@
   {#if questionaire && question}
     {#key question.id}
       <QuestionCard
-        {questionaireId}
+        questionaireId={questionaire.id}
         {question}
         {hasPreviousQuestion}
         {hasNextQuestion}
