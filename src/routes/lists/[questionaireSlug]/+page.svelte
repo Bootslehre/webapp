@@ -41,7 +41,6 @@
         Alle {questionaire?.questions?.length} Fragen üben
       </ListItem>
 
-      <!-- todo extract this tile layout component into a reusable component and replace other usages -->
       {#if pinnedQuestions}
         <ListItem
           class="flex items-baseline justify-between gap-8"

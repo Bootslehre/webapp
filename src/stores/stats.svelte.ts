@@ -1,4 +1,5 @@
-import { STORAGE_KEY, MAX_PROGESS } from './constants';
+import { readFromLocalStorage, writeToLocalStorage } from '../utils/localStorage';
+import { MAX_PROGESS } from './constants';
 
 export interface QuestionStats {
   progress?: number;
@@ -13,11 +14,13 @@ export interface QuestionaireStatsMap {
   [questionaireId: string]: QuestionaireStats;
 }
 
+const STORAGE_KEY = 'progress';
+
 export function createStatsService() {
-  let state = $state(getProgressFromLocalStorage());
+  let state = $state(readFromLocalStorage<QuestionaireStatsMap>(STORAGE_KEY, {}));
 
   function persist() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    writeToLocalStorage(STORAGE_KEY, state);
   }
 
   function getQuestionStats(questionaireId: string, questionId: string): QuestionStats | undefined {
@@ -88,12 +91,3 @@ export function createStatsService() {
 }
 
 export const statsService = createStatsService();
-
-export function getProgressFromLocalStorage(): QuestionaireStatsMap {
-  try {
-    const res = localStorage.getItem(STORAGE_KEY);
-    return JSON.parse(res!) || {};
-  } catch {
-    return {};
-  }
-}
