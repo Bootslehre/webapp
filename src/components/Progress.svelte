@@ -64,8 +64,23 @@
   >
     <ProgressTable
       {questionaire}
-      class="mx-auto"
+      class="mx-auto mb-4"
     />
+
+    <div class="prose prose-sm">
+      <p>Diese Fortschrittsanzeige zeigt, wie oft jede Frage richtig oder falsch beantwortet wurde.</p>
+      <ul>
+        <li>In der Spalte <strong>Fragen</strong> steht die Gesamtanzahl der Fragen.</li>
+        <li>In der Spalte <strong>Fortschritt</strong> werden für jede Frage bis zu fünf Versuche dargestellt:</li>
+        <ul>
+          <li><span class="text-green-500">Grüne Punkte</span> bedeuten, dass die Frage richtig beantwortet wurde.</li>
+          <li><span class="text-red-500">Rote Punkte</span> bedeuten, dass die Frage falsch beantwortet wurde.</li>
+          <li><span class="text-slate-600">Graue Punkte</span> zeigen, dass für diese Frage noch keine Antwort registriert wurde.</li>
+        </ul>
+      </ul>
+      <p>Je mehr grüne Punkte eine Frage hat, desto besser wird sie beherrscht. Viele rote Punkte deuten auf weiteren Übungsbedarf hin.</p>
+      <p>Mit <strong>Zurücksetzen</strong> können alle bisherigen Fortschritte gelöscht werden.</p>
+    </div>
 
     <div class="mt-4 pt-4">
       {#if doubleConfirm}
