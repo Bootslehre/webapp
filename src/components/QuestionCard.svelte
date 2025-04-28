@@ -1,11 +1,14 @@
 <script lang="ts">
   import { statsService } from '../stores/stats.svelte';
-  import type { Question } from '../types';
+  import type { Answer, Question } from '../types';
   import { shuffle } from '../utils/shuffle';
   import Button from './Button/Button.svelte';
   import IconButton from './Button/IconButton.svelte';
   import Pin from './icons/Pin.svelte';
   import QuestionMarkCircle from './icons/QuestionMarkCircle.svelte';
+  import List from './List/List.svelte';
+  import ListItem from './List/ListItem.svelte';
+  import type { ListItemVariant } from './List/types';
   import Paper from './Paper.svelte';
   import Rating from './Rating.svelte';
 
@@ -40,6 +43,18 @@
       statsService.registerWrongAnswer(questionaireId, question.id);
     }
   }
+
+  function getVariant(answer: Answer, index: number): ListItemVariant {
+    if (selectedAnswerIndex !== undefined) {
+      if (answer.isCorrect) {
+        return 'success';
+      } else if (index === selectedAnswerIndex) {
+        return 'error';
+      }
+    }
+
+    return 'info';
+  }
 </script>
 
 <Paper class="divide-y divide-slate-200 bg-white">
@@ -71,19 +86,16 @@
   </div>
 
   <div class="p-6">
-    <div class="min-h-[360px] space-y-4">
+    <List class="min-h-[360px]">
       {#each shuffledAnswers as answer, index (answer.text)}
         {#key answer.text}
-          <button
-            class="w-full cursor-pointer rounded-md border border-slate-200 p-4 text-left text-sm font-medium text-pretty transition-colors
-                {selectedAnswerIndex === undefined ? 'hover:border-blue-200 hover:bg-blue-50' : undefined}
-                {selectedAnswerIndex !== undefined && answer.isCorrect ? 'text-500 border-green-400 bg-green-300 text-green-950' : undefined}
-                {index === selectedAnswerIndex && !answer.isCorrect ? 'border-red-400 bg-red-300 text-red-950' : undefined}"
-            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</button
+          <ListItem
+            variant={getVariant(answer, index)}
+            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
           >
         {/key}
       {/each}
-    </div>
+    </List>
   </div>
 
   <div class="p-4">

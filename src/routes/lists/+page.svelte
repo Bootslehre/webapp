@@ -1,5 +1,7 @@
 <script lang="ts">
   import BackButton from '../../components/BackButton.svelte';
+  import List from '../../components/List/List.svelte';
+  import ListItem from '../../components/List/ListItem.svelte';
   import Paper from '../../components/Paper.svelte';
   import { statsService } from '../../stores/stats.svelte';
   import { QUESTIONAIRES } from '../../utils/questionaires';
@@ -8,20 +10,16 @@
 <BackButton href="/">Zurück</BackButton>
 
 <Paper class="bg-white p-6">
-  <ul class="space-y-4">
+  <List>
     {#each QUESTIONAIRES as questionaire (questionaire.id)}
-      <li>
-        <a
-          class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
-          href="/lists/{questionaire.slug}"
-        >
-          <span>{questionaire.displayName}</span>
-          <div class="flex gap-2">
-            <span class="text-xs text-slate-500">{questionaire.questions.length} Fragen</span>
-            <span class="text-xs text-slate-500">({statsService.getPinnedQuestionIds(questionaire.id).length} markiert)</span>
-          </div>
-        </a>
-      </li>
+      <ListItem
+        class="flex items-baseline"
+        href="/lists/{questionaire.slug}"
+      >
+        <span class="mr-auto">{questionaire.displayName}</span>
+        <span class="ml-8 text-xs text-slate-500">{questionaire.questions.length} Fragen</span>
+        <span class="ml-2 text-xs text-slate-500">({statsService.getPinnedQuestionIds(questionaire.id).length} markiert)</span>
+      </ListItem>
     {/each}
-  </ul>
+  </List>
 </Paper>

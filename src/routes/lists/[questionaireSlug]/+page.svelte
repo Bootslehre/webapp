@@ -2,6 +2,8 @@
   import { page } from '$app/state';
   import BackButton from '../../../components/BackButton.svelte';
   import Pin from '../../../components/icons/Pin.svelte';
+  import List from '../../../components/List/List.svelte';
+  import ListItem from '../../../components/List/ListItem.svelte';
   import Paper from '../../../components/Paper.svelte';
   import Progress from '../../../components/Progress.svelte';
   import Rating from '../../../components/Rating.svelte';
@@ -31,34 +33,34 @@
       {questionaire.description}
     </p>
 
-    <div class="w-full space-y-4">
-      <a
-        class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50"
+    <List>
+      <ListItem
+        class="flex items-baseline justify-between gap-8"
         href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=relevance"
       >
         Alle {questionaire?.questions?.length} Fragen üben
-      </a>
+      </ListItem>
 
       <!-- todo extract this tile layout component into a reusable component and replace other usages -->
       {#if pinnedQuestions}
-        <a
-          class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
+        <ListItem
+          class="flex items-baseline justify-between gap-8"
           href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=pinned"
         >
-          {pinnedQuestions} markierte Fragen üben
+          <span>{pinnedQuestions} markierte Fragen üben</span>
           <Pin />
-        </a>
+        </ListItem>
       {/if}
 
       {#if incorrectlyAnsweredQuestions}
-        <a
-          class="flex w-full cursor-pointer items-baseline justify-between gap-8 rounded-md border border-slate-200 p-4 text-sm font-medium transition-colors hover:border-blue-200 hover:bg-blue-50 disabled:cursor-not-allowed disabled:opacity-50"
+        <ListItem
+          class="flex items-baseline justify-between gap-8"
           href="/lists/{questionaire.slug}/practice?{STRATEGY_QUERY_PARAM}=incorrect"
         >
-          {incorrectlyAnsweredQuestions} falsch beantwortete Fragen üben
+          <span>{incorrectlyAnsweredQuestions} falsch beantwortete Fragen üben</span>
           <Rating progress={0} />
-        </a>
+        </ListItem>
       {/if}
-    </div>
+    </List>
   </Paper>
 {/if}
