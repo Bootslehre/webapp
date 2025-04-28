@@ -22,7 +22,7 @@ test('clicking the back button on /lists/{questionareId} takes you back to the l
 });
 
 test('clicking the back button on /lists/{questionareId}/{questionId} takes you back to the questionare page', async ({ page }) => {
-  await page.goto('/lists/binnen-basis/21');
+  await page.goto('/lists/binnen-basis/practice');
   await page.getByTestId('back-button').click();
   await page.waitForURL('/lists/binnen-basis');
   await expect(page).toHaveURL('/lists/binnen-basis');
