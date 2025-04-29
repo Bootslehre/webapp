@@ -5,7 +5,7 @@
   import BackButton from '../../../components/BackButton.svelte';
 </script>
 
-<div class="mb-1 flex items-center justify-between">
+<div class="mb-2 flex items-center justify-between">
   <BackButton href="/licenses">Zurück</BackButton>
   <Progress />
 </div>

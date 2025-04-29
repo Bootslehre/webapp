@@ -22,7 +22,7 @@
   {href}
   variant="text"
   size="sm"
-  class="mb-2 justify-self-start {className}"
+  class="justify-self-start {className}"
   data-testid="back-button"
   iconLeft={chevronIcon}>{@render children()}</Button
 >

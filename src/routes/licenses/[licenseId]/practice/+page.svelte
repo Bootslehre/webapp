@@ -23,7 +23,7 @@
 </script>
 
 {#if questionaire}
-  <div class="mb-1 flex w-full items-center justify-between">
+  <div class="mb-2 flex w-full items-center justify-between">
     <BackButton href="/licenses/{questionaire.id}">Zurück</BackButton>
     <Progress />
   </div>

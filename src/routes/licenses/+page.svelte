@@ -7,7 +7,10 @@
   import { LICENSES } from '../../utils/licenses';
 </script>
 
-<BackButton href="/">Zurück</BackButton>
+<BackButton
+  class="mb-2"
+  href="/">Zurück</BackButton
+>
 
 <Paper class="bg-white p-6">
   <PaperTitle class="mb-4">Wähle deinen Schein</PaperTitle>
