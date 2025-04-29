@@ -1,19 +1,20 @@
 <script lang="ts">
+  import Button from '../components/Button/Button.svelte';
+  import IconButton from '../components/Button/IconButton.svelte';
+  import Pin from '../components/icons/Pin.svelte';
+  import QuestionMarkCircle from '../components/icons/QuestionMarkCircle.svelte';
+  import List from '../components/List/List.svelte';
+  import ListItem from '../components/List/ListItem.svelte';
+  import type { ListItemVariant } from '../components/List/types';
+  import Paper from '../components/Paper.svelte';
+  import Rating from '../components/Rating.svelte';
   import { statsService } from '../stores/stats.svelte';
   import type { Answer, Question } from '../types';
+  import type { LicenseId } from '../utils/licenses';
   import { shuffle } from '../utils/shuffle';
-  import Button from './Button/Button.svelte';
-  import IconButton from './Button/IconButton.svelte';
-  import Pin from './icons/Pin.svelte';
-  import QuestionMarkCircle from './icons/QuestionMarkCircle.svelte';
-  import List from './List/List.svelte';
-  import ListItem from './List/ListItem.svelte';
-  import type { ListItemVariant } from './List/types';
-  import Paper from './Paper.svelte';
-  import Rating from './Rating.svelte';
 
   let {
-    questionaireId,
+    licenseId,
     question,
     hasPreviousQuestion,
     hasNextQuestion,
@@ -21,7 +22,7 @@
     onPreviousQuestionClick,
     onPinClick,
   }: {
-    questionaireId: string;
+    licenseId: LicenseId;
     question: Question;
     hasPreviousQuestion: boolean;
     hasNextQuestion: boolean;
@@ -32,19 +33,19 @@
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
   let shuffledAnswers = $derived(shuffle(question.answers));
-  let stats = $derived(statsService.getQuestionStats(questionaireId, question.id));
+  let stats = $derived(statsService.getQuestionStats(licenseId, question.id));
 
   function answerQuestion(index: number) {
     selectedAnswerIndex = index;
 
     if (shuffledAnswers[index].isCorrect) {
-      statsService.registerCorrectAnswer(questionaireId, question.id);
+      statsService.registerCorrectAnswer(licenseId, question.id);
     } else {
-      statsService.registerWrongAnswer(questionaireId, question.id);
+      statsService.registerWrongAnswer(licenseId, question.id);
     }
   }
 
-  function getVariant(answer: Answer, index: number): ListItemVariant {
+  function getAnswerColorVariant(answer: Answer, index: number): ListItemVariant {
     if (selectedAnswerIndex !== undefined) {
       if (answer.isCorrect) {
         return 'success';
@@ -69,7 +70,7 @@
         {#each question.media as media (media.src)}
           <img
             class="pointer-events-none select-none"
-            src={`../../generated/${questionaireId}/${media.fileName}`}
+            src={`../../generated/${licenseId}/${media.fileName}`}
             alt={media.alt}
             title={media.title}
           />
@@ -90,7 +91,7 @@
       {#each shuffledAnswers as answer, index (answer.text)}
         {#key answer.text}
           <ListItem
-            variant={getVariant(answer, index)}
+            variant={getAnswerColorVariant(answer, index)}
             onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
           >
         {/key}

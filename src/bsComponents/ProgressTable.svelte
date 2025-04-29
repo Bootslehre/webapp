@@ -1,25 +1,25 @@
 <script lang="ts">
-  import { statsService } from '../stores/stats.svelte';
-  import type { EnrichedQuestionaire } from '../utils/questionaires';
-  import Rating from './Rating.svelte';
+  import Rating from '../components/Rating.svelte';
 
   let {
     class: className = '',
-    questionaire,
+    noProgress,
+    progress0,
+    progress1,
+    progress2,
+    progress3,
+    progress4,
+    progress5,
   }: {
     class?: string;
-    questionaire: EnrichedQuestionaire;
+    noProgress: number;
+    progress0: number;
+    progress1: number;
+    progress2: number;
+    progress3: number;
+    progress4: number;
+    progress5: number;
   } = $props();
-
-  const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));
-
-  const noProgress = $derived((questionaire?.questions.length || 0) - Object.keys(stats).length);
-  const progress0 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 0).length);
-  const progress1 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 1).length);
-  const progress2 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 2).length);
-  const progress3 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 3).length);
-  const progress4 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 4).length);
-  const progress5 = $derived(Object.keys(stats).filter((qId) => stats[qId].progress === 5).length);
 </script>
 
 <table class="text-sm {className}">

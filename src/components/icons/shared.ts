@@ -1,4 +1,3 @@
-
 export type IconSize = 'sm' | 'md' | 'lg';
 
 export const ICON_SIZE_MAP: Record<IconSize, string> = {

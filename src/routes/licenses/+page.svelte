@@ -4,11 +4,7 @@
   import ListItem from '../../components/List/ListItem.svelte';
   import Paper from '../../components/Paper.svelte';
   import PaperTitle from '../../components/PaperTitle.svelte';
-
-  const LICENSES = [
-    { name: 'SBF See', id: 'sbf-see' },
-    { name: 'SBF Binnen', id: 'sbf-binnen' },
-  ];
+  import { LICENSES } from '../../utils/licenses';
 </script>
 
 <BackButton href="/">Zurück</BackButton>

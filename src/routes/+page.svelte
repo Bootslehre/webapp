@@ -18,9 +18,4 @@
     class="mt-5 justify-self-end"
     href="/licenses">Wähl deinen Schein</Button
   >
-
-  <Button
-    class="mt-5 justify-self-end"
-    href="/lists">Questionaires (ALT)</Button
-  >
 </Paper>

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Button from '../../../components/Button/Button.svelte';
-  import Paper from '../../../components/Paper.svelte';
-  import { statsService } from '../../../stores/stats.svelte';
-  import type { Question } from '../../../types';
-  import { pluralize } from '../../../utils/pluralize';
-  import type { EnrichedQuestionaire } from '../../../utils/questionaires';
+  import Button from '../components/Button/Button.svelte';
+  import Paper from '../components/Paper.svelte';
+  import { statsService } from '../stores/stats.svelte';
+  import type { Question } from '../types';
+  import { pluralize } from '../utils/pluralize';
+  import type { EnrichedQuestionaire } from '../utils/licenses';
 
   let {
     questions,
@@ -14,7 +14,7 @@
     questionaire: EnrichedQuestionaire;
   } = $props();
 
-  const stats = $derived(statsService.getQuestionaireStatsSnapshot(questionaire.id));
+  const stats = $derived(statsService.getLicenseStatsSnapshot(questionaire.id));
 
   const incorrectlyAnsweredQuestions = $derived(questions.reduce((acc, cur) => (stats?.[cur.id]?.progress === 0 ? acc + 1 : acc), 0));
   const unansweredQuestions = $derived(questions.reduce((acc, cur) => (stats?.[cur.id]?.progress === undefined ? acc + 1 : acc), 0));
@@ -34,6 +34,6 @@
 
   <Button
     class="justify-self-end"
-    href="/lists/{questionaire.slug}">Wiederholen</Button
+    href="/licenses/{questionaire.id}">Wiederholen</Button
   >
 </Paper>

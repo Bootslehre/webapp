@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Checkbox from '../../../components/Checkbox.svelte';
-  import { configService } from '../../../stores/config.svelte';
+  import Checkbox from '../components/Checkbox.svelte';
+  import { configService } from '../stores/config.svelte';
 
   let config = $derived(configService.config);
 </script>
@@ -10,9 +10,9 @@
   checked={config.sbfSee === 'SBF_SEE_OHNE_BASIS'}
   onchange={(e) => {
     if (e.currentTarget.checked) {
-      configService.update({ ...config, sbfSee: 'SBF_SEE_OHNE_BASIS' });
+      configService.update('sbfSee', 'SBF_SEE_OHNE_BASIS');
     } else {
-      configService.update({ ...config, sbfSee: 'SBF_SEE_KOMPLETT' });
+      configService.update('sbfSee', 'SBF_SEE_KOMPLETT');
     }
   }}
 >

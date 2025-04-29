@@ -1,12 +1,11 @@
-import { statsService, type QuestionaireStats } from '../../../../stores/stats.svelte';
-import type { Questionaire } from '../../../../types';
-import type { EnrichedQuestionaire } from '../../../../utils/questionaires';
-import { shuffle } from '../../../../utils/shuffle';
+import { statsService, type LicenseStats } from '../stores/stats.svelte';
+import type { EnrichedQuestionaire } from './licenses';
+import { shuffle } from './shuffle';
 
 export type NextQuestionStrategies = 'random' | 'relevance' | 'pinned' | 'incorrect';
 
-export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Questionaire | EnrichedQuestionaire) {
-  const stats = statsService.getQuestionaireStatsSnapshot(questionaire.id);
+export function applyStrategy(strategy: NextQuestionStrategies, questionaire: EnrichedQuestionaire) {
+  const stats = statsService.getLicenseStatsSnapshot(questionaire.id);
 
   switch (strategy) {
     case 'relevance':
@@ -22,15 +21,15 @@ export function applyStrategy(strategy: NextQuestionStrategies, questionaire: Qu
   }
 }
 
-function applyRelevanceStrategy(questionaire: Questionaire) {
+function applyRelevanceStrategy(questionaire: EnrichedQuestionaire) {
   return shuffle(questionaire.questions); // TODO
 }
 
-function applyRandomStrategy(questionaire: Questionaire) {
+function applyRandomStrategy(questionaire: EnrichedQuestionaire) {
   return shuffle(questionaire.questions);
 }
 
-function applyPinnedStrategy(questionaire: Questionaire, stats: QuestionaireStats) {
+function applyPinnedStrategy(questionaire: EnrichedQuestionaire, stats: LicenseStats) {
   const questions = Object.keys(stats)
     .filter((key) => stats[key].pinned)
     .map((id) => questionaire.questions.find((q) => q.id === id)!);
@@ -38,11 +37,10 @@ function applyPinnedStrategy(questionaire: Questionaire, stats: QuestionaireStat
   return shuffle(questions);
 }
 
-function applyIncorrectStrategy(questionaire: Questionaire, stats: QuestionaireStats) {
+function applyIncorrectStrategy(questionaire: EnrichedQuestionaire, stats: LicenseStats) {
   const questions = Object.keys(stats)
     .filter((key) => stats[key].progress === 0)
     .map((id) => questionaire.questions.find((q) => q.id === id)!);
 
   return shuffle(questions);
 }
-
