@@ -26,10 +26,7 @@
 
 {#if questionaire}
   <Paper class="bg-white p-6 {className}">
-    <div class="mb-2 flex items-center justify-between">
-      <PaperTitle>{questionaire.displayName}</PaperTitle>
-      <span class="text-sm font-normal">({questionaire.configuration})</span>
-    </div>
+    <PaperTitle class="mb-2">{questionaire.displayName}</PaperTitle>
 
     <p class="mb-4 text-justify">
       {questionaire.description}

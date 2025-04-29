@@ -5,7 +5,7 @@
   import PaperTitle from '../../../components/PaperTitle.svelte';
   import type { License } from '../../../utils/questionaires';
   import SbfBinnenConfiguration from './SbfBinnenConfiguration.svelte';
-  import SbfSeeConfiguration from './SbfBinnenConfiguration.svelte';
+  import SbfSeeConfiguration from './SbfSeeConfiguration.svelte';
 
   let {
     class: className = '',
