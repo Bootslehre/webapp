@@ -12,7 +12,7 @@ const FALLBACK_VALUE: ConfigMap = {
 
 const STORAGE_KEY = 'config';
 
-export function createConfigService() {
+function createConfigService() {
   let config = $state(readFromLocalStorage<ConfigMap>(STORAGE_KEY, FALLBACK_VALUE));
 
   return {

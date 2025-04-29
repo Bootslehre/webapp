@@ -1,17 +1,16 @@
 <script lang="ts">
-  import Button from '../components/Button/Button.svelte';
   import Paper from '../components/Paper.svelte';
   import { statsService } from '../stores/stats.svelte';
   import type { Question } from '../types';
+  import type { Questionaire } from '../utils/licenses';
   import { pluralize } from '../utils/pluralize';
-  import type { EnrichedQuestionaire } from '../utils/licenses';
 
   let {
     questions,
     questionaire,
   }: {
     questions: Question[];
-    questionaire: EnrichedQuestionaire;
+    questionaire: Questionaire;
   } = $props();
 
   const stats = $derived(statsService.getLicenseStatsSnapshot(questionaire.id));
@@ -28,12 +27,7 @@
 <Paper class="bg-white p-6">
   <div class="mb-4 text-lg">Fertig!</div>
 
-  <div class="mb-4 text-sm">
+  <div class="text-sm">
     Du hast {pluralizeFragen(correctlyAnsweredQuestions)} richtig, {pluralizeFragen(incorrectlyAnsweredQuestions)} falsch und {pluralizeFragen(unansweredQuestions)} nicht beantwortet.
   </div>
-
-  <Button
-    class="justify-self-end"
-    href="/licenses/{questionaire.id}">Wiederholen</Button
-  >
 </Paper>

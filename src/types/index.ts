@@ -3,11 +3,6 @@ export interface QuestionaireSource {
   url: string;
 }
 
-export interface Questionaire {
-  id: string;
-  questions: Array<Question>;
-}
-
 export interface Question {
   id: string;
   text: string;
@@ -16,6 +11,7 @@ export interface Question {
 }
 
 export interface Answer {
+  id: string;
   text: string;
   isCorrect: boolean;
 }

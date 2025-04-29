@@ -56,6 +56,10 @@
 
     return 'info';
   }
+
+  function reveal() {
+    selectedAnswerIndex = -1;
+  }
 </script>
 
 <Paper class="divide-y divide-slate-200 bg-white">
@@ -89,7 +93,7 @@
   <div class="p-6">
     <List class="min-h-[360px]">
       {#each shuffledAnswers as answer, index (answer.text)}
-        {#key answer.text}
+        {#key answer.id}
           <ListItem
             variant={getAnswerColorVariant(answer, index)}
             onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
@@ -116,10 +120,17 @@
 
       <div class="flex flex-1 justify-end">
         {#if selectedAnswerIndex === undefined}
-          <Button
-            variant="text"
-            onclick={onNextQuestionClick}>{hasNextQuestion ? 'Überspringen' : 'Beenden'}</Button
-          >
+          {#if hasNextQuestion}
+            <Button
+              variant="text"
+              onclick={reveal}>Aufdecken</Button
+            >
+          {:else}
+            <Button
+              variant="text"
+              onclick={onNextQuestionClick}>Beenden</Button
+            >
+          {/if}
         {:else}
           <Button onclick={onNextQuestionClick}>Weiter</Button>
         {/if}

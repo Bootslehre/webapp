@@ -12,8 +12,8 @@
 
   let open = $state(false);
   let doubleConfirm = $state(false);
-  let licenseVariant = $derived(aggregatorService.licenseVariant);
-  let licenseVariantStats = $derived(aggregatorService.licenseVariantStats);
+  let questionaire = $derived(aggregatorService.questionaire);
+  let questionaireStats = $derived(aggregatorService.questionaireStats);
 
   function openDialog() {
     open = true;
@@ -33,13 +33,13 @@
   }
 </script>
 
-{#if licenseVariantStats}
+{#if questionaireStats}
   <div class="flex gap-1 {className} items-center">
     <span
       class="text-sm font-semibold text-stone-500"
       data-testid="progress"
     >
-      {licenseVariantStats.totalProgressPercentage}% Fortschritt
+      {questionaireStats.totalProgressPercentage}% Fortschritt
     </span>
 
     <IconButton
@@ -53,7 +53,7 @@
     </IconButton>
   </div>
 
-  {#if licenseVariant}
+  {#if questionaire}
     {#if open}
       <Dialog
         class="w-md"
@@ -62,13 +62,13 @@
       >
         <ProgressTable
           class="mx-auto mb-4"
-          noProgress={licenseVariantStats.noProgress}
-          progress0={licenseVariantStats.progress0}
-          progress1={licenseVariantStats.progress1}
-          progress2={licenseVariantStats.progress2}
-          progress3={licenseVariantStats.progress3}
-          progress4={licenseVariantStats.progress4}
-          progress5={licenseVariantStats.progress5}
+          noProgress={questionaireStats.noProgress}
+          progress0={questionaireStats.progress0}
+          progress1={questionaireStats.progress1}
+          progress2={questionaireStats.progress2}
+          progress3={questionaireStats.progress3}
+          progress4={questionaireStats.progress4}
+          progress5={questionaireStats.progress5}
         />
 
         <div class="prose prose-sm">
@@ -90,13 +90,13 @@
           {#if doubleConfirm}
             <div class="flex flex-col items-end gap-2">
               <p class="text-sm font-normal">
-                Damit wird dein gesamter Lernfortschritt für <strong>{licenseVariant.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden. Willst
-                du fortfahren?
+                Damit wird dein gesamter Lernfortschritt für <strong>{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden. Willst du
+                fortfahren?
               </p>
               <Button
                 size="sm"
                 variant="textDestructive"
-                onclick={() => resetProgress(licenseVariant.id)}>Lernfortschritt zurücksetzen</Button
+                onclick={() => resetProgress(questionaire.id)}>Lernfortschritt zurücksetzen</Button
               >
             </div>
           {:else}

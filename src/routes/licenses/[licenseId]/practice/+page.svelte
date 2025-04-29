@@ -1,18 +1,17 @@
 <script lang="ts">
-  import { page } from '$app/state';
-  import Progress from '../../../../bsComponents/Progress.svelte';
-  import QuestionCard from '../../../../bsComponents/QuestionCard.svelte';
-  import SummaryPaper from '../../../../bsComponents/SummaryPaper.svelte';
+  import Progress from '../../../../views/Progress.svelte';
+  import QuestionCard from '../../../../views/QuestionCard.svelte';
+  import SummaryPaper from '../../../../views/SummaryPaper.svelte';
   import BackButton from '../../../../components/BackButton.svelte';
+  import ErrorMessage from '../../../../components/ErrorMessage.svelte';
   import { aggregatorService } from '../../../../stores/aggregation/aggregator.svelte';
-  import { STRATEGY_QUERY_PARAM } from '../../../../stores/constants';
   import { questionaireService } from '../../../../stores/questionaire.svelte';
   import { statsService } from '../../../../stores/stats.svelte';
-  import { applyStrategy, type NextQuestionStrategies } from '../../../../utils/applyStrategy';
+  import { applyStrategy } from '../../../../utils/applyStrategy';
 
-  const strategy = $derived((page.url.searchParams.get(STRATEGY_QUERY_PARAM) || 'relevance') as NextQuestionStrategies);
-  const licenseVariant = $derived(aggregatorService.licenseVariant);
-  const questions = $derived(licenseVariant ? applyStrategy(strategy, licenseVariant) : []); // todo handle 404 gracefully
+  const strategy = $derived(aggregatorService.strategy);
+  const questionaire = $derived(aggregatorService.questionaire);
+  const questions = $derived(questionaire ? applyStrategy(strategy, questionaire) : []); // todo handle 404 gracefully
 
   // todo is this really a problem?!?!?
   // svelte-ignore state_referenced_locally
@@ -23,32 +22,30 @@
   const hasNextQuestion = $derived(Boolean(questionaireService.nextQuestion));
 </script>
 
-{#if licenseVariant}
+{#if questionaire}
   <div class="mb-1 flex w-full items-center justify-between">
-    <BackButton href="/licenses/{licenseVariant.id}">Zurück</BackButton>
+    <BackButton href="/licenses/{questionaire.id}">Zurück</BackButton>
     <Progress />
   </div>
 
-  <div>
-    {#if question}
-      {#key question.id}
-        <QuestionCard
-          licenseId={licenseVariant.id}
-          {question}
-          {hasPreviousQuestion}
-          {hasNextQuestion}
-          onNextQuestionClick={questionaireService.next}
-          onPreviousQuestionClick={questionaireService.previous}
-          onPinClick={() => statsService.toggleQuestionPinned(licenseVariant.id, question.id)}
-        />
-      {/key}
-    {:else if hasPreviousQuestion && licenseVariant}
-      <SummaryPaper
-        questionaire={licenseVariant}
-        questions={questionaireService.questions}
+  {#if question}
+    {#key question.id}
+      <QuestionCard
+        licenseId={questionaire.id}
+        {question}
+        {hasPreviousQuestion}
+        {hasNextQuestion}
+        onNextQuestionClick={questionaireService.next}
+        onPreviousQuestionClick={questionaireService.previous}
+        onPinClick={() => statsService.toggleQuestionPinned(questionaire.id, question.id)}
       />
-    {:else}
-      Error: No questionaire or question
-    {/if}
-  </div>
+    {/key}
+  {:else if hasPreviousQuestion}
+    <SummaryPaper
+      {questionaire}
+      questions={questionaireService.questions}
+    />
+  {:else}
+    <ErrorMessage>No question</ErrorMessage>
+  {/if}
 {/if}

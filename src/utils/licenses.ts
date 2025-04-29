@@ -1,11 +1,11 @@
-import type { Questionaire } from '../types';
+import type { Question } from '../types';
 
 export type LicenseId = 'sbfSee' | 'sbfBinnen';
 export type SbfSeeVariant = 'SBF_SEE_KOMPLETT' | 'SBF_SEE_OHNE_BASIS';
 
 interface LicenseListItem {
-  id: LicenseId
-  name: string,
+  id: LicenseId;
+  name: string;
 }
 
 export const LICENSES: LicenseListItem[] = [
@@ -13,9 +13,9 @@ export const LICENSES: LicenseListItem[] = [
   { id: 'sbfBinnen', name: 'SBF Binnen' },
 ];
 
-export type EnrichedQuestionaire = Omit<Questionaire, 'id'> & {
+export type Questionaire = {
   id: LicenseId;
+  questions: Array<Question>;
   displayName: string;
   description: string;
 };
-

@@ -8,7 +8,8 @@
   import SbfSeeConfiguration from './SbfSeeConfiguration.svelte';
 
   let { class: className = '' }: { class?: string } = $props();
-  const licenseId = aggregatorService.licenseVariant?.id;
+
+  const licenseId = $derived(aggregatorService.questionaire?.id);
 </script>
 
 <Paper class="mt-4 bg-white p-6 {className}">

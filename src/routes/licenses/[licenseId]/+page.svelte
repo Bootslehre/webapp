@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Progress from '../../../bsComponents/Progress.svelte';
-  import QuestionaireConfigurator from '../../../bsComponents/QuestionaireConfigurator.svelte';
-  import QuestionaireOverview from '../../../bsComponents/QuestionaireOverview.svelte';
+  import Progress from '../../../views/Progress.svelte';
+  import QuestionaireConfigurator from '../../../views/QuestionaireConfigurator.svelte';
+  import QuestionaireOverview from '../../../views/QuestionaireOverview.svelte';
   import BackButton from '../../../components/BackButton.svelte';
 </script>
 

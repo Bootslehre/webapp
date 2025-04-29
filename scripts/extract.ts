@@ -3,7 +3,7 @@ import jsdom from 'jsdom';
 import { dirname, join } from 'path';
 import { chdir } from 'process';
 import { fileURLToPath } from 'url';
-import { type Media, type Question, type Questionaire, type QuestionaireSource } from '../src/types';
+import { type Media, type Question, type QuestionaireSource } from '../src/types';
 import { QUESTIONAIRE_SOURCES } from './sources';
 import { downloadFromUrl, getHtmlForUrl, runInBand } from './utils';
 
@@ -23,11 +23,8 @@ async function processSource(source: QuestionaireSource) {
 
   const questions = await runInBand(paragraphs, processParagraph);
   const validQuestions = questions.filter(Boolean) as Array<Question>;
-  const questionaire: Questionaire = { id: source.id, questions: validQuestions };
 
-  fs.writeFileSync(`index.ts`, `export const ${questionaire.id} = ${JSON.stringify(questionaire, null, 2)};\n`);
-
-  return questionaire;
+  fs.writeFileSync(`index.ts`, `export const ${source.id} = ${JSON.stringify(validQuestions, null, 2)};\n`);
 }
 
 async function processParagraph(paragraph: HTMLParagraphElement): Promise<Question | undefined> {
@@ -57,6 +54,7 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
     // extract answers and ABORT because next question has been processed completely
     if (el?.tagName === 'OL') {
       question.answers = Array.from(el.querySelectorAll('li')).map((li, index) => ({
+        id: `${id}_${index + 1}`,
         text: li?.textContent?.trim() ?? '',
         isCorrect: index === 0,
       }));
@@ -118,6 +116,4 @@ function clearDirectory(dir: string) {
 // ...
 // ...
 
-const questionaires = await runInBand(QUESTIONAIRE_SOURCES, processSource);
-const indexFileContent = questionaires.map((q) => `export * from './${q.id}';`).join('\n') + '\n';
-fs.writeFileSync(join(__dirname, '..', 'static', 'generated', 'index.ts'), indexFileContent);
+await runInBand(QUESTIONAIRE_SOURCES, processSource);

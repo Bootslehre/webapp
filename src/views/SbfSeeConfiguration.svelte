@@ -2,7 +2,7 @@
   import Checkbox from '../components/Checkbox.svelte';
   import { configService } from '../stores/config.svelte';
 
-  let config = $derived(configService.config);
+  const config = $derived(configService.config);
 </script>
 
 <Checkbox

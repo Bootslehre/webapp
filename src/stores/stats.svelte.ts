@@ -1,6 +1,6 @@
 import { readFromLocalStorage, writeToLocalStorage } from '../utils/localStorage';
 import type { LicenseId } from '../utils/licenses';
-import { MAX_PROGESS } from './constants';
+import { MAX_PROGESS } from '../utils/constants';
 
 export interface QuestionStats {
   progress?: number;
@@ -22,7 +22,7 @@ const FALLBACK_VALUE: LicenseStatsMap = {
 
 const STORAGE_KEY = 'progress';
 
-export function createStatsService() {
+function createStatsService() {
   const stats = $state(readFromLocalStorage<LicenseStatsMap>(STORAGE_KEY, FALLBACK_VALUE));
 
   function persist() {

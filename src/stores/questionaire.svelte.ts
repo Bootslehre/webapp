@@ -1,6 +1,6 @@
 import type { Question } from '../types';
 
-export function createQuestionaireService() {
+function createQuestionaireService() {
   let questions = $state<Question[]>([]);
 
   let currentQuestionIndex = $state(0);
