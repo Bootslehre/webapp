@@ -36,3 +36,30 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+### Scheine
+
+#### SBF See
+
+- komplett: 72 Basisfragen + 213 Seefragen + Navigationsaufgaben
+- wenn SBF Binnen (Motor) vorhanden ist: 213 Seefragen + Navigationsaufgaben
+
+#### SBF Binnen
+
+- komplett (motor + segel)
+  - 72 Basisfragen + 181 Binnenfragen + 47 Segelfragen
+- SBF-Binnen unter Antriebsmaschine (Motor) und unter Segel für Inhaber des SBF-See
+  - 181 Binnenfragen + 47 Segelfragen
+- SBF-Binnen nur unter Antriebsmaschine (Motor)
+  - 72 Basisfragen + 181 Binnenfragen
+- SBF-Binnen nur unter Antriebsmaschine (Motor) für Inhaber des SBF-See
+  - 181 Binnenfragen
+- SBF-Binnen nur unter Segel
+  - 52 Basisfragen (ohne Motor-Fragen) + 158 Binnenfragen (ohne Motor-Fragen) + 47 Segelfragen
+- SBF-Binnen nur unter Segel für Inhaber des SBF-See
+  - 158 Binnenfragen (ohne Motor-Fragen) + 47 Segelfragen
+- SBF-Binnen unter Segel für Inhaber des SBF-Binnen unter Antriebsmaschine (Motor)
+  - 47 Segelfragen
+- SBF-Binnen nur unter Antriebsmaschine (Motor) für Personen, die den SBF-Binnen unter Segel vor dem 1. Mai 2012 erworben haben
+  - 72 Basisfragen
+  

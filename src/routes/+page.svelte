@@ -16,6 +16,6 @@
 
   <Button
     class="mt-5 justify-self-end"
-    href="/lists">Wähl deinen Schein</Button
+    href="/licenses">Wähl deinen Schein</Button
   >
 </Paper>

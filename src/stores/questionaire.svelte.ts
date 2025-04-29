@@ -1,15 +1,15 @@
 import type { Question } from '../types';
 
-export function createQuestionaireService() {
+function createQuestionaireService() {
   let questions = $state<Question[]>([]);
 
   let currentQuestionIndex = $state(0);
-  let nextQuestionIndex = $derived(currentQuestionIndex + 1);
-  let previousQuestionIndex = $derived(currentQuestionIndex - 1);
+  const nextQuestionIndex = $derived(currentQuestionIndex + 1);
+  const previousQuestionIndex = $derived(currentQuestionIndex - 1);
 
-  let currentQuestion = $derived(questions[currentQuestionIndex]);
-  let nextQuestion = $derived(questions[nextQuestionIndex]);
-  let previousQuestion = $derived(questions[previousQuestionIndex]);
+  const currentQuestion = $derived(questions[currentQuestionIndex]);
+  const nextQuestion = $derived(questions[nextQuestionIndex]);
+  const previousQuestion = $derived(questions[previousQuestionIndex]);
 
   return {
     // takes in a (sub)set of questions (i.e. all questions, pinned questions, ...)

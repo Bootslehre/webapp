@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Footer from '../components/Footer.svelte';
-  import Anchor from '../components/icons/Anchor.svelte';
   import Buoy from '../components/Buoy/Buoy.svelte';
+  import Footer from '../views/Footer.svelte';
+  import Header from '../views/Header.svelte';
   import './styles.css';
 
   let { children } = $props();
@@ -20,20 +20,7 @@
 </svelte:head>
 
 <main class="flex h-full min-h-full flex-col overflow-y-auto bg-gradient-to-b from-sky-50 to-blue-100">
-  <header class="bg-white px-5 py-4 shadow-md">
-    <div class="mx-auto">
-      <a
-        href="/"
-        class="flex max-w-xl items-center gap-3"
-        data-testid="header-logo"
-      >
-        <div class="text-blue-600">
-          <Anchor size="lg" />
-        </div>
-        <h2 class="text-lg font-medium text-blue-900">Bootslehre</h2>
-      </a>
-    </div>
-  </header>
+  <Header />
 
   <main class="mx-auto w-full max-w-xl">
     <div class="relative z-[1] px-4 pt-8 pb-4">
