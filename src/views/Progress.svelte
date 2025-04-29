@@ -53,63 +53,47 @@
     </IconButton>
   </div>
 
-  {#if questionaire}
-    {#if open}
-      <Dialog
-        class="w-md"
-        title="Fortschritt"
-        onClose={closeDialog}
-      >
-        <ProgressTable
-          class="mx-auto mb-4"
-          noProgress={questionaireStats.noProgress}
-          progress0={questionaireStats.progress0}
-          progress1={questionaireStats.progress1}
-          progress2={questionaireStats.progress2}
-          progress3={questionaireStats.progress3}
-          progress4={questionaireStats.progress4}
-          progress5={questionaireStats.progress5}
-        />
+  {#if open}
+    <Dialog
+      class="w-lg"
+      title="Fortschritt"
+      onClose={closeDialog}
+    >
+      <div class="text-sm">Die Fortschrittsanzeige zeigt an, wie viele Fragen von <strong class="font-semibold">{questionaire.displayName}</strong> du wie gut gelernt hast.</div>
 
-        <div class="prose prose-sm">
-          <p>Diese Fortschrittsanzeige zeigt, wie oft jede Frage richtig oder falsch beantwortet wurde.</p>
-          <ul>
-            <li>In der Spalte <strong>Fragen</strong> steht die Gesamtanzahl der Fragen.</li>
-            <li>In der Spalte <strong>Fortschritt</strong> werden für jede Frage bis zu fünf Versuche dargestellt:</li>
-            <ul>
-              <li><span class="text-green-500">Grüne Punkte</span> bedeuten, dass die Frage richtig beantwortet wurde.</li>
-              <li><span class="text-red-500">Rote Punkte</span> bedeuten, dass die Frage falsch beantwortet wurde.</li>
-              <li><span class="text-slate-600">Graue Punkte</span> zeigen, dass für diese Frage noch keine Antwort registriert wurde.</li>
-            </ul>
-          </ul>
-          <p>Je mehr grüne Punkte eine Frage hat, desto besser wird sie beherrscht. Viele rote Punkte deuten auf weiteren Übungsbedarf hin.</p>
-          <p>Mit <strong>Zurücksetzen</strong> können alle bisherigen Fortschritte gelöscht werden.</p>
-        </div>
+      <ProgressTable
+        class="mt-6 mb-10 w-full"
+        noProgress={questionaireStats.noProgress}
+        progress0={questionaireStats.progress0}
+        progress1={questionaireStats.progress1}
+        progress2={questionaireStats.progress2}
+        progress3={questionaireStats.progress3}
+        progress4={questionaireStats.progress4}
+        progress5={questionaireStats.progress5}
+      />
 
-        <div class="mt-4 pt-4">
-          {#if doubleConfirm}
-            <div class="flex flex-col items-end gap-2">
-              <p class="text-sm font-normal">
-                Damit wird dein gesamter Lernfortschritt für <strong>{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht werden. Willst du
-                fortfahren?
-              </p>
-              <Button
-                size="sm"
-                variant="textDestructive"
-                onclick={() => resetProgress(questionaire.id)}>Lernfortschritt zurücksetzen</Button
-              >
-            </div>
-          {:else}
-            <div class="flex flex-col items-end gap-2">
-              <Button
-                size="sm"
-                variant="textDestructive"
-                onclick={proceedTo2ndConfirmation}>Zurücksetzen</Button
-              >
-            </div>
-          {/if}
-        </div>
-      </Dialog>
-    {/if}
+      {#if doubleConfirm}
+        <p class="mb-2 text-sm">
+          Damit wird dein gesamter Lernfortschritt für <strong class="font-semibold">{questionaire.displayName}</strong> zurückgesetzt. Dieser Schritt kann nicht rückgängig gemacht
+          werden. Willst du fortfahren?
+        </p>
+        <Button
+          class="justify-self-end"
+          size="sm"
+          variant="textDestructive"
+          onclick={() => resetProgress(questionaire.id)}>Lernfortschritt zurücksetzen</Button
+        >
+      {:else}
+        <p class="mb-2 text-sm">
+          Klicke <strong class="font-semibold">Zurücksetzen</strong> um deinen Fortschritt für <strong class="font-semibold">{questionaire.displayName}</strong> zu löschen.
+        </p>
+        <Button
+          class="justify-self-end"
+          size="sm"
+          variant="textDestructive"
+          onclick={proceedTo2ndConfirmation}>Zurücksetzen</Button
+        >
+      {/if}
+    </Dialog>
   {/if}
 {/if}
