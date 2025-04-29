@@ -30,6 +30,7 @@
 
   function resetProgress(id: LicenseId) {
     statsService.resetLicenseStats(id);
+    closeDialog();
   }
 </script>
 
