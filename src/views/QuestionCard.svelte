@@ -71,12 +71,11 @@
 
     {#if question.images.length}
       <div class="align-center mt-5 flex flex-row justify-center gap-2">
-        {#each question.images as fileName (media.src)}
+        {#each question.images as fileName}
           <img
             class="pointer-events-none select-none"
-            src={`../../generated/${licenseId}/${media.fileName}`}
-            alt={media.alt}
-            title={media.title}
+            src={`../../generated/assets/${fileName}`}
+            alt=""
           />
         {/each}
       </div>
@@ -90,18 +89,16 @@
     >
   </div>
 
-  <div class="p-6">
-    <List class="min-h-[360px]">
-      {#each shuffledAnswers as answer, index (answer.text)}
-        {#key answer.id}
-          <ListItem
-            variant={getAnswerColorVariant(answer, index)}
-            onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
-          >
-        {/key}
-      {/each}
-    </List>
-  </div>
+  <List class="p-6">
+    {#each shuffledAnswers as answer, index (answer.text)}
+      {#key answer.id}
+        <ListItem
+          variant={getAnswerColorVariant(answer, index)}
+          onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
+        >
+      {/key}
+    {/each}
+  </List>
 
   <div class="p-4">
     <div class="flex w-full items-center justify-between gap-4">
@@ -120,19 +117,14 @@
 
       <div class="flex flex-1 justify-end">
         {#if selectedAnswerIndex === undefined}
-          {#if hasNextQuestion}
-            <Button
-              variant="text"
-              onclick={reveal}>Aufdecken</Button
-            >
-          {:else}
-            <Button
-              variant="text"
-              onclick={onNextQuestionClick}>Beenden</Button
-            >
-          {/if}
-        {:else}
+          <Button
+            variant="text"
+            onclick={reveal}>Aufdecken</Button
+          >
+        {:else if hasNextQuestion}
           <Button onclick={onNextQuestionClick}>Weiter</Button>
+        {:else}
+          <Button onclick={onNextQuestionClick}>Beenden</Button>
         {/if}
       </div>
     </div>

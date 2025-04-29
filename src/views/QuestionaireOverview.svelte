@@ -38,6 +38,7 @@
         </ListItem>
       {/if}
 
+      <!-- todo answering the last incorrectly answered question errors -->
       {#if aggregatorService.questionaireStats?.incorrectlyAnsweredQuestions}
         <ListItem
           class="flex items-baseline justify-between gap-8"
