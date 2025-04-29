@@ -33,7 +33,7 @@
   }
 </script>
 
-{#if questionaireStats}
+{#if questionaireStats && questionaire}
   <div class="flex gap-1 {className} items-center">
     <span
       class="text-sm font-semibold text-stone-500"
@@ -56,7 +56,7 @@
   {#if open}
     <Dialog
       class="w-lg"
-      title="Fortschritt"
+      title="Fortschritt {questionaireStats.totalProgressPercentage}%"
       onClose={closeDialog}
     >
       <div class="text-sm">Die Fortschrittsanzeige zeigt an, wie viele Fragen von <strong class="font-semibold">{questionaire.displayName}</strong> du wie gut gelernt hast.</div>

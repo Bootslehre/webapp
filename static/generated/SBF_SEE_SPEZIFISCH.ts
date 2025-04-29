@@ -2,7 +2,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "73",
     "text": "Wo gelten die Kollisionsverhütungsregeln (KVR)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "73_1",
@@ -29,7 +29,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "74",
     "text": "Was gilt, wenn eine Bestimmung der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) mit den Kollisionsverhütungsregeln (KVR) im Widerspruch steht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "74_1",
@@ -56,7 +56,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "75",
     "text": "Welche Sportboote sind von der Fahrerlaubnispflicht auf den Seeschifffahrtsstraßen ausgenommen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "75_1",
@@ -83,7 +83,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "76",
     "text": "Wer ist für die Befolgung der Verkehrsvorschriften verantwortlich?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "76_1",
@@ -110,7 +110,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "77",
     "text": "Was bedeutet \"seemännische Sorgfaltspflicht\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "77_1",
@@ -137,7 +137,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "78",
     "text": "Welche Sicherheitsmaßnahmen hat der Fahrzeugführer im Rahmen seiner seemännischen Sorgfaltspflicht vor Fahrtantritt zum Schutze und für die Sicherheit der Personen an Bord zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "78_1",
@@ -164,7 +164,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "79",
     "text": "Was bedeutet das \"Manöver des letzten Augenblicks\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "79_1",
@@ -191,7 +191,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "80",
     "text": "Wann ist das \"Manöver des letzten Augenblicks\" durchzuführen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "80_1",
@@ -218,7 +218,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "81",
     "text": "Wann gilt ein Fahrzeug als überholendes Fahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "81_1",
@@ -245,7 +245,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "82",
     "text": "Wann ist ein Fahrzeug manövrierunfähig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "82_1",
@@ -272,7 +272,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "83",
     "text": "Wann ist ein Fahrzeug manövrierbehindert?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "83_1",
@@ -299,7 +299,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "84",
     "text": "Welche besonderen Maßnahmen sind bei verminderter Sicht zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "84_1",
@@ -326,7 +326,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "85",
     "text": "Welche Vorschriften regeln die Ausrüstung, Anordnung und Anbringung der Positionslaternen, Sichtzeichen und Schallsignalanlagen auf Fahrzeugen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "85_1",
@@ -353,7 +353,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "86",
     "text": "Welche Positionslaternen und Schallsignalanlagen dürfen auf Sportbooten unter deutscher Flagge verwendet werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "86_1",
@@ -380,7 +380,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "87",
     "text": "Was sind \"Verkehrstrennungsgebiete\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "87_1",
@@ -407,7 +407,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "88",
     "text": "Wie sind Verkehrstrennungsgebiete zu befahren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "88_1",
@@ -434,7 +434,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "89",
     "text": "Was bedeutet \"in Sicht befindlich\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "89_1",
@@ -461,7 +461,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "90",
     "text": "Was bedeutet sichere Geschwindigkeit?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "90_1",
@@ -488,13 +488,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "91",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Maschinenfahrzeug in Fahrt von weniger als 50 m Länge",
-        "title": "Maschinenfahrzeug in Fahrt von weniger als 50 m Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-91-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-91-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-91-gif.gif"
     ],
     "answers": [
       {
@@ -522,13 +517,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "92",
     "text": "Welches Fahrzeug muss diese Lichter führen?",
-    "media": [
-      {
-        "alt": "Maschinenfahrzeug in Fahrt von 50 und mehr Meter Länge",
-        "title": "Maschinenfahrzeug in Fahrt von 50 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-92-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-92-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-92-gif.gif"
     ],
     "answers": [
       {
@@ -556,13 +546,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "93",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger",
-        "title": "Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-93-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-93-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-93-gif.gif"
     ],
     "answers": [
       {
@@ -590,13 +575,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "94",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge",
-        "title": "Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-94-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-94-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-94-gif.gif"
     ],
     "answers": [
       {
@@ -624,7 +604,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "95",
     "text": "Welche Lichter führen geschleppte Fahrzeuge?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "95_1",
@@ -651,7 +631,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "96",
     "text": "Was bedeutet es, wenn jedes Fahrzeug eines Schleppverbandes einen schwarzen Rhombus führt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "96_1",
@@ -678,13 +658,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "97",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein manövrierunfähiges Fahrzeug in Fahrt",
-        "title": "Ein manövrierunfähiges Fahrzeug in Fahrt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-97-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-97-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-97-gif.gif"
     ],
     "answers": [
       {
@@ -712,13 +687,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "98",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein manövrierunfähiges Fahrzeug mit Fahrt durch das Wasser",
-        "title": "Ein manövrierunfähiges Fahrzeug mit Fahrt durch das Wasser",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-98-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-98-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-98-gif.gif"
     ],
     "answers": [
       {
@@ -746,13 +716,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "99",
     "text": "Welches Fahrzeug führt diese Signalkörper?",
-    "media": [
-      {
-        "alt": "Ein manövrierunfähiges Fahrzeug",
-        "title": "Ein manövrierunfähiges Fahrzeug",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signalkoerper-Frage-99-gif.gif?__blob=normal&v=1",
-        "fileName": "Signalkoerper-Frage-99-gif.gif"
-      }
+    "images": [
+      "Signalkoerper-Frage-99-gif.gif"
     ],
     "answers": [
       {
@@ -780,7 +745,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "100",
     "text": "Welche Lichter führen manövrierunfähige Fahrzeuge von 12 und mehr Meter Länge in Fahrt, ohne Fahrt durch das Wasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "100_1",
@@ -807,7 +772,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "101",
     "text": "Welche Lichter führen manövrierunfähige Fahrzeuge von 12 und mehr Meter Länge in Fahrt mit Fahrt durch das Wasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "101_1",
@@ -834,13 +799,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "102",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug in Fahrt",
-        "title": "Ein manövrierbehindertes Fahrzeug in Fahrt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-102-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-102-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-102-gif.gif"
     ],
     "answers": [
       {
@@ -868,13 +828,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "103",
     "text": "Welches Fahrzeug muss diese Lichter führen?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge",
-        "title": "Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-103-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-103-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-103-gif.gif"
     ],
     "answers": [
       {
@@ -902,13 +857,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "104",
     "text": "Welches Fahrzeug führt diese Signalkörper?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug",
-        "title": "Ein manövrierbehindertes Fahrzeug",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signalkoerper-Frage-104-gif.gif?__blob=normal&v=1",
-        "fileName": "Signalkoerper-Frage-104-gif.gif"
-      }
+    "images": [
+      "Signalkoerper-Frage-104-gif.gif"
     ],
     "answers": [
       {
@@ -936,13 +886,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "105",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein Grundsitzer von weniger als 50 m Länge",
-        "title": "Ein Grundsitzer von weniger als 50 m Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-105-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-105-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-105-gif.gif"
     ],
     "answers": [
       {
@@ -970,13 +915,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "106",
     "text": "Welches Fahrzeug führt diese Signalkörper?",
-    "media": [
-      {
-        "alt": "Ein Grundsitzer",
-        "title": "Ein Grundsitzer",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signalkoerper-Frage-106-gif.gif?__blob=normal&v=1",
-        "fileName": "Signalkoerper-Frage-106-gif.gif"
-      }
+    "images": [
+      "Signalkoerper-Frage-106-gif.gif"
     ],
     "answers": [
       {
@@ -1004,13 +944,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "107",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein Grundsitzer von 50 und mehr Meter Länge",
-        "title": "Ein Grundsitzer von 50 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-107-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-107-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-107-gif.gif"
     ],
     "answers": [
       {
@@ -1038,13 +973,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "108",
     "text": "Welches Fahrzeug muss diese Lichter führen?",
-    "media": [
-      {
-        "alt": "Ein tiefgangbehindertes Fahrzeug von 50 und mehr Meter Länge in Fahrt",
-        "title": "Ein tiefgangbehindertes Fahrzeug von 50 und mehr Meter Länge in Fahrt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-108-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-108-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-108-gif.gif"
     ],
     "answers": [
       {
@@ -1072,13 +1002,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "109",
     "text": "Welches Fahrzeug führt diese Signalkörper?",
-    "media": [
-      {
-        "alt": "Ein tiefgangbehindertes Fahrzeug in Fahrt",
-        "title": "Ein tiefgangbehindertes Fahrzeug in Fahrt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signalkoerper-Frage-109-gif.gif?__blob=normal&v=1",
-        "fileName": "Signalkoerper-Frage-109-gif.gif"
-      }
+    "images": [
+      "Signalkoerper-Frage-109-gif.gif"
     ],
     "answers": [
       {
@@ -1106,13 +1031,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "110",
     "text": "Welches Fahrzeug muss diese Lichter führen?",
-    "media": [
-      {
-        "alt": "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge",
-        "title": "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-110-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-110-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-110-gif.gif"
     ],
     "answers": [
       {
@@ -1140,13 +1060,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "111",
     "text": "Welches Fahrzeug führt diese Lichter?",
-    "media": [
-      {
-        "alt": "Ein fischendes Fahrzeug in Fahrt oder vor Anker, das nicht trawlt, z. B. Treibnetzfischer",
-        "title": "Ein fischendes Fahrzeug in Fahrt oder vor Anker, das nicht trawlt, z. B. Treibnetzfischer",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-111-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-111-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-111-gif.gif"
     ],
     "answers": [
       {
@@ -1174,13 +1089,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "112",
     "text": "Welches Fahrzeug führt diese Signalkörper?",
-    "media": [
-      {
-        "alt": "Ein fischendes Fahrzeug in Fahrt oder vor Anker",
-        "title": "Ein fischendes Fahrzeug in Fahrt oder vor Anker",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signalkoerper-Frage-112-gif.gif?__blob=normal&v=1",
-        "fileName": "Signalkoerper-Frage-112-gif.gif"
-      }
+    "images": [
+      "Signalkoerper-Frage-112-gif.gif"
     ],
     "answers": [
       {
@@ -1208,7 +1118,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "113",
     "text": "Welche Fahrzeuge führen nur Seitenlichter rot und grün und ein weißes Hecklicht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "113_1",
@@ -1235,7 +1145,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "114",
     "text": "Was für ein Licht muss ein Ankerlieger von weniger als 50 m Länge führen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "114_1",
@@ -1262,13 +1172,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "115",
     "text": "Welches Fahrzeug muss diese Lichter führen?",
-    "media": [
-      {
-        "alt": "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge",
-        "title": "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Lichter-Frage-115-gif.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-115-gif.gif"
-      }
+    "images": [
+      "Lichter-Frage-115-gif.gif"
     ],
     "answers": [
       {
@@ -1296,13 +1201,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "116",
     "text": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten einen langen Ton mit der Pfeife (",
-    "media": [
-      {
-        "alt": "Ein langer Ton mit der Pfeife",
-        "title": "Ein langer Ton mit der Pfeife",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-II/Schallsignal-11.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-11.gif"
-      }
+    "images": [
+      "Schallsignal-11.gif"
     ],
     "answers": [
       {
@@ -1330,13 +1230,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "117",
     "text": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten zwei aufeinander folgende lange Töne mit der Pfeife (",
-    "media": [
-      {
-        "alt": "Zwei aufeinander folgende lange Töne mit der Pfeife",
-        "title": "Zwei aufeinander folgende lange Töne mit der Pfeife",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-II/Schallsignal-122.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-122.gif"
-      }
+    "images": [
+      "Schallsignal-122.gif"
     ],
     "answers": [
       {
@@ -1364,13 +1259,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "118",
     "text": "Welche Fahrzeuge geben bei verminderter Sicht mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-    "media": [
-      {
-        "alt": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-        "title": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-118-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-118-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-118-gif.gif"
     ],
     "answers": [
       {
@@ -1398,19 +1288,9 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "119",
     "text": "Welches Fahrzeug gibt bei verminderter Sicht - im Anschluss an das Signal: lang, kurz, kurz",
-    "media": [
-      {
-        "alt": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-        "title": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-118-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-118-gif.gif"
-      },
-      {
-        "alt": "Vier aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz, kurz",
-        "title": "Vier aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz, kurz",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-119-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-119-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-118-gif.gif",
+      "Schallsignal-Frage-119-gif.gif"
     ],
     "answers": [
       {
@@ -1438,7 +1318,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "120",
     "text": "Was für ein Schallsignal muss ein Segelfahrzeug in Fahrt von 12 und mehr Meter Länge bei verminderter Sicht geben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "120_1",
@@ -1465,7 +1345,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "121",
     "text": "Welches Schallsignal muss ein Fahrzeug in Fahrt von weniger als 12 m Länge bei verminderter Sicht geben, wenn es die sonst vorgeschriebenen Schallsignale nicht geben kann?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "121_1",
@@ -1492,13 +1372,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "122",
     "text": "Welches Fahrzeug gibt bei verminderter Sicht mindestens jede Minute etwa 5 Sekunden lang rasches Läuten der Glocke?",
-    "media": [
-      {
-        "alt": "Ein Fahrzeug vor Anker von weniger als 100 m Länge",
-        "title": "Ein Fahrzeug vor Anker von weniger als 100 m Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-122-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-122-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-122-gif.gif"
     ],
     "answers": [
       {
@@ -1526,19 +1401,9 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "123",
     "text": "Welches Fahrzeug gibt bei verminderter Sicht mindestens jede Minute etwa 5 Sekunden lang rasches Läuten der Glocke und unmittelbar danach ungefähr 5 Sekunden lang rasch den Gong schlagen?",
-    "media": [
-      {
-        "alt": "Ein Fahrzeug vor Anker von weniger als 100 m Länge",
-        "title": "Ein Fahrzeug vor Anker von weniger als 100 m Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-122-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-122-gif.gif"
-      },
-      {
-        "alt": "Ein Fahrzeug vor Anker von 100 und mehr Meter Länge",
-        "title": "Ein Fahrzeug vor Anker von 100 und mehr Meter Länge",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-123-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-123-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-122-gif.gif",
+      "Schallsignal-Frage-123-gif.gif"
     ],
     "answers": [
       {
@@ -1566,7 +1431,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "124",
     "text": "Welches zusätzliche Schallsignal darf jeder Ankerlieger bei verminderter Sicht geben, um einem sich nähernden Fahrzeug seinen Standort anzuzeigen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "124_1",
@@ -1593,7 +1458,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "125",
     "text": "Woran kann man feststellen, ob die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "125_1",
@@ -1620,7 +1485,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "126",
     "text": "Zwei in Sicht befindliche Segelfahrzeuge nähern sich im freien Seeraum oder außerhalb des Fahrwassers so, dass die Möglichkeit der Gefahr eines Zusammenstoßes besteht. Welches Fahrzeug muss dem anderen ausweichen, wenn sie den Wind von derselben Seite haben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "126_1",
@@ -1647,7 +1512,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "127",
     "text": "Wie müssen sich zwei in Sicht befindliche Maschinenfahrzeuge verhalten, die sich einander auf entgegengesetzten oder fast entgegengesetzten Kursen nähern, um die Möglichkeit der Gefahr eines Zusammenstoßes zu vermeiden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "127_1",
@@ -1674,7 +1539,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "128",
     "text": "Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen Segelfahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "128_1",
@@ -1701,7 +1566,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "129",
     "text": "Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen manövrierunfähigen Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "129_1",
@@ -1728,7 +1593,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "130",
     "text": "Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen manövrierbehinderten Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "130_1",
@@ -1755,7 +1620,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "131",
     "text": "Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen fischenden Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "131_1",
@@ -1782,7 +1647,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "132",
     "text": "Wie hat sich ein Segelfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen fischenden Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "132_1",
@@ -1809,13 +1674,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "133",
     "text": "Wie muss man sich gegenüber diesem Fahrzeug verhalten?",
-    "media": [
-      {
-        "alt": "Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden",
-        "title": "Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-133.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-133.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-133.gif"
     ],
     "answers": [
       {
@@ -1843,13 +1703,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "134",
     "text": "Wie muss man sich gegenüber diesem Fahrzeug verhalten?",
-    "media": [
-      {
-        "alt": "Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden",
-        "title": "Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-134-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-134-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-134-gif.gif"
     ],
     "answers": [
       {
@@ -1877,7 +1732,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "135",
     "text": "Wie verhält sich der Kurshaltepflichtige vor Einleitung des Manövers des letzten Augenblicks gegenüber einem ausweichpflichtigen Fahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "135_1",
@@ -1904,7 +1759,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "136",
     "text": "Wie muss sich ein Ausweichpflichtiger gegenüber einem Kurshalter verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "136_1",
@@ -1931,7 +1786,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "137",
     "text": "Wie hat sich ein überholendes Fahrzeug zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "137_1",
@@ -1958,7 +1813,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "138",
     "text": "Wie hat man sich zu verhalten, wenn man bei verminderter Sicht anscheinend vorlicher als querab das Schallsignal eines anderen Fahrzeugs hört?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "138_1",
@@ -1985,7 +1840,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "139",
     "text": "Wie verhält man sich als Kurshalter, wenn man feststellt, dass ein anderes Fahrzeug seiner Ausweichpflicht nicht nachkommt und die Gefahr einer unmittelbaren Kollision bevorsteht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "139_1",
@@ -2012,13 +1867,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "140",
     "text": "Welche Bedeutung hat folgendes Schallsignal?(mindestens",
-    "media": [
-      {
-        "alt": "Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht",
-        "title": "Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-140-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-140-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-140-gif.gif"
     ],
     "answers": [
       {
@@ -2046,13 +1896,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "141",
     "text": "Welche Bedeutung hat folgendes Schallsignal?",
-    "media": [
-      {
-        "alt": "Ein Ankerlieger macht ein sich näherndes Fahrzeug auf eine gefährliche Annäherung aufmerksam",
-        "title": "Ein Ankerlieger macht ein sich näherndes Fahrzeug auf eine gefährliche Annäherung aufmerksam",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-d-Frage-120-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-d-Frage-120-gif.gif"
-      }
+    "images": [
+      "Schallsignal-d-Frage-120-gif.gif"
     ],
     "answers": [
       {
@@ -2080,7 +1925,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "142",
     "text": "Was ist bei der Benutzung eines Verkehrstrennungsgebietes zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "142_1",
@@ -2107,7 +1952,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "143",
     "text": "Was ist hinsichtlich des Querens eines Verkehrstrennungsgebietes zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "143_1",
@@ -2134,7 +1979,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "144",
     "text": "In welcher Vorschrift findet man die Regeln zum Befahren von Verkehrstrennungsgebieten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "144_1",
@@ -2161,7 +2006,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "145",
     "text": "Wie hat sich ein Maschinenfahrzeug bei Kollisionsgefahr in einem Einbahnweg eines Verkehrstrennungsgebietes gegenüber einem Maschinenfahrzeug zu verhalten, das den Einbahnweg von Steuerbord kommend quert?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "145_1",
@@ -2188,7 +2033,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "146",
     "text": "Wie hat sich ein Segelfahrzeug beim Queren eines Verkehrstrennungsgebietes gegenüber einem Maschinenfahrzeug zu verhalten, das auf einem Einbahnweg in der allgemeinen Verkehrsrichtung fährt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "146_1",
@@ -2215,7 +2060,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "147",
     "text": "Wie haben sich Fahrzeuge von weniger als 20 m Länge oder Segelfahrzeuge in Verkehrstrennungsgebieten zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "147_1",
@@ -2242,13 +2087,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "148",
     "text": "Was ist das für ein Fahrzeug und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Rhomben senkrecht übereina",
-        "title": "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Rhomben senkrecht übereina",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-148-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-148-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-148-gif.gif"
     ],
     "answers": [
       {
@@ -2276,13 +2116,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "149",
     "text": "Was ist das für ein Fahrzeug und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt nicht behindert. Es ist an der Seite zu passieren, die in Fahrtricht",
-        "title": "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt nicht behindert. Es ist an der Seite zu passieren, die in Fahrtricht",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-149-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-149-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-149-gif.gif"
     ],
     "answers": [
       {
@@ -2310,13 +2145,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "150",
     "text": "Was ist das für ein Fahrzeug und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das beggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei grüne Rund",
-        "title": "Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das beggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei grüne Rund",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-150-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-150-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-150-gif.gif"
     ],
     "answers": [
       {
@@ -2344,13 +2174,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "151",
     "text": "Was ist das für ein Fahrzeug und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Fahrzeug mit geführlichen Gütern, Abstand halten, Rauchen und offenes Feuer verboten",
-        "title": "Fahrzeug mit geführlichen Gütern, Abstand halten, Rauchen und offenes Feuer verboten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-151-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-151-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-151-gif.gif"
     ],
     "answers": [
       {
@@ -2378,7 +2203,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "152",
     "text": "Wo ist festgelegt, welche Wasserflächen Seeschifffahrtsstraßen sind?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "152_1",
@@ -2405,7 +2230,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "153",
     "text": "Welche örtlichen Sondervorschriften zusätzlich zur Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und zur Schifffahrtsordnung Emsmündung (EmsSchO) gibt es und was ist darin geregelt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "153_1",
@@ -2432,13 +2257,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "154",
     "text": "Was ist das für ein Fahrzeug und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Fahrzeug des öffentlichen Dienstes im Einsatz. Es darf von den Verkehrsvorschriften abweichen",
-        "title": "Fahrzeug des öffentlichen Dienstes im Einsatz. Es darf von den Verkehrsvorschriften abweichen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Fahrzeug-Frage-154-gif.gif?__blob=normal&v=1",
-        "fileName": "Fahrzeug-Frage-154-gif.gif"
-      }
+    "images": [
+      "Fahrzeug-Frage-154-gif.gif"
     ],
     "answers": [
       {
@@ -2466,7 +2286,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "155",
     "text": "Wer gibt das Sichtzeichen \"Leuchtkugeln mit weißen Sternen\" und was ist zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "155_1",
@@ -2493,7 +2313,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "156",
     "text": "Was sind Fahrwasser im Sinne der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und der Schifffahrtsordnung Emsmündung (EmsSchO)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "156_1",
@@ -2520,7 +2340,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "157",
     "text": "Welches ist - außer in Wattgebieten - die Steuerbordseite eines Fahrwassers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "157_1",
@@ -2547,7 +2367,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "158",
     "text": "Welche verkehrsrechtliche Verpflichtung hat ein Fahrzeugführer nach § 3 der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO), dessen Fahrzeug mit einer UKW-Funkanlage ausgerüstet ist?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "158_1",
@@ -2574,7 +2394,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "159",
     "text": "Welches Licht muss ein Fahrzeug unter Segel von weniger als 12 m Länge oder ein Fahrzeug unter Ruder auf der Seeschifffahrtsstraße führen, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "159_1",
@@ -2601,7 +2421,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "160",
     "text": "Wann darf ein Maschinenfahrzeug von weniger als 7 m Länge auf Seeschifffahrtsstraßen nicht fahren, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "160_1",
@@ -2628,7 +2448,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "161",
     "text": "Welches Schallsignal ist beim Einlaufen in Fahrwasser und Häfen zu geben, wenn die Verkehrslage es erfordert?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "161_1",
@@ -2655,13 +2475,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "162",
     "text": "Welche Bedeutung hat folgendes Schallsignal?",
-    "media": [
-      {
-        "alt": "Allgemeines \"Gefahr- und Warnsignal\"",
-        "title": "Allgemeines \"Gefahr- und Warnsignal\"",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-162-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-162-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-162-gif.gif"
     ],
     "answers": [
       {
@@ -2689,7 +2504,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "163",
     "text": "Wie lautet das \"allgemeine Gefahr- und Warnsignal\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "163_1",
@@ -2716,7 +2531,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "164",
     "text": "Wann ist das \"allgemeine Gefahr- und Warnsignal\" zu geben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "164_1",
@@ -2743,7 +2558,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "165",
     "text": "Wie haben sich Fahrzeuge zu verhalten, die in ein Fahrwasser einlaufen, ein Fahrwasser queren, im Fahrwasser drehen oder ihre Anker- und Liegeplätze verlassen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "165_1",
@@ -2770,7 +2585,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "166",
     "text": "Wie haben Segelfahrzeuge im Fahrwasser, die nicht deutlich der Richtung eines Fahrwassers folgen, untereinander auszuweichen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "166_1",
@@ -2797,7 +2612,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "167",
     "text": "Welche Ausweichregeln gelten außerhalb des Fahrwassers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "167_1",
@@ -2824,7 +2639,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "168",
     "text": "Wo ist das Überholen verboten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "168_1",
@@ -2851,7 +2666,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "169",
     "text": "Wo darf Wasserski gelaufen, Wassermotorrad gefahren oder mit einem Segelsurfbrett gefahren werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "169_1",
@@ -2878,7 +2693,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "170",
     "text": "Wie haben sich Führer von Zugbooten der Wasserskiläufer bzw. Wassermotorradfahrer und Segelsurfer bei der Annäherung an andere Fahrzeuge zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "170_1",
@@ -2905,7 +2720,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "171",
     "text": "Wo ist das Ankern verboten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "171_1",
@@ -2932,7 +2747,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "172",
     "text": "Was ist zu unternehmen, um die Schifffahrt zu warnen, wenn das eigene Fahrzeug gesunken ist und ein Schifffahrtshindernis darstellt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "172_1",
@@ -2959,7 +2774,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "173",
     "text": "Bei welchem Signal dürfen Sportfahrzeuge in die Schleusen des Nord-Ostsee-Kanals einfahren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "173_1",
@@ -2986,7 +2801,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "174",
     "text": "Wo findet man Regeln für das Durchfahren des Nord-Ostsee-Kanals (NOK)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "174_1",
@@ -3013,7 +2828,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "175",
     "text": "Was bedeuten im Nord-Ostsee-Kanal an einem Weichensignalmast drei unterbrochene rote Lichter übereinander und was ist zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "175_1",
@@ -3040,13 +2855,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "176",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Gebotszeichen B.6 - Gebot, die angegebene Geschwindigkeit (in km/h) nicht zu überschreiten",
-        "title": "Gebotszeichen B.6 - Gebot, die angegebene Geschwindigkeit (in km/h) nicht zu überschreiten",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Gebotszeichen-B06.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-B06.gif"
-      }
+    "images": [
+      "Gebotszeichen-B06.gif"
     ],
     "answers": [
       {
@@ -3074,19 +2884,9 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "177",
     "text": "Welche Bedeutung haben folgende Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Schutzbedürftige Anlage",
-        "title": "Schutzbedürftige Anlage",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A04b.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A04b.gif"
-      },
-      {
-        "alt": "Schutzbedürftige Anlage",
-        "title": "Schutzbedürftige Anlage",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A04c.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A04c.gif"
-      }
+    "images": [
+      "Gebotszeichen-A04b.gif",
+      "Gebotszeichen-A04c.gif"
     ],
     "answers": [
       {
@@ -3114,13 +2914,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "178",
     "text": "Welche Bedeutung hat folgendes Schallsignal und was ist zu beachten?",
-    "media": [
-      {
-        "alt": "Brücke, Sperrwerk, Schleuse kann vorübergehend nicht geöffnet werden; Fahrt unterbrechen, Freigabe abwarten",
-        "title": "Brücke, Sperrwerk, Schleuse kann vorübergehend nicht geöffnet werden; Fahrt unterbrechen, Freigabe abwarten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-178-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-178-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-178-gif.gif"
     ],
     "answers": [
       {
@@ -3148,13 +2943,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "179",
     "text": "Welche Bedeutung hat folgendes Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Geschwindigkeit von 8 km/h Fahrt durch das Wasser, die innerhalb eines Bereiches von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf",
-        "title": "Geschwindigkeit von 8 km/h Fahrt durch das Wasser, die innerhalb eines Bereiches von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A05.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A05.gif"
-      }
+    "images": [
+      "Gebotszeichen-A05.gif"
     ],
     "answers": [
       {
@@ -3182,13 +2972,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "180",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Gesperrt für alle Maschinenfahrzeuge und Wassermotorräder wegen Badebetriebs",
-        "title": "Gesperrt für alle Maschinenfahrzeuge und Wassermotorräder wegen Badebetriebs",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A17aa.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A17aa.gif"
-      }
+    "images": [
+      "Gebotszeichen-A17aa.gif"
     ],
     "answers": [
       {
@@ -3216,7 +3001,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "181",
     "text": "Welche Höchstgeschwindigkeit darf vor Stellen mit erkennbarem Badebetrieb - außerhalb des Fahrwassers - in einem Abstand von 500 m und weniger vom Ufer nicht überschritten werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "181_1",
@@ -3243,13 +3028,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "182",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Kennzeichnung von besonderen Gebieten und Stellen",
-        "title": "Kennzeichnung von besonderen Gebieten und Stellen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schifffahrtszeichen-Frage-182-gif.gif?__blob=normal&v=1",
-        "fileName": "Schifffahrtszeichen-Frage-182-gif.gif"
-      }
+    "images": [
+      "Schifffahrtszeichen-Frage-182-gif.gif"
     ],
     "answers": [
       {
@@ -3277,7 +3057,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "183",
     "text": "Woran ist ein militärisches Warngebiet zu erkennen, das wegen Schießübungen für die Schifffahrt gesperrt ist?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "183_1",
@@ -3304,25 +3084,10 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "184",
     "text": "Welche Bedeutung haben folgende Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Sperrgebiet",
-        "title": "Sperrgebiet",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A17ba.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A17ba.gif"
-      },
-      {
-        "alt": "Sperrgebiet",
-        "title": "Sperrgebiet",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A17bb.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A17bb.gif"
-      },
-      {
-        "alt": "Sperrgebiet",
-        "title": "Sperrgebiet",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A17bc.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A17bc.gif"
-      }
+    "images": [
+      "Gebotszeichen-A17ba.gif",
+      "Gebotszeichen-A17bb.gif",
+      "Gebotszeichen-A17bc.gif"
     ],
     "answers": [
       {
@@ -3350,13 +3115,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "185",
     "text": "Welche Bedeutung hat folgendes Flaggensignal?",
-    "media": [
-      {
-        "alt": "Anhalten",
-        "title": "Anhalten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Flaggensignal-Frage-185-gif.gif?__blob=normal&v=1",
-        "fileName": "Flaggensignal-Frage-185-gif.gif"
-      }
+    "images": [
+      "Flaggensignal-Frage-185-gif.gif"
     ],
     "answers": [
       {
@@ -3384,13 +3144,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "186",
     "text": "Welche Bedeutung hat folgendes Schallsignal?",
-    "media": [
-      {
-        "alt": "Polizeifahrzeug fordert zum Anhalten auf",
-        "title": "Polizeifahrzeug fordert zum Anhalten auf",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-186-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-186-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-186-gif.gif"
     ],
     "answers": [
       {
@@ -3418,19 +3173,9 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "187",
     "text": "Welche Bedeutung haben folgende Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten",
-        "title": "Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Gebotszeichen-Frage-187.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-Frage-187.gif"
-      },
-      {
-        "alt": "Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten",
-        "title": "Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Gebotszeichen-Frage-187-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-Frage-187-Nacht.gif"
-      }
+    "images": [
+      "Gebotszeichen-Frage-187.gif",
+      "Gebotszeichen-Frage-187-Nacht.gif"
     ],
     "answers": [
       {
@@ -3458,13 +3203,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "188",
     "text": "Welche Bedeutung hat folgendes Schallsignal?",
-    "media": [
-      {
-        "alt": "Sperrung der Seeschifffahrtsstraße, Weiterfahrt verboten",
-        "title": "Sperrung der Seeschifffahrtsstraße, Weiterfahrt verboten",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schallsignal-Frage-188-gif.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-188-gif.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-188-gif.gif"
     ],
     "answers": [
       {
@@ -3492,19 +3232,9 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "189",
     "text": "Welche Bedeutung haben folgende Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Außergewöhnliche Schiffahrtsbehinderung",
-        "title": "Außergewöhnliche Schiffahrtsbehinderung",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B06-Tag.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B06-Tag.gif"
-      },
-      {
-        "alt": "Außergewöhnliche Schiffahrtsbehinderung",
-        "title": "Außergewöhnliche Schiffahrtsbehinderung",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B06-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B06-Nacht.gif"
-      }
+    "images": [
+      "Warnzeichen-B06-Tag.gif",
+      "Warnzeichen-B06-Nacht.gif"
     ],
     "answers": [
       {
@@ -3532,13 +3262,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "190",
     "text": "Welche Bedeutung hat folgende Tonne?",
-    "media": [
-      {
-        "alt": "Kennzeichnung der Mitte von Schifffahrtswegen",
-        "title": "Kennzeichnung der Mitte von Schifffahrtswegen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Tonne-Frage-190-gif.gif?__blob=normal&v=1",
-        "fileName": "Tonne-Frage-190-gif.gif"
-      }
+    "images": [
+      "Tonne-Frage-190-gif.gif"
     ],
     "answers": [
       {
@@ -3566,13 +3291,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "191",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Die Steuerbordseite des Fahrwassers",
-        "title": "Die Steuerbordseite des Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schifffahrtszeichen-Frage-191-gif.gif?__blob=normal&v=1",
-        "fileName": "Schifffahrtszeichen-Frage-191-gif.gif"
-      }
+    "images": [
+      "Schifffahrtszeichen-Frage-191-gif.gif"
     ],
     "answers": [
       {
@@ -3600,13 +3320,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "192",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Die Backbordseite des Fahrwassers",
-        "title": "Die Backbordseite des Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schifffahrtszeichen-Frage-192-gif.gif?__blob=normal&v=1",
-        "fileName": "Schifffahrtszeichen-Frage-192-gif.gif"
-      }
+    "images": [
+      "Schifffahrtszeichen-Frage-192-gif.gif"
     ],
     "answers": [
       {
@@ -3634,13 +3349,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "193",
     "text": "Welche Bedeutung hat folgende(s) Tonne/Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Die Steuerbordseite des Fahrwassers",
-        "title": "Die Steuerbordseite des Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schifffahrtszeichen-Frage-193-gif.gif?__blob=normal&v=1",
-        "fileName": "Schifffahrtszeichen-Frage-193-gif.gif"
-      }
+    "images": [
+      "Schifffahrtszeichen-Frage-193-gif.gif"
     ],
     "answers": [
       {
@@ -3668,13 +3378,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "194",
     "text": "Welche Bedeutung hat folgende(s) Tonne/Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Die Backbordseite des Fahrwassers",
-        "title": "Die Backbordseite des Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Schifffahrtszeichen-Frage-194-gif.gif?__blob=normal&v=1",
-        "fileName": "Schifffahrtszeichen-Frage-194-gif.gif"
-      }
+    "images": [
+      "Schifffahrtszeichen-Frage-194-gif.gif"
     ],
     "answers": [
       {
@@ -3702,13 +3407,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "195",
     "text": "Welche Bedeutung hat folgende Tonne?",
-    "media": [
-      {
-        "alt": "Steuerbordseite des durchgehenden Fahrwassers/Backbordseite des abzweigenden oder einmündenden Fahrwassers",
-        "title": "Steuerbordseite des durchgehenden Fahrwassers/Backbordseite des abzweigenden oder einmündenden Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Tonne-Frage-195-gif.gif?__blob=normal&v=1",
-        "fileName": "Tonne-Frage-195-gif.gif"
-      }
+    "images": [
+      "Tonne-Frage-195-gif.gif"
     ],
     "answers": [
       {
@@ -3736,13 +3436,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "196",
     "text": "Welche Bedeutung hat folgende Tonne?",
-    "media": [
-      {
-        "alt": "Backbordseite des durchgehenden Fahrwassers, Steuerbordseite des abzweigenden oder einmündenden Fahrwassers",
-        "title": "Backbordseite des durchgehenden Fahrwassers, Steuerbordseite des abzweigenden oder einmündenden Fahrwassers",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Tonne-Frage-196-gif.gif?__blob=normal&v=1",
-        "fileName": "Tonne-Frage-196-gif.gif"
-      }
+    "images": [
+      "Tonne-Frage-196-gif.gif"
     ],
     "answers": [
       {
@@ -3770,7 +3465,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "197",
     "text": "Welche Bedeutung hat folgende Kennung: \"Oc (2) R. Whis.\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "197_1",
@@ -3797,7 +3492,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "198",
     "text": "Welche Kennung und Farbe haben die Feuer der Leuchttonnen an der Steuerbordseite des Fahrwassers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "198_1",
@@ -3824,7 +3519,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "199",
     "text": "Welche Kennung und Farbe haben die Feuer der Leuchttonnen an der Backbordseite des Fahrwassers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "199_1",
@@ -3851,13 +3546,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "200",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B15a.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B15a.gif"
-      }
+    "images": [
+      "Warnzeichen-B15a.gif"
     ],
     "answers": [
       {
@@ -3885,13 +3575,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "201",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B15b.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B15b.gif"
-      }
+    "images": [
+      "Warnzeichen-B15b.gif"
     ],
     "answers": [
       {
@@ -3919,13 +3604,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "202",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B15c.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B15c.gif"
-      }
+    "images": [
+      "Warnzeichen-B15c.gif"
     ],
     "answers": [
       {
@@ -3953,13 +3633,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "203",
     "text": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B15d.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B15d.gif"
-      }
+    "images": [
+      "Warnzeichen-B15d.gif"
     ],
     "answers": [
       {
@@ -3987,13 +3662,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "204",
     "text": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, die nördlich zu passieren ist",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, die nördlich zu passieren ist",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Feuer-Frage-204-gif.gif?__blob=normal&v=1",
-        "fileName": "Feuer-Frage-204-gif.gif"
-      }
+    "images": [
+      "Feuer-Frage-204-gif.gif"
     ],
     "answers": [
       {
@@ -4021,13 +3691,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "205",
     "text": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, die östlich zu passieren ist",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, die östlich zu passieren ist",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Feuer-Frage-205-gif.gif?__blob=normal&v=1",
-        "fileName": "Feuer-Frage-205-gif.gif"
-      }
+    "images": [
+      "Feuer-Frage-205-gif.gif"
     ],
     "answers": [
       {
@@ -4055,13 +3720,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "206",
     "text": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Feuer-Frage-206-gif.gif?__blob=normal&v=1",
-        "fileName": "Feuer-Frage-206-gif.gif"
-      }
+    "images": [
+      "Feuer-Frage-206-gif.gif"
     ],
     "answers": [
       {
@@ -4089,13 +3749,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "207",
     "text": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?",
-    "media": [
-      {
-        "alt": "Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant. Sie ist westlich zu passieren",
-        "title": "Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant. Sie ist westlich zu passieren",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Feuer-Frage-207-gif.gif?__blob=normal&v=1",
-        "fileName": "Feuer-Frage-207-gif.gif"
-      }
+    "images": [
+      "Feuer-Frage-207-gif.gif"
     ],
     "answers": [
       {
@@ -4123,13 +3778,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "208",
     "text": "Was kennzeichnet eines der folgenden Schifffahrtszeichen und welches Verhalten wird gefordert?",
-    "media": [
-      {
-        "alt": "Eine Einzelgefahrenstelle, die an allen Seiten passiert werden kann",
-        "title": "Eine Einzelgefahrenstelle, die an allen Seiten passiert werden kann",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Warnzeichen-B15e.gif?__blob=normal&v=1",
-        "fileName": "Warnzeichen-B15e.gif"
-      }
+    "images": [
+      "Warnzeichen-B15e.gif"
     ],
     "answers": [
       {
@@ -4157,7 +3807,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "209",
     "text": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung: Fl. (2)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "209_1",
@@ -4184,7 +3834,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "210",
     "text": "Was versteht man unter einem Leitfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "210_1",
@@ -4211,7 +3861,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "211",
     "text": "Wie navigiert man mittels eines Leitfeuers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "211_1",
@@ -4238,7 +3888,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "212",
     "text": "Was versteht man unter einem Richtfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "212_1",
@@ -4265,7 +3915,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "213",
     "text": "Was versteht man unter einem Quermarkenfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "213_1",
@@ -4292,7 +3942,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "214",
     "text": "Wie navigiert man mittels eines Quermarkenfeuers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "214_1",
@@ -4319,7 +3969,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "215",
     "text": "Was versteht man unter einem unterbrochenen Feuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "215_1",
@@ -4346,7 +3996,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "216",
     "text": "Wo findet man die Grenzen der Naturschutzgebiete auf See?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "216_1",
@@ -4373,7 +4023,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "217",
     "text": "Wo findet man auszugsweise Hinweise zu Befahrensmöglichkeiten der Naturschutzgebiete in Küstengewässern?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "217_1",
@@ -4400,7 +4050,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "218",
     "text": "Weshalb sollte das Anlaufen von Seehundbänken im Bereich der Watten vermieden werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "218_1",
@@ -4427,7 +4077,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "219",
     "text": "Welcher Abstand sollte gemäß den \"10 Goldenen Regeln\" für das Verhalten von Wassersportlern mindestens zu Liegeplätzen von Seehunden und zu Vogelansammlungen eingehalten werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "219_1",
@@ -4454,7 +4104,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "220",
     "text": "Was versteht man unter einem Blinkfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "220_1",
@@ -4481,7 +4131,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "221",
     "text": "Was versteht man unter einem Blitzfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "221_1",
@@ -4508,7 +4158,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "222",
     "text": "Was versteht man unter einem Funkelfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "222_1",
@@ -4535,7 +4185,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "223",
     "text": "Was versteht man unter einem Gleichtaktfeuer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "223_1",
@@ -4562,7 +4212,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "224",
     "text": "Was versteht man unter der Wiederkehr eines Leuchtfeuers?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "224_1",
@@ -4589,7 +4239,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "225",
     "text": "Wie hat man sich beim Befahren von Naturschutzgebieten und Nationalparken zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "225_1",
@@ -4616,7 +4266,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "226",
     "text": "Welche Sondervorschriften enthalten die örtlichen Befahrensregelungen in den Naturschutzgebieten und Nationalparks?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "226_1",
@@ -4643,7 +4293,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "227",
     "text": "Welche Verkehre können in einer ausgewiesenen Erlaubniszone zugelassen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "227_1",
@@ -4670,7 +4320,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "228",
     "text": "Was verstehen Sie gemäß Nordsee-Befahrens-Verordnung (NordSBefV) unter Schnellfahrkorridore?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "228_1",
@@ -4697,7 +4347,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "229",
     "text": "Wie hoch, soweit die Nordsee-Befahrens-Verordnung (NordSBefV) nicht ausdrücklich etwas anderes bestimmt, ist die maximale Geschwindigkeit, die ein Maschinenfahrzeug in Nationalparken im Bereich der Nordsee fahren darf?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "229_1",
@@ -4724,7 +4374,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "230",
     "text": "Welche Verpflichtung hat man als Bootsführer, um einen Beitrag zur Reinhaltung der Gewässer zu leisten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "230_1",
@@ -4751,7 +4401,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "231",
     "text": "Welche amtlichen nautischen Veröffentlichungen geben Aufschluss über das Fahrtgebiet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "231_1",
@@ -4778,7 +4428,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "232",
     "text": "Welche Angaben enthalten die Nachrichten für Seefahrer (NfS) und die Bekanntmachungen für Seefahrer (BfS)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "232_1",
@@ -4805,7 +4455,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "233",
     "text": "Welchen Effekt können Wind und gegenläufiger Tidenstrom im Bereich von Seegaten haben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "233_1",
@@ -4832,7 +4482,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "234",
     "text": "Wo findet man Angaben über Küsten-, Häfen- und Naturverhältnisse?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "234_1",
@@ -4859,7 +4509,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "235",
     "text": "Wovon sollte man sich vor Gebrauch einer Seekarte überzeugen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "235_1",
@@ -4886,7 +4536,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "236",
     "text": "In welchen Maßeinheiten werden in deutschen Seekarten die Tiefen angegeben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "236_1",
@@ -4913,7 +4563,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "237",
     "text": "Wo findet man Bedeutungen und Erläuterungen zu Zeichen, Abkürzungen und Begriffen in deutschen Seekarten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "237_1",
@@ -4940,7 +4590,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "238",
     "text": "Wo findet man die für die Navigation wichtigen Beschreibungen der Schifffahrtszeichen, Angaben über deren Befeuerung und Angaben über Signalstellen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "238_1",
@@ -4967,7 +4617,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "239",
     "text": "Wo entnimmt man in der Seekarte die Seemeilen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "239_1",
@@ -4994,7 +4644,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "240",
     "text": "Was versteht man unter einer Seemeile und wie lang ist eine Seemeile (in Metern)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "240_1",
@@ -5021,7 +4671,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "241",
     "text": "Was versteht man unter dem Geschwindigkeitsbegriff \"Knoten\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "241_1",
@@ -5048,7 +4698,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "242",
     "text": "Woraus entnimmt man die Magnetkompassablenkung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "242_1",
@@ -5075,7 +4725,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "243",
     "text": "Was versteht man in der terrestrischen Navigation unter einer Peilung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "243_1",
@@ -5102,7 +4752,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "244",
     "text": "Wie erhält man eine Standlinie?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "244_1",
@@ -5129,7 +4779,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "245",
     "text": "Was versteht man unter Stromversetzung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "245_1",
@@ -5156,7 +4806,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "246",
     "text": "Was versteht man unter Windversetzung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "246_1",
@@ -5183,7 +4833,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "247",
     "text": "Was versteht man unter einem Koppelort?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "247_1",
@@ -5210,7 +4860,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "248",
     "text": "Was ist bei der Aufstellung eines Magnetkompasses an Bord zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "248_1",
@@ -5237,7 +4887,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "249",
     "text": "Was versteht man unter Ebbe?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "249_1",
@@ -5264,7 +4914,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "250",
     "text": "Was versteht man unter Flut?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "250_1",
@@ -5291,7 +4941,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "251",
     "text": "Was versteht man unter einer Tide?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "251_1",
@@ -5318,7 +4968,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "252",
     "text": "Was versteht man unter einem Niedrigwasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "252_1",
@@ -5345,7 +4995,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "253",
     "text": "Was versteht man unter einem Hochwasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "253_1",
@@ -5372,7 +5022,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "254",
     "text": "Was versteht man unter \"Tidenhub\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "254_1",
@@ -5399,7 +5049,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "255",
     "text": "Wo sind für einen bestimmten Ort die Angaben über Hoch- und Niedrigwasserzeiten und den Tidenhub zu finden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "255_1",
@@ -5426,7 +5076,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "256",
     "text": "Wie lang sollte eine Schleppleine bei starkem Seegang sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "256_1",
@@ -5453,7 +5103,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "257",
     "text": "Was ist zu beachten, wenn ein Sportboot geschleppt werden soll?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "257_1",
@@ -5480,7 +5130,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "258",
     "text": "Womit kann ein steuerunfähiges Sportboot mit dem Bug in den Wind gehalten werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "258_1",
@@ -5507,7 +5157,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "259",
     "text": "Warum sollte bei starkem Seegang die Fahrt vermindert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "259_1",
@@ -5534,13 +5184,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "260",
     "text": "Was bedeutet folgendes Zeichen?",
-    "media": [
-      {
-        "alt": "Wind aus Richtung Nordwest; Stärke: Bft. 3; wolkenlos",
-        "title": "Wind aus Richtung Nordwest; Stärke: Bft. 3; wolkenlos",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Zeichen-Frage-260-gif.gif?__blob=normal&v=1",
-        "fileName": "Zeichen-Frage-260-gif.gif"
-      }
+    "images": [
+      "Zeichen-Frage-260-gif.gif"
     ],
     "answers": [
       {
@@ -5568,7 +5213,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "261",
     "text": "Welche Angaben liefert die Beaufort-Skala?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "261_1",
@@ -5595,7 +5240,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "262",
     "text": "Wie werden Orte gleichen Luftdrucks in der Wetterkarte dargestellt und in welcher Maßeinheit wird der Luftdruck angegeben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "262_1",
@@ -5622,7 +5267,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "263",
     "text": "Womit muss bei rasch fallendem Luftdruck gerechnet werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "263_1",
@@ -5649,7 +5294,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "264",
     "text": "Was bedeuten die in der Wetterkarte abgebildeten Isobaren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "264_1",
@@ -5676,13 +5321,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "265",
     "text": "Was zeigt die folgende Abbildung?",
-    "media": [
-      {
-        "alt": "Abbildung eines Hochdruckgebietes auf der Nordhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa",
-        "title": "Abbildung eines Hochdruckgebietes auf der Nordhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Abbildung-Frage-265.gif?__blob=normal&v=1",
-        "fileName": "Abbildung-Frage-265.gif"
-      }
+    "images": [
+      "Abbildung-Frage-265.gif"
     ],
     "answers": [
       {
@@ -5710,13 +5350,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "266",
     "text": "Was zeigt die folgende Abbildung?",
-    "media": [
-      {
-        "alt": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung",
-        "title": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Abbildung-Frage-266.gif?__blob=normal&v=1",
-        "fileName": "Abbildung-Frage-266.gif"
-      }
+    "images": [
+      "Abbildung-Frage-266.gif"
     ],
     "answers": [
       {
@@ -5744,7 +5379,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "267",
     "text": "Für welche Windstärken wird eine Starkwindwarnung herausgegeben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "267_1",
@@ -5771,7 +5406,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "268",
     "text": "Für welche Windstärken wird eine Sturmwarnung herausgegeben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "268_1",
@@ -5798,7 +5433,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "269",
     "text": "Was ist in amtlichen Wetterberichten unter \"frischem Wind\" zu verstehen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "269_1",
@@ -5825,7 +5460,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "270",
     "text": "Was ist in amtlichen Wetterberichten unter \"schwerem Sturm\", \"orkanartigem Sturm\" und \"Orkan\" zu verstehen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "270_1",
@@ -5852,7 +5487,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "271",
     "text": "Wie hat man seine Fahrweise im Fahrwasser bei verminderter Sicht aufgrund seemännischer Sorgfaltspflicht einzurichten, wenn das Fahrzeug nicht über die technische Ausrüstung, insbesondere zur Ortung anderer Fahrzeuge, verfügt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "271_1",
@@ -5879,7 +5514,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "272",
     "text": "Wozu dient primär das Automatische Identifikationssystem (AIS)?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "272_1",
@@ -5906,7 +5541,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "273",
     "text": "Welche Informationen können über das Automatische Identifikationssystem (AIS) ausgetauscht werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "273_1",
@@ -5933,7 +5568,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "274",
     "text": "Welche Sicherheitsmaßnahmen sind an Bord aufgrund der seemännischen Sorgfaltspflicht neben den in den Kollisionsverhütungsregeln vorgeschriebenen Verhaltensmaßregeln bei verminderter Sicht zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "274_1",
@@ -5960,7 +5595,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "275",
     "text": "Welche Sicherheitsmaßnahmen sind auf See vor Eintritt von schwerem Wetter (Starkwind, Sturm) zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "275_1",
@@ -5987,7 +5622,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "276",
     "text": "Mit welchen Hilfsmitteln kann eine im Wasser treibende Person schnell und sicher an Bord genommen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "276_1",
@@ -6014,7 +5649,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "277",
     "text": "Was ist zu tun, wenn das Fahrzeug gekentert ist?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "277_1",
@@ -6041,7 +5676,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "278",
     "text": "Wie verhindert man das Überbordfallen von Personen bei starkem Seegang?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "278_1",
@@ -6068,7 +5703,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "279",
     "text": "Welche Notsignale können gegeben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "279_1",
@@ -6095,7 +5730,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "280",
     "text": "Was bedeutet das Flaggensignal \"NC\" auf einem Fahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "280_1",
@@ -6122,7 +5757,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "281",
     "text": "Was bedeutet anhaltendes Ertönen eines Nebelsignalgerätes von einem Fahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "281_1",
@@ -6149,13 +5784,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "282",
     "text": "Was bedeutet das folgende durch Licht oder Schallsignal gegebene Morsesignal?",
-    "media": [
-      {
-        "alt": "Notsignal",
-        "title": "Notsignal",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Notsignal-Frage-279-gif.gif?__blob=normal&v=1",
-        "fileName": "Notsignal-Frage-279-gif.gif"
-      }
+    "images": [
+      "Notsignal-Frage-279-gif.gif"
     ],
     "answers": [
       {
@@ -6183,7 +5813,7 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "283",
     "text": "Was bedeutet eine Leuchtrakete mit einem roten Stern?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "283_1",
@@ -6210,13 +5840,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "284",
     "text": "Was bedeutet folgendes Flaggensignal?",
-    "media": [
-      {
-        "alt": "Fahrzeug in Seenot",
-        "title": "Fahrzeug in Seenot",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Flaggensignal-Frage-284-gif.gif?__blob=normal&v=1",
-        "fileName": "Flaggensignal-Frage-284-gif.gif"
-      }
+    "images": [
+      "Flaggensignal-Frage-284-gif.gif"
     ],
     "answers": [
       {
@@ -6244,13 +5869,8 @@ export const SBF_SEE_SPEZIFISCH = [
   {
     "id": "285",
     "text": "Was bedeutet auf einem Schiff eines der folgenden Signale?",
-    "media": [
-      {
-        "alt": "Fahrzeug in Seenot",
-        "title": "Fahrzeug in Seenot",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Signal-Frage-285-gif.gif?__blob=normal&v=1",
-        "fileName": "Signal-Frage-285-gif.gif"
-      }
+    "images": [
+      "Signal-Frage-285-gif.gif"
     ],
     "answers": [
       {

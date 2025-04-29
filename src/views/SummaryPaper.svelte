@@ -22,6 +22,8 @@
   function pluralizeFragen(count: number) {
     return pluralize(count, 'Frage', 'Fragen');
   }
+
+  // todo fix issues related to strategy=pinned
 </script>
 
 <Paper class="bg-white p-6">

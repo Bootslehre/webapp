@@ -2,7 +2,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "254",
     "text": "Was wird unter einem \"Kimmkieler\" verstanden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "254_1",
@@ -29,7 +29,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "255",
     "text": "Worin besteht der Vorteil eines Kimmkielers gegenüber anderen Kielbooten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "255_1",
@@ -56,7 +56,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "256",
     "text": "Was wird unter einer \"Kielschwertyacht\" verstanden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "256_1",
@@ -83,7 +83,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "257",
     "text": "Wodurch wirken die Bodenlenzventile einer Jolle, die unterhalb der Wasserlinie liegen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "257_1",
@@ -110,7 +110,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "258",
     "text": "Was wird unter \"Formstabilität\" verstanden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "258_1",
@@ -137,7 +137,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "259",
     "text": "Was wird unter \"Gewichtsstabilität\" verstanden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "259_1",
@@ -164,7 +164,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "260",
     "text": "Welche Boote sind vorwiegend \"gewichtsstabil\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "260_1",
@@ -191,7 +191,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "261",
     "text": "Welche Boote sind vorwiegend \"formstabil\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "261_1",
@@ -218,7 +218,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "262",
     "text": "Wodurch kann bei formstabilen Booten bei viel Wind die Stabilität erhöht werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "262_1",
@@ -245,7 +245,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "263",
     "text": "Wie verändert sich das aufrichtende Kraftmoment einer Jolle bei Krängung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "263_1",
@@ -272,7 +272,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "264",
     "text": "Wie verändert sich das aufrichtende Kraftmoment einer Kielyacht bei stetig zunehmender Krängung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "264_1",
@@ -299,7 +299,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "265",
     "text": "Welche Maßnahme ist bei Ruderbruch auf einer Jolle zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "265_1",
@@ -326,7 +326,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "266",
     "text": "Wodurch kann eine Pinnensteuerung auch bei Krängung des Bootes sicher erreicht und bedient werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "266_1",
@@ -353,7 +353,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "267",
     "text": "Warum sollte Tauwerk an Bord stets ordentlich aufgeschossen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "267_1",
@@ -380,7 +380,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "268",
     "text": "Warum sollten Fallen stets ordentlich aufgeschossen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "268_1",
@@ -407,7 +407,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "269",
     "text": "Wie heißen die Ecken eines Segels?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "269_1",
@@ -434,7 +434,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "270",
     "text": "Wie heißen die Kanten eines Segels?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "270_1",
@@ -461,7 +461,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "271",
     "text": "Wozu dienen Segellatten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "271_1",
@@ -488,7 +488,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "272",
     "text": "Weshalb dürfen Segel nicht über einen längeren Zeitraum killen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "272_1",
@@ -515,7 +515,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "273",
     "text": "Warum müssen auch kleine Schäden an den Segeln sofort repariert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "273_1",
@@ -542,7 +542,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "274",
     "text": "Woran kann wärend der Fahrt die Richtung des wahren Windes erkannt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "274_1",
@@ -569,7 +569,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "275",
     "text": "Welcher Wind wird in Fahrt von Standern bzw. Verklickern angezeigt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "275_1",
@@ -596,7 +596,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "276",
     "text": "Wann kommen wahrer Wind und scheinbarer Wind auf einem segelnden Boot aus der gleichen Richtung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "276_1",
@@ -623,7 +623,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "277",
     "text": "Warum ist der scheinbare Wind auf einem Vorwindkurs schwächer als der wahre Wind?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "277_1",
@@ -650,7 +650,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "278",
     "text": "Warum ist der scheinbare Wind auf einem Kurs hoch am Wind stärker als der wahre Wind?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "278_1",
@@ -677,7 +677,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "279",
     "text": "Auf einem Amwindkurs wurde gerefft. Ein entgegenkommendes Boot gleichen Typs segelt ungerefft. Wie lässt sich das erklären?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "279_1",
@@ -704,7 +704,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "280",
     "text": "Warum raumt beim Einfallen einer Bö auf Amwindkurs der scheinbare Wind?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "280_1",
@@ -731,7 +731,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "281",
     "text": "Beim Einfallen einer Bö auf Amwindkurs raumt der scheinbare Wind. Welchen Nutzen kann auf der Kreuz daraus gezogen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "281_1",
@@ -758,7 +758,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "282",
     "text": "Wie sollte das Schwert einer Jolle auf Vorwindkurs gefahren werden und warum?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "282_1",
@@ -785,7 +785,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "283",
     "text": "Wie verändern sich Abdrift und Krängung, wenn das Schwert einer Jolle auf einem Amwindkurs etwas aufgeholt wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "283_1",
@@ -812,7 +812,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "284",
     "text": "Mit welcher Krängung sollte eine Jolle üblicherweise gesegelt werden und weshalb?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "284_1",
@@ -839,7 +839,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "285",
     "text": "Wie wirkt sich auf einem Halbwindkurs ein zu dicht geholtes Großsegel auf die Geschwindigkeit des Bootes aus?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "285_1",
@@ -866,7 +866,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "286",
     "text": "Wie wirkt sich ein Holepunkt, der zu weit vorne liegt, auf Stand und Beanspruchung des Vorsegels aus?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "286_1",
@@ -893,7 +893,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "287",
     "text": "Wie wirkt sich ein Holepunkt, der zu weit achtern liegt, auf Stand und Beanspruchung des Vorsegels aus?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "287_1",
@@ -920,7 +920,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "288",
     "text": "Wie muss ein Segel bei leichtem Wind getrimmt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "288_1",
@@ -947,7 +947,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "289",
     "text": "Wie muss ein Segel bei starkem Wind getrimmt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "289_1",
@@ -974,7 +974,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "290",
     "text": "Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "290_1",
@@ -1001,7 +1001,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "291",
     "text": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark von der Seite der Segel weggezogen werden. Wie kann der Trimmfehler behoben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "291_1",
@@ -1028,7 +1028,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "292",
     "text": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark zur Seite der Segel hingedrückt werden. Wie kann der Trimmfehler behoben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "292_1",
@@ -1055,7 +1055,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "293",
     "text": "Warum soll ein gut getrimmtes Segelboot leicht luvgierig sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "293_1",
@@ -1082,7 +1082,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "294",
     "text": "Welchen Einfluss hat zunehmende Krängung auf den Trimm des Bootes?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "294_1",
@@ -1109,13 +1109,8 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "295",
     "text": "Welche Manöver hat das Boot auf dem eingezeichneten Kurs an den Punkten 1, 2 und 3 gefahren?",
-    "media": [
-      {
-        "alt": "1 Wende, 2 Halse, 3 Q-Wende",
-        "title": "1 Wende, 2 Halse, 3 Q-Wende",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Bild-Frage-295.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-295.gif"
-      }
+    "images": [
+      "Bild-Frage-295.gif"
     ],
     "answers": [
       {
@@ -1143,7 +1138,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "296",
     "text": "Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "296_1",
@@ -1170,7 +1165,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "297",
     "text": "Warum ist eine Patenthalse gefährlich?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "297_1",
@@ -1197,7 +1192,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "298",
     "text": "Ein Segelboot segelt am Wind, plötzlich bricht das Luvwant. Welches Manöver ist sinnvoll?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "298_1",
@@ -1224,7 +1219,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "299",
     "text": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Was ist sofort zu unternehmen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "299_1",
@@ -1251,7 +1246,7 @@ export const SBF_BINNEN_SEGEL = [
   {
     "id": "300",
     "text": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Womit kann das gebrochene Vorstag schnell provisorisch ersetzt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "300_1",

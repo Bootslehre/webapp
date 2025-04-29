@@ -69,9 +69,9 @@
       <h2 class="text-xl font-medium text-pretty text-blue-900">{question?.text}</h2>
     </div>
 
-    {#if question.media.length}
+    {#if question.images.length}
       <div class="align-center mt-5 flex flex-row justify-center gap-2">
-        {#each question.media as media (media.src)}
+        {#each question.images as fileName (media.src)}
           <img
             class="pointer-events-none select-none"
             src={`../../generated/${licenseId}/${media.fileName}`}

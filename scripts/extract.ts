@@ -1,21 +1,30 @@
 import fs, { mkdirSync, rmdirSync } from 'fs';
 import jsdom from 'jsdom';
 import { dirname, join } from 'path';
-import { chdir } from 'process';
 import { fileURLToPath } from 'url';
-import { type Media, type Question, type QuestionaireSource } from '../src/types';
+import { type Question, type QuestionaireSource } from '../src/types';
 import { QUESTIONAIRE_SOURCES } from './sources';
 import { downloadFromUrl, getHtmlForUrl, runInBand } from './utils';
 
+export interface Media {
+  src: string;
+  fileName: string;
+  title: string;
+  alt: string;
+}
+
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = dirname(__filename); // get the name of the directory
+const generatedDir = join(__dirname, '..', 'static', 'generated');
+const assetsDir = join(__dirname, '..', 'static', 'generated', 'assets');
 
 async function processSource(source: QuestionaireSource) {
   console.log(`processing ${source.id}...`);
+  const fileName = join(__dirname, '..', 'static', 'generated', `${source.id}.ts`);
 
-  const dir = join(__dirname, '..', 'static', 'generated', source.id);
-  clearDirectory(dir);
-  chdir(dir);
+  if (fs.existsSync(fileName)) {
+    fs.rmSync(fileName);
+  }
 
   const html = await getHtmlForUrl(source.url);
   const dom = new jsdom.JSDOM(html);
@@ -24,7 +33,7 @@ async function processSource(source: QuestionaireSource) {
   const questions = await runInBand(paragraphs, processParagraph);
   const validQuestions = questions.filter(Boolean) as Array<Question>;
 
-  fs.writeFileSync(`index.ts`, `export const ${source.id} = ${JSON.stringify(validQuestions, null, 2)};\n`);
+  fs.writeFileSync(fileName, `export const ${source.id} = ${JSON.stringify(validQuestions, null, 2)};\n`);
 }
 
 async function processParagraph(paragraph: HTMLParagraphElement): Promise<Question | undefined> {
@@ -39,7 +48,7 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
   const question: Question = {
     id,
     text: parts.join('. '),
-    media: [],
+    images: [],
     answers: [],
   };
 
@@ -64,9 +73,9 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
 
     // extract image data
     const images: Array<HTMLImageElement> = el.tagName === 'IMG' ? [el as HTMLImageElement] : Array.from(el.querySelectorAll('img'));
-    const processedImages = await runInBand(images, processImage);
-    const validProcessedImages = processedImages.filter(Boolean) as Array<Media>;
-    question.media.push(...validProcessedImages);
+    const processedImages: Array<string> = await runInBand(images, processImage);
+    const validProcessedImages = processedImages.filter(Boolean) as Array<string>;
+    question.images.push(...validProcessedImages);
 
     // continue with next sibling
     el = el.nextElementSibling;
@@ -79,16 +88,16 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
   return question;
 }
 
-async function processImage(image: HTMLImageElement): Promise<Media | undefined> {
+async function processImage(image: HTMLImageElement): Promise<string | undefined> {
   const media = getImageMedia(image);
 
   if (!media) {
     return;
   }
 
-  await downloadFromUrl(media.src, media.fileName);
+  await downloadFromUrl(media.src, join(assetsDir, media.fileName));
 
-  return media;
+  return media.fileName;
 }
 
 function getImageMedia(img: HTMLImageElement): Media | undefined {
@@ -104,16 +113,23 @@ function getImageMedia(img: HTMLImageElement): Media | undefined {
   return { alt, title, src, fileName };
 }
 
-function clearDirectory(dir: string) {
-  if (fs.existsSync(dir)) {
-    rmdirSync(dir, { recursive: true });
+function clearDirectory() {
+  if (fs.existsSync(generatedDir)) {
+    rmdirSync(generatedDir, { recursive: true });
   }
 
-  mkdirSync(dir);
+  mkdirSync(generatedDir);
+
+  if (fs.existsSync(assetsDir)) {
+    rmdirSync(assetsDir, { recursive: true });
+  }
+
+  mkdirSync(assetsDir);
 }
 
 // ...
 // ...
 // ...
 
+clearDirectory();
 await runInBand(QUESTIONAIRE_SOURCES, processSource);

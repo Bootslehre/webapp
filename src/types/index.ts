@@ -6,7 +6,7 @@ export interface QuestionaireSource {
 export interface Question {
   id: string;
   text: string;
-  media: Array<Media>;
+  images: Array<string>;
   answers: Array<Answer>;
 }
 
@@ -14,11 +14,4 @@ export interface Answer {
   id: string;
   text: string;
   isCorrect: boolean;
-}
-
-export interface Media {
-  src: string;
-  fileName: string;
-  title: string;
-  alt: string;
 }

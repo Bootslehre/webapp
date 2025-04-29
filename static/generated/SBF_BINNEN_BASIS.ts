@@ -2,7 +2,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "1",
     "text": "Was ist zu tun, wenn vor Antritt der Fahrt nicht feststeht, wer Schiffsführer ist?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "1_1",
@@ -29,7 +29,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "2",
     "text": "In welchen Fällen darf weder ein Sportboot geführt noch dessen Kurs oder Geschwindigkeit selbstständig bestimmt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "2_1",
@@ -56,7 +56,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "3",
     "text": "Wann ist ein Fahrzeug in Fahrt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "3_1",
@@ -83,13 +83,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "4",
     "text": "Wie lang ist die Dauer eines kurzen Tons (",
-    "media": [
-      {
-        "alt": "Schallsignal - ein kurzer Ton, Dauer etwa 1 Sekunde",
-        "title": "Schallsignal - ein kurzer Ton, Dauer etwa 1 Sekunde",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-06/EinkurzerTon.gif?__blob=normal&v=1",
-        "fileName": "EinkurzerTon.gif"
-      }
+    "images": [
+      "EinkurzerTon.gif"
     ],
     "answers": [
       {
@@ -117,13 +112,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "5",
     "text": "Wie lang ist die Dauer eines langen Tons (",
-    "media": [
-      {
-        "alt": "Schallsignal - ein langer Ton, Dauer etwa 4 - 6 Sekunden",
-        "title": "Schallsignal - ein langer Ton, Dauer etwa 4 - 6 Sekunden",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-06/EinlangerTon.gif?__blob=normal&v=1",
-        "fileName": "EinlangerTon.gif"
-      }
+    "images": [
+      "EinlangerTon.gif"
     ],
     "answers": [
       {
@@ -151,7 +141,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "6",
     "text": "Wann gilt ein Fahrzeug unter Segel als Maschinenfahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "6_1",
@@ -178,7 +168,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "7",
     "text": "Welches Signal führt ein Fahrzeug unter Segel, das als Maschinenfahrzeug gilt, zusätzlich am Tage?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "7_1",
@@ -205,7 +195,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "8",
     "text": "Welche Seite wird als Luvseite bezeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "8_1",
@@ -232,7 +222,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "9",
     "text": "Welche Seite wird als Leeseite bezeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "9_1",
@@ -259,7 +249,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "10",
     "text": "Wann müssen die Lichter von Fahrzeugen geführt oder gezeigt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "10_1",
@@ -286,7 +276,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "11",
     "text": "Wozu dient die Lichterführung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "11_1",
@@ -313,7 +303,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "12",
     "text": "Was für eine Laterne kann ein Segelfahrzeug von weniger als 20 m Länge anstelle der Seitenlichter und des Hecklichtes führen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "12_1",
@@ -340,7 +330,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "13",
     "text": "Welche Lichter muss ein Fahrzeug unter Segel, das gleichzeitig mit Maschinenkraft fährt, führen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "13_1",
@@ -367,7 +357,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "14",
     "text": "Wie weichen zwei Motorboote aus, die sich auf entgegengesetzten Kursen nähern?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "14_1",
@@ -394,7 +384,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "15",
     "text": "Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "15_1",
@@ -421,13 +411,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "16",
     "text": "Welche Bedeutung hat folgendes Schallsignal?",
-    "media": [
-      {
-        "alt": "Bleib-weg-Signal, Gefahrenbereich sofort verlassen",
-        "title": "Bleib-weg-Signal, Gefahrenbereich sofort verlassen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Schallzeichen-Frage-16.gif?__blob=normal&v=1",
-        "fileName": "Schallzeichen-Frage-16.gif"
-      }
+    "images": [
+      "Schallzeichen-Frage-16.gif"
     ],
     "answers": [
       {
@@ -455,13 +440,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "17",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.2 - Überholverbot, allgemein",
-        "title": "Verbotszeichen A.2 - Überholverbot, allgemein",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A02.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A02.gif"
-      }
+    "images": [
+      "Verbotszeichen-A02.gif"
     ],
     "answers": [
       {
@@ -489,13 +469,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "18",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.4 - Verbot des Begegnens und Überholverbot",
-        "title": "Verbotszeichen A.4 - Verbot des Begegnens und Überholverbot",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A04.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A04.gif"
-      }
+    "images": [
+      "Verbotszeichen-A04.gif"
     ],
     "answers": [
       {
@@ -523,13 +498,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "19",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Sog und Wellenschlag vermeiden",
-        "title": "Sog und Wellenschlag vermeiden",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A04a.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A04a.gif"
-      }
+    "images": [
+      "Gebotszeichen-A04a.gif"
     ],
     "answers": [
       {
@@ -557,13 +527,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "20",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Einschränkungszeichen C.5 - Das Fahrwasser ist am rechten Ufer eingeengt; die Zahl auf dem Zeichen gibt den Abstand in Metern an, in dem sich ein Fahrzeug vom Tafelzeichen entfernt halten muss.",
-        "title": "Einschränkungszeichen C.5 - Das Fahrwasser ist am rechten Ufer eingeengt; die Zahl auf dem Zeichen gibt den Abstand in Metern an, in dem sich ein Fahrzeug vom Tafelzeichen entfernt halten muss.",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Einschraenkungszeichen-C5.gif?__blob=normal&v=1",
-        "fileName": "Einschraenkungszeichen-C5.gif"
-      }
+    "images": [
+      "Einschraenkungszeichen-C5.gif"
     ],
     "answers": [
       {
@@ -591,13 +556,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "21",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Gebotszeichen B.5 - Gebot, unter bestimmten Bedingungen anzuhalten",
-        "title": "Gebotszeichen B.5 - Gebot, unter bestimmten Bedingungen anzuhalten",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Gebotszeichen-B05.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-B05.gif"
-      }
+    "images": [
+      "Gebotszeichen-B05.gif"
     ],
     "answers": [
       {
@@ -625,13 +585,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "22",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.6 - Ankerverbot und Verbot des Schleifenlassens von Ankern, Trossen und Ketten",
-        "title": "Verbotszeichen A.6 - Ankerverbot und Verbot des Schleifenlassens von Ankern, Trossen und Ketten",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A06.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A06.gif"
-      }
+    "images": [
+      "Verbotszeichen-A06.gif"
     ],
     "answers": [
       {
@@ -659,19 +614,9 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "23",
     "text": "Welche Bedeutung haben folgende Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.7 - Verbot, am Ufer festzumachen",
-        "title": "Verbotszeichen A.7 - Verbot, am Ufer festzumachen",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A07.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A07.gif"
-      },
-      {
-        "alt": "Verbotszeichen A.5 - Stilliegeverbot (Ankerverbot und Verbot des Festmachens am Ufer)",
-        "title": "Verbotszeichen A.5 - Stilliegeverbot (Ankerverbot und Verbot des Festmachens am Ufer)",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A05.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A05.gif"
-      }
+    "images": [
+      "Verbotszeichen-A07.gif",
+      "Verbotszeichen-A05.gif"
     ],
     "answers": [
       {
@@ -699,13 +644,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "24",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Schild - Ergänzende Erklärungen oder Hinweise. (Beispiel: Einen langen Ton geben)",
-        "title": "Schild - Ergänzende Erklärungen oder Hinweise. (Beispiel: Einen langen Ton geben)",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Schild-10.gif?__blob=normal&v=1",
-        "fileName": "Schild-10.gif"
-      }
+    "images": [
+      "Schild-10.gif"
     ],
     "answers": [
       {
@@ -733,19 +673,9 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "25",
     "text": "Welche Bedeutung haben folgende Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.17 - Wasserskistrecke",
-        "title": "Hinweiszeichen E.17 - Wasserskistrecke",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E17.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E17.gif"
-      },
-      {
-        "alt": "Hinweiszeichen E.22 - Fahrerlaubnis für ein Wassermotorrad (Waterscooter, Jetski, usw.)",
-        "title": "Hinweiszeichen E.22 - Fahrerlaubnis für ein Wassermotorrad (Waterscooter, Jetski, usw.)",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E22.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E22.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E17.gif",
+      "Hinweiszeichen-E22.gif"
     ],
     "answers": [
       {
@@ -773,13 +703,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "26",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.11 - Ende des Verbots oder eines Gebots, das nur in einer Verkehrsrichtung gilt, oder Ende einer Einschränkung",
-        "title": "Hinweiszeichen E.11 - Ende des Verbots oder eines Gebots, das nur in einer Verkehrsrichtung gilt, oder Ende einer Einschränkung",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E11.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E11.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E11.gif"
     ],
     "answers": [
       {
@@ -807,13 +732,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "27",
     "text": "Welche Bedeutung hat folgendes Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "title": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A01-Tafeln.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A01-Tafeln.gif"
-      }
+    "images": [
+      "Verbotszeichen-A01-Tafeln.gif"
     ],
     "answers": [
       {
@@ -841,13 +761,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "28",
     "text": "Welche Bedeutung haben folgende Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Brücke, Sperrwerk oder Schleuse geschlossen",
-        "title": "Brücke, Sperrwerk oder Schleuse geschlossen",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A19aa.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A19aa.gif"
-      }
+    "images": [
+      "Gebotszeichen-A19aa.gif"
     ],
     "answers": [
       {
@@ -875,13 +790,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "29",
     "text": "Welche Bedeutung haben folgende Schifffahrtszeichen?",
-    "media": [
-      {
-        "alt": "Anlage dauerhaft gesperrt",
-        "title": "Anlage dauerhaft gesperrt",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A19d.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A19d.gif"
-      }
+    "images": [
+      "Gebotszeichen-A19d.gif"
     ],
     "answers": [
       {
@@ -909,13 +819,8 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "30",
     "text": "Was bedeuten diese Lichter vor einer Schleuse?",
-    "media": [
-      {
-        "alt": "Einfahrt frei, Gegenverkehr gesperrt",
-        "title": "Einfahrt frei, Gegenverkehr gesperrt",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Seeschifffahrtsrecht/SeeSchStrO/Anlagen/Anlage-I/Gebotszeichen-A23bb.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-A23bb.gif"
-      }
+    "images": [
+      "Gebotszeichen-A23bb.gif"
     ],
     "answers": [
       {
@@ -943,7 +848,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "31",
     "text": "Welches Merkblatt enthält Hinweise für das Verhalten zum Schutz seltener Tiere und Pflanzen sowie zur Reinhaltung der Gewässer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "31_1",
@@ -970,7 +875,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "32",
     "text": "Wie kann mitgeholfen werden, die Lebensmöglichkeiten der Pflanzen- und Tierwelt in Gewässern und Feuchtgebieten zu bewahren und zu fördern?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "32_1",
@@ -997,7 +902,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "33",
     "text": "Warum sollte man sich von Schilf- und Röhrichtzonen sowie von dicht bewachsenen Uferzonen möglichst weit fernhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "33_1",
@@ -1024,7 +929,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "34",
     "text": "Warum soll ein kleines Fahrzeug nicht dicht an ein großes in Fahrt befindliches Fahrzeug heranfahren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "34_1",
@@ -1051,7 +956,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "35",
     "text": "Warum soll man möglichst gegen Strom und Wind anlegen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "35_1",
@@ -1078,7 +983,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "36",
     "text": "Wie verhält man sich beim Begegnen mit anderen Fahrzeugen in einem engen Fahrwasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "36_1",
@@ -1105,7 +1010,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "37",
     "text": "Welche Gefahren können entstehen, wenn ein kleines von einem größeren Fahrzeug überholt wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "37_1",
@@ -1132,7 +1037,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "38",
     "text": "Wo finden Sie Informationen über umweltfreundliche Farben, Lacke und Antifouling-Beschichtungen für Ihr Boot?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "38_1",
@@ -1159,7 +1064,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "39",
     "text": "Woran kann man erkennen, ob der Anker hält?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "39_1",
@@ -1186,7 +1091,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "40",
     "text": "Welches ist der günstigste Anlaufwinkel beim Anlegen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "40_1",
@@ -1213,7 +1118,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "41",
     "text": "Wie verhält sich im Allgemeinen das Schiff im Rückwärtsgang bei einem rechtsdrehenden Propeller?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "41_1",
@@ -1240,7 +1145,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "42",
     "text": "Was bewirkt der Quickstopp?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "42_1",
@@ -1267,7 +1172,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "43",
     "text": "Was ist zu unternehmen, wenn Treibstoff oder Öl in die Bilge gelangt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "43_1",
@@ -1294,7 +1199,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "44",
     "text": "Was ist unter einem rechtsdrehenden Propeller zu verstehen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "44_1",
@@ -1321,7 +1226,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "45",
     "text": "Was ist unter einem linksdrehenden Propeller zu verstehen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "45_1",
@@ -1348,7 +1253,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "46",
     "text": "Was ist unter der indirekten Ruderwirkung (Radeffekt) des Propellers zu verstehen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "46_1",
@@ -1375,7 +1280,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "47",
     "text": "Weshalb ist die Kenntnis der Propellerdrehrichtung von Bedeutung?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "47_1",
@@ -1402,7 +1307,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "48",
     "text": "Welche Anlegeseite ist mit rechtsdrehendem Propeller empfehlenswert und warum?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "48_1",
@@ -1429,7 +1334,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "49",
     "text": "Was muss beim Tanken beachtet werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "49_1",
@@ -1456,7 +1361,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "50",
     "text": "Wodurch wird bei einem Fahrzeug mit Außenbordmotor und ohne Ruderanlage die Ruderwirkung erzielt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "50_1",
@@ -1483,7 +1388,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "51",
     "text": "Weshalb setzt bei einem Fahrzeug mit Einbaumaschine und starrer Welle bei Aufnahme der Rückwärtsfahrt die Ruderwirkung erst relativ spät ein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "51_1",
@@ -1510,7 +1415,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "52",
     "text": "Während der Fahrt sollte die Maschinenanlage ständig überwacht werden. Worauf muss besonders geachtet werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "52_1",
@@ -1537,7 +1442,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "53",
     "text": "Die Temperatur der Antriebsmaschine überschreitet die zulässigen Grenzwerte. Was könnte die mögliche Ursache sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "53_1",
@@ -1564,7 +1469,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "54",
     "text": "Die Ladekontrolllampe erlischt nach dem Starten nicht. Was könnte die mögliche Ursache sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "54_1",
@@ -1591,7 +1496,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "55",
     "text": "Die Ölkontrollleuchte leuchtet nach dem Starten weiter. Was könnte die mögliche Ursache sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "55_1",
@@ -1618,7 +1523,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "56",
     "text": "Der Motor ist gestartet worden. Was kann die Ursache sein, wenn nach dem Einkuppeln der Antriebswelle der Motor stehenbleibt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "56_1",
@@ -1645,7 +1550,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "57",
     "text": "Ein Außenborder mit gefülltem Tank bleibt während der Fahrt stehen. Was könnten die Ursachen sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "57_1",
@@ -1672,7 +1577,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "58",
     "text": "Welche Veröffentlichungen enthalten wichtige Regeln und Tipps für Wassersportler, Empfehlungen zur Ausrüstung von Sportbooten sowie Hinweise zu umweltgerechtem Verhalten auf dem Wasser?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "58_1",
@@ -1699,7 +1604,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "59",
     "text": "Unter welchen Voraussetzungen darf ein Sportboot mit Elektromotor ohne Fahrerlaubnis geführt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "59_1",
@@ -1726,7 +1631,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "60",
     "text": "Welche Vorkehrungen sind für das längere Verlassen des Fahrzeugs zu treffen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "60_1",
@@ -1753,7 +1658,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "61",
     "text": "Wie ist ein enges Gewässer zu befahren, wenn man sich am Ufer festgemachten Fahrzeugen nähert?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "61_1",
@@ -1780,7 +1685,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "62",
     "text": "Wo sollen die Gasbehälter einer Flüssiggasanlage gelagert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "62_1",
@@ -1807,7 +1712,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "63",
     "text": "Warum sind die Flüssiggase Propan und Butan an Bord besonders gefährlich?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "63_1",
@@ -1834,7 +1739,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "64",
     "text": "Was ist zu tun, wenn Flüssiggas in das Innere des Bootes gelangt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "64_1",
@@ -1861,7 +1766,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "65",
     "text": "Was ist vor Inbetriebnahme einer Flüssiggasanlage zu prüfen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "65_1",
@@ -1888,7 +1793,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "66",
     "text": "Was ist zu beachten, wenn eine Flüssiggasanlage außer Betrieb gesetzt wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "66_1",
@@ -1915,7 +1820,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "67",
     "text": "Wie oft muss man aufblasbare Rettungsmittel warten lassen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "67_1",
@@ -1942,7 +1847,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "68",
     "text": "Welcher Feuerlöscher ist für Sportboote zweckmäßig und wie oft muss man einen Feuerlöscher überprüfen lassen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "68_1",
@@ -1969,7 +1874,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "69",
     "text": "Welche Maßnahmen muss man ergreifen, um einen Brand mit dem Feuerlöscher wirksam zu bekämpfen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "69_1",
@@ -1996,7 +1901,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "70",
     "text": "Wie hat man sich nach einem Zusammenstoß zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "70_1",
@@ -2023,7 +1928,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "71",
     "text": "Welche Faktoren sind hauptsächlich für das Wettergeschehen, also für Wind und Niederschläge, ausschlaggebend?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "71_1",
@@ -2050,7 +1955,7 @@ export const SBF_BINNEN_BASIS = [
   {
     "id": "72",
     "text": "In welcher Situation dürfen Notsignale gegeben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "72_1",

@@ -2,7 +2,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "73",
     "text": "Für welche Sportboote ist der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen vorgeschrieben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "73_1",
@@ -29,7 +29,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "74",
     "text": "Auf welchen Gewässern gilt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "74_1",
@@ -56,7 +56,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "75",
     "text": "Aus welchen Gründen muss der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen entzogen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "75_1",
@@ -83,7 +83,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "76",
     "text": "Was beinhaltet die allgemeine Sorgfaltspflicht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "76_1",
@@ -110,7 +110,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "77",
     "text": "Unter welchen Umständen darf von den geltenden Bestimmungen über das Verhalten im Verkehr auf den Binnenschifffahrtsstraßen abgewichen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "77_1",
@@ -137,7 +137,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "78",
     "text": "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf Binnenschifffahrtsstraßen erfüllen, wenn die größte Nutzleistung der Antriebsmaschine 11,03 kW bei Verbrennungsmotoren bzw. 7,5 kW bei Elektromotoren Betriebsart S1 (Dauerbetrieb) oder weniger beträgt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "78_1",
@@ -164,7 +164,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "79",
     "text": "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf dem Rhein erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 11,03 kW bei Verbrennungsmotoren bzw. 7,5 kW bei Elektromotoren Betriebsart S1 (Dauerbetrieb) beträgt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "79_1",
@@ -191,7 +191,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "80",
     "text": "Welche Anforderungen werden an die Person gestellt, mit der der Schifffsführer das Ruder eines Sportbootes mit Antriebsmaschine auf Binnenschiffffahrtstraßen besetzen will?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "80_1",
@@ -218,7 +218,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "81",
     "text": "Wo erhält man Auskünfte über Verkehrsbeschränkungen und aktuelle Informationen über Binnenschifffahrtsstraßen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "81_1",
@@ -245,7 +245,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "82",
     "text": "Wozu muss der Rudergänger eines Sportbootes zur sicheren Steuerung in der Lage sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "82_1",
@@ -272,7 +272,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "83",
     "text": "Bis zu welcher Schiffslänge berechtigt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen zum Führen eines Sportbootes auf Binnenschifffahrtsstraßen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "83_1",
@@ -299,7 +299,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "84",
     "text": "Wo findet man die allgemeinen Verkehrsregeln für die Binnenschifffahrtsstraßen und den Rhein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "84_1",
@@ -326,7 +326,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "85",
     "text": "Wo findet man die allgemeinen Verkehrsregeln für die Mosel und die Donau?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "85_1",
@@ -353,7 +353,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "86",
     "text": "Wo findet man Regeln für den Verkehr von Wassermotorrädern und für das Wasserskilaufen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "86_1",
@@ -380,7 +380,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "87",
     "text": "Welche Maßnahmen sind zu treffen, wenn das Fahrzeug innerhalb des Fahrwassers bzw der Fahrrinne Grundberührung hat?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "87_1",
@@ -407,7 +407,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "88",
     "text": "Was versteht man unter \"Fahrwasser\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "88_1",
@@ -434,7 +434,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "89",
     "text": "Was versteht man unter \"Fahrrinne\"?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "89_1",
@@ -461,7 +461,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "90",
     "text": "Wie wird die Schifffahrt vom Erreichen bestimmter Wasserstände und Hochwassermarken informiert?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "90_1",
@@ -488,7 +488,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "91",
     "text": "Wo kann der Sportbootfahrer vor Ort das Erreichen bestimmter Wasserstände und Hochwassermarken feststellen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "91_1",
@@ -515,7 +515,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "92",
     "text": "Welche Auswirkungen kann das Erreichen der Hochwassermarke I für die Sportschifffahrt haben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "92_1",
@@ -542,7 +542,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "93",
     "text": "Welche Auswirkungen hat das Erreichen der Hochwassermarke II für die Sportschifffahrt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "93_1",
@@ -569,7 +569,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "94",
     "text": "In welche Richtung werden bei Flüssen die Uferseiten als rechtes bzw. linkes Ufer bezeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "94_1",
@@ -596,7 +596,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "95",
     "text": "Was bedeutet \"zu Berg\" oder \"Bergfahrt\" auf Flüssen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "95_1",
@@ -623,7 +623,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "96",
     "text": "Was bedeutet \"zu Berg\" oder \"Bergfahrt\" auf Kanälen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "96_1",
@@ -650,7 +650,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "97",
     "text": "Welche Zeichen begrenzen die Fahrrinne zum rechten Ufer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "97_1",
@@ -677,7 +677,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "98",
     "text": "Welche Zeichen begrenzen die Fahrrinne zum linken Ufer?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "98_1",
@@ -704,7 +704,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "99",
     "text": "Welche Fahrrinnenseite hat ein Bergfahrer an seiner Steuerbordseite und wie ist diese gekennzeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "99_1",
@@ -731,7 +731,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "100",
     "text": "Was bedeutet eine rot-grün gestreifte Tonne oder Schwimmstange und was ist zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "100_1",
@@ -758,7 +758,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "101",
     "text": "Mit welchen Zeichen werden Hindernisse wie zum Beispiel Buhnen und Kribben an der rechten Seite der Wasserstraße bezeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "101_1",
@@ -785,7 +785,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "102",
     "text": "Was kennzeichnet eine grün-weiß gestreifte Schwimmstange mit grünem Kegel, Spitze nach oben, oder eine grüne Tonne mit grün-weiß gestreiftem Aufsatz mit grünem Kegel, Spitze nach oben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "102_1",
@@ -812,7 +812,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "103",
     "text": "Was ist in Kanälen verboten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "103_1",
@@ -839,7 +839,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "104",
     "text": "Was bedeuten auf einem stillliegenden Fahrzeug zwei weiße Lichter übereinander?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "104_1",
@@ -866,7 +866,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "105",
     "text": "Welches Licht setzt ein stillliegendes Fahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "105_1",
@@ -893,7 +893,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "106",
     "text": "Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "106_1",
@@ -920,13 +920,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "107",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.5.7 - Liegestelle für ein Fahrzeug der Schubschifffahrt, das die Bezeichnung nach § 3.14 Nummer 3 führen muss",
-        "title": "Hinweiszeichen E.5.7 - Liegestelle für ein Fahrzeug der Schubschifffahrt, das die Bezeichnung nach § 3.14 Nummer 3 führen muss",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E057.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E057.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E057.gif"
     ],
     "answers": [
       {
@@ -954,19 +949,9 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "108",
     "text": "Was bedeuten diese Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.5.12 - Liegestelle für ein Fahrzeug, das keine Bezeichnung nach § 3.14 führen muss",
-        "title": "Hinweiszeichen E.5.12 - Liegestelle für ein Fahrzeug, das keine Bezeichnung nach § 3.14 führen muss",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E0512.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E0512.gif"
-      },
-      {
-        "alt": "Hinweiszeichen E.5.8 - Liegestelle für ein anderes Fahrzeug als ein Fahrzeug der Schubschifffahrt, das nicht die Bezeichnung nach § 3.14 führen muss",
-        "title": "Hinweiszeichen E.5.8 - Liegestelle für ein anderes Fahrzeug als ein Fahrzeug der Schubschifffahrt, das nicht die Bezeichnung nach § 3.14 führen muss",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E058.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E058.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E0512.gif",
+      "Hinweiszeichen-E058.gif"
     ],
     "answers": [
       {
@@ -994,7 +979,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "109",
     "text": "Wo besteht ohne besondere Bezeichnung der Stellen bzw. Strecken ein allgemeines Liegeverbot?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "109_1",
@@ -1021,13 +1006,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "110",
     "text": "Welche Bedeutung hat das nachstehende Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt",
-        "title": "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Tafelzeichen-Frage-110.gif?__blob=normal&v=1",
-        "fileName": "Tafelzeichen-Frage-110.gif"
-      }
+    "images": [
+      "Tafelzeichen-Frage-110.gif"
     ],
     "answers": [
       {
@@ -1055,13 +1035,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "111",
     "text": "Welche Bedeutung haben die nachstehenden Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Empfehlungszeichen D.1b - Empfohlene Durchfahrtsöffnung für Verkehr nur in Richtung in der die Zeichen sichtbar sind (in der anderen Richtung untersagt)",
-        "title": "Empfehlungszeichen D.1b - Empfohlene Durchfahrtsöffnung für Verkehr nur in Richtung in der die Zeichen sichtbar sind (in der anderen Richtung untersagt)",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Empfehlungszeichen-D1b-Rhein-Mosel.jpg?__blob=normal&v=1",
-        "fileName": "Empfehlungszeichen-D1b-Rhein-Mosel.jpg"
-      }
+    "images": [
+      "Empfehlungszeichen-D1b-Rhein-Mosel.jpg"
     ],
     "answers": [
       {
@@ -1089,13 +1064,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "112",
     "text": "Was bedeuten diese Tafelzeichen an Brücken?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.10 - Verbot, außerhalb der angezeigten Begrenzung zu fahren",
-        "title": "Verbotszeichen A.10 - Verbot, außerhalb der angezeigten Begrenzung zu fahren",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A10.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A10.gif"
-      }
+    "images": [
+      "Verbotszeichen-A10.gif"
     ],
     "answers": [
       {
@@ -1123,13 +1093,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "113",
     "text": "Was bedeuten diese Tafelzeichen an Brücken?",
-    "media": [
-      {
-        "alt": "Empfehlungszeichen D.2 - Empfehlung, sich in dem durch die Tafeln begrenzten Raum zu halten",
-        "title": "Empfehlungszeichen D.2 - Empfehlung, sich in dem durch die Tafeln begrenzten Raum zu halten",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Empfehlungszeichen-D2.gif?__blob=normal&v=1",
-        "fileName": "Empfehlungszeichen-D2.gif"
-      }
+    "images": [
+      "Empfehlungszeichen-D2.gif"
     ],
     "answers": [
       {
@@ -1157,13 +1122,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "114",
     "text": "Was bedeutet dieses Tafelzeichen an Brücken?",
-    "media": [
-      {
-        "alt": "Empfohlene Durchfahrt mit Gegenverkehr",
-        "title": "Empfohlene Durchfahrt mit Gegenverkehr",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Tafelzeichen-Frage-114.gif?__blob=normal&v=1",
-        "fileName": "Tafelzeichen-Frage-114.gif"
-      }
+    "images": [
+      "Tafelzeichen-Frage-114.gif"
     ],
     "answers": [
       {
@@ -1191,13 +1151,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "115",
     "text": "Was bedeuten diese Tafelzeichen an Brücken?",
-    "media": [
-      {
-        "alt": "Empfohlene Durchfahrt ohne Gegenverkehr",
-        "title": "Empfohlene Durchfahrt ohne Gegenverkehr",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Tafelzeichen-Frage-115.gif?__blob=normal&v=1",
-        "fileName": "Tafelzeichen-Frage-115.gif"
-      }
+    "images": [
+      "Tafelzeichen-Frage-115.gif"
     ],
     "answers": [
       {
@@ -1225,13 +1180,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "116",
     "text": "Was bedeutet dieses Tafelzeichen im Bereich eines Wehres?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "title": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A01-Tafeln.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A01-Tafeln.gif"
-      }
+    "images": [
+      "Verbotszeichen-A01-Tafeln.gif"
     ],
     "answers": [
       {
@@ -1259,7 +1209,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "117",
     "text": "Welche Bedeutung haben vor einer Schleuse ein rotes oder ein rotes und ein grünes Licht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "117_1",
@@ -1286,7 +1236,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "118",
     "text": "In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "118_1",
@@ -1313,7 +1263,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "119",
     "text": "Mehrere Kleinfahrzeuge sollen gemeinsam vom Oberwasser in das Unterwasser geschleust werden. Worauf ist bei deren Einfahrt in die Schleuse und während des Schleusens besonders zu achten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "119_1",
@@ -1340,13 +1290,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "120",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Fahrzeug mit Maschinenantrieb länger als 110 m",
-        "title": "Fahrzeug mit Maschinenantrieb länger als 110 m",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-120.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-120.gif"
-      }
+    "images": [
+      "Lichter-Frage-120.gif"
     ],
     "answers": [
       {
@@ -1374,13 +1319,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "121",
     "text": "Was bedeutet dieses Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 4",
-        "title": "Anlage 3 Tagbezeichnung Bild 4",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-004-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-004-Tag.gif"
-      }
+    "images": [
+      "Bild-004-Tag.gif"
     ],
     "answers": [
       {
@@ -1408,13 +1348,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "122",
     "text": "Was bedeutet dieses Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 6",
-        "title": "Anlage 3 Tagbezeichnung Bild 6",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-006-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-006-Tag.gif"
-      }
+    "images": [
+      "Bild-006-Tag.gif"
     ],
     "answers": [
       {
@@ -1442,13 +1377,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "123",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Schubverband in Fahrt von vorne",
-        "title": "Schubverband in Fahrt von vorne",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-123.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-123.gif"
-      }
+    "images": [
+      "Lichter-Frage-123.gif"
     ],
     "answers": [
       {
@@ -1476,13 +1406,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "124",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Nicht frei fahrende Fähre",
-        "title": "Nicht frei fahrende Fähre",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-124.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-124.gif"
-      }
+    "images": [
+      "Lichter-Frage-124.gif"
     ],
     "answers": [
       {
@@ -1510,13 +1435,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "125",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Frei fahrende Fähre",
-        "title": "Frei fahrende Fähre",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-125.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-125.gif"
-      }
+    "images": [
+      "Lichter-Frage-125.gif"
     ],
     "answers": [
       {
@@ -1544,7 +1464,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "126",
     "text": "Was bedeutet auf einem Fahrzeug ein blaues Licht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "126_1",
@@ -1571,13 +1491,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "127",
     "text": "Was bedeutet dieses Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 27a",
-        "title": "Anlage 3 Tagbezeichnung Bild 27a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-027a-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-027a-Tag.gif"
-      }
+    "images": [
+      "Bild-027a-Tag.gif"
     ],
     "answers": [
       {
@@ -1605,7 +1520,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "128",
     "text": "Was bedeuten auf einem Fahrzeug zwei blaue Lichter übereinander?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "128_1",
@@ -1632,13 +1547,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "129",
     "text": "Was bedeutet dieses Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 28a",
-        "title": "Anlage 3 Tagbezeichnung Bild 28a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-028a-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-028a-Tag.gif"
-      }
+    "images": [
+      "Bild-028a-Tag.gif"
     ],
     "answers": [
       {
@@ -1666,7 +1576,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "130",
     "text": "Was bedeuten auf einem Fahrzeug drei blaue Lichter übereinander?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "130_1",
@@ -1693,13 +1603,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "131",
     "text": "Was bedeutet dieses Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 29a",
-        "title": "Anlage 3 Tagbezeichnung Bild 29a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-029a-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-029a-Tag.gif"
-      }
+    "images": [
+      "Bild-029a-Tag.gif"
     ],
     "answers": [
       {
@@ -1727,13 +1632,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "132",
     "text": "Welches Fahrzeug führt die nachstehende Tagbezeichnung?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 37",
-        "title": "Anlage 3 Tagbezeichnung Bild 37",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-037-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-037-Tag.gif"
-      }
+    "images": [
+      "Bild-037-Tag.gif"
     ],
     "answers": [
       {
@@ -1761,7 +1661,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "133",
     "text": "Ein Kleinfahrzeug unter Segel fährt nachts auf einer Binnenschifffahrtsstraße und führt ein weißes Rundumlicht im Topp. Wie wird zweckmäßigerweise die weiße Handlampe, die bei Annäherung anderer Fahrzeuge gezeigt werden muss, benutzt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "133_1",
@@ -1788,7 +1688,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "134",
     "text": "Ein Kleinfahrzeug unter Segel fährt nachts auf einer Binnenschifffahrtsstraße und führt ein weißes Rundumlicht im Topp. Welche zusätzlichen Lichter müssen gesetzt werden, wenn der Motor angeworfen wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "134_1",
@@ -1815,7 +1715,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "135",
     "text": "Welche Lichter muss ein Kleinfahrzeug unter Motor führen, wenn es ein anderes Kleinfahrzeug ohne Maschinenantrieb schleppt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "135_1",
@@ -1842,7 +1742,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "136",
     "text": "Welche Lichter muss ein geschlepptes Kleinfahrzeug führen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "136_1",
@@ -1869,7 +1769,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "137",
     "text": "Wann gilt ein Sportboot auf den Binnenschifffahrtsstraßen nicht mehr als Kleinfahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "137_1",
@@ -1896,7 +1796,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "138",
     "text": "Welchen Sichtwinkel und welche Farben haben die vorgeschriebenen Lichter an Bord?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "138_1",
@@ -1923,7 +1823,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "139",
     "text": "Welches Licht muss ein Kleinfahrzeug ohne Maschinenantrieb mindestens führen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "139_1",
@@ -1950,7 +1850,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "140",
     "text": "Wie muss sich ein Segelfahrzeug auf einer Binnenschifffahrtsstraße, welches sich auf Kollisionskurs mit einem Kleinfahrzeug mit Maschinenantrieb befindet, verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "140_1",
@@ -1977,7 +1877,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "141",
     "text": "Wie muss sich ein Fahrzeug mit Topplicht und Seitenlichtern gegenüber einem Kleinfahrzeug mit Seitenlichtern, welches sich auf Kollisionskurs befindet, verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "141_1",
@@ -2004,7 +1904,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "142",
     "text": "Wie muss sich ein Kleinfahrzeug mit Maschinenantrieb gegenüber einem Segelsurfer, der auf Kollisionskurs liegt, verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "142_1",
@@ -2031,7 +1931,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "143",
     "text": "Wer ist ausweichpflichtig, wenn ein Segler mit Wind von Backbord einer Segelyacht mit Wind von Steuerbord und einem schwarzen Kegel auf Kollisionskurs begegnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "143_1",
@@ -2058,7 +1958,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "144",
     "text": "Wie lautet eine der drei Grundregeln der Binnenschifffahrtsstraßen-Ordnung, nach denen Kleinfahrzeuge unter Segel einander ausweichen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "144_1",
@@ -2085,13 +1985,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "145",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Anlage 3 Nachtbezeichnung Bild 51",
-        "title": "Anlage 3 Nachtbezeichnung Bild 51",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-051-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Bild-051-Nacht.gif"
-      }
+    "images": [
+      "Bild-051-Nacht.gif"
     ],
     "answers": [
       {
@@ -2119,13 +2014,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "146",
     "text": "Was bedeuten diese Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 51",
-        "title": "Anlage 3 Tagbezeichnung Bild 51",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-051-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-051-Tag.gif"
-      }
+    "images": [
+      "Bild-051-Tag.gif"
     ],
     "answers": [
       {
@@ -2153,13 +2043,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "147",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Anlage 3 Nachtbezeichnung Bild 52",
-        "title": "Anlage 3 Nachtbezeichnung Bild 52",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-052-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Bild-052-Nacht.gif"
-      }
+    "images": [
+      "Bild-052-Nacht.gif"
     ],
     "answers": [
       {
@@ -2187,13 +2072,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "148",
     "text": "Was bedeuten diese Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 52",
-        "title": "Anlage 3 Tagbezeichnung Bild 52",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-052-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-052-Tag.gif"
-      }
+    "images": [
+      "Bild-052-Tag.gif"
     ],
     "answers": [
       {
@@ -2221,13 +2101,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "149",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Anlage 3 Nachtbezeichnung Bild 50a",
-        "title": "Anlage 3 Nachtbezeichnung Bild 50a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-050a-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Bild-050a-Nacht.gif"
-      }
+    "images": [
+      "Bild-050a-Nacht.gif"
     ],
     "answers": [
       {
@@ -2255,13 +2130,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "150",
     "text": "Was bedeuten diese Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 50b",
-        "title": "Anlage 3 Tagbezeichnung Bild 50b",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-050b-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-050b-Tag.gif"
-      }
+    "images": [
+      "Bild-050b-Tag.gif"
     ],
     "answers": [
       {
@@ -2289,13 +2159,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "151",
     "text": "Was bedeuten im Fahrwasser nachstehende Zeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 50a",
-        "title": "Anlage 3 Tagbezeichnung Bild 50a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-050a-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-050a-Tag.gif"
-      }
+    "images": [
+      "Bild-050a-Tag.gif"
     ],
     "answers": [
       {
@@ -2323,13 +2188,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "152",
     "text": "Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Anlage 3 Nachtbezeichnung Bild 49a",
-        "title": "Anlage 3 Nachtbezeichnung Bild 49a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-049a-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Bild-049a-Nacht.gif"
-      }
+    "images": [
+      "Bild-049a-Nacht.gif"
     ],
     "answers": [
       {
@@ -2357,13 +2217,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "153",
     "text": "Was bedeuten diese Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 49b",
-        "title": "Anlage 3 Tagbezeichnung Bild 49b",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-049b-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-049b-Tag.gif"
-      }
+    "images": [
+      "Bild-049b-Tag.gif"
     ],
     "answers": [
       {
@@ -2391,13 +2246,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "154",
     "text": "Was bedeuten diese Sichtzeichen?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 49a",
-        "title": "Anlage 3 Tagbezeichnung Bild 49a",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-049a-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-049a-Tag.gif"
-      }
+    "images": [
+      "Bild-049a-Tag.gif"
     ],
     "answers": [
       {
@@ -2425,19 +2275,9 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "155",
     "text": "Was bedeutet diese Tag- und Nachtbezeichnung?",
-    "media": [
-      {
-        "alt": "Anlage 3 Tagbezeichnung Bild 58",
-        "title": "Anlage 3 Tagbezeichnung Bild 58",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-058-Tag.gif?__blob=normal&v=1",
-        "fileName": "Bild-058-Tag.gif"
-      },
-      {
-        "alt": "Anlage 3 Nachtbezeichnung Bild 58",
-        "title": "Anlage 3 Nachtbezeichnung Bild 58",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-03/Bild-058-Nacht.gif?__blob=normal&v=1",
-        "fileName": "Bild-058-Nacht.gif"
-      }
+    "images": [
+      "Bild-058-Tag.gif",
+      "Bild-058-Nacht.gif"
     ],
     "answers": [
       {
@@ -2465,13 +2305,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "156",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.1a - Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar",
-        "title": "Verbotszeichen A.1a - Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A01a.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A01a.gif"
-      }
+    "images": [
+      "Verbotszeichen-A01a.gif"
     ],
     "answers": [
       {
@@ -2499,13 +2334,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "157",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.12 - Fahrverbot für Fahrzeuge mit Maschinenantrieb",
-        "title": "Verbotszeichen A.12 - Fahrverbot für Fahrzeuge mit Maschinenantrieb",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A12.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A12.gif"
-      }
+    "images": [
+      "Verbotszeichen-A12.gif"
     ],
     "answers": [
       {
@@ -2533,7 +2363,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "158",
     "text": "Wie ist eine geschützte Badezone gekennzeichnet?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "158_1",
@@ -2560,7 +2390,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "159",
     "text": "Was bedeutet ein langer Ton?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "159_1",
@@ -2587,7 +2417,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "160",
     "text": "Was bedeuten vier kurze Töne?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "160_1",
@@ -2614,7 +2444,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "161",
     "text": "Was bedeuten fünf kurze Töne?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "161_1",
@@ -2641,13 +2471,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "162",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Wenden über Steuerbord",
-        "title": "Wenden über Steuerbord",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-162.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-162.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-162.gif"
     ],
     "answers": [
       {
@@ -2675,13 +2500,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "163",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Wenden über Backbord",
-        "title": "Wenden über Backbord",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-163.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-163.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-163.gif"
     ],
     "answers": [
       {
@@ -2709,13 +2529,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "164",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz",
-        "title": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-164.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-164.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-164.gif"
     ],
     "answers": [
       {
@@ -2743,13 +2558,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "165",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Überholen an der Backbordseite des Vorausfahrenden",
-        "title": "Überholen an der Backbordseite des Vorausfahrenden",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-165.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-165.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-165.gif"
     ],
     "answers": [
       {
@@ -2777,13 +2587,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "166",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Hafen oder Nebenwasserstraße; Ein- odere Ausfahrt mit Kursänderung nach Steuerbord",
-        "title": "Hafen oder Nebenwasserstraße; Ein- odere Ausfahrt mit Kursänderung nach Steuerbord",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-166.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-166.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-166.gif"
     ],
     "answers": [
       {
@@ -2811,13 +2616,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "167",
     "text": "Was bedeutet dieses Schallsignal?",
-    "media": [
-      {
-        "alt": "Hafen oder Nebenwasserstraße; Ein- odere Ausfahrt mit Kursänderung nach Backbord",
-        "title": "Hafen oder Nebenwasserstraße; Ein- odere Ausfahrt mit Kursänderung nach Backbord",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Schallsignal-Frage-167.gif?__blob=normal&v=1",
-        "fileName": "Schallsignal-Frage-167.gif"
-      }
+    "images": [
+      "Schallsignal-Frage-167.gif"
     ],
     "answers": [
       {
@@ -2845,7 +2645,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "168",
     "text": "Was ist eine Folge sehr kurzer Töne?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "168_1",
@@ -2872,7 +2672,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "169",
     "text": "Was bedeutet eine Folge sehr kurzer Töne?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "169_1",
@@ -2899,7 +2699,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "170",
     "text": "Welche Schallsignale bzw. Zeichen sind zu geben, wenn das Boot manövrierunfähig geworden ist?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "170_1",
@@ -2926,7 +2726,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "171",
     "text": "Ein Fahrzeug zeigt an der Steuerbordseite seines Ruderhauses eine blaue Tafel mit weißem Funkellicht. Welche Bedeutung hat dieses Zeichen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "171_1",
@@ -2953,7 +2753,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "172",
     "text": "Ein Sportfahrzeug fährt hinter einem Fahrzeug, das nicht Kleinfahrzeug ist, in den Schleusenvorhafen ein. Aus der Schleusenkammer kommt ein Fahrzeug, das an Steuerbord eine blaue Tafel mit einem weißen Funkellicht zeigt. Was bedeutet dieses Zeichen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "172_1",
@@ -2980,7 +2780,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "173",
     "text": "Wo kann man von bestehenden Höchstgeschwindigkeiten auf den Binnenschifffahrtsstraßen Kenntnis erhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "173_1",
@@ -3007,7 +2807,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "174",
     "text": "Wie ist ein Überholmanöver durchzuführen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "174_1",
@@ -3034,7 +2834,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "175",
     "text": "Wann besteht die Gefahr eines Zusammenstoßes?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "175_1",
@@ -3061,7 +2861,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "176",
     "text": "Wie müssen Ausweichmanöver durchgeführt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "176_1",
@@ -3088,7 +2888,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "177",
     "text": "Ein Kleinfahrzeug und ein Fahrzeug über 20 m Länge nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "177_1",
@@ -3115,7 +2915,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "178",
     "text": "Welche Fahrzeuge in Fahrt führen nachts nur ein weißes Rundumlicht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "178_1",
@@ -3142,7 +2942,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "179",
     "text": "Wie muss sich ein kreuzendes Kleinfahrzeug unter Segel am Wind in der Nähe eines Ufers gegenüber einem anderen Kleinfahrzeug verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "179_1",
@@ -3169,13 +2969,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "180",
     "text": "Wer ist ausweichpflichtig bzw. wer ist nicht ausweichpflichtig?",
-    "media": [
-      {
-        "alt": "Das Fahrzeug unter Segel ist ausweichpflichtig",
-        "title": "Das Fahrzeug unter Segel ist ausweichpflichtig",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-180.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-180.gif"
-      }
+    "images": [
+      "Bild-Frage-180.gif"
     ],
     "answers": [
       {
@@ -3203,7 +2998,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "181",
     "text": "Was hat der Schiffsführer eines Kleinfahrzeugs beim Begegnen mit Fahrzeugen, die nicht Kleinfahrzeuge sind, zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "181_1",
@@ -3230,7 +3025,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "182",
     "text": "Von Backbord kommend kreuzt ein Fahrzeug unter Segel mit einem schwarzen Kegel, Spitze nach unten, den Kurs eines Fahrzeuges mit Maschinenantrieb. Wer ist ausweichpflichtig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "182_1",
@@ -3257,13 +3052,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "183",
     "text": "Zwei Kleinfahrzeuge unter Segel A und B liegen auf Kollisionskurs; A führt einen schwarzen Kegel. Wer ist ausweichpflichtig?",
-    "media": [
-      {
-        "alt": "Fahrzeug A ist ausweichpflichtig",
-        "title": "Fahrzeug A ist ausweichpflichtig",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-183.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-183.gif"
-      }
+    "images": [
+      "Bild-Frage-183.gif"
     ],
     "answers": [
       {
@@ -3291,7 +3081,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "184",
     "text": "Ein Fahrzeug unter Segel kreuzt eine Binnenschifffahrtsstraße. In der Fahrwassermitte kommt ihm ein Kleinfahrzeug mit Maschinenantrieb zu Berg entgegen. Wer ist ausweichpflichtig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "184_1",
@@ -3318,13 +3108,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "185",
     "text": "Zwei Kleinfahrzeuge A und B unter Segel liegen auf Kollisionskurs (Skizze). Wer ist ausweichpflichtig?",
-    "media": [
-      {
-        "alt": "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen",
-        "title": "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-185.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-185.gif"
-      }
+    "images": [
+      "Bild-Frage-185.gif"
     ],
     "answers": [
       {
@@ -3352,13 +3137,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "186",
     "text": "Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpflichtig?",
-    "media": [
-      {
-        "alt": "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen",
-        "title": "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-186.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-186.gif"
-      }
+    "images": [
+      "Bild-Frage-186.gif"
     ],
     "answers": [
       {
@@ -3386,7 +3166,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "187",
     "text": "Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steuerbord. Backbord querab kommt ein grünes Seitenlicht eines Bootes B immer näher, das kein Topplicht führt. Wer ist ausweichpflichtig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "187_1",
@@ -3413,13 +3193,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "188",
     "text": "Der seitliche Abstand zwischen den Booten A, B und C verringert sich ständig. Welches Boot kann seinen Kurs beibehalten?",
-    "media": [
-      {
-        "alt": "Boot A, weil leeseitig",
-        "title": "Boot A, weil leeseitig",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-188.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-188.gif"
-      }
+    "images": [
+      "Bild-Frage-188.gif"
     ],
     "answers": [
       {
@@ -3447,13 +3222,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "189",
     "text": "Wer ist wem gegenüber kurshaltepflichtig?",
-    "media": [
-      {
-        "alt": "A gegenüber B und C, B gegenüber C",
-        "title": "A gegenüber B und C, B gegenüber C",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-189.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-189.gif"
-      }
+    "images": [
+      "Bild-Frage-189.gif"
     ],
     "answers": [
       {
@@ -3481,7 +3251,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "190",
     "text": "Was ist vorrangig zu beachten, wenn eine Jolle gekentert ist und sie nicht wieder aufgerichtet werden kann?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "190_1",
@@ -3508,7 +3278,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "191",
     "text": "Ein Segelboot gerät in das Feld einer Segelregatta, ohne selbst Teilnehmer zu sein. Welche Ausweichregeln sind zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "191_1",
@@ -3535,13 +3305,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "192",
     "text": "Ein Kleinfahrzeug unter Segel kreuzt nachts das Fahrwasser. An Backbord tauchen die nachstehenden Lichter eines Fahrzeugs auf, das in spitzem Winkel den Kurs des Kleinfahrzeugs unter Segel kreuzen will. Was bedeuten diese Lichter?",
-    "media": [
-      {
-        "alt": "Kleinfahrzeug mit Maschinenantrieb",
-        "title": "Kleinfahrzeug mit Maschinenantrieb",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-192.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-192.gif"
-      }
+    "images": [
+      "Lichter-Frage-192.gif"
     ],
     "answers": [
       {
@@ -3569,13 +3334,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "193",
     "text": "Ein Kleinfahrzeug unter Segel kreuzt nachts das Fahrwasser. An Backbord tauchen die nachstehenden Lichter eines Fahrzeugs auf, das in spitzem Winkel den Kurs des Kleinfahrzeugs unter Segel kreuzen will. Wer ist ausweichpflichtig?",
-    "media": [
-      {
-        "alt": "Kleinfahrzeug mit Maschinenantrieb",
-        "title": "Kleinfahrzeug mit Maschinenantrieb",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-192.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-192.gif"
-      }
+    "images": [
+      "Lichter-Frage-192.gif"
     ],
     "answers": [
       {
@@ -3603,7 +3363,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "194",
     "text": "Ein Kleinfahrzeug unter Segel und mit Maschinenantrieb kreuzt nachts stromauf. Ein Fahrzeug kommt entgegen, das nur ein weißes Licht führt. Was bedeutet dieses Licht?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "194_1",
@@ -3630,7 +3390,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "195",
     "text": "Ein Kleinfahrzeug unter Segel kreuzt nachts im Fahrwasser. Von achtern kommt ein Fahrzeug, das eine Zweifarbenlaterne und ein Topplicht führt. Was bedeuten diese Lichter?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "195_1",
@@ -3657,13 +3417,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "196",
     "text": "Was bedeuten nachts auf einer Binnenschifffahrtsstraße die nachstehenden Lichter?",
-    "media": [
-      {
-        "alt": "Sog und Wellenschlag vermeiden",
-        "title": "Sog und Wellenschlag vermeiden",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Lichter-Frage-196.gif?__blob=normal&v=1",
-        "fileName": "Lichter-Frage-196.gif"
-      }
+    "images": [
+      "Lichter-Frage-196.gif"
     ],
     "answers": [
       {
@@ -3691,7 +3446,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "197",
     "text": "Wo ist die Geschwindigkeit zu vermindern, um Sog und Wellenschlag zu vermeiden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "197_1",
@@ -3718,13 +3473,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "198",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Vorgeschriebene Fahrtrichtung",
-        "title": "Vorgeschriebene Fahrtrichtung",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Tafelzeichen-Frage-198.gif?__blob=normal&v=1",
-        "fileName": "Tafelzeichen-Frage-198.gif"
-      }
+    "images": [
+      "Tafelzeichen-Frage-198.gif"
     ],
     "answers": [
       {
@@ -3752,13 +3502,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "199",
     "text": "Welche Bedeutung hat das nachstehende Tafelzeichen, wenn das rote Licht leuchtet?",
-    "media": [
-      {
-        "alt": "Verbotszeichen - Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße",
-        "title": "Verbotszeichen - Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A01-Pfeil.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A01-Pfeil.gif"
-      }
+    "images": [
+      "Verbotszeichen-A01-Pfeil.gif"
     ],
     "answers": [
       {
@@ -3786,13 +3531,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "200",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "10 km/h Höchstgeschwindigkeit gegenüber dem Ufer",
-        "title": "10 km/h Höchstgeschwindigkeit gegenüber dem Ufer",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Tafelzeichen-Frage-200.gif?__blob=normal&v=1",
-        "fileName": "Tafelzeichen-Frage-200.gif"
-      }
+    "images": [
+      "Tafelzeichen-Frage-200.gif"
     ],
     "answers": [
       {
@@ -3820,13 +3560,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "201",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Gebotszeichen B.8 - Gebot, besondere Vorsicht walten lassen",
-        "title": "Gebotszeichen B.8 - Gebot, besondere Vorsicht walten lassen",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Gebotszeichen-B08.gif?__blob=normal&v=1",
-        "fileName": "Gebotszeichen-B08.gif"
-      }
+    "images": [
+      "Gebotszeichen-B08.gif"
     ],
     "answers": [
       {
@@ -3854,13 +3589,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "202",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.8 - Wendeverbot",
-        "title": "Verbotszeichen A.8 - Wendeverbot",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A08.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A08.gif"
-      }
+    "images": [
+      "Verbotszeichen-A08.gif"
     ],
     "answers": [
       {
@@ -3888,13 +3618,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "203",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.8 - Hinweis auf eine Wendestelle",
-        "title": "Hinweiszeichen E.8 - Hinweis auf eine Wendestelle",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E08.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E08.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E08.gif"
     ],
     "answers": [
       {
@@ -3922,13 +3647,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "204",
     "text": "Was bedeutet dieses Tafelzeichen?",
-    "media": [
-      {
-        "alt": "Hinweiszeichen E.3 - Hinweis auf ein Wehr",
-        "title": "Hinweiszeichen E.3 - Hinweis auf ein Wehr",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Hinweiszeichen-E03.gif?__blob=normal&v=1",
-        "fileName": "Hinweiszeichen-E03.gif"
-      }
+    "images": [
+      "Hinweiszeichen-E03.gif"
     ],
     "answers": [
       {
@@ -3956,7 +3676,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "205",
     "text": "Welche Sichtbeeinträchtigungen führen zu unsichtigem Wetter?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "205_1",
@@ -3983,7 +3703,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "206",
     "text": "Wie muss ein Fahrzeug ausgerüstet sein, um bei unsichtigem Wetter zu fahren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "206_1",
@@ -4010,7 +3730,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "207",
     "text": "Was ist zu beachten, wenn während der Fahrt unsichtiges Wetter eintritt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "207_1",
@@ -4037,7 +3757,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "208",
     "text": "Welchen Vorteil bietet ein Radarreflektor auf einem Sportboot?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "208_1",
@@ -4064,7 +3784,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "209",
     "text": "Welche technische Einrichtung gegen einen Stromschlag muss in der Landstromversorgung unbedingt installiert sein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "209_1",
@@ -4091,7 +3811,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "210",
     "text": "Welches Schallsignal ist zu geben, wenn in einer Notsituation Hilfe gebraucht wird?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "210_1",
@@ -4118,7 +3838,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "211",
     "text": "Welche Bedeutung hat am Tag das Kreisen einer roten Flagge auf einem Wasserfahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "211_1",
@@ -4145,7 +3865,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "212",
     "text": "Welche Notsignale kann ein Segelsurfer auf Binnenschifffahrtsstraßen geben?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "212_1",
@@ -4172,7 +3892,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "213",
     "text": "Was ist mit Abfällen jeglicher Art zu tun, die an Bord anfallen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "213_1",
@@ -4199,7 +3919,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "214",
     "text": "Wem darf der Schiffsführer das Ruder eines motorisierten Sportbootes überlassen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "214_1",
@@ -4226,7 +3946,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "215",
     "text": "Wie müssen Abfälle entsorgt werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "215_1",
@@ -4253,7 +3973,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "216",
     "text": "Was ist beim Neuanstrich des Unterwasserschiffs und bei der Entfernung des alten Anstrichs zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "216_1",
@@ -4280,7 +4000,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "217",
     "text": "Was ist bei Sturmwarnung vom Schiffsführer eines Sportbootes unter Segel auf einem größeren Gewässer zu veranlassen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "217_1",
@@ -4307,7 +4027,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "218",
     "text": "Welche Fahrrinnenseite hat ein Talfahrer an seiner Backbordseite?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "218_1",
@@ -4334,7 +4054,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "219",
     "text": "Mit welcher Wetterentwicklung ist bei schnellem und stetig fallendem Luftdruck zu rechnen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "219_1",
@@ -4361,7 +4081,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "220",
     "text": "Welches Wetter ist zu erwarten, wenn der Luftdruck langsam aber stetig steigt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "220_1",
@@ -4388,7 +4108,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "221",
     "text": "Wo darf auf Binnenschifffahrtsstraßen Wasserski gelaufen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "221_1",
@@ -4415,7 +4135,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "222",
     "text": "Zu welcher Tageszeit und bei welchen Sichtweiten darf auf den erlaubten Gewässerabschnitten Wasserski gelaufen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "222_1",
@@ -4442,7 +4162,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "223",
     "text": "Wie muss sich der Wasserskiläufer bei der Vorbeifahrt an Fahrzeugen, Schwimmkörpern oder Badenden verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "223_1",
@@ -4469,7 +4189,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "224",
     "text": "Unter welchen Voraussetzungen darf außerhalb der ausgewiesenen Strecken/Wasserflächen Wassermotorrad gefahren werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "224_1",
@@ -4496,7 +4216,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "225",
     "text": "Wie hat sich der Führer eines Wassermotorrades außerhalb der ausgewiesenen Strecken/Wasserflächen zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "225_1",
@@ -4523,7 +4243,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "226",
     "text": "Auf welchen Gewässern ist die Fahrerlaubnis für Sportboote unter Segeln erforderlich?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "226_1",
@@ -4550,7 +4270,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "227",
     "text": "Weshalb muss sich der Schiffsführer vor dem Befahren fremder Gewässer über die dort geltenden Vorschriften informieren?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "227_1",
@@ -4577,7 +4297,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "228",
     "text": "Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes bis zu einer Länge von 25 m auf dem Rhein?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "228_1",
@@ -4604,7 +4324,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "229",
     "text": "Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes mit einer Länge von 20 m bis 25 m auf den Binnenschifffahrtsstraßen außerhalb des Rheins?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "229_1",
@@ -4631,7 +4351,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "230",
     "text": "Wo sind umfangreiche Hinweise auf die Binnenschifffahrtsstraßen und deren Grenzen zu finden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "230_1",
@@ -4658,7 +4378,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "231",
     "text": "Was ist bei der Ausübung des Wassersports auf Gewässern außerhalb der Bundeswasserstraßen (z. B. Landeswasserstraßen, kommunale und private Gewässer) zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "231_1",
@@ -4685,7 +4405,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "232",
     "text": "Welche Kennzeichnungsarten für Sportboote gibt es?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "232_1",
@@ -4712,7 +4432,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "233",
     "text": "Welche Stelle ist für die Zuteilung eines amtlichen Kennzeichens für Sportboote zuständig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "233_1",
@@ -4739,7 +4459,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "234",
     "text": "Woraus bestehen die amtlich anerkannten Kennzeichen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "234_1",
@@ -4766,7 +4486,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "235",
     "text": "Welche Stellen sind für die Zuteilung eines amtlich anerkannten Kennzeichens für Sportboote zuständig?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "235_1",
@@ -4793,7 +4513,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "236",
     "text": "Wann muss ein Wassersportfahrzeug in das Binnenschiffsregister eingetragen werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "236_1",
@@ -4820,7 +4540,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "237",
     "text": "Wie hat sich ein Schiffsführer bei Hochwasser zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "237_1",
@@ -4847,7 +4567,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "238",
     "text": "Wie hat sich ein Schiffsführer bei Erreichen der Hochwassermarke II zu verhalten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "238_1",
@@ -4874,7 +4594,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "239",
     "text": "Ein Fahrzeug fährt zu Tal. Voraus liegt eine rote Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "239_1",
@@ -4901,7 +4621,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "240",
     "text": "Ein Fahrzeug fährt zu Berg. Voraus liegt eine rote Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "240_1",
@@ -4928,7 +4648,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "241",
     "text": "Ein Fahrzeug fährt in der Fahrrinne gegen den Strom. Voraus liegt eine grüne Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "241_1",
@@ -4955,7 +4675,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "242",
     "text": "Welche Funktion haben gelbe Tonnen mit einem Radarreflektor vor Brückenpfeilern?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "242_1",
@@ -4982,13 +4702,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "243",
     "text": "Welche Bedeutung haben diese Tafeln an der nachstehenden gekennzeichneten Brücke?",
-    "media": [
-      {
-        "alt": "Empfohlene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt",
-        "title": "Empfohlene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt",
-        "src": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Bild-Frage-243.gif?__blob=normal&v=1",
-        "fileName": "Bild-Frage-243.gif"
-      }
+    "images": [
+      "Bild-Frage-243.gif"
     ],
     "answers": [
       {
@@ -5016,13 +4731,8 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "244",
     "text": "Was bedeutet dieses Tafelzeichen an einer Brückendurchfahrt?",
-    "media": [
-      {
-        "alt": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "title": "Verbotszeichen A.1 Tafelzeichen - Verbot der Durchfahrt",
-        "src": "https://www.elwis.de/DE/Schifffahrtsrecht/Binnenschifffahrtsrecht/Grafiken/Anlage-07/Verbotszeichen-A01-Tafeln.gif?__blob=normal&v=1",
-        "fileName": "Verbotszeichen-A01-Tafeln.gif"
-      }
+    "images": [
+      "Verbotszeichen-A01-Tafeln.gif"
     ],
     "answers": [
       {
@@ -5050,7 +4760,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "245",
     "text": "Warum ist es bei der Schleusendurchfahrt verboten, Autoreifen als Fender zu benutzen?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "245_1",
@@ -5077,7 +4787,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "246",
     "text": "Welche Lichter führt ein Schubverband?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "246_1",
@@ -5104,7 +4814,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "247",
     "text": "Welches Fahrzeug führt am Bug einen roten Wimpel?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "247_1",
@@ -5131,7 +4841,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "248",
     "text": "Wann gilt ein Sportboot auf den Binnenschifffahrtsstraßen als Kleinfahrzeug?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "248_1",
@@ -5158,7 +4868,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "249",
     "text": "Welche Bedeutung hat die Bezeichnung eines Fahrzeuges mit einer rot-weißen Flagge und was ist zu beachten?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "249_1",
@@ -5185,7 +4895,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "250",
     "text": "Welches optische Zeichen kann am Tage anstelle von vier kurzen Tönen gegeben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "250_1",
@@ -5212,7 +4922,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "251",
     "text": "Welches optische Zeichen kann in der Nacht oder bei verminderter Sicht anstelle von vier kurzen Tönen gegeben werden?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "251_1",
@@ -5239,7 +4949,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "252",
     "text": "Welcher Befähigungsnachweis ist zur Teilnahme am Binnenschifffahrtsfunk erforderlich?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "252_1",
@@ -5266,7 +4976,7 @@ export const SBF_BINNEN_SPEZIFISCH = [
   {
     "id": "253",
     "text": "Was bedeutet Radarfahrt?",
-    "media": [],
+    "images": [],
     "answers": [
       {
         "id": "253_1",
