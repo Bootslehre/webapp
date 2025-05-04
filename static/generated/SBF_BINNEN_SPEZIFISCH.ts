@@ -4,22 +4,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Für welche Sportboote ist der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen vorgeschrieben?",
     "images": [],
     "answers": [
-      {
-        "id": "73_1",
-        "text": "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und weniger als 20 m Länge.",
-      },
-      {
-        "id": "73_2",
-        "text": "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und mehr als 20 m Länge.",
-      },
-      {
-        "id": "73_3",
-        "text": "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und mehr als 20 m Länge.",
-      },
-      {
-        "id": "73_4",
-        "text": "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und weniger als 20 m Länge.",
-      }
+      "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und weniger als 20 m Länge.",
+      "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und mehr als 20 m Länge.",
+      "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und mehr als 20 m Länge.",
+      "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und weniger als 20 m Länge."
     ]
   },
   {
@@ -27,22 +15,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Auf welchen Gewässern gilt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen?",
     "images": [],
     "answers": [
-      {
-        "id": "74_1",
-        "text": "Auf den Bundeswasserstraßen im Binnenbereich.",
-      },
-      {
-        "id": "74_2",
-        "text": "Auf allen Landesgewässern.",
-      },
-      {
-        "id": "74_3",
-        "text": "Auf den Bundeswasserstraßen und allen Landesgewässern.",
-      },
-      {
-        "id": "74_4",
-        "text": "Auf allen Seewasserstraßen.",
-      }
+      "Auf den Bundeswasserstraßen im Binnenbereich.",
+      "Auf allen Landesgewässern.",
+      "Auf den Bundeswasserstraßen und allen Landesgewässern.",
+      "Auf allen Seewasserstraßen."
     ]
   },
   {
@@ -50,22 +26,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Aus welchen Gründen muss der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen entzogen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "75_1",
-        "text": "Bei fehlender Tauglichkeit oder fehlender Zuverlässigkeit.",
-      },
-      {
-        "id": "75_2",
-        "text": "Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.",
-      },
-      {
-        "id": "75_3",
-        "text": "Bei zweifelhafter Zuverlässigkeit aus Altersgründen.",
-      },
-      {
-        "id": "75_4",
-        "text": "Bei fehlender Zuverlässigkeit nach einer begangener Ordnungswidrigkeit.",
-      }
+      "Bei fehlender Tauglichkeit oder fehlender Zuverlässigkeit.",
+      "Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.",
+      "Bei zweifelhafter Zuverlässigkeit aus Altersgründen.",
+      "Bei fehlender Zuverlässigkeit nach einer begangener Ordnungswidrigkeit."
     ]
   },
   {
@@ -73,22 +37,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was beinhaltet die allgemeine Sorgfaltspflicht?",
     "images": [],
     "answers": [
-      {
-        "id": "76_1",
-        "text": "Vermeidung der Gefährdung von Menschenleben, von Beschädigungen an Fahrzeugen, Anlagen oder Ufern, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt.",
-      },
-      {
-        "id": "76_2",
-        "text": "Gefährdung von Menschenleben, Beschädigungen an Fahrzeugen, Anlagen oder Ufern und Beeinträchtigung der Umwelt.",
-      },
-      {
-        "id": "76_3",
-        "text": "Es ist alles zu tun, was zur Vermeidung der Gefährdung von Menschenleben, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt nötig ist.",
-      },
-      {
-        "id": "76_4",
-        "text": "Es ist alles zu tun, was zur Vermeidung von Beschädigungen an Fahrzeugen, Anlagen oder Ufern, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt nötig ist.",
-      }
+      "Vermeidung der Gefährdung von Menschenleben, von Beschädigungen an Fahrzeugen, Anlagen oder Ufern, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt.",
+      "Gefährdung von Menschenleben, Beschädigungen an Fahrzeugen, Anlagen oder Ufern und Beeinträchtigung der Umwelt.",
+      "Es ist alles zu tun, was zur Vermeidung der Gefährdung von Menschenleben, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt nötig ist.",
+      "Es ist alles zu tun, was zur Vermeidung von Beschädigungen an Fahrzeugen, Anlagen oder Ufern, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt nötig ist."
     ]
   },
   {
@@ -96,22 +48,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Unter welchen Umständen darf von den geltenden Bestimmungen über das Verhalten im Verkehr auf den Binnenschifffahrtsstraßen abgewichen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "77_1",
-        "text": "Bei unmittelbar drohender Gefahr für sich oder andere.",
-      },
-      {
-        "id": "77_2",
-        "text": "Bei unmittelbar bevorstehender Begegnung.",
-      },
-      {
-        "id": "77_3",
-        "text": "Bei unmittelbar bevorstehendem Überholvorgang.",
-      },
-      {
-        "id": "77_4",
-        "text": "Bei mittelbar drohender Gefahr für sich oder andere.",
-      }
+      "Bei unmittelbar drohender Gefahr für sich oder andere.",
+      "Bei unmittelbar bevorstehender Begegnung.",
+      "Bei unmittelbar bevorstehendem Überholvorgang.",
+      "Bei mittelbar drohender Gefahr für sich oder andere."
     ]
   },
   {
@@ -119,22 +59,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf Binnenschifffahrtsstraßen erfüllen, wenn die größte Nutzleistung der Antriebsmaschine 11,03 kW bei Verbrennungsmotoren bzw. 7,5 kW bei Elektromotoren Betriebsart S1 (Dauerbetrieb) oder weniger beträgt?",
     "images": [],
     "answers": [
-      {
-        "id": "78_1",
-        "text": "Mindestalter 16 Jahre.",
-      },
-      {
-        "id": "78_2",
-        "text": "Nachweis der Zuverlässigkeit.",
-      },
-      {
-        "id": "78_3",
-        "text": "Mindestalter 14 Jahre.",
-      },
-      {
-        "id": "78_4",
-        "text": "Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses.",
-      }
+      "Mindestalter 16 Jahre.",
+      "Nachweis der Zuverlässigkeit.",
+      "Mindestalter 14 Jahre.",
+      "Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses."
     ]
   },
   {
@@ -142,22 +70,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf dem Rhein erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 11,03 kW bei Verbrennungsmotoren bzw. 7,5 kW bei Elektromotoren Betriebsart S1 (Dauerbetrieb) beträgt?",
     "images": [],
     "answers": [
-      {
-        "id": "79_1",
-        "text": "Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses.",
-      },
-      {
-        "id": "79_2",
-        "text": "Nachweis der Zuverlässigkeit.",
-      },
-      {
-        "id": "79_3",
-        "text": "Mindestens 14 Jahre.",
-      },
-      {
-        "id": "79_4",
-        "text": "Mindestalter 16 Jahre.",
-      }
+      "Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses.",
+      "Nachweis der Zuverlässigkeit.",
+      "Mindestens 14 Jahre.",
+      "Mindestalter 16 Jahre."
     ]
   },
   {
@@ -165,22 +81,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Anforderungen werden an die Person gestellt, mit der der Schifffsführer das Ruder eines Sportbootes mit Antriebsmaschine auf Binnenschiffffahrtstraßen besetzen will?",
     "images": [],
     "answers": [
-      {
-        "id": "80_1",
-        "text": "Sie muss mindestens 16 Jahre alt und körperlich, geistig und fachlich geeignet sein.",
-      },
-      {
-        "id": "80_2",
-        "text": "Sie muss mindestens 18 Jahre alt und körperlich, geistig und fachlich geeignet sein.",
-      },
-      {
-        "id": "80_3",
-        "text": "Sie muss mindestens 16 Jahre alt und Inhaber des Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine sein.",
-      },
-      {
-        "id": "80_4",
-        "text": "Sie muss mindestens 14 Jahre alt und körperlich, geistig und fachlich geeignet sein.",
-      }
+      "Sie muss mindestens 16 Jahre alt und körperlich, geistig und fachlich geeignet sein.",
+      "Sie muss mindestens 18 Jahre alt und körperlich, geistig und fachlich geeignet sein.",
+      "Sie muss mindestens 16 Jahre alt und Inhaber des Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine sein.",
+      "Sie muss mindestens 14 Jahre alt und körperlich, geistig und fachlich geeignet sein."
     ]
   },
   {
@@ -188,22 +92,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo erhält man Auskünfte über Verkehrsbeschränkungen und aktuelle Informationen über Binnenschifffahrtsstraßen?",
     "images": [],
     "answers": [
-      {
-        "id": "81_1",
-        "text": "Bei der Wasserstraßen- und Schifffahrtsverwaltung, im Internet unter www.elwis.de und bei der Wasserschutzpolizei.",
-      },
-      {
-        "id": "81_2",
-        "text": "Bei einem Wasserwirtschaftsamt und bei der Wasserschutzpolizei.",
-      },
-      {
-        "id": "81_3",
-        "text": "In der Binnenschifffahrtsstraßen-Ordnung Teil II.",
-      },
-      {
-        "id": "81_4",
-        "text": "In der Binnenschiffsuntersuchungsordnung.",
-      }
+      "Bei der Wasserstraßen- und Schifffahrtsverwaltung, im Internet unter www.elwis.de und bei der Wasserschutzpolizei.",
+      "Bei einem Wasserwirtschaftsamt und bei der Wasserschutzpolizei.",
+      "In der Binnenschifffahrtsstraßen-Ordnung Teil II.",
+      "In der Binnenschiffsuntersuchungsordnung."
     ]
   },
   {
@@ -211,22 +103,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wozu muss der Rudergänger eines Sportbootes zur sicheren Steuerung in der Lage sein?",
     "images": [],
     "answers": [
-      {
-        "id": "82_1",
-        "text": "Alle Informationen und Weisungen zu empfangen und zu geben, alle Schallzeichen wahrzunehmen und nach allen Seiten genügend freie Sicht zu haben.",
-      },
-      {
-        "id": "82_2",
-        "text": "Alle Informationen und Weisungen zu empfangen und zu geben.",
-      },
-      {
-        "id": "82_3",
-        "text": "Alle Schallzeichen wahrnehmen zu können und nach allen Seiten genügend freie Sicht zu haben.",
-      },
-      {
-        "id": "82_4",
-        "text": "Alle Informationen und Weisungen zu empfangen und zu geben und nach allen Seiten genügend freie Sicht zu haben.",
-      }
+      "Alle Informationen und Weisungen zu empfangen und zu geben, alle Schallzeichen wahrzunehmen und nach allen Seiten genügend freie Sicht zu haben.",
+      "Alle Informationen und Weisungen zu empfangen und zu geben.",
+      "Alle Schallzeichen wahrnehmen zu können und nach allen Seiten genügend freie Sicht zu haben.",
+      "Alle Informationen und Weisungen zu empfangen und zu geben und nach allen Seiten genügend freie Sicht zu haben."
     ]
   },
   {
@@ -234,22 +114,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Bis zu welcher Schiffslänge berechtigt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen zum Führen eines Sportbootes auf Binnenschifffahrtsstraßen?",
     "images": [],
     "answers": [
-      {
-        "id": "83_1",
-        "text": "Bis zu einer Länge von weniger als 20 m (ohne Ruder und Bugspriet).",
-      },
-      {
-        "id": "83_2",
-        "text": "Bis zu einer Länge von weniger als 25 m (mit Ruder und Bugspriet).",
-      },
-      {
-        "id": "83_3",
-        "text": "Bis zu einer Länge von weniger als 25 m (ohne Ruder und Bugspriet).",
-      },
-      {
-        "id": "83_4",
-        "text": "Bis zu einer Länge von weniger als 15 m (mit Ruder und Bugspriet).",
-      }
+      "Bis zu einer Länge von weniger als 20 m (ohne Ruder und Bugspriet).",
+      "Bis zu einer Länge von weniger als 25 m (mit Ruder und Bugspriet).",
+      "Bis zu einer Länge von weniger als 25 m (ohne Ruder und Bugspriet).",
+      "Bis zu einer Länge von weniger als 15 m (mit Ruder und Bugspriet)."
     ]
   },
   {
@@ -257,22 +125,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo findet man die allgemeinen Verkehrsregeln für die Binnenschifffahrtsstraßen und den Rhein?",
     "images": [],
     "answers": [
-      {
-        "id": "84_1",
-        "text": "Binnenschifffahrtsstraßen-Ordnung, Rheinschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "84_2",
-        "text": "Binnenschiffsuntersuchungsordnung, Rheinschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "84_3",
-        "text": "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "84_4",
-        "text": "Wassermotorräderverordnung, Wasserskiverordnung.",
-      }
+      "Binnenschifffahrtsstraßen-Ordnung, Rheinschifffahrtspolizeiverordnung.",
+      "Binnenschiffsuntersuchungsordnung, Rheinschifffahrtspolizeiverordnung.",
+      "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
+      "Wassermotorräderverordnung, Wasserskiverordnung."
     ]
   },
   {
@@ -280,22 +136,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo findet man die allgemeinen Verkehrsregeln für die Mosel und die Donau?",
     "images": [],
     "answers": [
-      {
-        "id": "85_1",
-        "text": "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "85_2",
-        "text": "Donauschifffahrtspolizeiverordnung, Binnenschifffahrtsstraßen-Ordnung.",
-      },
-      {
-        "id": "85_3",
-        "text": "Moselschifffahrtspolizeiverordnung, Binnenschiffsuntersuchungsordnung.",
-      },
-      {
-        "id": "85_4",
-        "text": "Wassermotorräderverordnung, Wasserskiverordnung.",
-      }
+      "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
+      "Donauschifffahrtspolizeiverordnung, Binnenschifffahrtsstraßen-Ordnung.",
+      "Moselschifffahrtspolizeiverordnung, Binnenschiffsuntersuchungsordnung.",
+      "Wassermotorräderverordnung, Wasserskiverordnung."
     ]
   },
   {
@@ -303,22 +147,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo findet man Regeln für den Verkehr von Wassermotorrädern und für das Wasserskilaufen?",
     "images": [],
     "answers": [
-      {
-        "id": "86_1",
-        "text": "Wassermotorräderverordnung, Wasserskiverordnung.",
-      },
-      {
-        "id": "86_2",
-        "text": "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "86_3",
-        "text": "Binnenschifffahrtsstraßen-Ordnung, Rheinschifffahrtspolizeiverordnung.",
-      },
-      {
-        "id": "86_4",
-        "text": "Moselschifffahrtspolizeiverordnung, Binnenschiffsuntersuchungsordnung.",
-      }
+      "Wassermotorräderverordnung, Wasserskiverordnung.",
+      "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung.",
+      "Binnenschifffahrtsstraßen-Ordnung, Rheinschifffahrtspolizeiverordnung.",
+      "Moselschifffahrtspolizeiverordnung, Binnenschiffsuntersuchungsordnung."
     ]
   },
   {
@@ -326,22 +158,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Maßnahmen sind zu treffen, wenn das Fahrzeug innerhalb des Fahrwassers bzw der Fahrrinne Grundberührung hat?",
     "images": [],
     "answers": [
-      {
-        "id": "87_1",
-        "text": "Die Wasserstraßen- und Schifffahrtsverwaltung oder die Wasserschutzpolizei ist mit genauer Angabe der Hindernisstelle zu benachrichtigen.",
-      },
-      {
-        "id": "87_2",
-        "text": "Die Wasserschutzpolizei oder die Wasserstraßen- und Schifffahrtsverwaltung ist mit genauer Angabe der Schiffsdaten zu informieren.",
-      },
-      {
-        "id": "87_3",
-        "text": "Das Fahrzeug verbleibt vor Ort bis die Wasserschutzpolizei eintrifft.",
-      },
-      {
-        "id": "87_4",
-        "text": "Ein Baggerunternehmen ist zu verständigen, damit das Hindernis beseitigt wird.",
-      }
+      "Die Wasserstraßen- und Schifffahrtsverwaltung oder die Wasserschutzpolizei ist mit genauer Angabe der Hindernisstelle zu benachrichtigen.",
+      "Die Wasserschutzpolizei oder die Wasserstraßen- und Schifffahrtsverwaltung ist mit genauer Angabe der Schiffsdaten zu informieren.",
+      "Das Fahrzeug verbleibt vor Ort bis die Wasserschutzpolizei eintrifft.",
+      "Ein Baggerunternehmen ist zu verständigen, damit das Hindernis beseitigt wird."
     ]
   },
   {
@@ -349,22 +169,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was versteht man unter \"Fahrwasser\"?",
     "images": [],
     "answers": [
-      {
-        "id": "88_1",
-        "text": "Den Teil der Wasserstraße, der den örtlichen Umständen nach vom durchgehenden Schiffsverkehr benutzt wird.",
-      },
-      {
-        "id": "88_2",
-        "text": "Es ist der Teil der Wasserstraße, der durch die Ufer begrenzt ist.",
-      },
-      {
-        "id": "88_3",
-        "text": "Den Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden.",
-      },
-      {
-        "id": "88_4",
-        "text": "Es ist der Teil der Wasserstraße, deren Tiefe bei 2,50 m und mehr beginnt.",
-      }
+      "Den Teil der Wasserstraße, der den örtlichen Umständen nach vom durchgehenden Schiffsverkehr benutzt wird.",
+      "Es ist der Teil der Wasserstraße, der durch die Ufer begrenzt ist.",
+      "Den Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden.",
+      "Es ist der Teil der Wasserstraße, deren Tiefe bei 2,50 m und mehr beginnt."
     ]
   },
   {
@@ -372,22 +180,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was versteht man unter \"Fahrrinne\"?",
     "images": [],
     "answers": [
-      {
-        "id": "89_1",
-        "text": "Es ist der Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden.",
-      },
-      {
-        "id": "89_2",
-        "text": "Den Teil der Wasserstraße, der den örtlichen Umständen nach vom durchgehenden Schiffsverkehr benutzt wird.",
-      },
-      {
-        "id": "89_3",
-        "text": "Es ist der Teil der Wasserstraße, deren Breite mindestens 150 m und deren Tiefe mindestens 3,00 m beträgt.",
-      },
-      {
-        "id": "89_4",
-        "text": "Es ist der Teil der Wasserstraße, deren Breite mindestens 88 m und deren Tiefe mindestens 2,50 m beträgt.",
-      }
+      "Es ist der Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden.",
+      "Den Teil der Wasserstraße, der den örtlichen Umständen nach vom durchgehenden Schiffsverkehr benutzt wird.",
+      "Es ist der Teil der Wasserstraße, deren Breite mindestens 150 m und deren Tiefe mindestens 3,00 m beträgt.",
+      "Es ist der Teil der Wasserstraße, deren Breite mindestens 88 m und deren Tiefe mindestens 2,50 m beträgt."
     ]
   },
   {
@@ -395,22 +191,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie wird die Schifffahrt vom Erreichen bestimmter Wasserstände und Hochwassermarken informiert?",
     "images": [],
     "answers": [
-      {
-        "id": "90_1",
-        "text": "Durch Nautischen Informationsfunk, Information im Rundfunk, im Fernsehen und im Internet.",
-      },
-      {
-        "id": "90_2",
-        "text": "Durch Aushang bei Hafenämtern und Schleusen.",
-      },
-      {
-        "id": "90_3",
-        "text": "Durch Aushang bei Wasserschutzpolizei-Stationen.",
-      },
-      {
-        "id": "90_4",
-        "text": "Durch Bekanntgaben der Hochwasserschutzzentrale.",
-      }
+      "Durch Nautischen Informationsfunk, Information im Rundfunk, im Fernsehen und im Internet.",
+      "Durch Aushang bei Hafenämtern und Schleusen.",
+      "Durch Aushang bei Wasserschutzpolizei-Stationen.",
+      "Durch Bekanntgaben der Hochwasserschutzzentrale."
     ]
   },
   {
@@ -418,22 +202,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo kann der Sportbootfahrer vor Ort das Erreichen bestimmter Wasserstände und Hochwassermarken feststellen?",
     "images": [],
     "answers": [
-      {
-        "id": "91_1",
-        "text": "An den Pegeln und ausgewiesenen Hochwassermarken.",
-      },
-      {
-        "id": "91_2",
-        "text": "An den Aushängen bei Hafenämtern und Schleusen.",
-      },
-      {
-        "id": "91_3",
-        "text": "An den Aushängen bei Wasserschutzpolizei-Stationen.",
-      },
-      {
-        "id": "91_4",
-        "text": "An den Pegeln und den Einsenkungsmarken der Fahrzeuge.",
-      }
+      "An den Pegeln und ausgewiesenen Hochwassermarken.",
+      "An den Aushängen bei Hafenämtern und Schleusen.",
+      "An den Aushängen bei Wasserschutzpolizei-Stationen.",
+      "An den Pegeln und den Einsenkungsmarken der Fahrzeuge."
     ]
   },
   {
@@ -441,22 +213,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Auswirkungen kann das Erreichen der Hochwassermarke I für die Sportschifffahrt haben?",
     "images": [],
     "answers": [
-      {
-        "id": "92_1",
-        "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
-      },
-      {
-        "id": "92_2",
-        "text": "Einstellung der Schifffahrt.",
-      },
-      {
-        "id": "92_3",
-        "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
-      },
-      {
-        "id": "92_4",
-        "text": "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
-      }
+      "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+      "Einstellung der Schifffahrt.",
+      "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
+      "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk."
     ]
   },
   {
@@ -464,22 +224,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Auswirkungen hat das Erreichen der Hochwassermarke II für die Sportschifffahrt?",
     "images": [],
     "answers": [
-      {
-        "id": "93_1",
-        "text": "Einstellung der Schifffahrt.",
-      },
-      {
-        "id": "93_2",
-        "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
-      },
-      {
-        "id": "93_3",
-        "text": "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
-      },
-      {
-        "id": "93_4",
-        "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
-      }
+      "Einstellung der Schifffahrt.",
+      "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+      "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+      "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter."
     ]
   },
   {
@@ -487,22 +235,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "In welche Richtung werden bei Flüssen die Uferseiten als rechtes bzw. linkes Ufer bezeichnet?",
     "images": [],
     "answers": [
-      {
-        "id": "94_1",
-        "text": "Von der Quelle bis zur Mündung.",
-      },
-      {
-        "id": "94_2",
-        "text": "Von der Mündung bis zur Quelle.",
-      },
-      {
-        "id": "94_3",
-        "text": "Bei der Bergfahrt liegt die rechte Uferseite rechts.",
-      },
-      {
-        "id": "94_4",
-        "text": "Bei der Talfahrt liegt die rechte Uferseite links.",
-      }
+      "Von der Quelle bis zur Mündung.",
+      "Von der Mündung bis zur Quelle.",
+      "Bei der Bergfahrt liegt die rechte Uferseite rechts.",
+      "Bei der Talfahrt liegt die rechte Uferseite links."
     ]
   },
   {
@@ -510,22 +246,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet \"zu Berg\" oder \"Bergfahrt\" auf Flüssen?",
     "images": [],
     "answers": [
-      {
-        "id": "95_1",
-        "text": "Die Fahrt in Richtung Quelle.",
-      },
-      {
-        "id": "95_2",
-        "text": "Die Fahrt über Grund.",
-      },
-      {
-        "id": "95_3",
-        "text": "Die Fahrt mit der Strömung.",
-      },
-      {
-        "id": "95_4",
-        "text": "Die Fahrt in Richtung Mündung.",
-      }
+      "Die Fahrt in Richtung Quelle.",
+      "Die Fahrt über Grund.",
+      "Die Fahrt mit der Strömung.",
+      "Die Fahrt in Richtung Mündung."
     ]
   },
   {
@@ -533,22 +257,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet \"zu Berg\" oder \"Bergfahrt\" auf Kanälen?",
     "images": [],
     "answers": [
-      {
-        "id": "96_1",
-        "text": "Die Fahrt, die in Teil II der Binnenschifffahrtsstraßen-Ordnung als Fahrt \"zu Berg\" oder \"Bergfahrt\" festgelegt ist.",
-      },
-      {
-        "id": "96_2",
-        "text": "Die Fahrt, die in Teil I der Binnenschifffahrtsstraßen-Ordnung als Fahrt \"zu Berg\" oder \"Bergfahrt\" festgelegt ist.",
-      },
-      {
-        "id": "96_3",
-        "text": "Die Fahrt in Richtung Quelle.",
-      },
-      {
-        "id": "96_4",
-        "text": "Die Fahrt gegen die Strömung.",
-      }
+      "Die Fahrt, die in Teil II der Binnenschifffahrtsstraßen-Ordnung als Fahrt \"zu Berg\" oder \"Bergfahrt\" festgelegt ist.",
+      "Die Fahrt, die in Teil I der Binnenschifffahrtsstraßen-Ordnung als Fahrt \"zu Berg\" oder \"Bergfahrt\" festgelegt ist.",
+      "Die Fahrt in Richtung Quelle.",
+      "Die Fahrt gegen die Strömung."
     ]
   },
   {
@@ -556,22 +268,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Zeichen begrenzen die Fahrrinne zum rechten Ufer?",
     "images": [],
     "answers": [
-      {
-        "id": "97_1",
-        "text": "Rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "97_2",
-        "text": "Grüne Spitztonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "97_3",
-        "text": "Rote Spierentonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "97_4",
-        "text": "Grüne Spierentonnen oder Schwimmstangen.",
-      }
+      "Rote Stumpftonnen oder Schwimmstangen.",
+      "Grüne Spitztonnen oder Schwimmstangen.",
+      "Rote Spierentonnen oder Schwimmstangen.",
+      "Grüne Spierentonnen oder Schwimmstangen."
     ]
   },
   {
@@ -579,22 +279,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Zeichen begrenzen die Fahrrinne zum linken Ufer?",
     "images": [],
     "answers": [
-      {
-        "id": "98_1",
-        "text": "Grüne Spitztonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "98_2",
-        "text": "Rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "98_3",
-        "text": "Rote Spierentonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "98_4",
-        "text": "Grüne Spierentonnen oder Schwimmstangen.",
-      }
+      "Grüne Spitztonnen oder Schwimmstangen.",
+      "Rote Stumpftonnen oder Schwimmstangen.",
+      "Rote Spierentonnen oder Schwimmstangen.",
+      "Grüne Spierentonnen oder Schwimmstangen."
     ]
   },
   {
@@ -602,22 +290,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Fahrrinnenseite hat ein Bergfahrer an seiner Steuerbordseite und wie ist diese gekennzeichnet?",
     "images": [],
     "answers": [
-      {
-        "id": "99_1",
-        "text": "Die linke Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "99_2",
-        "text": "Die rechte Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "99_3",
-        "text": "Die linke Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "99_4",
-        "text": "Die rechte Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
-      }
+      "Die linke Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
+      "Die rechte Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
+      "Die linke Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
+      "Die rechte Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen."
     ]
   },
   {
@@ -625,22 +301,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet eine rot-grün gestreifte Tonne oder Schwimmstange und was ist zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "100_1",
-        "text": "Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich.",
-      },
-      {
-        "id": "100_2",
-        "text": "Fahrrinnenspaltung. In Fahrtrichtung links halten.",
-      },
-      {
-        "id": "100_3",
-        "text": "Fahrrinnenspaltung. Vorbeifahrt nur an Steuerbord möglich.",
-      },
-      {
-        "id": "100_4",
-        "text": "Fahrrinnenspaltung. In Fahrtrichtung rechts halten.",
-      }
+      "Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich.",
+      "Fahrrinnenspaltung. In Fahrtrichtung links halten.",
+      "Fahrrinnenspaltung. Vorbeifahrt nur an Steuerbord möglich.",
+      "Fahrrinnenspaltung. In Fahrtrichtung rechts halten."
     ]
   },
   {
@@ -648,22 +312,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Mit welchen Zeichen werden Hindernisse wie zum Beispiel Buhnen und Kribben an der rechten Seite der Wasserstraße bezeichnet?",
     "images": [],
     "answers": [
-      {
-        "id": "101_1",
-        "text": "Stangen mit Toppzeichen: roter Kegel, Spitze nach unten, oder rot-weiß gestreifte Schwimmstange mit rotem Zylinder.",
-      },
-      {
-        "id": "101_2",
-        "text": "Stangen mit Toppzeichen: grüner Kegel, Spitze nach oben, oder grün-weiß gestreifte Schwimmstange mit grünem Kegel.",
-      },
-      {
-        "id": "101_3",
-        "text": "Stangen mit Toppzeichen: roter Kegel, Spitze nach oben, oder rot-weiß gestreifte Schwimmstange mit rotem Zylinder.",
-      },
-      {
-        "id": "101_4",
-        "text": "Stangen mit Toppzeichen: grüner Kegel, Spitze nach unten, oder grün-weiß gestreifte Schwimmstange mit grünem Kegel.",
-      }
+      "Stangen mit Toppzeichen: roter Kegel, Spitze nach unten, oder rot-weiß gestreifte Schwimmstange mit rotem Zylinder.",
+      "Stangen mit Toppzeichen: grüner Kegel, Spitze nach oben, oder grün-weiß gestreifte Schwimmstange mit grünem Kegel.",
+      "Stangen mit Toppzeichen: roter Kegel, Spitze nach oben, oder rot-weiß gestreifte Schwimmstange mit rotem Zylinder.",
+      "Stangen mit Toppzeichen: grüner Kegel, Spitze nach unten, oder grün-weiß gestreifte Schwimmstange mit grünem Kegel."
     ]
   },
   {
@@ -671,22 +323,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was kennzeichnet eine grün-weiß gestreifte Schwimmstange mit grünem Kegel, Spitze nach oben, oder eine grüne Tonne mit grün-weiß gestreiftem Aufsatz mit grünem Kegel, Spitze nach oben?",
     "images": [],
     "answers": [
-      {
-        "id": "102_1",
-        "text": "Hindernis an der linken Seite der Wasserstraße.",
-      },
-      {
-        "id": "102_2",
-        "text": "Fahrrinnenrand an der linken Seite der Wasserstraße.",
-      },
-      {
-        "id": "102_3",
-        "text": "Hindernis an der rechten Seite der Wasserstraße.",
-      },
-      {
-        "id": "102_4",
-        "text": "Fahrrinnenrand an der rechten Seite der Wasserstraße.",
-      }
+      "Hindernis an der linken Seite der Wasserstraße.",
+      "Fahrrinnenrand an der linken Seite der Wasserstraße.",
+      "Hindernis an der rechten Seite der Wasserstraße.",
+      "Fahrrinnenrand an der rechten Seite der Wasserstraße."
     ]
   },
   {
@@ -694,22 +334,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist in Kanälen verboten?",
     "images": [],
     "answers": [
-      {
-        "id": "103_1",
-        "text": "Ankern.",
-      },
-      {
-        "id": "103_2",
-        "text": "Wenden.",
-      },
-      {
-        "id": "103_3",
-        "text": "Überholen.",
-      },
-      {
-        "id": "103_4",
-        "text": "Begegnen.",
-      }
+      "Ankern.",
+      "Wenden.",
+      "Überholen.",
+      "Begegnen."
     ]
   },
   {
@@ -717,22 +345,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeuten auf einem stillliegenden Fahrzeug zwei weiße Lichter übereinander?",
     "images": [],
     "answers": [
-      {
-        "id": "104_1",
-        "text": "Ein Ankerlieger, dessen Anker die Schifffahrt gefährden kann.",
-      },
-      {
-        "id": "104_2",
-        "text": "Ein stillliegender Schubverband.",
-      },
-      {
-        "id": "104_3",
-        "text": "Ein Ankerlieger, der zwei Anker ausgelegt hat.",
-      },
-      {
-        "id": "104_4",
-        "text": "Ein Fahrzeug über 135 m.",
-      }
+      "Ein Ankerlieger, dessen Anker die Schifffahrt gefährden kann.",
+      "Ein stillliegender Schubverband.",
+      "Ein Ankerlieger, der zwei Anker ausgelegt hat.",
+      "Ein Fahrzeug über 135 m."
     ]
   },
   {
@@ -740,22 +356,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches Licht setzt ein stillliegendes Fahrzeug?",
     "images": [],
     "answers": [
-      {
-        "id": "105_1",
-        "text": "Ein von allen Seiten sichtbares weißes Rundumlicht auf der Fahrwasserseite.",
-      },
-      {
-        "id": "105_2",
-        "text": "Ein weißes Topplicht und ein weißes Hecklicht.",
-      },
-      {
-        "id": "105_3",
-        "text": "Die Seitenlichter und ein sichtbares weißes Rundumlicht.",
-      },
-      {
-        "id": "105_4",
-        "text": "Ein von allen Seiten sichtbares weißes Blinklicht auf der Fahrwasserseite.",
-      }
+      "Ein von allen Seiten sichtbares weißes Rundumlicht auf der Fahrwasserseite.",
+      "Ein weißes Topplicht und ein weißes Hecklicht.",
+      "Die Seitenlichter und ein sichtbares weißes Rundumlicht.",
+      "Ein von allen Seiten sichtbares weißes Blinklicht auf der Fahrwasserseite."
     ]
   },
   {
@@ -763,22 +367,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?",
     "images": [],
     "answers": [
-      {
-        "id": "106_1",
-        "text": "Mit einem gelben Döpper.",
-      },
-      {
-        "id": "106_2",
-        "text": "Mit einem weißen Döpper.",
-      },
-      {
-        "id": "106_3",
-        "text": "Mit einem grünen Döpper.",
-      },
-      {
-        "id": "106_4",
-        "text": "Mit einem roten Döpper.",
-      }
+      "Mit einem gelben Döpper.",
+      "Mit einem weißen Döpper.",
+      "Mit einem grünen Döpper.",
+      "Mit einem roten Döpper."
     ]
   },
   {
@@ -788,22 +380,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Hinweiszeichen-E057.gif"
     ],
     "answers": [
-      {
-        "id": "107_1",
-        "text": "Liegestelle für Fahrzeuge mit explosiven Stoffen, für Kleinfahrzeuge verboten.",
-      },
-      {
-        "id": "107_2",
-        "text": "Liegestelle für Fahrzeuge mit brennbaren Stoffen, für Kleinfahrzeuge verboten.",
-      },
-      {
-        "id": "107_3",
-        "text": "Liegestelle für Fahrzeuge mit gesundheitsgefährdeten Stoffen, für Kleinfahrzeuge verboten.",
-      },
-      {
-        "id": "107_4",
-        "text": "Liegestelle für alle Fahrzeuge, für Kleinfahrzeuge verboten.",
-      }
+      "Liegestelle für Fahrzeuge mit explosiven Stoffen, für Kleinfahrzeuge verboten.",
+      "Liegestelle für Fahrzeuge mit brennbaren Stoffen, für Kleinfahrzeuge verboten.",
+      "Liegestelle für Fahrzeuge mit gesundheitsgefährdeten Stoffen, für Kleinfahrzeuge verboten.",
+      "Liegestelle für alle Fahrzeuge, für Kleinfahrzeuge verboten."
     ]
   },
   {
@@ -814,22 +394,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Hinweiszeichen-E058.gif"
     ],
     "answers": [
-      {
-        "id": "108_1",
-        "text": "Liegestelle für Fahrzeuge ohne gefährliche Güter, auch für Kleinfahrzeuge.",
-      },
-      {
-        "id": "108_2",
-        "text": "Liegestelle für Fahrzeuge ohne gefährliche Güter, nicht für Kleinfahrzeuge.",
-      },
-      {
-        "id": "108_3",
-        "text": "Liegestelle für Fahrzeuge mit gefährlichen Gütern, auch für Kleinfahrzeuge.",
-      },
-      {
-        "id": "108_4",
-        "text": "Liegestelle für Fahrzeuge mit gefährlichen Gütern, nicht für Kleinfahrzeuge.",
-      }
+      "Liegestelle für Fahrzeuge ohne gefährliche Güter, auch für Kleinfahrzeuge.",
+      "Liegestelle für Fahrzeuge ohne gefährliche Güter, nicht für Kleinfahrzeuge.",
+      "Liegestelle für Fahrzeuge mit gefährlichen Gütern, auch für Kleinfahrzeuge.",
+      "Liegestelle für Fahrzeuge mit gefährlichen Gütern, nicht für Kleinfahrzeuge."
     ]
   },
   {
@@ -837,22 +405,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo besteht ohne besondere Bezeichnung der Stellen bzw. Strecken ein allgemeines Liegeverbot?",
     "images": [],
     "answers": [
-      {
-        "id": "109_1",
-        "text": "Auf Schifffahrtskanälen und Schleusenkanälen.",
-      },
-      {
-        "id": "109_2",
-        "text": "Auf Schifffahrtskanälen und vor Schleusenkanälen.",
-      },
-      {
-        "id": "109_3",
-        "text": "Vor Brücken und Hochspannungsleitungen.",
-      },
-      {
-        "id": "109_4",
-        "text": "Vor Brücken und nach Hochspannungsleitungen.",
-      }
+      "Auf Schifffahrtskanälen und Schleusenkanälen.",
+      "Auf Schifffahrtskanälen und vor Schleusenkanälen.",
+      "Vor Brücken und Hochspannungsleitungen.",
+      "Vor Brücken und nach Hochspannungsleitungen."
     ]
   },
   {
@@ -862,22 +418,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Tafelzeichen-Frage-110.gif"
     ],
     "answers": [
-      {
-        "id": "110_1",
-        "text": "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt.",
-      },
-      {
-        "id": "110_2",
-        "text": "Empfohlene Durchfahrt, Durchfahrt in Gegenrichtung verboten.",
-      },
-      {
-        "id": "110_3",
-        "text": "Die Durchfahrt ist nur durch diese Brückenöffnung und nur in eine Richtung gestattet.",
-      },
-      {
-        "id": "110_4",
-        "text": "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet.",
-      }
+      "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt.",
+      "Empfohlene Durchfahrt, Durchfahrt in Gegenrichtung verboten.",
+      "Die Durchfahrt ist nur durch diese Brückenöffnung und nur in eine Richtung gestattet.",
+      "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet."
     ]
   },
   {
@@ -887,22 +431,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Empfehlungszeichen-D1b-Rhein-Mosel.jpg"
     ],
     "answers": [
-      {
-        "id": "111_1",
-        "text": "Empfohlene Durchfahrt, Durchfahrt in Gegenrichtung verboten.",
-      },
-      {
-        "id": "111_2",
-        "text": "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt.",
-      },
-      {
-        "id": "111_3",
-        "text": "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet.",
-      },
-      {
-        "id": "111_4",
-        "text": "Die Durchfahrt ist nur durch diese Brückenöffnung und nur in eine Richtung gestattet.",
-      }
+      "Empfohlene Durchfahrt, Durchfahrt in Gegenrichtung verboten.",
+      "Empfohlene Durchfahrtsöffnung, Durchfahrt in beide Richtungen erlaubt.",
+      "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet.",
+      "Die Durchfahrt ist nur durch diese Brückenöffnung und nur in eine Richtung gestattet."
     ]
   },
   {
@@ -912,22 +444,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A10.gif"
     ],
     "answers": [
-      {
-        "id": "112_1",
-        "text": "Durchfahrt nur zwischen den beiden Tafeln erlaubt.",
-      },
-      {
-        "id": "112_2",
-        "text": "Durchfahrt nur außerhalb der beiden Tafeln erlaubt.",
-      },
-      {
-        "id": "112_3",
-        "text": "Empfohlene Durchfahrt nur zwischen den beiden Tafeln.",
-      },
-      {
-        "id": "112_4",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr.",
-      }
+      "Durchfahrt nur zwischen den beiden Tafeln erlaubt.",
+      "Durchfahrt nur außerhalb der beiden Tafeln erlaubt.",
+      "Empfohlene Durchfahrt nur zwischen den beiden Tafeln.",
+      "Empfohlene Durchfahrt mit Gegenverkehr."
     ]
   },
   {
@@ -937,22 +457,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Empfehlungszeichen-D2.gif"
     ],
     "answers": [
-      {
-        "id": "113_1",
-        "text": "Empfohlene Durchfahrt nur zwischen den beiden Tafeln.",
-      },
-      {
-        "id": "113_2",
-        "text": "Durchfahrt nur zwischen den beiden Tafeln erlaubt.",
-      },
-      {
-        "id": "113_3",
-        "text": "Durchfahrt nur außerhalb der beiden Tafeln erlaubt.",
-      },
-      {
-        "id": "113_4",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr.",
-      }
+      "Empfohlene Durchfahrt nur zwischen den beiden Tafeln.",
+      "Durchfahrt nur zwischen den beiden Tafeln erlaubt.",
+      "Durchfahrt nur außerhalb der beiden Tafeln erlaubt.",
+      "Empfohlene Durchfahrt mit Gegenverkehr."
     ]
   },
   {
@@ -962,22 +470,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Tafelzeichen-Frage-114.gif"
     ],
     "answers": [
-      {
-        "id": "114_1",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr.",
-      },
-      {
-        "id": "114_2",
-        "text": "Empfohlene Durchfahrt ohne Gegenverkehr.",
-      },
-      {
-        "id": "114_3",
-        "text": "Empfohlene Durchfahrt nur in eine Richtung.",
-      },
-      {
-        "id": "114_4",
-        "text": "Durchfahrt nur neben der Tafel erlaubt.",
-      }
+      "Empfohlene Durchfahrt mit Gegenverkehr.",
+      "Empfohlene Durchfahrt ohne Gegenverkehr.",
+      "Empfohlene Durchfahrt nur in eine Richtung.",
+      "Durchfahrt nur neben der Tafel erlaubt."
     ]
   },
   {
@@ -987,22 +483,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Tafelzeichen-Frage-115.gif"
     ],
     "answers": [
-      {
-        "id": "115_1",
-        "text": "Empfohlene Durchfahrt ohne Gegenverkehr.",
-      },
-      {
-        "id": "115_2",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr.",
-      },
-      {
-        "id": "115_3",
-        "text": "Empfohlene Durchfahrt in beide Richtungen.",
-      },
-      {
-        "id": "115_4",
-        "text": "Durchfahrt nur außerhalb der beiden Tafeln erlaubt.",
-      }
+      "Empfohlene Durchfahrt ohne Gegenverkehr.",
+      "Empfohlene Durchfahrt mit Gegenverkehr.",
+      "Empfohlene Durchfahrt in beide Richtungen.",
+      "Durchfahrt nur außerhalb der beiden Tafeln erlaubt."
     ]
   },
   {
@@ -1012,22 +496,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A01-Tafeln.gif"
     ],
     "answers": [
-      {
-        "id": "116_1",
-        "text": "Verbot der Durchfahrt und Sperrung der Schifffahrt.",
-      },
-      {
-        "id": "116_2",
-        "text": "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge mit Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "116_3",
-        "text": "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "116_4",
-        "text": "Schutzbedürftige Anlage.",
-      }
+      "Verbot der Durchfahrt und Sperrung der Schifffahrt.",
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge mit Antriebsmaschine befahrbar.",
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Schutzbedürftige Anlage."
     ]
   },
   {
@@ -1035,22 +507,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Bedeutung haben vor einer Schleuse ein rotes oder ein rotes und ein grünes Licht?",
     "images": [],
     "answers": [
-      {
-        "id": "117_1",
-        "text": "Einfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
-      },
-      {
-        "id": "117_2",
-        "text": "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.",
-      },
-      {
-        "id": "117_3",
-        "text": "Ausfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
-      },
-      {
-        "id": "117_4",
-        "text": "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.",
-      }
+      "Einfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
+      "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.",
+      "Ausfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
+      "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet."
     ]
   },
   {
@@ -1058,22 +518,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?",
     "images": [],
     "answers": [
-      {
-        "id": "118_1",
-        "text": "Kleinfahrzeuge fahren erst nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und nach Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
-      },
-      {
-        "id": "118_2",
-        "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und vor Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
-      },
-      {
-        "id": "118_3",
-        "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
-      },
-      {
-        "id": "118_4",
-        "text": "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
-      }
+      "Kleinfahrzeuge fahren erst nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und nach Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+      "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und vor Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+      "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+      "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein."
     ]
   },
   {
@@ -1081,22 +529,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Mehrere Kleinfahrzeuge sollen gemeinsam vom Oberwasser in das Unterwasser geschleust werden. Worauf ist bei deren Einfahrt in die Schleuse und während des Schleusens besonders zu achten?",
     "images": [],
     "answers": [
-      {
-        "id": "119_1",
-        "text": "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
-      },
-      {
-        "id": "119_2",
-        "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
-      },
-      {
-        "id": "119_3",
-        "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
-      },
-      {
-        "id": "119_4",
-        "text": "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
-      }
+      "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+      "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+      "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+      "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist."
     ]
   },
   {
@@ -1106,22 +542,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-120.gif"
     ],
     "answers": [
-      {
-        "id": "120_1",
-        "text": "Fahrzeug mit Maschinenantrieb länger als 110 m.",
-      },
-      {
-        "id": "120_2",
-        "text": "Schubverband kürzer als 110 m.",
-      },
-      {
-        "id": "120_3",
-        "text": "Schubverband länger als 110 m.",
-      },
-      {
-        "id": "120_4",
-        "text": "Fahrzeug ohne Maschinenantrieb länger als 110 m.",
-      }
+      "Fahrzeug mit Maschinenantrieb länger als 110 m.",
+      "Schubverband kürzer als 110 m.",
+      "Schubverband länger als 110 m.",
+      "Fahrzeug ohne Maschinenantrieb länger als 110 m."
     ]
   },
   {
@@ -1131,22 +555,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-004-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "121_1",
-        "text": "Schleppfahrzeug an der Spitze eines Schleppverbandes.",
-      },
-      {
-        "id": "121_2",
-        "text": "Fahrzeug, das vor Anker liegt.",
-      },
-      {
-        "id": "121_3",
-        "text": "Fahrzeuge mit Vorrang an einer Schleuse.",
-      },
-      {
-        "id": "121_4",
-        "text": "Fahrzeug eines Schleppverbandes.",
-      }
+      "Schleppfahrzeug an der Spitze eines Schleppverbandes.",
+      "Fahrzeug, das vor Anker liegt.",
+      "Fahrzeuge mit Vorrang an einer Schleuse.",
+      "Fahrzeug eines Schleppverbandes."
     ]
   },
   {
@@ -1156,22 +568,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-006-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "122_1",
-        "text": "Fahrzeug eines Schleppverbandes.",
-      },
-      {
-        "id": "122_2",
-        "text": "Fahrzeug, das vor Anker liegt.",
-      },
-      {
-        "id": "122_3",
-        "text": "Fahrzeuge mit Vorrang an einer Schleuse.",
-      },
-      {
-        "id": "122_4",
-        "text": "Schleppfahrzeug an der Spitze eines Schleppverbandes.",
-      }
+      "Fahrzeug eines Schleppverbandes.",
+      "Fahrzeug, das vor Anker liegt.",
+      "Fahrzeuge mit Vorrang an einer Schleuse.",
+      "Schleppfahrzeug an der Spitze eines Schleppverbandes."
     ]
   },
   {
@@ -1181,22 +581,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-123.gif"
     ],
     "answers": [
-      {
-        "id": "123_1",
-        "text": "Schubverband in Fahrt von vorne.",
-      },
-      {
-        "id": "123_2",
-        "text": "Schubverband in Fahrt von achtern.",
-      },
-      {
-        "id": "123_3",
-        "text": "Schubverband vor Anker liegend.",
-      },
-      {
-        "id": "123_4",
-        "text": "Schubverband unter 110 m Länge.",
-      }
+      "Schubverband in Fahrt von vorne.",
+      "Schubverband in Fahrt von achtern.",
+      "Schubverband vor Anker liegend.",
+      "Schubverband unter 110 m Länge."
     ]
   },
   {
@@ -1206,22 +594,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-124.gif"
     ],
     "answers": [
-      {
-        "id": "124_1",
-        "text": "Nicht frei fahrende Fähre.",
-      },
-      {
-        "id": "124_2",
-        "text": "Frei fahrende Fähre.",
-      },
-      {
-        "id": "124_3",
-        "text": "Schubverband von achtern.",
-      },
-      {
-        "id": "124_4",
-        "text": "Schubverband von Steuerbordseite.",
-      }
+      "Nicht frei fahrende Fähre.",
+      "Frei fahrende Fähre.",
+      "Schubverband von achtern.",
+      "Schubverband von Steuerbordseite."
     ]
   },
   {
@@ -1231,22 +607,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-125.gif"
     ],
     "answers": [
-      {
-        "id": "125_1",
-        "text": "Frei fahrende Fähre.",
-      },
-      {
-        "id": "125_2",
-        "text": "Nicht frei fahrende Fähre.",
-      },
-      {
-        "id": "125_3",
-        "text": "Schubverband von achtern.",
-      },
-      {
-        "id": "125_4",
-        "text": "Schubverband von Steuerbordseite.",
-      }
+      "Frei fahrende Fähre.",
+      "Nicht frei fahrende Fähre.",
+      "Schubverband von achtern.",
+      "Schubverband von Steuerbordseite."
     ]
   },
   {
@@ -1254,22 +618,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet auf einem Fahrzeug ein blaues Licht?",
     "images": [],
     "answers": [
-      {
-        "id": "126_1",
-        "text": "Fahrzeug hat brennbare Stoffe geladen. Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "126_2",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen. Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "126_3",
-        "text": "Fahrzeug hat explosive Stoffe geladen. Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "126_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat brennbare Stoffe geladen. Abstand beim Stillliegen 10 m.",
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen. Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat explosive Stoffe geladen. Abstand beim Stillliegen 100 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1279,22 +631,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-027a-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "127_1",
-        "text": "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "127_2",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "127_3",
-        "text": "Fahrzeug hat explosive Stoffe geladen. Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "127_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat explosive Stoffe geladen. Abstand beim Stillliegen 100 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1302,22 +642,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeuten auf einem Fahrzeug zwei blaue Lichter übereinander?",
     "images": [],
     "answers": [
-      {
-        "id": "128_1",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "128_2",
-        "text": "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "128_3",
-        "text": "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "128_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
+      "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1327,22 +655,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-028a-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "129_1",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "129_2",
-        "text": "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "129_3",
-        "text": "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "129_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
+      "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1350,22 +666,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeuten auf einem Fahrzeug drei blaue Lichter übereinander?",
     "images": [],
     "answers": [
-      {
-        "id": "130_1",
-        "text": "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "130_2",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "130_3",
-        "text": "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "130_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1375,22 +679,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-029a-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "131_1",
-        "text": "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
-      },
-      {
-        "id": "131_2",
-        "text": "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
-      },
-      {
-        "id": "131_3",
-        "text": "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
-      },
-      {
-        "id": "131_4",
-        "text": "Fahrzeug der Überwachungsbehörden im Einsatz.",
-      }
+      "Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.",
+      "Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.",
+      "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.",
+      "Fahrzeug der Überwachungsbehörden im Einsatz."
     ]
   },
   {
@@ -1400,22 +692,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-037-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "132_1",
-        "text": "Ein Fahrzeug, dem die zuständige Behörde einen Vorrang zur Durchfahrt durch Stellen an denen eine bestimmte Reihenfolge gilt eingeräumt hat.",
-      },
-      {
-        "id": "132_2",
-        "text": "Fahrzeug unter 20 m Länge, für mehr als 12 Fahrgäste zugelassen.",
-      },
-      {
-        "id": "132_3",
-        "text": "Geschlepptes Fahrzeug eines Schleppverbandes.",
-      },
-      {
-        "id": "132_4",
-        "text": "Festgefahrenes Fahrzeug, das einseitig nicht passierbar ist.",
-      }
+      "Ein Fahrzeug, dem die zuständige Behörde einen Vorrang zur Durchfahrt durch Stellen an denen eine bestimmte Reihenfolge gilt eingeräumt hat.",
+      "Fahrzeug unter 20 m Länge, für mehr als 12 Fahrgäste zugelassen.",
+      "Geschlepptes Fahrzeug eines Schleppverbandes.",
+      "Festgefahrenes Fahrzeug, das einseitig nicht passierbar ist."
     ]
   },
   {
@@ -1423,22 +703,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug unter Segel fährt nachts auf einer Binnenschifffahrtsstraße und führt ein weißes Rundumlicht im Topp. Wie wird zweckmäßigerweise die weiße Handlampe, die bei Annäherung anderer Fahrzeuge gezeigt werden muss, benutzt?",
     "images": [],
     "answers": [
-      {
-        "id": "133_1",
-        "text": "Die eigenen Segel anleuchten.",
-      },
-      {
-        "id": "133_2",
-        "text": "Das Wasser anleuchten.",
-      },
-      {
-        "id": "133_3",
-        "text": "Das heranfahrende Fahrzeug anleuchten.",
-      },
-      {
-        "id": "133_4",
-        "text": "Die Handlampe nach oben halten.",
-      }
+      "Die eigenen Segel anleuchten.",
+      "Das Wasser anleuchten.",
+      "Das heranfahrende Fahrzeug anleuchten.",
+      "Die Handlampe nach oben halten."
     ]
   },
   {
@@ -1446,22 +714,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug unter Segel fährt nachts auf einer Binnenschifffahrtsstraße und führt ein weißes Rundumlicht im Topp. Welche zusätzlichen Lichter müssen gesetzt werden, wenn der Motor angeworfen wird?",
     "images": [],
     "answers": [
-      {
-        "id": "134_1",
-        "text": "Seitenlichter unmittelbar nebeneinander oder in einer einzigen Laterne.",
-      },
-      {
-        "id": "134_2",
-        "text": "Es muss ein weißes Funkellicht geführt werden.",
-      },
-      {
-        "id": "134_3",
-        "text": "Es muss kein weiteres Licht geführt werden.",
-      },
-      {
-        "id": "134_4",
-        "text": "Es muss ein zweites weißes Topplicht geführt werden.",
-      }
+      "Seitenlichter unmittelbar nebeneinander oder in einer einzigen Laterne.",
+      "Es muss ein weißes Funkellicht geführt werden.",
+      "Es muss kein weiteres Licht geführt werden.",
+      "Es muss ein zweites weißes Topplicht geführt werden."
     ]
   },
   {
@@ -1469,22 +725,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Lichter muss ein Kleinfahrzeug unter Motor führen, wenn es ein anderes Kleinfahrzeug ohne Maschinenantrieb schleppt?",
     "images": [],
     "answers": [
-      {
-        "id": "135_1",
-        "text": "Lichter eines Kleinfahrzeugs mit Maschinenantrieb.",
-      },
-      {
-        "id": "135_2",
-        "text": "Zwei weiße Lichter übereinander.",
-      },
-      {
-        "id": "135_3",
-        "text": "Weißes Rundumlicht.",
-      },
-      {
-        "id": "135_4",
-        "text": "Lichter eines Kleinfahrzeugs mit Maschinenantrieb und ein zweites weißes Topplicht.",
-      }
+      "Lichter eines Kleinfahrzeugs mit Maschinenantrieb.",
+      "Zwei weiße Lichter übereinander.",
+      "Weißes Rundumlicht.",
+      "Lichter eines Kleinfahrzeugs mit Maschinenantrieb und ein zweites weißes Topplicht."
     ]
   },
   {
@@ -1492,22 +736,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Lichter muss ein geschlepptes Kleinfahrzeug führen?",
     "images": [],
     "answers": [
-      {
-        "id": "136_1",
-        "text": "Weißes Rundumlicht.",
-      },
-      {
-        "id": "136_2",
-        "text": "Lichter eines Kleinfahrzeugs mit Maschinenantrieb.",
-      },
-      {
-        "id": "136_3",
-        "text": "Zwei weiße Lichter übereinander.",
-      },
-      {
-        "id": "136_4",
-        "text": "Weißes Funkellicht.",
-      }
+      "Weißes Rundumlicht.",
+      "Lichter eines Kleinfahrzeugs mit Maschinenantrieb.",
+      "Zwei weiße Lichter übereinander.",
+      "Weißes Funkellicht."
     ]
   },
   {
@@ -1515,22 +747,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wann gilt ein Sportboot auf den Binnenschifffahrtsstraßen nicht mehr als Kleinfahrzeug?",
     "images": [],
     "answers": [
-      {
-        "id": "137_1",
-        "text": "Wenn es 20 m oder länger ist.",
-      },
-      {
-        "id": "137_2",
-        "text": "Wenn es 15 m oder länger ist.",
-      },
-      {
-        "id": "137_3",
-        "text": "Wenn es 10 m oder länger ist.",
-      },
-      {
-        "id": "137_4",
-        "text": "Wenn es 18 m oder länger ist.",
-      }
+      "Wenn es 20 m oder länger ist.",
+      "Wenn es 15 m oder länger ist.",
+      "Wenn es 10 m oder länger ist.",
+      "Wenn es 18 m oder länger ist."
     ]
   },
   {
@@ -1538,22 +758,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welchen Sichtwinkel und welche Farben haben die vorgeschriebenen Lichter an Bord?",
     "images": [],
     "answers": [
-      {
-        "id": "138_1",
-        "text": "Topplicht: weiß 225°, Hecklicht 135° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°.",
-      },
-      {
-        "id": "138_2",
-        "text": "Topplicht: weiß 135°, Hecklicht 225° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°",
-      },
-      {
-        "id": "138_3",
-        "text": "Topplicht: weiß 225°, Hecklicht 112,5° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 135°",
-      },
-      {
-        "id": "138_4",
-        "text": "Topplicht: weiß 112,5°, Hecklicht 225° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°",
-      }
+      "Topplicht: weiß 225°, Hecklicht 135° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°.",
+      "Topplicht: weiß 135°, Hecklicht 225° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°",
+      "Topplicht: weiß 225°, Hecklicht 112,5° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 135°",
+      "Topplicht: weiß 112,5°, Hecklicht 225° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°"
     ]
   },
   {
@@ -1561,22 +769,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches Licht muss ein Kleinfahrzeug ohne Maschinenantrieb mindestens führen?",
     "images": [],
     "answers": [
-      {
-        "id": "139_1",
-        "text": "Ein von allen Seiten sichtbares weißes Licht.",
-      },
-      {
-        "id": "139_2",
-        "text": "Dreifarbenlaterne im Topp.",
-      },
-      {
-        "id": "139_3",
-        "text": "Seitenlichter.",
-      },
-      {
-        "id": "139_4",
-        "text": "Topp- und Hecklicht.",
-      }
+      "Ein von allen Seiten sichtbares weißes Licht.",
+      "Dreifarbenlaterne im Topp.",
+      "Seitenlichter.",
+      "Topp- und Hecklicht."
     ]
   },
   {
@@ -1584,22 +780,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss sich ein Segelfahrzeug auf einer Binnenschifffahrtsstraße, welches sich auf Kollisionskurs mit einem Kleinfahrzeug mit Maschinenantrieb befindet, verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "140_1",
-        "text": "Es hält Kurs und Geschwindigkeit bei.",
-      },
-      {
-        "id": "140_2",
-        "text": "Es wechselt den Kurs nach Steuerbord und reduziert die Geschwindigkeit.",
-      },
-      {
-        "id": "140_3",
-        "text": "Es hält Kurs und reduziert die Geschwindigkeit.",
-      },
-      {
-        "id": "140_4",
-        "text": "Es wechselt den Kurs nach Steuerbord und hält die Geschwindigkeit.",
-      }
+      "Es hält Kurs und Geschwindigkeit bei.",
+      "Es wechselt den Kurs nach Steuerbord und reduziert die Geschwindigkeit.",
+      "Es hält Kurs und reduziert die Geschwindigkeit.",
+      "Es wechselt den Kurs nach Steuerbord und hält die Geschwindigkeit."
     ]
   },
   {
@@ -1607,22 +791,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss sich ein Fahrzeug mit Topplicht und Seitenlichtern gegenüber einem Kleinfahrzeug mit Seitenlichtern, welches sich auf Kollisionskurs befindet, verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "141_1",
-        "text": "Es hält Kurs und Geschwindigkeit bei.",
-      },
-      {
-        "id": "141_2",
-        "text": "Es wechselt den Kurs nach Steuerbord und reduziert die Geschwindigkeit.",
-      },
-      {
-        "id": "141_3",
-        "text": "Es hält Kurs und reduziert die Geschwindigkeit.",
-      },
-      {
-        "id": "141_4",
-        "text": "Es muss ausweichen.",
-      }
+      "Es hält Kurs und Geschwindigkeit bei.",
+      "Es wechselt den Kurs nach Steuerbord und reduziert die Geschwindigkeit.",
+      "Es hält Kurs und reduziert die Geschwindigkeit.",
+      "Es muss ausweichen."
     ]
   },
   {
@@ -1630,22 +802,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss sich ein Kleinfahrzeug mit Maschinenantrieb gegenüber einem Segelsurfer, der auf Kollisionskurs liegt, verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "142_1",
-        "text": "Es muss ausweichen.",
-      },
-      {
-        "id": "142_2",
-        "text": "Es hält Kurs und Geschwindigkeit bei.",
-      },
-      {
-        "id": "142_3",
-        "text": "Es hält Kurs und reduziert die Geschwindigkeit.",
-      },
-      {
-        "id": "142_4",
-        "text": "Es muss nicht ausweichen.",
-      }
+      "Es muss ausweichen.",
+      "Es hält Kurs und Geschwindigkeit bei.",
+      "Es hält Kurs und reduziert die Geschwindigkeit.",
+      "Es muss nicht ausweichen."
     ]
   },
   {
@@ -1653,22 +813,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wer ist ausweichpflichtig, wenn ein Segler mit Wind von Backbord einer Segelyacht mit Wind von Steuerbord und einem schwarzen Kegel auf Kollisionskurs begegnet?",
     "images": [],
     "answers": [
-      {
-        "id": "143_1",
-        "text": "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug mit Maschinenantrieb gilt.",
-      },
-      {
-        "id": "143_2",
-        "text": "Die Segelyacht mit Wind von Backbord, weil sie als Kleinfahrzeug unter Segel gilt.",
-      },
-      {
-        "id": "143_3",
-        "text": "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug unter Segel gilt.",
-      },
-      {
-        "id": "143_4",
-        "text": "Beide Segelyachten, weil eines als Kleinfahrzeug mit Maschinenantrieb gilt und das andere den Wind von Backbord hat.",
-      }
+      "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug mit Maschinenantrieb gilt.",
+      "Die Segelyacht mit Wind von Backbord, weil sie als Kleinfahrzeug unter Segel gilt.",
+      "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug unter Segel gilt.",
+      "Beide Segelyachten, weil eines als Kleinfahrzeug mit Maschinenantrieb gilt und das andere den Wind von Backbord hat."
     ]
   },
   {
@@ -1676,22 +824,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie lautet eine der drei Grundregeln der Binnenschifffahrtsstraßen-Ordnung, nach denen Kleinfahrzeuge unter Segel einander ausweichen?",
     "images": [],
     "answers": [
-      {
-        "id": "144_1",
-        "text": "Wenn sie den Wind nicht von derselben Seite haben, muss das Segelfahrzeug mit Wind von Backbord dem Segelfahrzeug mit Wind von Steuerbord ausweichen.",
-      },
-      {
-        "id": "144_2",
-        "text": "Wenn sie den Wind nicht von derselben Seite haben, muss das Segelfahrzeug mit Wind von Steuerbord dem Segelfahrzeug mit Wind von Backbord ausweichen.",
-      },
-      {
-        "id": "144_3",
-        "text": "Wenn sie den Wind von derselben Seite haben, muss das leeseitige dem luvseitigen ausweichen.",
-      },
-      {
-        "id": "144_4",
-        "text": "Wenn sie den Wind von derselben Seite haben, müssen beide Fahrzeuge ausweichen.",
-      }
+      "Wenn sie den Wind nicht von derselben Seite haben, muss das Segelfahrzeug mit Wind von Backbord dem Segelfahrzeug mit Wind von Steuerbord ausweichen.",
+      "Wenn sie den Wind nicht von derselben Seite haben, muss das Segelfahrzeug mit Wind von Steuerbord dem Segelfahrzeug mit Wind von Backbord ausweichen.",
+      "Wenn sie den Wind von derselben Seite haben, muss das leeseitige dem luvseitigen ausweichen.",
+      "Wenn sie den Wind von derselben Seite haben, müssen beide Fahrzeuge ausweichen."
     ]
   },
   {
@@ -1701,22 +837,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-051-Nacht.gif"
     ],
     "answers": [
-      {
-        "id": "145_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "145_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "145_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "145_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ]
   },
   {
@@ -1726,22 +850,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-051-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "146_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "146_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "146_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "146_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ]
   },
   {
@@ -1751,22 +863,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-052-Nacht.gif"
     ],
     "answers": [
-      {
-        "id": "147_1",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "147_2",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "147_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "147_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      }
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Sog und Wellenschlag vermeiden."
     ]
   },
   {
@@ -1776,22 +876,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-052-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "148_1",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "148_2",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "148_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "148_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      }
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot-weißen Seite gestattet; rote Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Sog und Wellenschlag vermeiden."
     ]
   },
   {
@@ -1801,22 +889,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-050a-Nacht.gif"
     ],
     "answers": [
-      {
-        "id": "149_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
-      },
-      {
-        "id": "149_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "149_3",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "149_4",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt."
     ]
   },
   {
@@ -1826,22 +902,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-050b-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "150_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
-      },
-      {
-        "id": "150_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "150_3",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.",
-      },
-      {
-        "id": "150_4",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt."
     ]
   },
   {
@@ -1851,22 +915,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-050a-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "151_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt.",
-      },
-      {
-        "id": "151_2",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "151_3",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "151_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Seite mit dem rot-weiß-roten Tafelzeichen gestattet; grün-weiß-grüne Seite gesperrt.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der Seite mit dem grün-weiß-grünen Tafelzeichen gestattet; rot-weiß-rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Seite mit dem rot-weiß-roten Tafelzeichen gestattet; grün-weiß-grüne Seite gesperrt."
     ]
   },
   {
@@ -1876,22 +928,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-049a-Nacht.gif"
     ],
     "answers": [
-      {
-        "id": "152_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
-      },
-      {
-        "id": "152_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "152_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
-      },
-      {
-        "id": "152_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ]
   },
   {
@@ -1901,22 +941,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-049b-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "153_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
-      },
-      {
-        "id": "153_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "153_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
-      },
-      {
-        "id": "153_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ]
   },
   {
@@ -1926,22 +954,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-049a-Tag.gif"
     ],
     "answers": [
-      {
-        "id": "154_1",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
-      },
-      {
-        "id": "154_2",
-        "text": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "154_3",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "154_4",
-        "text": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      }
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ]
   },
   {
@@ -1952,22 +968,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-058-Nacht.gif"
     ],
     "answers": [
-      {
-        "id": "155_1",
-        "text": "Schutzbedürftiges Fahrzeug, Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "155_2",
-        "text": "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
-      },
-      {
-        "id": "155_3",
-        "text": "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an jeder Seite mit unverminderter Geschwindigkeit gestattet.",
-      },
-      {
-        "id": "155_4",
-        "text": "Schwimmende Anlage / Schwimmkörper. Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.",
-      }
+      "Schutzbedürftiges Fahrzeug, Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.",
+      "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
+      "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an jeder Seite mit unverminderter Geschwindigkeit gestattet.",
+      "Schwimmende Anlage / Schwimmkörper. Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden."
     ]
   },
   {
@@ -1977,22 +981,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A01a.gif"
     ],
     "answers": [
-      {
-        "id": "156_1",
-        "text": "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "156_2",
-        "text": "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "156_3",
-        "text": "Gesperrte Wasserfläche, für Kleinfahrzeuge nicht befahrbar.",
-      },
-      {
-        "id": "156_4",
-        "text": "Gesperrte Wasserfläche, Verbot der Durchfahrt und Sperrung der Schifffahrt.",
-      }
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.",
+      "Gesperrte Wasserfläche, für Kleinfahrzeuge nicht befahrbar.",
+      "Gesperrte Wasserfläche, Verbot der Durchfahrt und Sperrung der Schifffahrt."
     ]
   },
   {
@@ -2002,22 +994,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A12.gif"
     ],
     "answers": [
-      {
-        "id": "157_1",
-        "text": "Fahrverbot für Fahrzeuge mit Maschinenantrieb.",
-      },
-      {
-        "id": "157_2",
-        "text": "Fahrverbot für Kleinfahrzeuge mit Maschinenantrieb.",
-      },
-      {
-        "id": "157_3",
-        "text": "Fahrverbot für Fahrzeuge ohne Antriebsmaschine.",
-      },
-      {
-        "id": "157_4",
-        "text": "Fahrverbot für Kleinfahrzeuge ohne laufende Antriebsmaschine.",
-      }
+      "Fahrverbot für Fahrzeuge mit Maschinenantrieb.",
+      "Fahrverbot für Kleinfahrzeuge mit Maschinenantrieb.",
+      "Fahrverbot für Fahrzeuge ohne Antriebsmaschine.",
+      "Fahrverbot für Kleinfahrzeuge ohne laufende Antriebsmaschine."
     ]
   },
   {
@@ -2025,22 +1005,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie ist eine geschützte Badezone gekennzeichnet?",
     "images": [],
     "answers": [
-      {
-        "id": "158_1",
-        "text": "Durch gelbe Tonnen.",
-      },
-      {
-        "id": "158_2",
-        "text": "Durch grüne Tonnen.",
-      },
-      {
-        "id": "158_3",
-        "text": "Durch rote Tonnen.",
-      },
-      {
-        "id": "158_4",
-        "text": "Durch rot-grün gestreifte Tonnen.",
-      }
+      "Durch gelbe Tonnen.",
+      "Durch grüne Tonnen.",
+      "Durch rote Tonnen.",
+      "Durch rot-grün gestreifte Tonnen."
     ]
   },
   {
@@ -2048,22 +1016,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet ein langer Ton?",
     "images": [],
     "answers": [
-      {
-        "id": "159_1",
-        "text": "Achtung!",
-      },
-      {
-        "id": "159_2",
-        "text": "Maschine geht rückwärts.",
-      },
-      {
-        "id": "159_3",
-        "text": "Fahrzeug ist manövrierunfähig.",
-      },
-      {
-        "id": "159_4",
-        "text": "Überholen nicht möglich.",
-      }
+      "Achtung!",
+      "Maschine geht rückwärts.",
+      "Fahrzeug ist manövrierunfähig.",
+      "Überholen nicht möglich."
     ]
   },
   {
@@ -2071,22 +1027,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeuten vier kurze Töne?",
     "images": [],
     "answers": [
-      {
-        "id": "160_1",
-        "text": "Fahrzeug ist manövrierunfähig.",
-      },
-      {
-        "id": "160_2",
-        "text": "Maschine geht rückwärts.",
-      },
-      {
-        "id": "160_3",
-        "text": "Achtung!",
-      },
-      {
-        "id": "160_4",
-        "text": "Überholen nicht möglich.",
-      }
+      "Fahrzeug ist manövrierunfähig.",
+      "Maschine geht rückwärts.",
+      "Achtung!",
+      "Überholen nicht möglich."
     ]
   },
   {
@@ -2094,22 +1038,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeuten fünf kurze Töne?",
     "images": [],
     "answers": [
-      {
-        "id": "161_1",
-        "text": "Überholen nicht möglich.",
-      },
-      {
-        "id": "161_2",
-        "text": "Maschine geht rückwärts.",
-      },
-      {
-        "id": "161_3",
-        "text": "Fahrzeug ist manövrierunfähig.",
-      },
-      {
-        "id": "161_4",
-        "text": "Achtung!",
-      }
+      "Überholen nicht möglich.",
+      "Maschine geht rückwärts.",
+      "Fahrzeug ist manövrierunfähig.",
+      "Achtung!"
     ]
   },
   {
@@ -2119,22 +1051,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-162.gif"
     ],
     "answers": [
-      {
-        "id": "162_1",
-        "text": "Wenden über Steuerbord.",
-      },
-      {
-        "id": "162_2",
-        "text": "Kursänderung über Steuerbord.",
-      },
-      {
-        "id": "162_3",
-        "text": "Kursänderung nach Backbord.",
-      },
-      {
-        "id": "162_4",
-        "text": "Wenden über Backbord.",
-      }
+      "Wenden über Steuerbord.",
+      "Kursänderung über Steuerbord.",
+      "Kursänderung nach Backbord.",
+      "Wenden über Backbord."
     ]
   },
   {
@@ -2144,22 +1064,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-163.gif"
     ],
     "answers": [
-      {
-        "id": "163_1",
-        "text": "Wenden über Backbord.",
-      },
-      {
-        "id": "163_2",
-        "text": "Wenden über Steuerbord.",
-      },
-      {
-        "id": "163_3",
-        "text": "Kursänderung nach Backbord.",
-      },
-      {
-        "id": "163_4",
-        "text": "Kursänderung nach Steuerbord.",
-      }
+      "Wenden über Backbord.",
+      "Wenden über Steuerbord.",
+      "Kursänderung nach Backbord.",
+      "Kursänderung nach Steuerbord."
     ]
   },
   {
@@ -2169,22 +1077,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-164.gif"
     ],
     "answers": [
-      {
-        "id": "164_1",
-        "text": "Überholen an der Steuerbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "164_2",
-        "text": "Überholen an der Backbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "164_3",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
-      },
-      {
-        "id": "164_4",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.",
-      }
+      "Überholen an der Steuerbordseite des Vorausfahrenden.",
+      "Überholen an der Backbordseite des Vorausfahrenden.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord."
     ]
   },
   {
@@ -2194,22 +1090,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-165.gif"
     ],
     "answers": [
-      {
-        "id": "165_1",
-        "text": "Überholen an der Backbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "165_2",
-        "text": "Überholen an der Steuerbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "165_3",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
-      },
-      {
-        "id": "165_4",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.",
-      }
+      "Überholen an der Backbordseite des Vorausfahrenden.",
+      "Überholen an der Steuerbordseite des Vorausfahrenden.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord."
     ]
   },
   {
@@ -2219,22 +1103,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-166.gif"
     ],
     "answers": [
-      {
-        "id": "166_1",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
-      },
-      {
-        "id": "166_2",
-        "text": "Überholen an der Backbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "166_3",
-        "text": "Überholen an der Steuerbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "166_4",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.",
-      }
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
+      "Überholen an der Backbordseite des Vorausfahrenden.",
+      "Überholen an der Steuerbordseite des Vorausfahrenden.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord."
     ]
   },
   {
@@ -2244,22 +1116,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Schallsignal-Frage-167.gif"
     ],
     "answers": [
-      {
-        "id": "167_1",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.",
-      },
-      {
-        "id": "167_2",
-        "text": "Überholen an der Backbordseite des Vorausfahrenden.",
-      },
-      {
-        "id": "167_3",
-        "text": "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
-      },
-      {
-        "id": "167_4",
-        "text": "Überholen an der Steuerbordseite des Vorausfahrenden.",
-      }
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.",
+      "Überholen an der Backbordseite des Vorausfahrenden.",
+      "Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.",
+      "Überholen an der Steuerbordseite des Vorausfahrenden."
     ]
   },
   {
@@ -2267,22 +1127,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist eine Folge sehr kurzer Töne?",
     "images": [],
     "answers": [
-      {
-        "id": "168_1",
-        "text": "Eine Folge von mindestens 6 Tönen, von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
-      },
-      {
-        "id": "168_2",
-        "text": "Eine Folge von mindestens 4 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
-      },
-      {
-        "id": "168_3",
-        "text": "Eine Folge von mindestens 2 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
-      },
-      {
-        "id": "168_4",
-        "text": "Eine Folge von mindestens 8 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
-      }
+      "Eine Folge von mindestens 6 Tönen, von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
+      "Eine Folge von mindestens 4 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
+      "Eine Folge von mindestens 2 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause.",
+      "Eine Folge von mindestens 8 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause."
     ]
   },
   {
@@ -2290,22 +1138,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet eine Folge sehr kurzer Töne?",
     "images": [],
     "answers": [
-      {
-        "id": "169_1",
-        "text": "Gefahr eines Zusammenstoßes.",
-      },
-      {
-        "id": "169_2",
-        "text": "Achtung!",
-      },
-      {
-        "id": "169_3",
-        "text": "Fahrzeug ist manövrierunfähig.",
-      },
-      {
-        "id": "169_4",
-        "text": "Überholen nicht möglich.",
-      }
+      "Gefahr eines Zusammenstoßes.",
+      "Achtung!",
+      "Fahrzeug ist manövrierunfähig.",
+      "Überholen nicht möglich."
     ]
   },
   {
@@ -2313,22 +1149,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Schallsignale bzw. Zeichen sind zu geben, wenn das Boot manövrierunfähig geworden ist?",
     "images": [],
     "answers": [
-      {
-        "id": "170_1",
-        "text": "Vier kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht im unteren Halbkreis schwenken.",
-      },
-      {
-        "id": "170_2",
-        "text": "Fünf kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht im oberen Halbkreis schwenken.",
-      },
-      {
-        "id": "170_3",
-        "text": "Ein langer, vier kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht setzen.",
-      },
-      {
-        "id": "170_4",
-        "text": "Eine Gruppe von kurzen und langen Tönen im Intervall geben. Bei Nacht ein rotes Blinklicht einschalten.",
-      }
+      "Vier kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht im unteren Halbkreis schwenken.",
+      "Fünf kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht im oberen Halbkreis schwenken.",
+      "Ein langer, vier kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht setzen.",
+      "Eine Gruppe von kurzen und langen Tönen im Intervall geben. Bei Nacht ein rotes Blinklicht einschalten."
     ]
   },
   {
@@ -2336,22 +1160,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Fahrzeug zeigt an der Steuerbordseite seines Ruderhauses eine blaue Tafel mit weißem Funkellicht. Welche Bedeutung hat dieses Zeichen?",
     "images": [],
     "answers": [
-      {
-        "id": "171_1",
-        "text": "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nicht für Kleinfahrzeuge, verpflichtet aber zu erhöhter Aufmerksamkeit.",
-      },
-      {
-        "id": "171_2",
-        "text": "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nur für Kleinfahrzeuge.",
-      },
-      {
-        "id": "171_3",
-        "text": "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen braucht gar nicht beachtet zu werden.",
-      },
-      {
-        "id": "171_4",
-        "text": "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt auch für alle Kleinfahrzeuge.",
-      }
+      "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nicht für Kleinfahrzeuge, verpflichtet aber zu erhöhter Aufmerksamkeit.",
+      "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nur für Kleinfahrzeuge.",
+      "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen braucht gar nicht beachtet zu werden.",
+      "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt auch für alle Kleinfahrzeuge."
     ]
   },
   {
@@ -2359,22 +1171,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Sportfahrzeug fährt hinter einem Fahrzeug, das nicht Kleinfahrzeug ist, in den Schleusenvorhafen ein. Aus der Schleusenkammer kommt ein Fahrzeug, das an Steuerbord eine blaue Tafel mit einem weißen Funkellicht zeigt. Was bedeutet dieses Zeichen?",
     "images": [],
     "answers": [
-      {
-        "id": "172_1",
-        "text": "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Steuerbordseite, das Kleinfahrzeug ist nur zu erhöhter Aufmerksamkeit verpflichtet.",
-      },
-      {
-        "id": "172_2",
-        "text": "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug ist nur zu erhöhter Aufmerksamkeit verpflichtet.",
-      },
-      {
-        "id": "172_3",
-        "text": "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Steuerbordseite, das Kleinfahrzeug ist wartepflichtig.",
-      },
-      {
-        "id": "172_4",
-        "text": "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug hat Vorrang.",
-      }
+      "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Steuerbordseite, das Kleinfahrzeug ist nur zu erhöhter Aufmerksamkeit verpflichtet.",
+      "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug ist nur zu erhöhter Aufmerksamkeit verpflichtet.",
+      "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Steuerbordseite, das Kleinfahrzeug ist wartepflichtig.",
+      "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug hat Vorrang."
     ]
   },
   {
@@ -2382,22 +1182,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo kann man von bestehenden Höchstgeschwindigkeiten auf den Binnenschifffahrtsstraßen Kenntnis erhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "173_1",
-        "text": "In der Binnenschifffahrtsstraßen-Ordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
-      },
-      {
-        "id": "173_2",
-        "text": "In der Binnenschiffsuntersuchungsordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
-      },
-      {
-        "id": "173_3",
-        "text": "In der Sportbootführerscheinverordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
-      },
-      {
-        "id": "173_4",
-        "text": "In der Binnenschifferpatentverordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
-      }
+      "In der Binnenschifffahrtsstraßen-Ordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
+      "In der Binnenschiffsuntersuchungsordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
+      "In der Sportbootführerscheinverordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei.",
+      "In der Binnenschifferpatentverordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei."
     ]
   },
   {
@@ -2405,22 +1193,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie ist ein Überholmanöver durchzuführen?",
     "images": [],
     "answers": [
-      {
-        "id": "174_1",
-        "text": "Zügig überholen. Beteiligte Fahrzeuge nicht behindern. Verkehrslage und eventuelle Schallzeichen beachten. Ausreichend Abstand halten.",
-      },
-      {
-        "id": "174_2",
-        "text": "Zügig überholen. Gegebenenfalls das Fahrzeug stark beschleunigen, um schnell passieren zu können.",
-      },
-      {
-        "id": "174_3",
-        "text": "Zügig überholen; überholen nur auf der Steuerbordseite erlaubt, ausreichend Abstand halten.",
-      },
-      {
-        "id": "174_4",
-        "text": "Zügig überholen. Dicht am Ufer entlang fahren, eventuelle Schallzeichen müssen von Kleinfahrzeugen beachtet werden.",
-      }
+      "Zügig überholen. Beteiligte Fahrzeuge nicht behindern. Verkehrslage und eventuelle Schallzeichen beachten. Ausreichend Abstand halten.",
+      "Zügig überholen. Gegebenenfalls das Fahrzeug stark beschleunigen, um schnell passieren zu können.",
+      "Zügig überholen; überholen nur auf der Steuerbordseite erlaubt, ausreichend Abstand halten.",
+      "Zügig überholen. Dicht am Ufer entlang fahren, eventuelle Schallzeichen müssen von Kleinfahrzeugen beachtet werden."
     ]
   },
   {
@@ -2428,22 +1204,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wann besteht die Gefahr eines Zusammenstoßes?",
     "images": [],
     "answers": [
-      {
-        "id": "175_1",
-        "text": "Wenn sich zwei Fahrzeuge bei gleichbleibender Peilung einander nähern.",
-      },
-      {
-        "id": "175_2",
-        "text": "Wenn sich zwei Fahrzeuge einander nähern und sich der Kurs der Fahrzeuge nicht ändert.",
-      },
-      {
-        "id": "175_3",
-        "text": "Wenn sich zwei Fahrzeuge einander nähern und sich der Kurs eines Fahrzeuges ändert.",
-      },
-      {
-        "id": "175_4",
-        "text": "Wenn sich zwei Fahrzeuge einander nähern und beide Fahrzeuge ihren Kurs nach steuerbord ändern.",
-      }
+      "Wenn sich zwei Fahrzeuge bei gleichbleibender Peilung einander nähern.",
+      "Wenn sich zwei Fahrzeuge einander nähern und sich der Kurs der Fahrzeuge nicht ändert.",
+      "Wenn sich zwei Fahrzeuge einander nähern und sich der Kurs eines Fahrzeuges ändert.",
+      "Wenn sich zwei Fahrzeuge einander nähern und beide Fahrzeuge ihren Kurs nach steuerbord ändern."
     ]
   },
   {
@@ -2451,22 +1215,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie müssen Ausweichmanöver durchgeführt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "176_1",
-        "text": "Rechtzeitig, klar erkennbar und entschlossen.",
-      },
-      {
-        "id": "176_2",
-        "text": "Rechtzeitig, klar erkennbar und nach Steuerbord.",
-      },
-      {
-        "id": "176_3",
-        "text": "Rechtzeitig, klar erkennbar und nach Backbord.",
-      },
-      {
-        "id": "176_4",
-        "text": "Rechtzeitig, klar erkennbar und vorsichtig.",
-      }
+      "Rechtzeitig, klar erkennbar und entschlossen.",
+      "Rechtzeitig, klar erkennbar und nach Steuerbord.",
+      "Rechtzeitig, klar erkennbar und nach Backbord.",
+      "Rechtzeitig, klar erkennbar und vorsichtig."
     ]
   },
   {
@@ -2474,22 +1226,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug und ein Fahrzeug über 20 m Länge nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?",
     "images": [],
     "answers": [
-      {
-        "id": "177_1",
-        "text": "Ausweichpflichtig ist das Kleinfahrzeug.",
-      },
-      {
-        "id": "177_2",
-        "text": "Ausweichpflichtig ist das Fahrzeug über 20 m Länge.",
-      },
-      {
-        "id": "177_3",
-        "text": "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Steuerbordseite sieht.",
-      },
-      {
-        "id": "177_4",
-        "text": "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht.",
-      }
+      "Ausweichpflichtig ist das Kleinfahrzeug.",
+      "Ausweichpflichtig ist das Fahrzeug über 20 m Länge.",
+      "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Steuerbordseite sieht.",
+      "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht."
     ]
   },
   {
@@ -2497,22 +1237,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Fahrzeuge in Fahrt führen nachts nur ein weißes Rundumlicht?",
     "images": [],
     "answers": [
-      {
-        "id": "178_1",
-        "text": "Geschleppte oder längsseits gekuppelte Kleinfahrzeuge.",
-      },
-      {
-        "id": "178_2",
-        "text": "Kleinfahrzeuge mit Maschinenantrieb unter 20 m Länge.",
-      },
-      {
-        "id": "178_3",
-        "text": "Kleinfahrzeuge mit Maschinenantrieb und geschleppte Fahrzeuge.",
-      },
-      {
-        "id": "178_4",
-        "text": "Fahrzeuge die geschoben werden.",
-      }
+      "Geschleppte oder längsseits gekuppelte Kleinfahrzeuge.",
+      "Kleinfahrzeuge mit Maschinenantrieb unter 20 m Länge.",
+      "Kleinfahrzeuge mit Maschinenantrieb und geschleppte Fahrzeuge.",
+      "Fahrzeuge die geschoben werden."
     ]
   },
   {
@@ -2520,22 +1248,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss sich ein kreuzendes Kleinfahrzeug unter Segel am Wind in der Nähe eines Ufers gegenüber einem anderen Kleinfahrzeug verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "179_1",
-        "text": "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, nicht zum Ausweichen zwingen.",
-      },
-      {
-        "id": "179_2",
-        "text": "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer verlässt, nicht zum Ausweichen zwingen.",
-      },
-      {
-        "id": "179_3",
-        "text": "Es darf ein anderes Kleinfahrzeug, das sein backbordseitiges Ufer verlässt, zum Ausweichen zwingen.",
-      },
-      {
-        "id": "179_4",
-        "text": "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, zum Ausweichen zwingen.",
-      }
+      "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, nicht zum Ausweichen zwingen.",
+      "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer verlässt, nicht zum Ausweichen zwingen.",
+      "Es darf ein anderes Kleinfahrzeug, das sein backbordseitiges Ufer verlässt, zum Ausweichen zwingen.",
+      "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, zum Ausweichen zwingen."
     ]
   },
   {
@@ -2545,22 +1261,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-180.gif"
     ],
     "answers": [
-      {
-        "id": "180_1",
-        "text": "Das Fahrzeug unter Segel ist ausweichpflichtig.",
-      },
-      {
-        "id": "180_2",
-        "text": "Das Fahrzeug unter Segel ist nicht ausweichpflichtig.",
-      },
-      {
-        "id": "180_3",
-        "text": "Das Fahrzeug unter Maschinenantrieb ist ausweichpflichtig.",
-      },
-      {
-        "id": "180_4",
-        "text": "Beide Fahrzeuge sind ausweichpflichtig.",
-      }
+      "Das Fahrzeug unter Segel ist ausweichpflichtig.",
+      "Das Fahrzeug unter Segel ist nicht ausweichpflichtig.",
+      "Das Fahrzeug unter Maschinenantrieb ist ausweichpflichtig.",
+      "Beide Fahrzeuge sind ausweichpflichtig."
     ]
   },
   {
@@ -2568,22 +1272,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was hat der Schiffsführer eines Kleinfahrzeugs beim Begegnen mit Fahrzeugen, die nicht Kleinfahrzeuge sind, zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "181_1",
-        "text": "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, ausweichpflichtig. Sie müssen für deren Kurs und zum Manövrieren notwendigen Raum lassen.",
-      },
-      {
-        "id": "181_2",
-        "text": "Kleinfahrzeuge sind gegenüber anderen Fahrzeugen, die nicht Kleinfahrzeuge sind, nicht ausweichpflichtig.",
-      },
-      {
-        "id": "181_3",
-        "text": "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, bei der Begegnung gleichgestellt.",
-      },
-      {
-        "id": "181_4",
-        "text": "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, ausweichpflichtig. Sie brauchen aber keinen besonderen Raum zum Manövrieren frei zu geben.",
-      }
+      "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, ausweichpflichtig. Sie müssen für deren Kurs und zum Manövrieren notwendigen Raum lassen.",
+      "Kleinfahrzeuge sind gegenüber anderen Fahrzeugen, die nicht Kleinfahrzeuge sind, nicht ausweichpflichtig.",
+      "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, bei der Begegnung gleichgestellt.",
+      "Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, ausweichpflichtig. Sie brauchen aber keinen besonderen Raum zum Manövrieren frei zu geben."
     ]
   },
   {
@@ -2591,22 +1283,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Von Backbord kommend kreuzt ein Fahrzeug unter Segel mit einem schwarzen Kegel, Spitze nach unten, den Kurs eines Fahrzeuges mit Maschinenantrieb. Wer ist ausweichpflichtig?",
     "images": [],
     "answers": [
-      {
-        "id": "182_1",
-        "text": "Das Fahrzeug unter Segel mit einem schwarzen Kegel ist ausweichpflichtig.",
-      },
-      {
-        "id": "182_2",
-        "text": "Das Fahrzeug ohne Segel ist ausweichpflichtig.",
-      },
-      {
-        "id": "182_3",
-        "text": "Das Fahrzeug unter Segel mit einem schwarzen Kegel ist nicht ausweichpflichtig.",
-      },
-      {
-        "id": "182_4",
-        "text": "Beide Fahrzeuge sind ausweichpflichtig.",
-      }
+      "Das Fahrzeug unter Segel mit einem schwarzen Kegel ist ausweichpflichtig.",
+      "Das Fahrzeug ohne Segel ist ausweichpflichtig.",
+      "Das Fahrzeug unter Segel mit einem schwarzen Kegel ist nicht ausweichpflichtig.",
+      "Beide Fahrzeuge sind ausweichpflichtig."
     ]
   },
   {
@@ -2616,22 +1296,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-183.gif"
     ],
     "answers": [
-      {
-        "id": "183_1",
-        "text": "Fahrzeug A ist ausweichpflichtig.",
-      },
-      {
-        "id": "183_2",
-        "text": "Fahrzeug B ist ausweichpflichtig.",
-      },
-      {
-        "id": "183_3",
-        "text": "Ausweichpflichtig ist das Fahrzeug, welches das Andere an seiner Backbordseite sieht.",
-      },
-      {
-        "id": "183_4",
-        "text": "Ausweichpflichtig ist das Fahrzeug, welches den Wind von Backbord hat.",
-      }
+      "Fahrzeug A ist ausweichpflichtig.",
+      "Fahrzeug B ist ausweichpflichtig.",
+      "Ausweichpflichtig ist das Fahrzeug, welches das Andere an seiner Backbordseite sieht.",
+      "Ausweichpflichtig ist das Fahrzeug, welches den Wind von Backbord hat."
     ]
   },
   {
@@ -2639,22 +1307,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Fahrzeug unter Segel kreuzt eine Binnenschifffahrtsstraße. In der Fahrwassermitte kommt ihm ein Kleinfahrzeug mit Maschinenantrieb zu Berg entgegen. Wer ist ausweichpflichtig?",
     "images": [],
     "answers": [
-      {
-        "id": "184_1",
-        "text": "Fahrzeug mit Maschinenantrieb.",
-      },
-      {
-        "id": "184_2",
-        "text": "Fahrzeug in der Talfahrt.",
-      },
-      {
-        "id": "184_3",
-        "text": "Fahrzeug unter Segel.",
-      },
-      {
-        "id": "184_4",
-        "text": "Beide sind ausweichpflichtig.",
-      }
+      "Fahrzeug mit Maschinenantrieb.",
+      "Fahrzeug in der Talfahrt.",
+      "Fahrzeug unter Segel.",
+      "Beide sind ausweichpflichtig."
     ]
   },
   {
@@ -2664,22 +1320,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-185.gif"
     ],
     "answers": [
-      {
-        "id": "185_1",
-        "text": "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen.",
-      },
-      {
-        "id": "185_2",
-        "text": "B ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen.",
-      },
-      {
-        "id": "185_3",
-        "text": "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Steuerbord müssen Segelfahrzeugen mit Wind von Backbord ausweichen.",
-      },
-      {
-        "id": "185_4",
-        "text": "B ist ausweichpflichtig. Segelfahrzeuge mit Wind von Steuerbord müssen Segelfahrzeugen mit Wind von Backbord ausweichen.",
-      }
+      "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen.",
+      "B ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen.",
+      "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Steuerbord müssen Segelfahrzeugen mit Wind von Backbord ausweichen.",
+      "B ist ausweichpflichtig. Segelfahrzeuge mit Wind von Steuerbord müssen Segelfahrzeugen mit Wind von Backbord ausweichen."
     ]
   },
   {
@@ -2689,22 +1333,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-186.gif"
     ],
     "answers": [
-      {
-        "id": "186_1",
-        "text": "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.",
-      },
-      {
-        "id": "186_2",
-        "text": "A ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.",
-      },
-      {
-        "id": "186_3",
-        "text": "A ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.",
-      },
-      {
-        "id": "186_4",
-        "text": "B ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.",
-      }
+      "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.",
+      "A ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.",
+      "A ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.",
+      "B ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen."
     ]
   },
   {
@@ -2712,22 +1344,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steuerbord. Backbord querab kommt ein grünes Seitenlicht eines Bootes B immer näher, das kein Topplicht führt. Wer ist ausweichpflichtig?",
     "images": [],
     "answers": [
-      {
-        "id": "187_1",
-        "text": "Das Kleinfahrzeug A ist ausweichpflichtig. Ein Boot mit Wind von Backbord muss ausweichen, wenn es nicht klar ausmachen kann, ob das luvseitige Boot den Wind von Steuerbord hat.",
-      },
-      {
-        "id": "187_2",
-        "text": "Das Kleinfahrzeug A ist ausweichpflichtig. Ein Boot mit Wind von Steuerbord muss ausweichen, wenn es nicht klar ausmachen kann, ob das luvseitige Boot den Wind von Backbord hat.",
-      },
-      {
-        "id": "187_3",
-        "text": "Boot B ist ausweichpflichtig, weil es sich bei Fahrzeug A um ein Kleinfahrzeug unter Segel handelt, das den Wind von Backbord hat.",
-      },
-      {
-        "id": "187_4",
-        "text": "Boot B ist ausweichpflichtig, weil es sich um ein Kleinfahrzeug handelt und Kleinfahrzeuge anderen Kleinfahrzeugen unter Segel ausweichen müssen.",
-      }
+      "Das Kleinfahrzeug A ist ausweichpflichtig. Ein Boot mit Wind von Backbord muss ausweichen, wenn es nicht klar ausmachen kann, ob das luvseitige Boot den Wind von Steuerbord hat.",
+      "Das Kleinfahrzeug A ist ausweichpflichtig. Ein Boot mit Wind von Steuerbord muss ausweichen, wenn es nicht klar ausmachen kann, ob das luvseitige Boot den Wind von Backbord hat.",
+      "Boot B ist ausweichpflichtig, weil es sich bei Fahrzeug A um ein Kleinfahrzeug unter Segel handelt, das den Wind von Backbord hat.",
+      "Boot B ist ausweichpflichtig, weil es sich um ein Kleinfahrzeug handelt und Kleinfahrzeuge anderen Kleinfahrzeugen unter Segel ausweichen müssen."
     ]
   },
   {
@@ -2737,22 +1357,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-188.gif"
     ],
     "answers": [
-      {
-        "id": "188_1",
-        "text": "Boot A, weil leeseitig.",
-      },
-      {
-        "id": "188_2",
-        "text": "Boot A, weil luvseitig.",
-      },
-      {
-        "id": "188_3",
-        "text": "Boot B, weil leeseitig.",
-      },
-      {
-        "id": "188_4",
-        "text": "Boot C, weil leeseitig.",
-      }
+      "Boot A, weil leeseitig.",
+      "Boot A, weil luvseitig.",
+      "Boot B, weil leeseitig.",
+      "Boot C, weil leeseitig."
     ]
   },
   {
@@ -2762,22 +1370,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-189.gif"
     ],
     "answers": [
-      {
-        "id": "189_1",
-        "text": "A gegenüber B und C, B gegenüber C.",
-      },
-      {
-        "id": "189_2",
-        "text": "C gegenüber A und B, B gegenüber A.",
-      },
-      {
-        "id": "189_3",
-        "text": "B gegenüber C und A, A gegenüber C.",
-      },
-      {
-        "id": "189_4",
-        "text": "A gegenüber B und C, C gegenüber B.",
-      }
+      "A gegenüber B und C, B gegenüber C.",
+      "C gegenüber A und B, B gegenüber A.",
+      "B gegenüber C und A, A gegenüber C.",
+      "A gegenüber B und C, C gegenüber B."
     ]
   },
   {
@@ -2785,22 +1381,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist vorrangig zu beachten, wenn eine Jolle gekentert ist und sie nicht wieder aufgerichtet werden kann?",
     "images": [],
     "answers": [
-      {
-        "id": "190_1",
-        "text": "Vollständigkeit der Crew überprüfen, gegebenenfalls Hilfe leisten. Am Boot festhalten oder gegebenenfalls aufs Boot legen, Hilfe abwarten.",
-      },
-      {
-        "id": "190_2",
-        "text": "Sofort vorgeschriebene Notsignale geben, mit allen Mitteln versuchen, das Fahrzeug aus dem Fahrwasser zu bringen.",
-      },
-      {
-        "id": "190_3",
-        "text": "Auf das gekenterte Boot steigen und sich ruhig verhalten, um Wärmeverlust zu minimieren. Sollte das nicht möglich sein, ans benachbarte Ufer schwimmen und Hilfe holen.",
-      },
-      {
-        "id": "190_4",
-        "text": "Rettungswesten anlegen und mit geeigneten Mitteln Hilfe herbeiholen. Gegebenenfalls Segel bergen.",
-      }
+      "Vollständigkeit der Crew überprüfen, gegebenenfalls Hilfe leisten. Am Boot festhalten oder gegebenenfalls aufs Boot legen, Hilfe abwarten.",
+      "Sofort vorgeschriebene Notsignale geben, mit allen Mitteln versuchen, das Fahrzeug aus dem Fahrwasser zu bringen.",
+      "Auf das gekenterte Boot steigen und sich ruhig verhalten, um Wärmeverlust zu minimieren. Sollte das nicht möglich sein, ans benachbarte Ufer schwimmen und Hilfe holen.",
+      "Rettungswesten anlegen und mit geeigneten Mitteln Hilfe herbeiholen. Gegebenenfalls Segel bergen."
     ]
   },
   {
@@ -2808,22 +1392,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Segelboot gerät in das Feld einer Segelregatta, ohne selbst Teilnehmer zu sein. Welche Ausweichregeln sind zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "191_1",
-        "text": "Die der Binnenschifffahrtsstraßen-Ordnung.",
-      },
-      {
-        "id": "191_2",
-        "text": "Die der Wettsegelbestimmungen.",
-      },
-      {
-        "id": "191_3",
-        "text": "Gegenüber Regattateilnehmern, die der Wettfahrtregeln, gegenüber anderen Fahrzeugen die der Binnenschifffahrtsstraßen-Ordnung.",
-      },
-      {
-        "id": "191_4",
-        "text": "Fahrzeuge, die an einer Regatta teilnehmen, müssen unbeteiligten Fahrzeugen ausweichen.",
-      }
+      "Die der Binnenschifffahrtsstraßen-Ordnung.",
+      "Die der Wettsegelbestimmungen.",
+      "Gegenüber Regattateilnehmern, die der Wettfahrtregeln, gegenüber anderen Fahrzeugen die der Binnenschifffahrtsstraßen-Ordnung.",
+      "Fahrzeuge, die an einer Regatta teilnehmen, müssen unbeteiligten Fahrzeugen ausweichen."
     ]
   },
   {
@@ -2833,22 +1405,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-192.gif"
     ],
     "answers": [
-      {
-        "id": "192_1",
-        "text": "Kleinfahrzeug mit Maschinenantrieb.",
-      },
-      {
-        "id": "192_2",
-        "text": "Frei fahrende Fähre.",
-      },
-      {
-        "id": "192_3",
-        "text": "Schubverband von vorne.",
-      },
-      {
-        "id": "192_4",
-        "text": "Geschlepptes Kleinfahrzeug.",
-      }
+      "Kleinfahrzeug mit Maschinenantrieb.",
+      "Frei fahrende Fähre.",
+      "Schubverband von vorne.",
+      "Geschlepptes Kleinfahrzeug."
     ]
   },
   {
@@ -2858,22 +1418,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-192.gif"
     ],
     "answers": [
-      {
-        "id": "193_1",
-        "text": "Kleinfahrzeug mit Maschinenantrieb.",
-      },
-      {
-        "id": "193_2",
-        "text": "Kleinfahrzeug unter Segel.",
-      },
-      {
-        "id": "193_3",
-        "text": "Kleinfahrzeug, welches das Andere auf der Backbordseite hat.",
-      },
-      {
-        "id": "193_4",
-        "text": "Beide sind ausweichpflichtig.",
-      }
+      "Kleinfahrzeug mit Maschinenantrieb.",
+      "Kleinfahrzeug unter Segel.",
+      "Kleinfahrzeug, welches das Andere auf der Backbordseite hat.",
+      "Beide sind ausweichpflichtig."
     ]
   },
   {
@@ -2881,22 +1429,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug unter Segel und mit Maschinenantrieb kreuzt nachts stromauf. Ein Fahrzeug kommt entgegen, das nur ein weißes Licht führt. Was bedeutet dieses Licht?",
     "images": [],
     "answers": [
-      {
-        "id": "194_1",
-        "text": "Kleinfahrzeug ohne Maschinenantrieb.",
-      },
-      {
-        "id": "194_2",
-        "text": "Kleinfahrzeug mit Maschinenantrieb.",
-      },
-      {
-        "id": "194_3",
-        "text": "Kleinfahrzeug unter Segel.",
-      },
-      {
-        "id": "194_4",
-        "text": "Kleinfahrzeug unter Segel mit Maschinenantrieb.",
-      }
+      "Kleinfahrzeug ohne Maschinenantrieb.",
+      "Kleinfahrzeug mit Maschinenantrieb.",
+      "Kleinfahrzeug unter Segel.",
+      "Kleinfahrzeug unter Segel mit Maschinenantrieb."
     ]
   },
   {
@@ -2904,22 +1440,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Kleinfahrzeug unter Segel kreuzt nachts im Fahrwasser. Von achtern kommt ein Fahrzeug, das eine Zweifarbenlaterne und ein Topplicht führt. Was bedeuten diese Lichter?",
     "images": [],
     "answers": [
-      {
-        "id": "195_1",
-        "text": "Kleinfahrzeug mit Maschinenantrieb.",
-      },
-      {
-        "id": "195_2",
-        "text": "Kleinfahrzeug ohne Maschinenantrieb.",
-      },
-      {
-        "id": "195_3",
-        "text": "Kleinfahrzeug unter Segel.",
-      },
-      {
-        "id": "195_4",
-        "text": "Kleinfahrzeug unter Segel mit Maschinenantrieb.",
-      }
+      "Kleinfahrzeug mit Maschinenantrieb.",
+      "Kleinfahrzeug ohne Maschinenantrieb.",
+      "Kleinfahrzeug unter Segel.",
+      "Kleinfahrzeug unter Segel mit Maschinenantrieb."
     ]
   },
   {
@@ -2929,22 +1453,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Lichter-Frage-196.gif"
     ],
     "answers": [
-      {
-        "id": "196_1",
-        "text": "Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "196_2",
-        "text": "Keine Durchfahrt für Kleinfahrzeuge.",
-      },
-      {
-        "id": "196_3",
-        "text": "Sperrung der Schifffahrt.",
-      },
-      {
-        "id": "196_4",
-        "text": "Durchfahrt für Kleinfahrzeuge.",
-      }
+      "Sog und Wellenschlag vermeiden.",
+      "Keine Durchfahrt für Kleinfahrzeuge.",
+      "Sperrung der Schifffahrt.",
+      "Durchfahrt für Kleinfahrzeuge."
     ]
   },
   {
@@ -2952,22 +1464,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo ist die Geschwindigkeit zu vermindern, um Sog und Wellenschlag zu vermeiden?",
     "images": [],
     "answers": [
-      {
-        "id": "197_1",
-        "text": "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
-      },
-      {
-        "id": "197_2",
-        "text": "Vor Einmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
-      },
-      {
-        "id": "197_3",
-        "text": "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
-      },
-      {
-        "id": "197_4",
-        "text": "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Schifffahrtszeichen.",
-      }
+      "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
+      "Vor Einmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
+      "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit.",
+      "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe nicht frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Schifffahrtszeichen."
     ]
   },
   {
@@ -2977,22 +1477,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Tafelzeichen-Frage-198.gif"
     ],
     "answers": [
-      {
-        "id": "198_1",
-        "text": "Vorgeschriebene Fahrtrichtung.",
-      },
-      {
-        "id": "198_2",
-        "text": "Fahrtrichtung nach links verboten.",
-      },
-      {
-        "id": "198_3",
-        "text": "Vorgeschriebene Fahrtrichtung nur für Kleinfahrzeuge.",
-      },
-      {
-        "id": "198_4",
-        "text": "Empfohlene Fahrtrichtung.",
-      }
+      "Vorgeschriebene Fahrtrichtung.",
+      "Fahrtrichtung nach links verboten.",
+      "Vorgeschriebene Fahrtrichtung nur für Kleinfahrzeuge.",
+      "Empfohlene Fahrtrichtung."
     ]
   },
   {
@@ -3002,22 +1490,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A01-Pfeil.gif"
     ],
     "answers": [
-      {
-        "id": "199_1",
-        "text": "Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße.",
-      },
-      {
-        "id": "199_2",
-        "text": "Verbot des Überholens auf dem Streckenabschnitt.",
-      },
-      {
-        "id": "199_3",
-        "text": "Achtung Doppelschleuse, linke Kammer gesperrt.",
-      },
-      {
-        "id": "199_4",
-        "text": "Achtung Ausfahrt aus Hafen oder Nebenfahrwasser.",
-      }
+      "Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße.",
+      "Verbot des Überholens auf dem Streckenabschnitt.",
+      "Achtung Doppelschleuse, linke Kammer gesperrt.",
+      "Achtung Ausfahrt aus Hafen oder Nebenfahrwasser."
     ]
   },
   {
@@ -3027,22 +1503,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Tafelzeichen-Frage-200.gif"
     ],
     "answers": [
-      {
-        "id": "200_1",
-        "text": "10 km/h Höchstgeschwindigkeit gegenüber dem Ufer.",
-      },
-      {
-        "id": "200_2",
-        "text": "10 km/h Höchstgeschwindigkeit gegenüber der Strömung.",
-      },
-      {
-        "id": "200_3",
-        "text": "10 km/h Höchstgeschwindigkeit für Kleinfahrzeuge.",
-      },
-      {
-        "id": "200_4",
-        "text": "10 km/h für größere Fahrzeuge.",
-      }
+      "10 km/h Höchstgeschwindigkeit gegenüber dem Ufer.",
+      "10 km/h Höchstgeschwindigkeit gegenüber der Strömung.",
+      "10 km/h Höchstgeschwindigkeit für Kleinfahrzeuge.",
+      "10 km/h für größere Fahrzeuge."
     ]
   },
   {
@@ -3052,22 +1516,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Gebotszeichen-B08.gif"
     ],
     "answers": [
-      {
-        "id": "201_1",
-        "text": "Gebot: Besondere Vorsicht walten lassen.",
-      },
-      {
-        "id": "201_2",
-        "text": "Gebot: Geradeaus zu fahren.",
-      },
-      {
-        "id": "201_3",
-        "text": "Gebot: Achtungssignal geben.",
-      },
-      {
-        "id": "201_4",
-        "text": "Gebot: Vor dem Schild anhalten.",
-      }
+      "Gebot: Besondere Vorsicht walten lassen.",
+      "Gebot: Geradeaus zu fahren.",
+      "Gebot: Achtungssignal geben.",
+      "Gebot: Vor dem Schild anhalten."
     ]
   },
   {
@@ -3077,22 +1529,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A08.gif"
     ],
     "answers": [
-      {
-        "id": "202_1",
-        "text": "Wendeverbot.",
-      },
-      {
-        "id": "202_2",
-        "text": "Verbotene Fahrtrichtung rechts oder links.",
-      },
-      {
-        "id": "202_3",
-        "text": "Verbote in beiden angezeigten Richtungen zu fahren.",
-      },
-      {
-        "id": "202_4",
-        "text": "Wendeverbot in der Mitte des Fahrwassers.",
-      }
+      "Wendeverbot.",
+      "Verbotene Fahrtrichtung rechts oder links.",
+      "Verbote in beiden angezeigten Richtungen zu fahren.",
+      "Wendeverbot in der Mitte des Fahrwassers."
     ]
   },
   {
@@ -3102,22 +1542,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Hinweiszeichen-E08.gif"
     ],
     "answers": [
-      {
-        "id": "203_1",
-        "text": "Empfohlener Wendeplatz. Stillliegen für alle Fahrzeuge verboten.",
-      },
-      {
-        "id": "203_2",
-        "text": "Empfohlener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt.",
-      },
-      {
-        "id": "203_3",
-        "text": "Vorgeschriebener Wendeplatz. Stillliegen für alle Fahrzeuge verboten.",
-      },
-      {
-        "id": "203_4",
-        "text": "Vorgeschriebener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt.",
-      }
+      "Empfohlener Wendeplatz. Stillliegen für alle Fahrzeuge verboten.",
+      "Empfohlener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt.",
+      "Vorgeschriebener Wendeplatz. Stillliegen für alle Fahrzeuge verboten.",
+      "Vorgeschriebener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt."
     ]
   },
   {
@@ -3127,22 +1555,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Hinweiszeichen-E03.gif"
     ],
     "answers": [
-      {
-        "id": "204_1",
-        "text": "Wehr.",
-      },
-      {
-        "id": "204_2",
-        "text": "Hubbrücke.",
-      },
-      {
-        "id": "204_3",
-        "text": "Schleuse.",
-      },
-      {
-        "id": "204_4",
-        "text": "Sicherheitstor.",
-      }
+      "Wehr.",
+      "Hubbrücke.",
+      "Schleuse.",
+      "Sicherheitstor."
     ]
   },
   {
@@ -3150,22 +1566,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Sichtbeeinträchtigungen führen zu unsichtigem Wetter?",
     "images": [],
     "answers": [
-      {
-        "id": "205_1",
-        "text": "Nebel, Schneefall, starker Regen.",
-      },
-      {
-        "id": "205_2",
-        "text": "Dunkelheit, Nebel, Schneefall, starker Regen.",
-      },
-      {
-        "id": "205_3",
-        "text": "Nacht, Schneefall, starker Regen.",
-      },
-      {
-        "id": "205_4",
-        "text": "Dämmerung, Nebel, Schneefall, starker Regen.",
-      }
+      "Nebel, Schneefall, starker Regen.",
+      "Dunkelheit, Nebel, Schneefall, starker Regen.",
+      "Nacht, Schneefall, starker Regen.",
+      "Dämmerung, Nebel, Schneefall, starker Regen."
     ]
   },
   {
@@ -3173,22 +1577,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss ein Fahrzeug ausgerüstet sein, um bei unsichtigem Wetter zu fahren?",
     "images": [],
     "answers": [
-      {
-        "id": "206_1",
-        "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
-      },
-      {
-        "id": "206_2",
-        "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage ohne ATIS.",
-      },
-      {
-        "id": "206_3",
-        "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Seefunkdienst.",
-      },
-      {
-        "id": "206_4",
-        "text": "Mit einer Radaranlage ohne Wendeanzeiger und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
-      }
+      "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
+      "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage ohne ATIS.",
+      "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Seefunkdienst.",
+      "Mit einer Radaranlage ohne Wendeanzeiger und einer Sprechfunkanlage für den Binnenschifffahrtsfunk."
     ]
   },
   {
@@ -3196,22 +1588,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist zu beachten, wenn während der Fahrt unsichtiges Wetter eintritt?",
     "images": [],
     "answers": [
-      {
-        "id": "207_1",
-        "text": "Auf bestimmten Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
-      },
-      {
-        "id": "207_2",
-        "text": "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
-      },
-      {
-        "id": "207_3",
-        "text": "Auf bestimmten Wasserstraßen ist ohne Radar und AIS-- die Fahrt unverzüglich einzustellen.",
-      },
-      {
-        "id": "207_4",
-        "text": "Auf allen Wasserstraßen ist ohne Radar und ECDIS die Fahrt unverzüglich einzustellen.",
-      }
+      "Auf bestimmten Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+      "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+      "Auf bestimmten Wasserstraßen ist ohne Radar und AIS-- die Fahrt unverzüglich einzustellen.",
+      "Auf allen Wasserstraßen ist ohne Radar und ECDIS die Fahrt unverzüglich einzustellen."
     ]
   },
   {
@@ -3219,22 +1599,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welchen Vorteil bietet ein Radarreflektor auf einem Sportboot?",
     "images": [],
     "answers": [
-      {
-        "id": "208_1",
-        "text": "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen.",
-      },
-      {
-        "id": "208_2",
-        "text": "Bessere Erkennbarkeit des Sportbootes bei Nacht.",
-      },
-      {
-        "id": "208_3",
-        "text": "Bessere Erkennbarkeit des Sportbootes bei Taglicht.",
-      },
-      {
-        "id": "208_4",
-        "text": "Bessere Erkennbarkeit des Sportbootes bei unsichtigem Wetter.",
-      }
+      "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen.",
+      "Bessere Erkennbarkeit des Sportbootes bei Nacht.",
+      "Bessere Erkennbarkeit des Sportbootes bei Taglicht.",
+      "Bessere Erkennbarkeit des Sportbootes bei unsichtigem Wetter."
     ]
   },
   {
@@ -3242,22 +1610,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche technische Einrichtung gegen einen Stromschlag muss in der Landstromversorgung unbedingt installiert sein?",
     "images": [],
     "answers": [
-      {
-        "id": "209_1",
-        "text": "Ein Fehlerstromschutzschalter.",
-      },
-      {
-        "id": "209_2",
-        "text": "Ein geringer Ladungsstrom ist ungefährlich.",
-      },
-      {
-        "id": "209_3",
-        "text": "Ein Überspannungsschutz.",
-      },
-      {
-        "id": "209_4",
-        "text": "Ein Schutzkleinspannungsschalter.",
-      }
+      "Ein Fehlerstromschutzschalter.",
+      "Ein geringer Ladungsstrom ist ungefährlich.",
+      "Ein Überspannungsschutz.",
+      "Ein Schutzkleinspannungsschalter."
     ]
   },
   {
@@ -3265,22 +1621,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches Schallsignal ist zu geben, wenn in einer Notsituation Hilfe gebraucht wird?",
     "images": [],
     "answers": [
-      {
-        "id": "210_1",
-        "text": "Wiederholte lange Töne geben oder Gruppen von Glockenschlägen.",
-      },
-      {
-        "id": "210_2",
-        "text": "Wiederholte kurze Töne geben, keine Glockenschläge.",
-      },
-      {
-        "id": "210_3",
-        "text": "Einen langen Ton geben, vereinzelt Glockenschläge.",
-      },
-      {
-        "id": "210_4",
-        "text": "Drei kurze Töne geben, keine Glockenschläge.",
-      }
+      "Wiederholte lange Töne geben oder Gruppen von Glockenschlägen.",
+      "Wiederholte kurze Töne geben, keine Glockenschläge.",
+      "Einen langen Ton geben, vereinzelt Glockenschläge.",
+      "Drei kurze Töne geben, keine Glockenschläge."
     ]
   },
   {
@@ -3288,22 +1632,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Bedeutung hat am Tag das Kreisen einer roten Flagge auf einem Wasserfahrzeug?",
     "images": [],
     "answers": [
-      {
-        "id": "211_1",
-        "text": "Ein in Not befindliches Fahrzeug, das durch Sichtzeichen Hilfe herbeirufen will.",
-      },
-      {
-        "id": "211_2",
-        "text": "Ein manövrierbehindertes Fahrzeug, das durch Sichtzeichen Hilfe herbeirufen will.",
-      },
-      {
-        "id": "211_3",
-        "text": "Keine Bedeutung für den durchgehenden Schiffsverkehr.",
-      },
-      {
-        "id": "211_4",
-        "text": "Schützenswertes Fahrzeug, Vermeidung von Sog und Wellenschlag.",
-      }
+      "Ein in Not befindliches Fahrzeug, das durch Sichtzeichen Hilfe herbeirufen will.",
+      "Ein manövrierbehindertes Fahrzeug, das durch Sichtzeichen Hilfe herbeirufen will.",
+      "Keine Bedeutung für den durchgehenden Schiffsverkehr.",
+      "Schützenswertes Fahrzeug, Vermeidung von Sog und Wellenschlag."
     ]
   },
   {
@@ -3311,22 +1643,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Notsignale kann ein Segelsurfer auf Binnenschifffahrtsstraßen geben?",
     "images": [],
     "answers": [
-      {
-        "id": "212_1",
-        "text": "Kreisförmiges Schwenken der Arme oder eines Gegenstandes.",
-      },
-      {
-        "id": "212_2",
-        "text": "Kreisförmiges Schwenken einer grünen Flagge, die mit anderen Zeichen nicht verwechselt werden kann.",
-      },
-      {
-        "id": "212_3",
-        "text": "Wiederholt lange Gruppen von Glockenschlägen.",
-      },
-      {
-        "id": "212_4",
-        "text": "Kreisförmiges Schwenken der Arme ist zu vermeiden, das Surfsegel ist möglichst senkrecht zu stellen.",
-      }
+      "Kreisförmiges Schwenken der Arme oder eines Gegenstandes.",
+      "Kreisförmiges Schwenken einer grünen Flagge, die mit anderen Zeichen nicht verwechselt werden kann.",
+      "Wiederholt lange Gruppen von Glockenschlägen.",
+      "Kreisförmiges Schwenken der Arme ist zu vermeiden, das Surfsegel ist möglichst senkrecht zu stellen."
     ]
   },
   {
@@ -3334,22 +1654,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist mit Abfällen jeglicher Art zu tun, die an Bord anfallen?",
     "images": [],
     "answers": [
-      {
-        "id": "213_1",
-        "text": "An Bord sammeln und an Land in den entsprechenden Abfallsammelbehältern umweltgerecht entsorgen.",
-      },
-      {
-        "id": "213_2",
-        "text": "An Bord sammeln und bei einer Liegestelle an Land stellen.",
-      },
-      {
-        "id": "213_3",
-        "text": "An Bord sammeln und nur in geschlossenen Behältern über Bord werfen.",
-      },
-      {
-        "id": "213_4",
-        "text": "An Bord sammeln. Die Abgabe ist an jeder Schleuse möglich.",
-      }
+      "An Bord sammeln und an Land in den entsprechenden Abfallsammelbehältern umweltgerecht entsorgen.",
+      "An Bord sammeln und bei einer Liegestelle an Land stellen.",
+      "An Bord sammeln und nur in geschlossenen Behältern über Bord werfen.",
+      "An Bord sammeln. Die Abgabe ist an jeder Schleuse möglich."
     ]
   },
   {
@@ -3357,22 +1665,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wem darf der Schiffsführer das Ruder eines motorisierten Sportbootes überlassen?",
     "images": [],
     "answers": [
-      {
-        "id": "214_1",
-        "text": "Einer Person, die mindestens 16 Jahre alt, sowie körperlich und geistig geeignet ist.",
-      },
-      {
-        "id": "214_2",
-        "text": "Einer Person, die mindestens 18 Jahre alt, sowie körperlich und geistig geeignet ist.",
-      },
-      {
-        "id": "214_3",
-        "text": "Einer Person, die mindestens 14 Jahre alt, sowie körperlich und geistig geeignet ist.",
-      },
-      {
-        "id": "214_4",
-        "text": "Einer Person jeden Alters, die körperlich und geistig geeignet ist.",
-      }
+      "Einer Person, die mindestens 16 Jahre alt, sowie körperlich und geistig geeignet ist.",
+      "Einer Person, die mindestens 18 Jahre alt, sowie körperlich und geistig geeignet ist.",
+      "Einer Person, die mindestens 14 Jahre alt, sowie körperlich und geistig geeignet ist.",
+      "Einer Person jeden Alters, die körperlich und geistig geeignet ist."
     ]
   },
   {
@@ -3380,22 +1676,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie müssen Abfälle entsorgt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "215_1",
-        "text": "Es dürfen keinerlei Abfälle ins Wasser gelangen, Fäkalien und Öle sind an Land zu entsorgen.",
-      },
-      {
-        "id": "215_2",
-        "text": "Nur Abfälle, die die Umwelt nicht gefährden, dürfen 300 m vom Ufer ins Wasser eingeleitet werden.",
-      },
-      {
-        "id": "215_3",
-        "text": "Auf Seen dürfen keine Abfälle ins Wasser gelangen, auf Binnenschifffahrtsstraßen gibt es Sonderregelungen.",
-      },
-      {
-        "id": "215_4",
-        "text": "Alle Schiffe müssen mit Fäkalientanks ausgerüstet sein und geeignete Behältnisse für die getrennte Aufnahme von Abfällen an Bord haben.",
-      }
+      "Es dürfen keinerlei Abfälle ins Wasser gelangen, Fäkalien und Öle sind an Land zu entsorgen.",
+      "Nur Abfälle, die die Umwelt nicht gefährden, dürfen 300 m vom Ufer ins Wasser eingeleitet werden.",
+      "Auf Seen dürfen keine Abfälle ins Wasser gelangen, auf Binnenschifffahrtsstraßen gibt es Sonderregelungen.",
+      "Alle Schiffe müssen mit Fäkalientanks ausgerüstet sein und geeignete Behältnisse für die getrennte Aufnahme von Abfällen an Bord haben."
     ]
   },
   {
@@ -3403,22 +1687,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist beim Neuanstrich des Unterwasserschiffs und bei der Entfernung des alten Anstrichs zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "216_1",
-        "text": "Der Arbeitsbereich ist großzügig abzudecken und der anfallende Abfall ist als Sondermüll zu behandeln und entsprechend zu entsorgen.",
-      },
-      {
-        "id": "216_2",
-        "text": "Es dürfen nur Unterwasseranstriche verwendet werden, deren Umweltverträglichkeit an der EU-Kennzeichnung erkenntlich ist.",
-      },
-      {
-        "id": "216_3",
-        "text": "Es sind bei Arbeiten mit Unterwasseranstrichen die Richtlinien der Schiffsuntersuchungskommission zu beachten.",
-      },
-      {
-        "id": "216_4",
-        "text": "Unterwasserarbeiten dürfen nur von zertifizierten Fachbetrieben, nach den Bestimmungen des Umweltschutzes ausgeführt werden.",
-      }
+      "Der Arbeitsbereich ist großzügig abzudecken und der anfallende Abfall ist als Sondermüll zu behandeln und entsprechend zu entsorgen.",
+      "Es dürfen nur Unterwasseranstriche verwendet werden, deren Umweltverträglichkeit an der EU-Kennzeichnung erkenntlich ist.",
+      "Es sind bei Arbeiten mit Unterwasseranstrichen die Richtlinien der Schiffsuntersuchungskommission zu beachten.",
+      "Unterwasserarbeiten dürfen nur von zertifizierten Fachbetrieben, nach den Bestimmungen des Umweltschutzes ausgeführt werden."
     ]
   },
   {
@@ -3426,22 +1698,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist bei Sturmwarnung vom Schiffsführer eines Sportbootes unter Segel auf einem größeren Gewässer zu veranlassen?",
     "images": [],
     "answers": [
-      {
-        "id": "217_1",
-        "text": "Rettungsweste anlegen. Segel bergen, versuchen einen Hafen oder eine geschützte Bucht anzulaufen.",
-      },
-      {
-        "id": "217_2",
-        "text": "Rettungsweste anlegen. Alle Segel setzen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
-      },
-      {
-        "id": "217_3",
-        "text": "Rettungsweste bereit halten. Segel bergen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
-      },
-      {
-        "id": "217_4",
-        "text": "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen.",
-      }
+      "Rettungsweste anlegen. Segel bergen, versuchen einen Hafen oder eine geschützte Bucht anzulaufen.",
+      "Rettungsweste anlegen. Alle Segel setzen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
+      "Rettungsweste bereit halten. Segel bergen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
+      "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen."
     ]
   },
   {
@@ -3449,22 +1709,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Fahrrinnenseite hat ein Talfahrer an seiner Backbordseite?",
     "images": [],
     "answers": [
-      {
-        "id": "218_1",
-        "text": "Die linke Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "218_2",
-        "text": "Die rechte Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "218_3",
-        "text": "Die linke Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
-      },
-      {
-        "id": "218_4",
-        "text": "Die rechte Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
-      }
+      "Die linke Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen.",
+      "Die rechte Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
+      "Die linke Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen.",
+      "Die rechte Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen."
     ]
   },
   {
@@ -3472,22 +1720,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Mit welcher Wetterentwicklung ist bei schnellem und stetig fallendem Luftdruck zu rechnen?",
     "images": [],
     "answers": [
-      {
-        "id": "219_1",
-        "text": "Schlechtes Wetter, Starkwind oder Sturm.",
-      },
-      {
-        "id": "219_2",
-        "text": "Besseres Wetter, steigende Temperatur.",
-      },
-      {
-        "id": "219_3",
-        "text": "Schlechtes Wetter ist nicht zu erwarten.",
-      },
-      {
-        "id": "219_4",
-        "text": "Besseres Wetter, Sonne.",
-      }
+      "Schlechtes Wetter, Starkwind oder Sturm.",
+      "Besseres Wetter, steigende Temperatur.",
+      "Schlechtes Wetter ist nicht zu erwarten.",
+      "Besseres Wetter, Sonne."
     ]
   },
   {
@@ -3495,22 +1731,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches Wetter ist zu erwarten, wenn der Luftdruck langsam aber stetig steigt?",
     "images": [],
     "answers": [
-      {
-        "id": "220_1",
-        "text": "Besseres Wetter, Sonne.",
-      },
-      {
-        "id": "220_2",
-        "text": "Besseres Wetter, steigende Temperatur.",
-      },
-      {
-        "id": "220_3",
-        "text": "Schlechtes Wetter ist nicht zu erwarten.",
-      },
-      {
-        "id": "220_4",
-        "text": "Schlechtes Wetter, Starkwind oder Sturm.",
-      }
+      "Besseres Wetter, Sonne.",
+      "Besseres Wetter, steigende Temperatur.",
+      "Schlechtes Wetter ist nicht zu erwarten.",
+      "Schlechtes Wetter, Starkwind oder Sturm."
     ]
   },
   {
@@ -3518,22 +1742,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo darf auf Binnenschifffahrtsstraßen Wasserski gelaufen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "221_1",
-        "text": "Nur in durch Tafelzeichen freigegebenen Bereichen.",
-      },
-      {
-        "id": "221_2",
-        "text": "Außerhalb des Fahrwassers.",
-      },
-      {
-        "id": "221_3",
-        "text": "Außerhalb der Fahrrinne.",
-      },
-      {
-        "id": "221_4",
-        "text": "Überall, ohne die Schifffahrt zu gefährden.",
-      }
+      "Nur in durch Tafelzeichen freigegebenen Bereichen.",
+      "Außerhalb des Fahrwassers.",
+      "Außerhalb der Fahrrinne.",
+      "Überall, ohne die Schifffahrt zu gefährden."
     ]
   },
   {
@@ -3541,22 +1753,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Zu welcher Tageszeit und bei welchen Sichtweiten darf auf den erlaubten Gewässerabschnitten Wasserski gelaufen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "222_1",
-        "text": "Sonnenaufgang bis -untergang, Sicht 1 000 m und mehr.",
-      },
-      {
-        "id": "222_2",
-        "text": "Sonnenaufgang bis -untergang, Sicht 1 500 m und mehr.",
-      },
-      {
-        "id": "222_3",
-        "text": "Sonnenaufgang bis -untergang, Sicht 500 m und mehr.",
-      },
-      {
-        "id": "222_4",
-        "text": "Sonnenaufgang bis -untergang, Sicht 300 m und mehr.",
-      }
+      "Sonnenaufgang bis -untergang, Sicht 1 000 m und mehr.",
+      "Sonnenaufgang bis -untergang, Sicht 1 500 m und mehr.",
+      "Sonnenaufgang bis -untergang, Sicht 500 m und mehr.",
+      "Sonnenaufgang bis -untergang, Sicht 300 m und mehr."
     ]
   },
   {
@@ -3564,22 +1764,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie muss sich der Wasserskiläufer bei der Vorbeifahrt an Fahrzeugen, Schwimmkörpern oder Badenden verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "223_1",
-        "text": "Er muss im Kielwasser des Zugbootes bleiben.",
-      },
-      {
-        "id": "223_2",
-        "text": "Er darf bis zu 10 m beiderseits außerhalb des Kielwassers fahren.",
-      },
-      {
-        "id": "223_3",
-        "text": "Er darf bis zu 5 m beiderseits außerhalb des Kielwassers fahren.",
-      },
-      {
-        "id": "223_4",
-        "text": "Er muss uferseitig des Kielwassers fahren.",
-      }
+      "Er muss im Kielwasser des Zugbootes bleiben.",
+      "Er darf bis zu 10 m beiderseits außerhalb des Kielwassers fahren.",
+      "Er darf bis zu 5 m beiderseits außerhalb des Kielwassers fahren.",
+      "Er muss uferseitig des Kielwassers fahren."
     ]
   },
   {
@@ -3587,22 +1775,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Unter welchen Voraussetzungen darf außerhalb der ausgewiesenen Strecken/Wasserflächen Wassermotorrad gefahren werden?",
     "images": [],
     "answers": [
-      {
-        "id": "224_1",
-        "text": "Bei Touren- und Wanderfahrten mit klarem Geradeauskurs.",
-      },
-      {
-        "id": "224_2",
-        "text": "Bei großen Sonderveranstaltungen außerhalb der Fahrrinne.",
-      },
-      {
-        "id": "224_3",
-        "text": "Wenn kein anderer Verkehrsteilnehmer behindert wird.",
-      },
-      {
-        "id": "224_4",
-        "text": "Ab Hochwassermarke I nur im Fahrwasser.",
-      }
+      "Bei Touren- und Wanderfahrten mit klarem Geradeauskurs.",
+      "Bei großen Sonderveranstaltungen außerhalb der Fahrrinne.",
+      "Wenn kein anderer Verkehrsteilnehmer behindert wird.",
+      "Ab Hochwassermarke I nur im Fahrwasser."
     ]
   },
   {
@@ -3610,22 +1786,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie hat sich der Führer eines Wassermotorrades außerhalb der ausgewiesenen Strecken/Wasserflächen zu verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "225_1",
-        "text": "Klaren Geradeauskurs fahren.",
-      },
-      {
-        "id": "225_2",
-        "text": "Im Abstand von 10 m zum Ufer fahren.",
-      },
-      {
-        "id": "225_3",
-        "text": "Im Abstand von 10 m außerhalb des Tonnenstrichs fahren.",
-      },
-      {
-        "id": "225_4",
-        "text": "Am Rande der Fahrrinne fahren.",
-      }
+      "Klaren Geradeauskurs fahren.",
+      "Im Abstand von 10 m zum Ufer fahren.",
+      "Im Abstand von 10 m außerhalb des Tonnenstrichs fahren.",
+      "Am Rande der Fahrrinne fahren."
     ]
   },
   {
@@ -3633,22 +1797,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Auf welchen Gewässern ist die Fahrerlaubnis für Sportboote unter Segeln erforderlich?",
     "images": [],
     "answers": [
-      {
-        "id": "226_1",
-        "text": "Auf bestimmten Wasserstraßen in Berlin und Brandenburg.",
-      },
-      {
-        "id": "226_2",
-        "text": "Auf allen Landesgewässern.",
-      },
-      {
-        "id": "226_3",
-        "text": "Auf den Binnenschifffahrtsstraßen und allen Landesgewässern.",
-      },
-      {
-        "id": "226_4",
-        "text": "Auf allen deutschen Wasserstraßen.",
-      }
+      "Auf bestimmten Wasserstraßen in Berlin und Brandenburg.",
+      "Auf allen Landesgewässern.",
+      "Auf den Binnenschifffahrtsstraßen und allen Landesgewässern.",
+      "Auf allen deutschen Wasserstraßen."
     ]
   },
   {
@@ -3656,22 +1808,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Weshalb muss sich der Schiffsführer vor dem Befahren fremder Gewässer über die dort geltenden Vorschriften informieren?",
     "images": [],
     "answers": [
-      {
-        "id": "227_1",
-        "text": "Um die jeweils geltenden Vorschriften einhalten zu können.",
-      },
-      {
-        "id": "227_2",
-        "text": "Da diese auf Landesgewässern grundsätzlich inhaltlich abweichen.",
-      },
-      {
-        "id": "227_3",
-        "text": "Da diese auf Bundesgewässern grundsätzlich inhaltlich abweichen.",
-      },
-      {
-        "id": "227_4",
-        "text": "Weil die jeweils geltenden Vorschriften wichtige Informationen über die Brückendurchfahrtshöhen enthalten.",
-      }
+      "Um die jeweils geltenden Vorschriften einhalten zu können.",
+      "Da diese auf Landesgewässern grundsätzlich inhaltlich abweichen.",
+      "Da diese auf Bundesgewässern grundsätzlich inhaltlich abweichen.",
+      "Weil die jeweils geltenden Vorschriften wichtige Informationen über die Brückendurchfahrtshöhen enthalten."
     ]
   },
   {
@@ -3679,22 +1819,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes bis zu einer Länge von 25 m auf dem Rhein?",
     "images": [],
     "answers": [
-      {
-        "id": "228_1",
-        "text": "Das Sportpatent.",
-      },
-      {
-        "id": "228_2",
-        "text": "Das Sportschifferzeugnis.",
-      },
-      {
-        "id": "228_3",
-        "text": "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen.",
-      },
-      {
-        "id": "228_4",
-        "text": "Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen.",
-      }
+      "Das Sportpatent.",
+      "Das Sportschifferzeugnis.",
+      "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen.",
+      "Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen."
     ]
   },
   {
@@ -3702,22 +1830,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes mit einer Länge von 20 m bis 25 m auf den Binnenschifffahrtsstraßen außerhalb des Rheins?",
     "images": [],
     "answers": [
-      {
-        "id": "229_1",
-        "text": "Das Sportschifferzeugnis oder das Sportpatent.",
-      },
-      {
-        "id": "229_2",
-        "text": "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen.",
-      },
-      {
-        "id": "229_3",
-        "text": "Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen.",
-      },
-      {
-        "id": "229_4",
-        "text": "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen zum Führen von Sportbooten mit Antriebsmaschine oder das Sportpatent.",
-      }
+      "Das Sportschifferzeugnis oder das Sportpatent.",
+      "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen.",
+      "Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen.",
+      "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen zum Führen von Sportbooten mit Antriebsmaschine oder das Sportpatent."
     ]
   },
   {
@@ -3725,22 +1841,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wo sind umfangreiche Hinweise auf die Binnenschifffahrtsstraßen und deren Grenzen zu finden?",
     "images": [],
     "answers": [
-      {
-        "id": "230_1",
-        "text": "Im Teil II der Binnenschifffahrtsstraßen-Ordnung.",
-      },
-      {
-        "id": "230_2",
-        "text": "Im Teil I der Binnenschifffahrtsstraßen-Ordnung.",
-      },
-      {
-        "id": "230_3",
-        "text": "In der Binnenschiffsuntersuchungsordnung.",
-      },
-      {
-        "id": "230_4",
-        "text": "In der Kleinfahrzeugkennzeichenverordnung.",
-      }
+      "Im Teil II der Binnenschifffahrtsstraßen-Ordnung.",
+      "Im Teil I der Binnenschifffahrtsstraßen-Ordnung.",
+      "In der Binnenschiffsuntersuchungsordnung.",
+      "In der Kleinfahrzeugkennzeichenverordnung."
     ]
   },
   {
@@ -3748,22 +1852,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was ist bei der Ausübung des Wassersports auf Gewässern außerhalb der Bundeswasserstraßen (z. B. Landeswasserstraßen, kommunale und private Gewässer) zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "231_1",
-        "text": "Es ist gegebenenfalls die Genehmigung des Eigentümers einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
-      },
-      {
-        "id": "231_2",
-        "text": "Es ist immer die Genehmigung des Eigentümers einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
-      },
-      {
-        "id": "231_3",
-        "text": "Es ist immer die Genehmigung des Wasserstraßen- und Schifffahrtsamtes einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
-      },
-      {
-        "id": "231_4",
-        "text": "Es ist gegebenenfalls die Genehmigung des Eigentümers einzuholen sowie die Binnenschifffahrtsstraßen-Ordnung zu beachten.",
-      }
+      "Es ist gegebenenfalls die Genehmigung des Eigentümers einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
+      "Es ist immer die Genehmigung des Eigentümers einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
+      "Es ist immer die Genehmigung des Wasserstraßen- und Schifffahrtsamtes einzuholen sowie die jeweilige Befahrensordnung zu beachten.",
+      "Es ist gegebenenfalls die Genehmigung des Eigentümers einzuholen sowie die Binnenschifffahrtsstraßen-Ordnung zu beachten."
     ]
   },
   {
@@ -3771,22 +1863,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Kennzeichnungsarten für Sportboote gibt es?",
     "images": [],
     "answers": [
-      {
-        "id": "232_1",
-        "text": "Amtliche Kennzeichen und amtlich anerkannte Kennzeichen.",
-      },
-      {
-        "id": "232_2",
-        "text": "Nur amtliche Kennzeichen.",
-      },
-      {
-        "id": "232_3",
-        "text": "Nur amtlich anerkannte Kennzeichen.",
-      },
-      {
-        "id": "232_4",
-        "text": "Kennzeichen gemäß Konformitätserklärung (CE-Zeichen).",
-      }
+      "Amtliche Kennzeichen und amtlich anerkannte Kennzeichen.",
+      "Nur amtliche Kennzeichen.",
+      "Nur amtlich anerkannte Kennzeichen.",
+      "Kennzeichen gemäß Konformitätserklärung (CE-Zeichen)."
     ]
   },
   {
@@ -3794,22 +1874,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Stelle ist für die Zuteilung eines amtlichen Kennzeichens für Sportboote zuständig?",
     "images": [],
     "answers": [
-      {
-        "id": "233_1",
-        "text": "Jedes Wasserstraßen- und Schifffahrtsamt.",
-      },
-      {
-        "id": "233_2",
-        "text": "Der Deutsche Motoryachtverband.",
-      },
-      {
-        "id": "233_3",
-        "text": "Der Deutsche Segler-Verband.",
-      },
-      {
-        "id": "233_4",
-        "text": "Der Allgemeine Deutsche Automobilclub.",
-      }
+      "Jedes Wasserstraßen- und Schifffahrtsamt.",
+      "Der Deutsche Motoryachtverband.",
+      "Der Deutsche Segler-Verband.",
+      "Der Allgemeine Deutsche Automobilclub."
     ]
   },
   {
@@ -3817,22 +1885,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Woraus bestehen die amtlich anerkannten Kennzeichen?",
     "images": [],
     "answers": [
-      {
-        "id": "234_1",
-        "text": "Nummer des Internationalen Bootsscheins, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
-      },
-      {
-        "id": "234_2",
-        "text": "Nummer des Binnenschiffsregisters, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
-      },
-      {
-        "id": "234_3",
-        "text": "Nummer des Seeschiffsregisters, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
-      },
-      {
-        "id": "234_4",
-        "text": "Die europäische Schiffsnummer, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
-      }
+      "Nummer des Internationalen Bootsscheins, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
+      "Nummer des Binnenschiffsregisters, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
+      "Nummer des Seeschiffsregisters, gefolgt vom Kennbuchstaben für die ausstellende Organisation.",
+      "Die europäische Schiffsnummer, gefolgt vom Kennbuchstaben für die ausstellende Organisation."
     ]
   },
   {
@@ -3840,22 +1896,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Stellen sind für die Zuteilung eines amtlich anerkannten Kennzeichens für Sportboote zuständig?",
     "images": [],
     "answers": [
-      {
-        "id": "235_1",
-        "text": "Der Deutsche Motoryachtverband, der Deutsche Segler-Verband, der Allgemeine Deutsche Automobilclub.",
-      },
-      {
-        "id": "235_2",
-        "text": "Die Wasserstraßen- und Schifffahrtsämter.",
-      },
-      {
-        "id": "235_3",
-        "text": "Die Wasserschutzpolizei.",
-      },
-      {
-        "id": "235_4",
-        "text": "Amtsgerichte, bei denen ein Schiffsregister geführt wird.",
-      }
+      "Der Deutsche Motoryachtverband, der Deutsche Segler-Verband, der Allgemeine Deutsche Automobilclub.",
+      "Die Wasserstraßen- und Schifffahrtsämter.",
+      "Die Wasserschutzpolizei.",
+      "Amtsgerichte, bei denen ein Schiffsregister geführt wird."
     ]
   },
   {
@@ -3863,22 +1907,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wann muss ein Wassersportfahrzeug in das Binnenschiffsregister eingetragen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "236_1",
-        "text": "Ab 10 cbm Wasserverdrängung.",
-      },
-      {
-        "id": "236_2",
-        "text": "Ab 15 cbm Wasserverdrängung.",
-      },
-      {
-        "id": "236_3",
-        "text": "Ab 10 m Schiffslänge.",
-      },
-      {
-        "id": "236_4",
-        "text": "Ab 15 m Schiffslänge.",
-      }
+      "Ab 10 cbm Wasserverdrängung.",
+      "Ab 15 cbm Wasserverdrängung.",
+      "Ab 10 m Schiffslänge.",
+      "Ab 15 m Schiffslänge."
     ]
   },
   {
@@ -3886,22 +1918,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie hat sich ein Schiffsführer bei Hochwasser zu verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "237_1",
-        "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
-      },
-      {
-        "id": "237_2",
-        "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung rechts fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
-      },
-      {
-        "id": "237_3",
-        "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
-      },
-      {
-        "id": "237_4",
-        "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.",
-      }
+      "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+      "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung rechts fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+      "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+      "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten."
     ]
   },
   {
@@ -3909,22 +1929,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wie hat sich ein Schiffsführer bei Erreichen der Hochwassermarke II zu verhalten?",
     "images": [],
     "answers": [
-      {
-        "id": "238_1",
-        "text": "Er hat die Fahrt unverzüglich einzustellen.",
-      },
-      {
-        "id": "238_2",
-        "text": "Er hat die Geschwindigkeit anzupassen.",
-      },
-      {
-        "id": "238_3",
-        "text": "Er hat das Fahrverbot für Fahrzeuge ohne Sprechfunk zu beachten.",
-      },
-      {
-        "id": "238_4",
-        "text": "Er hat das Verbot der Schifffahrt bei Nacht zu beachten.",
-      }
+      "Er hat die Fahrt unverzüglich einzustellen.",
+      "Er hat die Geschwindigkeit anzupassen.",
+      "Er hat das Fahrverbot für Fahrzeuge ohne Sprechfunk zu beachten.",
+      "Er hat das Verbot der Schifffahrt bei Nacht zu beachten."
     ]
   },
   {
@@ -3932,22 +1940,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Fahrzeug fährt zu Tal. Voraus liegt eine rote Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
     "images": [],
     "answers": [
-      {
-        "id": "239_1",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "239_2",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "239_3",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "239_4",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an Backbordseite des Schiffes passiert werden.",
-      }
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an Backbordseite des Schiffes passiert werden."
     ]
   },
   {
@@ -3955,22 +1951,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Fahrzeug fährt zu Berg. Voraus liegt eine rote Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
     "images": [],
     "answers": [
-      {
-        "id": "240_1",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "240_2",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "240_3",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "240_4",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      }
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden."
     ]
   },
   {
@@ -3978,22 +1962,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Ein Fahrzeug fährt in der Fahrrinne gegen den Strom. Voraus liegt eine grüne Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?",
     "images": [],
     "answers": [
-      {
-        "id": "241_1",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "241_2",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "241_3",
-        "text": "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
-      },
-      {
-        "id": "241_4",
-        "text": "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
-      }
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.",
+      "Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden."
     ]
   },
   {
@@ -4001,22 +1973,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Funktion haben gelbe Tonnen mit einem Radarreflektor vor Brückenpfeilern?",
     "images": [],
     "answers": [
-      {
-        "id": "242_1",
-        "text": "Kenntlichmachung der Brückenpfeiler auf dem Radarschirm.",
-      },
-      {
-        "id": "242_2",
-        "text": "Kenntlichmachung der Höhe der Brückenpfeiler.",
-      },
-      {
-        "id": "242_3",
-        "text": "Kenntlichmachung einer gesperrten Brückendurchfahrt.",
-      },
-      {
-        "id": "242_4",
-        "text": "Kenntlichmachung einer Untiefe im Brückenbereich.",
-      }
+      "Kenntlichmachung der Brückenpfeiler auf dem Radarschirm.",
+      "Kenntlichmachung der Höhe der Brückenpfeiler.",
+      "Kenntlichmachung einer gesperrten Brückendurchfahrt.",
+      "Kenntlichmachung einer Untiefe im Brückenbereich."
     ]
   },
   {
@@ -4026,22 +1986,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Bild-Frage-243.gif"
     ],
     "answers": [
-      {
-        "id": "243_1",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
-      },
-      {
-        "id": "243_2",
-        "text": "Empfohlene Durchfahrt ohne Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
-      },
-      {
-        "id": "243_3",
-        "text": "Vorgeschriebene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
-      },
-      {
-        "id": "243_4",
-        "text": "Empfohlene Durchfahrt mit Gegenverkehr ohne seitliche Begrenzung der erlaubten Brückendurchfahrt.",
-      }
+      "Empfohlene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
+      "Empfohlene Durchfahrt ohne Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
+      "Vorgeschriebene Durchfahrt mit Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt.",
+      "Empfohlene Durchfahrt mit Gegenverkehr ohne seitliche Begrenzung der erlaubten Brückendurchfahrt."
     ]
   },
   {
@@ -4051,22 +1999,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
       "Verbotszeichen-A01-Tafeln.gif"
     ],
     "answers": [
-      {
-        "id": "244_1",
-        "text": "Verbot der Durchfahrt und Sperrung der Schifffahrt.",
-      },
-      {
-        "id": "244_2",
-        "text": "Gesperrte Durchfahrt, jedoch für Kleinfahrzeuge mit Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "244_3",
-        "text": "Gesperrte Durchfahrt, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
-      },
-      {
-        "id": "244_4",
-        "text": "Schutzbedürftige Anlage.",
-      }
+      "Verbot der Durchfahrt und Sperrung der Schifffahrt.",
+      "Gesperrte Durchfahrt, jedoch für Kleinfahrzeuge mit Antriebsmaschine befahrbar.",
+      "Gesperrte Durchfahrt, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Schutzbedürftige Anlage."
     ]
   },
   {
@@ -4074,22 +2010,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Warum ist es bei der Schleusendurchfahrt verboten, Autoreifen als Fender zu benutzen?",
     "images": [],
     "answers": [
-      {
-        "id": "245_1",
-        "text": "Autoreifen sind nicht schwimmfähig und können in den Schleusen zu erheblichen Störungen führen.",
-      },
-      {
-        "id": "245_2",
-        "text": "Autoreifen erzeugen eine zu hohe Reibung.",
-      },
-      {
-        "id": "245_3",
-        "text": "Autoreifen erzeugen schwarze Farbspuren am Boot und an der Schleusenmauer.",
-      },
-      {
-        "id": "245_4",
-        "text": "Autoreifen sind schwimmfähig und können in der Schleuse zu erheblichen Störungen führen.",
-      }
+      "Autoreifen sind nicht schwimmfähig und können in den Schleusen zu erheblichen Störungen führen.",
+      "Autoreifen erzeugen eine zu hohe Reibung.",
+      "Autoreifen erzeugen schwarze Farbspuren am Boot und an der Schleusenmauer.",
+      "Autoreifen sind schwimmfähig und können in der Schleuse zu erheblichen Störungen führen."
     ]
   },
   {
@@ -4097,22 +2021,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Lichter führt ein Schubverband?",
     "images": [],
     "answers": [
-      {
-        "id": "246_1",
-        "text": "Drei weiße Topplichter in einem Dreieck angebracht, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander.",
-      },
-      {
-        "id": "246_2",
-        "text": "Drei weiße Topplichter senkrecht untereinander angebracht, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander.",
-      },
-      {
-        "id": "246_3",
-        "text": "Drei weiße Topplichter in einem Dreieck angebracht, die Seitenlichter und zwei weiße Hecklichter waagerecht nebeneinander.",
-      },
-      {
-        "id": "246_4",
-        "text": "Drei weiße Topplichter waagerecht nebeneinander, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander.",
-      }
+      "Drei weiße Topplichter in einem Dreieck angebracht, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander.",
+      "Drei weiße Topplichter senkrecht untereinander angebracht, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander.",
+      "Drei weiße Topplichter in einem Dreieck angebracht, die Seitenlichter und zwei weiße Hecklichter waagerecht nebeneinander.",
+      "Drei weiße Topplichter waagerecht nebeneinander, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander."
     ]
   },
   {
@@ -4120,22 +2032,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches Fahrzeug führt am Bug einen roten Wimpel?",
     "images": [],
     "answers": [
-      {
-        "id": "247_1",
-        "text": "Ein Fahrzeug mit Vorrang beim Schleusen.",
-      },
-      {
-        "id": "247_2",
-        "text": "Ein Fahrzeug mit Vorrang beim Be- und Entladen.",
-      },
-      {
-        "id": "247_3",
-        "text": "Ein Fahrzeug, das explosive Stoffe geladen hat.",
-      },
-      {
-        "id": "247_4",
-        "text": "Ein Fahrzeug, das brennbare Stoffe geladen hat.",
-      }
+      "Ein Fahrzeug mit Vorrang beim Schleusen.",
+      "Ein Fahrzeug mit Vorrang beim Be- und Entladen.",
+      "Ein Fahrzeug, das explosive Stoffe geladen hat.",
+      "Ein Fahrzeug, das brennbare Stoffe geladen hat."
     ]
   },
   {
@@ -4143,22 +2043,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Wann gilt ein Sportboot auf den Binnenschifffahrtsstraßen als Kleinfahrzeug?",
     "images": [],
     "answers": [
-      {
-        "id": "248_1",
-        "text": "Wenn das Fahrzeug eine Länge von weniger als 20 m hat.",
-      },
-      {
-        "id": "248_2",
-        "text": "Wenn das Fahrzeug eine Länge von 20 m hat.",
-      },
-      {
-        "id": "248_3",
-        "text": "Wenn das Fahrzeug eine Länge von 25 m hat.",
-      },
-      {
-        "id": "248_4",
-        "text": "Wenn das Fahrzeug eine Länge von mehr als 20 m hat.",
-      }
+      "Wenn das Fahrzeug eine Länge von weniger als 20 m hat.",
+      "Wenn das Fahrzeug eine Länge von 20 m hat.",
+      "Wenn das Fahrzeug eine Länge von 25 m hat.",
+      "Wenn das Fahrzeug eine Länge von mehr als 20 m hat."
     ]
   },
   {
@@ -4166,22 +2054,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welche Bedeutung hat die Bezeichnung eines Fahrzeuges mit einer rot-weißen Flagge und was ist zu beachten?",
     "images": [],
     "answers": [
-      {
-        "id": "249_1",
-        "text": "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern und Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "249_2",
-        "text": "Schutzbedürftiges Fahrzeug, Geschwindigkeit beibehalten und Sog und Wellenschlag vermeiden.",
-      },
-      {
-        "id": "249_3",
-        "text": "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern.",
-      },
-      {
-        "id": "249_4",
-        "text": "Schutzbedürftiges Fahrzeug, Sog und Wellenschlag vermeiden.",
-      }
+      "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern und Sog und Wellenschlag vermeiden.",
+      "Schutzbedürftiges Fahrzeug, Geschwindigkeit beibehalten und Sog und Wellenschlag vermeiden.",
+      "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern.",
+      "Schutzbedürftiges Fahrzeug, Sog und Wellenschlag vermeiden."
     ]
   },
   {
@@ -4189,22 +2065,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches optische Zeichen kann am Tage anstelle von vier kurzen Tönen gegeben werden?",
     "images": [],
     "answers": [
-      {
-        "id": "250_1",
-        "text": "Eine rote Flagge im unteren Halbkreis schwenken.",
-      },
-      {
-        "id": "250_2",
-        "text": "Eine rote Flagge im oberen Halbkreis schwenken.",
-      },
-      {
-        "id": "250_3",
-        "text": "Eine rote Flagge im Kreis schwenken.",
-      },
-      {
-        "id": "250_4",
-        "text": "Eine rote Flagge zeigen.",
-      }
+      "Eine rote Flagge im unteren Halbkreis schwenken.",
+      "Eine rote Flagge im oberen Halbkreis schwenken.",
+      "Eine rote Flagge im Kreis schwenken.",
+      "Eine rote Flagge zeigen."
     ]
   },
   {
@@ -4212,22 +2076,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welches optische Zeichen kann in der Nacht oder bei verminderter Sicht anstelle von vier kurzen Tönen gegeben werden?",
     "images": [],
     "answers": [
-      {
-        "id": "251_1",
-        "text": "Ein rotes Licht im unteren Halbkreis schwenken.",
-      },
-      {
-        "id": "251_2",
-        "text": "Ein rotes Licht im oberen Halbkreis schwenken.",
-      },
-      {
-        "id": "251_3",
-        "text": "Ein rotes Licht im Kreis schwenken.",
-      },
-      {
-        "id": "251_4",
-        "text": "Ein rotes Licht zeigen.",
-      }
+      "Ein rotes Licht im unteren Halbkreis schwenken.",
+      "Ein rotes Licht im oberen Halbkreis schwenken.",
+      "Ein rotes Licht im Kreis schwenken.",
+      "Ein rotes Licht zeigen."
     ]
   },
   {
@@ -4235,22 +2087,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Welcher Befähigungsnachweis ist zur Teilnahme am Binnenschifffahrtsfunk erforderlich?",
     "images": [],
     "answers": [
-      {
-        "id": "252_1",
-        "text": "Das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk.",
-      },
-      {
-        "id": "252_2",
-        "text": "Das CB-Sprechfunkzeugnis für den Binnenschifffahrtsfunk.",
-      },
-      {
-        "id": "252_3",
-        "text": "Das Seefunkzeugnis für den Binnenschifffahrtsfunk.",
-      },
-      {
-        "id": "252_4",
-        "text": "Das SRC-Sprechfunkzeugnis für den Binnenschifffahrtsfunk.",
-      }
+      "Das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk.",
+      "Das CB-Sprechfunkzeugnis für den Binnenschifffahrtsfunk.",
+      "Das Seefunkzeugnis für den Binnenschifffahrtsfunk.",
+      "Das SRC-Sprechfunkzeugnis für den Binnenschifffahrtsfunk."
     ]
   },
   {
@@ -4258,22 +2098,10 @@ export const SBF_BINNEN_SPEZIFISCH = [
     "text": "Was bedeutet Radarfahrt?",
     "images": [],
     "answers": [
-      {
-        "id": "253_1",
-        "text": "Eine Fahrt bei unsichtigem Wetter mit Radar.",
-      },
-      {
-        "id": "253_2",
-        "text": "Eine Fahrt bei Nacht mit Radar.",
-      },
-      {
-        "id": "253_3",
-        "text": "Eine Fahrt mit Radar.",
-      },
-      {
-        "id": "253_4",
-        "text": "Eine Fahrt am Tage mit Radar.",
-      }
+      "Eine Fahrt bei unsichtigem Wetter mit Radar.",
+      "Eine Fahrt bei Nacht mit Radar.",
+      "Eine Fahrt mit Radar.",
+      "Eine Fahrt am Tage mit Radar."
     ]
   }
 ];

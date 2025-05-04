@@ -9,9 +9,9 @@
   import Paper from '../components/Paper.svelte';
   import Rating from '../components/Rating.svelte';
   import { statsService } from '../stores/stats.svelte';
-  import type { Question } from '../types';
+  import type { AnswerWithCorrectness, Question } from '../types';
   import type { LicenseId } from '../utils/licenses';
-  import { shuffleAnswers, type AnswerWithCorrectness } from '../utils/shuffleAnswers';
+  import { shuffleAnswers } from '../utils/shuffleAnswers';
 
   let {
     licenseId,
@@ -115,12 +115,10 @@
 
   <List class="p-6">
     {#each shuffledAnswers as answer, index (answer.text)}
-      {#key answer.id}
-        <ListItem
-          variant={getAnswerColorVariant(answer, index)}
-          onclick={() => onSelection(index)}>{answer.text}</ListItem
-        >
-      {/key}
+      <ListItem
+        variant={getAnswerColorVariant(answer, index)}
+        onclick={() => onSelection(index)}>{answer.text}</ListItem
+      >
     {/each}
   </List>
 

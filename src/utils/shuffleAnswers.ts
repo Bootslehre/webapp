@@ -1,8 +1,6 @@
-import type { Answer } from "../types";
-import { shuffle } from "./shuffle";
+import type { AnswerWithCorrectness } from '../types';
+import { shuffle } from './shuffle';
 
-export type AnswerWithCorrectness = Answer & { isCorrect: boolean };
-
-export function shuffleAnswers(answers: Answer[]): AnswerWithCorrectness[] {
-  return shuffle(answers.map((answer, index) => ({ ...answer, isCorrect: index === 0 })));
+export function shuffleAnswers(answers: string[]): AnswerWithCorrectness[] {
+  return shuffle(answers.map((answer, index) => ({ text: answer, isCorrect: index === 0 })));
 }

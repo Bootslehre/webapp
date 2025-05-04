@@ -4,22 +4,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Was wird unter einem \"Kimmkieler\" verstanden?",
     "images": [],
     "answers": [
-      {
-        "id": "254_1",
-        "text": "Eine Yacht mit zwei Seitenkielen.",
-      },
-      {
-        "id": "254_2",
-        "text": "Eine Yacht mit zwei Seitenschwertern.",
-      },
-      {
-        "id": "254_3",
-        "text": "Eine Yacht mit einem Kielschwert.",
-      },
-      {
-        "id": "254_4",
-        "text": "Eine Yacht mit zwei Kielen hintereinander.",
-      }
+      "Eine Yacht mit zwei Seitenkielen.",
+      "Eine Yacht mit zwei Seitenschwertern.",
+      "Eine Yacht mit einem Kielschwert.",
+      "Eine Yacht mit zwei Kielen hintereinander."
     ]
   },
   {
@@ -27,22 +15,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Worin besteht der Vorteil eines Kimmkielers gegenüber anderen Kielbooten?",
     "images": [],
     "answers": [
-      {
-        "id": "255_1",
-        "text": "Er kann problemlos aufrecht trocken fallen.",
-      },
-      {
-        "id": "255_2",
-        "text": "Sein Tiefgang ist größer.",
-      },
-      {
-        "id": "255_3",
-        "text": "Die Abdrift ist geringer als bei anderen Kielbooten.",
-      },
-      {
-        "id": "255_4",
-        "text": "Der Kiel lässt sich aufholen.",
-      }
+      "Er kann problemlos aufrecht trocken fallen.",
+      "Sein Tiefgang ist größer.",
+      "Die Abdrift ist geringer als bei anderen Kielbooten.",
+      "Der Kiel lässt sich aufholen."
     ]
   },
   {
@@ -50,22 +26,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Was wird unter einer \"Kielschwertyacht\" verstanden?",
     "images": [],
     "answers": [
-      {
-        "id": "256_1",
-        "text": "Eine Yacht mit flach gehendem Ballastkiel und zusätzlichem aufholbarem Schwert.",
-      },
-      {
-        "id": "256_2",
-        "text": "Eine Yacht mit einem Ballastkiel und einem zusätzlichen Schwert.",
-      },
-      {
-        "id": "256_3",
-        "text": "Eine Yacht mit einem aufholbaren Ballastkiel.",
-      },
-      {
-        "id": "256_4",
-        "text": "Eine Yacht mit zwei Seitenkielen.",
-      }
+      "Eine Yacht mit flach gehendem Ballastkiel und zusätzlichem aufholbarem Schwert.",
+      "Eine Yacht mit einem Ballastkiel und einem zusätzlichen Schwert.",
+      "Eine Yacht mit einem aufholbaren Ballastkiel.",
+      "Eine Yacht mit zwei Seitenkielen."
     ]
   },
   {
@@ -73,22 +37,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wodurch wirken die Bodenlenzventile einer Jolle, die unterhalb der Wasserlinie liegen?",
     "images": [],
     "answers": [
-      {
-        "id": "257_1",
-        "text": "Durch den Sog, der bei Fahrt durchs Wasser entsteht.",
-      },
-      {
-        "id": "257_2",
-        "text": "Durch die Schwerkraft fließt das Wasser außenbords.",
-      },
-      {
-        "id": "257_3",
-        "text": "Durch die Massenträgheit, die das Boot besitzt.",
-      },
-      {
-        "id": "257_4",
-        "text": "Durch das Druckgefälle zwischen Luft- und Wasserdruck.",
-      }
+      "Durch den Sog, der bei Fahrt durchs Wasser entsteht.",
+      "Durch die Schwerkraft fließt das Wasser außenbords.",
+      "Durch die Massenträgheit, die das Boot besitzt.",
+      "Durch das Druckgefälle zwischen Luft- und Wasserdruck."
     ]
   },
   {
@@ -96,22 +48,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Was wird unter \"Formstabilität\" verstanden?",
     "images": [],
     "answers": [
-      {
-        "id": "258_1",
-        "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
-      },
-      {
-        "id": "258_2",
-        "text": "Die Fähigkeit eines Schiffes, sich nach einer Kenterung wieder von selbst aufzurichten.",
-      },
-      {
-        "id": "258_3",
-        "text": "Die Fähigkeit eines Schiffes beim Loslassen der Pinne den Kurs beizubehalten.",
-      },
-      {
-        "id": "258_4",
-        "text": "Die Fähigkeit eines Schiffes über Jahre die Rumpfform auch bei starker Beanspruchung beizubehalten.",
-      }
+      "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
+      "Die Fähigkeit eines Schiffes, sich nach einer Kenterung wieder von selbst aufzurichten.",
+      "Die Fähigkeit eines Schiffes beim Loslassen der Pinne den Kurs beizubehalten.",
+      "Die Fähigkeit eines Schiffes über Jahre die Rumpfform auch bei starker Beanspruchung beizubehalten."
     ]
   },
   {
@@ -119,22 +59,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Was wird unter \"Gewichtsstabilität\" verstanden?",
     "images": [],
     "answers": [
-      {
-        "id": "259_1",
-        "text": "Die Fähigkeit eines Schiffes, durch seinen tief liegenden Ballast der Krängung entgegenzuwirken.",
-      },
-      {
-        "id": "259_2",
-        "text": "Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.",
-      },
-      {
-        "id": "259_3",
-        "text": "Die Möglichkeit durch ein hohes Crewgewicht der Krängung entgegenzuwirken.",
-      },
-      {
-        "id": "259_4",
-        "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
-      }
+      "Die Fähigkeit eines Schiffes, durch seinen tief liegenden Ballast der Krängung entgegenzuwirken.",
+      "Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.",
+      "Die Möglichkeit durch ein hohes Crewgewicht der Krängung entgegenzuwirken.",
+      "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken."
     ]
   },
   {
@@ -142,22 +70,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Welche Boote sind vorwiegend \"gewichtsstabil\"?",
     "images": [],
     "answers": [
-      {
-        "id": "260_1",
-        "text": "Kielyachten sind vorwiegend \"gewichtsstabil\".",
-      },
-      {
-        "id": "260_2",
-        "text": "Jollen sind vorwiegend \"gewichtsstabil\".",
-      },
-      {
-        "id": "260_3",
-        "text": "Katamarane sind vorwiegend \"gewichtsstabil\".",
-      },
-      {
-        "id": "260_4",
-        "text": "Trimarane sind vorwiegend \"gewichtsstabil\".",
-      }
+      "Kielyachten sind vorwiegend \"gewichtsstabil\".",
+      "Jollen sind vorwiegend \"gewichtsstabil\".",
+      "Katamarane sind vorwiegend \"gewichtsstabil\".",
+      "Trimarane sind vorwiegend \"gewichtsstabil\"."
     ]
   },
   {
@@ -165,22 +81,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Welche Boote sind vorwiegend \"formstabil\"?",
     "images": [],
     "answers": [
-      {
-        "id": "261_1",
-        "text": "Jollen sind vorwiegend \"formstabil\".",
-      },
-      {
-        "id": "261_2",
-        "text": "Kielyachten sind vorwiegend \"formstabil\".",
-      },
-      {
-        "id": "261_3",
-        "text": "Kimmkieler sind vorwiegend \"formstabil\".",
-      },
-      {
-        "id": "261_4",
-        "text": "Kielschwertyachten sind vorwiegend \"formstabil\".",
-      }
+      "Jollen sind vorwiegend \"formstabil\".",
+      "Kielyachten sind vorwiegend \"formstabil\".",
+      "Kimmkieler sind vorwiegend \"formstabil\".",
+      "Kielschwertyachten sind vorwiegend \"formstabil\"."
     ]
   },
   {
@@ -188,22 +92,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wodurch kann bei formstabilen Booten bei viel Wind die Stabilität erhöht werden?",
     "images": [],
     "answers": [
-      {
-        "id": "262_1",
-        "text": "Durch Ausreiten bzw. durch Benutzung der Trapezeinrichtung.",
-      },
-      {
-        "id": "262_2",
-        "text": "Durch Verlagerung von Innenballast.",
-      },
-      {
-        "id": "262_3",
-        "text": "Durch Umpumpen von Wasserballast.",
-      },
-      {
-        "id": "262_4",
-        "text": "Durch Ausfahren von sogenannten Trimmklappen oder eines Zusatzschwertes.",
-      }
+      "Durch Ausreiten bzw. durch Benutzung der Trapezeinrichtung.",
+      "Durch Verlagerung von Innenballast.",
+      "Durch Umpumpen von Wasserballast.",
+      "Durch Ausfahren von sogenannten Trimmklappen oder eines Zusatzschwertes."
     ]
   },
   {
@@ -211,22 +103,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie verändert sich das aufrichtende Kraftmoment einer Jolle bei Krängung?",
     "images": [],
     "answers": [
-      {
-        "id": "263_1",
-        "text": "Es nimmt anfangs zu bis zu einem Maximum, von da wieder ab, bis Auftriebs- und Gewischtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
-      },
-      {
-        "id": "263_2",
-        "text": "Es nimmt anfangs ab bis zu einem Minimum, von da wieder zu, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
-      },
-      {
-        "id": "263_3",
-        "text": "Es nimmt anfangs ab und erreicht ein Maximum, wenn Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
-      },
-      {
-        "id": "263_4",
-        "text": "Es nimmt anfangs ab und erreicht sein Minimum, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
-      }
+      "Es nimmt anfangs zu bis zu einem Maximum, von da wieder ab, bis Auftriebs- und Gewischtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+      "Es nimmt anfangs ab bis zu einem Minimum, von da wieder zu, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+      "Es nimmt anfangs ab und erreicht ein Maximum, wenn Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+      "Es nimmt anfangs ab und erreicht sein Minimum, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle."
     ]
   },
   {
@@ -234,22 +114,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie verändert sich das aufrichtende Kraftmoment einer Kielyacht bei stetig zunehmender Krängung?",
     "images": [],
     "answers": [
-      {
-        "id": "264_1",
-        "text": "Es nimmt zu und erreicht nach Überschreitung des Maximums seinen kritischen Winkel erst bei über 90°.",
-      },
-      {
-        "id": "264_2",
-        "text": "Es nimmt bis zum Erreichen des kritischen Winkels zu, der bei etwa 70° liegt.",
-      },
-      {
-        "id": "264_3",
-        "text": "Es nimmt bis zum Erreichen des kritischen Winkels von 90° ab.",
-      },
-      {
-        "id": "264_4",
-        "text": "Es nimmt bis 90° Krängung ab und dann stetig zu.",
-      }
+      "Es nimmt zu und erreicht nach Überschreitung des Maximums seinen kritischen Winkel erst bei über 90°.",
+      "Es nimmt bis zum Erreichen des kritischen Winkels zu, der bei etwa 70° liegt.",
+      "Es nimmt bis zum Erreichen des kritischen Winkels von 90° ab.",
+      "Es nimmt bis 90° Krängung ab und dann stetig zu."
     ]
   },
   {
@@ -257,22 +125,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Welche Maßnahme ist bei Ruderbruch auf einer Jolle zu treffen?",
     "images": [],
     "answers": [
-      {
-        "id": "265_1",
-        "text": "Notruder oder Paddel als Ersatz nehmen, Fahrwasser verlassen, sich als manövrierunfähig zu erkennen geben.",
-      },
-      {
-        "id": "265_2",
-        "text": "Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.",
-      },
-      {
-        "id": "265_3",
-        "text": "Rote Flagge kreisförmig schwenken, Schleppleine bereithalten.",
-      },
-      {
-        "id": "265_4",
-        "text": "Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.",
-      }
+      "Notruder oder Paddel als Ersatz nehmen, Fahrwasser verlassen, sich als manövrierunfähig zu erkennen geben.",
+      "Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.",
+      "Rote Flagge kreisförmig schwenken, Schleppleine bereithalten.",
+      "Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern."
     ]
   },
   {
@@ -280,22 +136,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wodurch kann eine Pinnensteuerung auch bei Krängung des Bootes sicher erreicht und bedient werden?",
     "images": [],
     "answers": [
-      {
-        "id": "266_1",
-        "text": "Durch einen Pinnenausleger.",
-      },
-      {
-        "id": "266_2",
-        "text": "Durch Verstellen des Travellers.",
-      },
-      {
-        "id": "266_3",
-        "text": "Durch das Ausreiten mit Hilfe des Trapezes.",
-      },
-      {
-        "id": "266_4",
-        "text": "Durch Ersetzen der Pinne durch ein Rad.",
-      }
+      "Durch einen Pinnenausleger.",
+      "Durch Verstellen des Travellers.",
+      "Durch das Ausreiten mit Hilfe des Trapezes.",
+      "Durch Ersetzen der Pinne durch ein Rad."
     ]
   },
   {
@@ -303,22 +147,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum sollte Tauwerk an Bord stets ordentlich aufgeschossen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "267_1",
-        "text": "Damit es im Gebrauchsfall klar liegt.",
-      },
-      {
-        "id": "267_2",
-        "text": "Damit es trocknen kann und nicht verrottet.",
-      },
-      {
-        "id": "267_3",
-        "text": "Damit die Reißfestigkeit erhalten bleibt.",
-      },
-      {
-        "id": "267_4",
-        "text": "Damit es nicht durch UV-Strahlung beschädigt wird.",
-      }
+      "Damit es im Gebrauchsfall klar liegt.",
+      "Damit es trocknen kann und nicht verrottet.",
+      "Damit die Reißfestigkeit erhalten bleibt.",
+      "Damit es nicht durch UV-Strahlung beschädigt wird."
     ]
   },
   {
@@ -326,22 +158,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum sollten Fallen stets ordentlich aufgeschossen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "268_1",
-        "text": "Damit sie im Gebrauchsfall schnell und sicher gefiert werden können.",
-      },
-      {
-        "id": "268_2",
-        "text": "Damit sie trocknen können und nicht verrotten.",
-      },
-      {
-        "id": "268_3",
-        "text": "Damit sie nicht durch UV-Strahlung beschädigt werden.",
-      },
-      {
-        "id": "268_4",
-        "text": "Damit sie nicht mit den Schoten verwechselt werden können.",
-      }
+      "Damit sie im Gebrauchsfall schnell und sicher gefiert werden können.",
+      "Damit sie trocknen können und nicht verrotten.",
+      "Damit sie nicht durch UV-Strahlung beschädigt werden.",
+      "Damit sie nicht mit den Schoten verwechselt werden können."
     ]
   },
   {
@@ -349,22 +169,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie heißen die Ecken eines Segels?",
     "images": [],
     "answers": [
-      {
-        "id": "269_1",
-        "text": "Kopf, Hals, Schothorn.",
-      },
-      {
-        "id": "269_2",
-        "text": "Kopf, Hals, Nock.",
-      },
-      {
-        "id": "269_3",
-        "text": "Vorliek, Unterliek, Achterliek.",
-      },
-      {
-        "id": "269_4",
-        "text": "Vorstag, Unterwant, Achterstag.",
-      }
+      "Kopf, Hals, Schothorn.",
+      "Kopf, Hals, Nock.",
+      "Vorliek, Unterliek, Achterliek.",
+      "Vorstag, Unterwant, Achterstag."
     ]
   },
   {
@@ -372,22 +180,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie heißen die Kanten eines Segels?",
     "images": [],
     "answers": [
-      {
-        "id": "270_1",
-        "text": "Vorliek, Unterliek, Achterliek.",
-      },
-      {
-        "id": "270_2",
-        "text": "Kopf, Hals, Nock.",
-      },
-      {
-        "id": "270_3",
-        "text": "Vorstag, Unterwant, Achterstag.",
-      },
-      {
-        "id": "270_4",
-        "text": "Kopf, Hals, Schothorn.",
-      }
+      "Vorliek, Unterliek, Achterliek.",
+      "Kopf, Hals, Nock.",
+      "Vorstag, Unterwant, Achterstag.",
+      "Kopf, Hals, Schothorn."
     ]
   },
   {
@@ -395,22 +191,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wozu dienen Segellatten?",
     "images": [],
     "answers": [
-      {
-        "id": "271_1",
-        "text": "Der Formgebung und Aussteifung des Segels.",
-      },
-      {
-        "id": "271_2",
-        "text": "Der Erleichterung des Reffens.",
-      },
-      {
-        "id": "271_3",
-        "text": "Der Verhinderung des Killens von Segeln.",
-      },
-      {
-        "id": "271_4",
-        "text": "Der Möglichkeit das Segel auch bei Starkwind nutzen zu können.",
-      }
+      "Der Formgebung und Aussteifung des Segels.",
+      "Der Erleichterung des Reffens.",
+      "Der Verhinderung des Killens von Segeln.",
+      "Der Möglichkeit das Segel auch bei Starkwind nutzen zu können."
     ]
   },
   {
@@ -418,22 +202,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Weshalb dürfen Segel nicht über einen längeren Zeitraum killen?",
     "images": [],
     "answers": [
-      {
-        "id": "272_1",
-        "text": "Killen schädigt das Tuch und lässt Nähte aufgehen.",
-      },
-      {
-        "id": "272_2",
-        "text": "Killen lässt das Boot bei stärkerem Wind kentern.",
-      },
-      {
-        "id": "272_3",
-        "text": "Killen führt zu Verletzungen der Besatzung.",
-      },
-      {
-        "id": "272_4",
-        "text": "Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen.",
-      }
+      "Killen schädigt das Tuch und lässt Nähte aufgehen.",
+      "Killen lässt das Boot bei stärkerem Wind kentern.",
+      "Killen führt zu Verletzungen der Besatzung.",
+      "Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen."
     ]
   },
   {
@@ -441,22 +213,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum müssen auch kleine Schäden an den Segeln sofort repariert werden?",
     "images": [],
     "answers": [
-      {
-        "id": "273_1",
-        "text": "Weil unter Winddruck daraus schnell große Schäden werden.",
-      },
-      {
-        "id": "273_2",
-        "text": "Weil dadurch der Vortrieb des Segels leidet.",
-      },
-      {
-        "id": "273_3",
-        "text": "Weil es nur noch bei Flaute eingesetzt werden kann.",
-      },
-      {
-        "id": "273_4",
-        "text": "Weil Feuchtigkeit in das Segel eindringen kann.",
-      }
+      "Weil unter Winddruck daraus schnell große Schäden werden.",
+      "Weil dadurch der Vortrieb des Segels leidet.",
+      "Weil es nur noch bei Flaute eingesetzt werden kann.",
+      "Weil Feuchtigkeit in das Segel eindringen kann."
     ]
   },
   {
@@ -464,22 +224,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Woran kann wärend der Fahrt die Richtung des wahren Windes erkannt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "274_1",
-        "text": "An Flaggen oder anderen Anzeichen an Land.",
-      },
-      {
-        "id": "274_2",
-        "text": "An der Zugrichtung von Wolken.",
-      },
-      {
-        "id": "274_3",
-        "text": "An der Nationalflagge am Heck.",
-      },
-      {
-        "id": "274_4",
-        "text": "An den Trimmfäden im Großsegel.",
-      }
+      "An Flaggen oder anderen Anzeichen an Land.",
+      "An der Zugrichtung von Wolken.",
+      "An der Nationalflagge am Heck.",
+      "An den Trimmfäden im Großsegel."
     ]
   },
   {
@@ -487,22 +235,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Welcher Wind wird in Fahrt von Standern bzw. Verklickern angezeigt?",
     "images": [],
     "answers": [
-      {
-        "id": "275_1",
-        "text": "Der scheinbare Wind.",
-      },
-      {
-        "id": "275_2",
-        "text": "Der Fahrtwind.",
-      },
-      {
-        "id": "275_3",
-        "text": "Der wahre Wind.",
-      },
-      {
-        "id": "275_4",
-        "text": "Die Windrichtung.",
-      }
+      "Der scheinbare Wind.",
+      "Der Fahrtwind.",
+      "Der wahre Wind.",
+      "Die Windrichtung."
     ]
   },
   {
@@ -510,22 +246,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wann kommen wahrer Wind und scheinbarer Wind auf einem segelnden Boot aus der gleichen Richtung?",
     "images": [],
     "answers": [
-      {
-        "id": "276_1",
-        "text": "Auf Vorwindkurs.",
-      },
-      {
-        "id": "276_2",
-        "text": "Auf Halbwindkurs.",
-      },
-      {
-        "id": "276_3",
-        "text": "Auf Amwindkurs.",
-      },
-      {
-        "id": "276_4",
-        "text": "Auf Raumschotkurs.",
-      }
+      "Auf Vorwindkurs.",
+      "Auf Halbwindkurs.",
+      "Auf Amwindkurs.",
+      "Auf Raumschotkurs."
     ]
   },
   {
@@ -533,22 +257,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum ist der scheinbare Wind auf einem Vorwindkurs schwächer als der wahre Wind?",
     "images": [],
     "answers": [
-      {
-        "id": "277_1",
-        "text": "Der wahre Wind vermindert sich um den entgegenstehenden Fahrtwind.",
-      },
-      {
-        "id": "277_2",
-        "text": "Der wahre Wind wird durch den Fahrtwind abgebremst.",
-      },
-      {
-        "id": "277_3",
-        "text": "Der scheinbare Wind wird durch den Unterdruck am Segel entlang abgebremst.",
-      },
-      {
-        "id": "277_4",
-        "text": "Der scheinbare Wind ist unabhängig von der Windrichtung immer schwächer als der wahre Wind.",
-      }
+      "Der wahre Wind vermindert sich um den entgegenstehenden Fahrtwind.",
+      "Der wahre Wind wird durch den Fahrtwind abgebremst.",
+      "Der scheinbare Wind wird durch den Unterdruck am Segel entlang abgebremst.",
+      "Der scheinbare Wind ist unabhängig von der Windrichtung immer schwächer als der wahre Wind."
     ]
   },
   {
@@ -556,22 +268,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum ist der scheinbare Wind auf einem Kurs hoch am Wind stärker als der wahre Wind?",
     "images": [],
     "answers": [
-      {
-        "id": "278_1",
-        "text": "Da sich auf diesem Kurs der wahre Wind und der Fahrtwind in Richtung und Stärke addieren.",
-      },
-      {
-        "id": "278_2",
-        "text": "Da sich auf diesem Kurs eine Düse zwischen Fock- und Großsegel bildet, die den Wind verstärkt.",
-      },
-      {
-        "id": "278_3",
-        "text": "Da der wahre Wind beim Amwindkurs stärker ist als bei raumen Kursen.",
-      },
-      {
-        "id": "278_4",
-        "text": "Da der scheinbare Wind unabhängig von der Windrichtung immer stärker als der wahre Wind ist.",
-      }
+      "Da sich auf diesem Kurs der wahre Wind und der Fahrtwind in Richtung und Stärke addieren.",
+      "Da sich auf diesem Kurs eine Düse zwischen Fock- und Großsegel bildet, die den Wind verstärkt.",
+      "Da der wahre Wind beim Amwindkurs stärker ist als bei raumen Kursen.",
+      "Da der scheinbare Wind unabhängig von der Windrichtung immer stärker als der wahre Wind ist."
     ]
   },
   {
@@ -579,22 +279,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Auf einem Amwindkurs wurde gerefft. Ein entgegenkommendes Boot gleichen Typs segelt ungerefft. Wie lässt sich das erklären?",
     "images": [],
     "answers": [
-      {
-        "id": "279_1",
-        "text": "Der scheinbare Wind ist auf Amwindkursen stärker, auf Raumschot- und Vorwindkursen schwächer als der wahre Wind.",
-      },
-      {
-        "id": "279_2",
-        "text": "Boote sind stabiler, wenn der Wind achterlicher einfällt.",
-      },
-      {
-        "id": "279_3",
-        "text": "Der wahre Wind staut sich am Segel bei Raumschotkurs und ist deshalb schwächer.",
-      },
-      {
-        "id": "279_4",
-        "text": "Bei Amwindkurs streicht der Wind am tragflächenartig gewölbten Segel entlang und wird dadurch beschleunigt.",
-      }
+      "Der scheinbare Wind ist auf Amwindkursen stärker, auf Raumschot- und Vorwindkursen schwächer als der wahre Wind.",
+      "Boote sind stabiler, wenn der Wind achterlicher einfällt.",
+      "Der wahre Wind staut sich am Segel bei Raumschotkurs und ist deshalb schwächer.",
+      "Bei Amwindkurs streicht der Wind am tragflächenartig gewölbten Segel entlang und wird dadurch beschleunigt."
     ]
   },
   {
@@ -602,22 +290,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum raumt beim Einfallen einer Bö auf Amwindkurs der scheinbare Wind?",
     "images": [],
     "answers": [
-      {
-        "id": "280_1",
-        "text": "Da der Fahrtwind zunächst gleich bleibt, der wahre Wind jedoch zunimmt, kommt der daraus resultierende scheinbare Wind raumer.",
-      },
-      {
-        "id": "280_2",
-        "text": "Da durch die Koreoliskraft der Wind auch seine Richtung ändert, wenn er stärker wird.",
-      },
-      {
-        "id": "280_3",
-        "text": "Da durch den Trimm des Bootes sich der Kurs automatisch ändert, wenn der Wind zunimmt.",
-      },
-      {
-        "id": "280_4",
-        "text": "Da die Windrichtung durch die Segelstellung beeinflusst wird, verändert sich auch der scheinbare Wind.",
-      }
+      "Da der Fahrtwind zunächst gleich bleibt, der wahre Wind jedoch zunimmt, kommt der daraus resultierende scheinbare Wind raumer.",
+      "Da durch die Koreoliskraft der Wind auch seine Richtung ändert, wenn er stärker wird.",
+      "Da durch den Trimm des Bootes sich der Kurs automatisch ändert, wenn der Wind zunimmt.",
+      "Da die Windrichtung durch die Segelstellung beeinflusst wird, verändert sich auch der scheinbare Wind."
     ]
   },
   {
@@ -625,22 +301,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Beim Einfallen einer Bö auf Amwindkurs raumt der scheinbare Wind. Welchen Nutzen kann auf der Kreuz daraus gezogen werden?",
     "images": [],
     "answers": [
-      {
-        "id": "281_1",
-        "text": "Mitluven, um weitere Höhe zu gewinnen.",
-      },
-      {
-        "id": "281_2",
-        "text": "Abfallen, um maximale Höhe zu segeln.",
-      },
-      {
-        "id": "281_3",
-        "text": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
-      },
-      {
-        "id": "281_4",
-        "text": "Ein Spinnacker kann gesetzt werden.",
-      }
+      "Mitluven, um weitere Höhe zu gewinnen.",
+      "Abfallen, um maximale Höhe zu segeln.",
+      "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
+      "Ein Spinnacker kann gesetzt werden."
     ]
   },
   {
@@ -648,22 +312,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie sollte das Schwert einer Jolle auf Vorwindkurs gefahren werden und warum?",
     "images": [],
     "answers": [
-      {
-        "id": "282_1",
-        "text": "Es sollte aufgeholt werden. Dadurch vermindert sich der Reibungswiderstand, aber auch die Gefahr der Kenterung bei einer unfreiwilligen Halse.",
-      },
-      {
-        "id": "282_2",
-        "text": "Es sollte gefiert werden. Dadurch wird das Boot stabiler und die Gefahr der Kenterung bei einer unfreiwilligen Halse reduziert.",
-      },
-      {
-        "id": "282_3",
-        "text": "Es sollte nie ganz aufgeholt werden, da es sonst bei einer Kenterung zum Aufrichten der Jolle nicht mehr greifbar ist.",
-      },
-      {
-        "id": "282_4",
-        "text": "Es sollte bei stärkerem Wind ganz aufgeholt werden, um die Steuerfähigkeit der Jolle zu verbessern.",
-      }
+      "Es sollte aufgeholt werden. Dadurch vermindert sich der Reibungswiderstand, aber auch die Gefahr der Kenterung bei einer unfreiwilligen Halse.",
+      "Es sollte gefiert werden. Dadurch wird das Boot stabiler und die Gefahr der Kenterung bei einer unfreiwilligen Halse reduziert.",
+      "Es sollte nie ganz aufgeholt werden, da es sonst bei einer Kenterung zum Aufrichten der Jolle nicht mehr greifbar ist.",
+      "Es sollte bei stärkerem Wind ganz aufgeholt werden, um die Steuerfähigkeit der Jolle zu verbessern."
     ]
   },
   {
@@ -671,22 +323,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie verändern sich Abdrift und Krängung, wenn das Schwert einer Jolle auf einem Amwindkurs etwas aufgeholt wird?",
     "images": [],
     "answers": [
-      {
-        "id": "283_1",
-        "text": "Die Abdrift wird größer, die Krängung nimmt ab.",
-      },
-      {
-        "id": "283_2",
-        "text": "Die Abdrift wird größer, die Krängung nimmt zu.",
-      },
-      {
-        "id": "283_3",
-        "text": "Die Abdrift nimmt ab, das Boot wird aufgrund des geringeren Wasserwiderstandes schneller.",
-      },
-      {
-        "id": "283_4",
-        "text": "Die Abdrift wird kleiner, die Krängung nimmt ab.",
-      }
+      "Die Abdrift wird größer, die Krängung nimmt ab.",
+      "Die Abdrift wird größer, die Krängung nimmt zu.",
+      "Die Abdrift nimmt ab, das Boot wird aufgrund des geringeren Wasserwiderstandes schneller.",
+      "Die Abdrift wird kleiner, die Krängung nimmt ab."
     ]
   },
   {
@@ -694,22 +334,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Mit welcher Krängung sollte eine Jolle üblicherweise gesegelt werden und weshalb?",
     "images": [],
     "answers": [
-      {
-        "id": "284_1",
-        "text": "Möglichst aufrecht, da sonst Abdrift und Luvgierigkeit zunehmen.",
-      },
-      {
-        "id": "284_2",
-        "text": "Möglichst aufrecht, weil sonst Abdrift und Leegierigkeit zunehmen.",
-      },
-      {
-        "id": "284_3",
-        "text": "Leicht nach Lee geneigt, da sonst die Segel leicht nach Luv überkommen können.",
-      },
-      {
-        "id": "284_4",
-        "text": "Möglichst nach Luv geneigt, weil dadurch die Abdrift und die Luvgierigkeit abnehmen.",
-      }
+      "Möglichst aufrecht, da sonst Abdrift und Luvgierigkeit zunehmen.",
+      "Möglichst aufrecht, weil sonst Abdrift und Leegierigkeit zunehmen.",
+      "Leicht nach Lee geneigt, da sonst die Segel leicht nach Luv überkommen können.",
+      "Möglichst nach Luv geneigt, weil dadurch die Abdrift und die Luvgierigkeit abnehmen."
     ]
   },
   {
@@ -717,22 +345,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie wirkt sich auf einem Halbwindkurs ein zu dicht geholtes Großsegel auf die Geschwindigkeit des Bootes aus?",
     "images": [],
     "answers": [
-      {
-        "id": "285_1",
-        "text": "Die Krängung nimmt zu, die Geschwindigkeit nimmt ab.",
-      },
-      {
-        "id": "285_2",
-        "text": "Die Krängung und die Geschwindigkeit nehmen bis zum kritischen Punkt zu, darüber hinaus schnell ab.",
-      },
-      {
-        "id": "285_3",
-        "text": "Die Geschwindigkeit nimmt zu, da dadurch die Windkräfte optimaler genutzt werden.",
-      },
-      {
-        "id": "285_4",
-        "text": "Das Boot bleibt stehen, da die Strömung abreißt.",
-      }
+      "Die Krängung nimmt zu, die Geschwindigkeit nimmt ab.",
+      "Die Krängung und die Geschwindigkeit nehmen bis zum kritischen Punkt zu, darüber hinaus schnell ab.",
+      "Die Geschwindigkeit nimmt zu, da dadurch die Windkräfte optimaler genutzt werden.",
+      "Das Boot bleibt stehen, da die Strömung abreißt."
     ]
   },
   {
@@ -740,22 +356,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie wirkt sich ein Holepunkt, der zu weit vorne liegt, auf Stand und Beanspruchung des Vorsegels aus?",
     "images": [],
     "answers": [
-      {
-        "id": "286_1",
-        "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "286_2",
-        "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "286_3",
-        "text": "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "286_4",
-        "text": "Das Vorliek killt, das Achterliek wird übermäßig gereckt.",
-      }
+      "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
+      "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
+      "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
+      "Das Vorliek killt, das Achterliek wird übermäßig gereckt."
     ]
   },
   {
@@ -763,22 +367,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie wirkt sich ein Holepunkt, der zu weit achtern liegt, auf Stand und Beanspruchung des Vorsegels aus?",
     "images": [],
     "answers": [
-      {
-        "id": "287_1",
-        "text": "Das Achterliek killt, das Unterliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "287_2",
-        "text": "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "287_3",
-        "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
-      },
-      {
-        "id": "287_4",
-        "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
-      }
+      "Das Achterliek killt, das Unterliek wird übermäßig gereckt.",
+      "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
+      "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
+      "Das Achterliek killt, das Vorliek wird übermäßig gereckt."
     ]
   },
   {
@@ -786,22 +378,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie muss ein Segel bei leichtem Wind getrimmt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "288_1",
-        "text": "Das Segel soll bauchig stehen.",
-      },
-      {
-        "id": "288_2",
-        "text": "Das Segel soll flach getrimmt werden.",
-      },
-      {
-        "id": "288_3",
-        "text": "Die Schoten müssen gefiert werden.",
-      },
-      {
-        "id": "288_4",
-        "text": "Die Schoten müssen dicht geholt werden.",
-      }
+      "Das Segel soll bauchig stehen.",
+      "Das Segel soll flach getrimmt werden.",
+      "Die Schoten müssen gefiert werden.",
+      "Die Schoten müssen dicht geholt werden."
     ]
   },
   {
@@ -809,22 +389,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie muss ein Segel bei starkem Wind getrimmt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "289_1",
-        "text": "Das Segel soll flach getrimmt werden.",
-      },
-      {
-        "id": "289_2",
-        "text": "Es soll bauchig getrimmt werden.",
-      },
-      {
-        "id": "289_3",
-        "text": "Die Schoten müssen dicht geholt werden.",
-      },
-      {
-        "id": "289_4",
-        "text": "Die Schoten müssen gefiert werden.",
-      }
+      "Das Segel soll flach getrimmt werden.",
+      "Es soll bauchig getrimmt werden.",
+      "Die Schoten müssen dicht geholt werden.",
+      "Die Schoten müssen gefiert werden."
     ]
   },
   {
@@ -832,22 +400,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?",
     "images": [],
     "answers": [
-      {
-        "id": "290_1",
-        "text": "Je nach Zugkraft wird der untere Teil des Großsegels bauchiger oder flacher.",
-      },
-      {
-        "id": "290_2",
-        "text": "Je nach Zugkraft wird der untere Teil des Vorsegels bauchiger oder flacher.",
-      },
-      {
-        "id": "290_3",
-        "text": "Je nach Zugkraft wird der achtere Teil des Vorsegels bauchiger oder flacher.",
-      },
-      {
-        "id": "290_4",
-        "text": "Je nach Zugkraft wird der achtere Teil des Großsegels bauchiger oder flacher.",
-      }
+      "Je nach Zugkraft wird der untere Teil des Großsegels bauchiger oder flacher.",
+      "Je nach Zugkraft wird der untere Teil des Vorsegels bauchiger oder flacher.",
+      "Je nach Zugkraft wird der achtere Teil des Vorsegels bauchiger oder flacher.",
+      "Je nach Zugkraft wird der achtere Teil des Großsegels bauchiger oder flacher."
     ]
   },
   {
@@ -855,22 +411,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark von der Seite der Segel weggezogen werden. Wie kann der Trimmfehler behoben werden?",
     "images": [],
     "answers": [
-      {
-        "id": "291_1",
-        "text": "Großsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
-      },
-      {
-        "id": "291_2",
-        "text": "Großsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
-      },
-      {
-        "id": "291_3",
-        "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
-      },
-      {
-        "id": "291_4",
-        "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
-      }
+      "Großsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
+      "Großsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
+      "Vorsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
+      "Vorsegel flacher trimmen; Gewichtsverlagerung nach vorne."
     ]
   },
   {
@@ -878,22 +422,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark zur Seite der Segel hingedrückt werden. Wie kann der Trimmfehler behoben werden?",
     "images": [],
     "answers": [
-      {
-        "id": "292_1",
-        "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach vorn.",
-      },
-      {
-        "id": "292_2",
-        "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach vorn.",
-      },
-      {
-        "id": "292_3",
-        "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach hinten.",
-      },
-      {
-        "id": "292_4",
-        "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach hinten.",
-      }
+      "Großsegel bauchiger trimmen, Gewichtsverlagerung nach vorn.",
+      "Großsegel flacher trimmen, Gewichtsverlagerung nach vorn.",
+      "Großsegel bauchiger trimmen, Gewichtsverlagerung nach hinten.",
+      "Großsegel flacher trimmen, Gewichtsverlagerung nach hinten."
     ]
   },
   {
@@ -901,22 +433,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum soll ein gut getrimmtes Segelboot leicht luvgierig sein?",
     "images": [],
     "answers": [
-      {
-        "id": "293_1",
-        "text": "Weil es im Notfall von selbst in den Wind schießt.",
-      },
-      {
-        "id": "293_2",
-        "text": "Weil es sich so anspruchsvoller steuern lässt.",
-      },
-      {
-        "id": "293_3",
-        "text": "Weil es so weniger Höhe läuft.",
-      },
-      {
-        "id": "293_4",
-        "text": "Weil es auf Raumschotkurs mehr Geschwindigkeit läuft.",
-      }
+      "Weil es im Notfall von selbst in den Wind schießt.",
+      "Weil es sich so anspruchsvoller steuern lässt.",
+      "Weil es so weniger Höhe läuft.",
+      "Weil es auf Raumschotkurs mehr Geschwindigkeit läuft."
     ]
   },
   {
@@ -924,22 +444,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Welchen Einfluss hat zunehmende Krängung auf den Trimm des Bootes?",
     "images": [],
     "answers": [
-      {
-        "id": "294_1",
-        "text": "Die Luvgierigkeit nimmt zu.",
-      },
-      {
-        "id": "294_2",
-        "text": "Die Leegierigkeit nimmt zu.",
-      },
-      {
-        "id": "294_3",
-        "text": "Keinen.",
-      },
-      {
-        "id": "294_4",
-        "text": "Bis 45° Krängung nimmt die Luvgierigkeit zu, dann wieder ab.",
-      }
+      "Die Luvgierigkeit nimmt zu.",
+      "Die Leegierigkeit nimmt zu.",
+      "Keinen.",
+      "Bis 45° Krängung nimmt die Luvgierigkeit zu, dann wieder ab."
     ]
   },
   {
@@ -949,22 +457,10 @@ export const SBF_BINNEN_SEGEL = [
       "Bild-Frage-295.gif"
     ],
     "answers": [
-      {
-        "id": "295_1",
-        "text": "1 Wende, 2 Halse, 3 Q-Wende.",
-      },
-      {
-        "id": "295_2",
-        "text": "1 Q-Wende, 2 Halse, 3 Wende.",
-      },
-      {
-        "id": "295_3",
-        "text": "1 Halse, 2 Wende, 3 Q-Wende.",
-      },
-      {
-        "id": "295_4",
-        "text": "1 Wende, 2 Q-Wende, 3 Halse.",
-      }
+      "1 Wende, 2 Halse, 3 Q-Wende.",
+      "1 Q-Wende, 2 Halse, 3 Wende.",
+      "1 Halse, 2 Wende, 3 Q-Wende.",
+      "1 Wende, 2 Q-Wende, 3 Halse."
     ]
   },
   {
@@ -972,22 +468,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird?",
     "images": [],
     "answers": [
-      {
-        "id": "296_1",
-        "text": "Schwert und Ruderblatt aufholen, damit das Boot frei schwojen kann.",
-      },
-      {
-        "id": "296_2",
-        "text": "Schwert absenken, Ruder aufholen, damit das Boot frei schwojen kann.",
-      },
-      {
-        "id": "296_3",
-        "text": "Schwert aufholen, Ruder absenken, damit das Boot frei schwojen kann.",
-      },
-      {
-        "id": "296_4",
-        "text": "Schwert und Ruder absenken, damit das Boot frei schwojen kann.",
-      }
+      "Schwert und Ruderblatt aufholen, damit das Boot frei schwojen kann.",
+      "Schwert absenken, Ruder aufholen, damit das Boot frei schwojen kann.",
+      "Schwert aufholen, Ruder absenken, damit das Boot frei schwojen kann.",
+      "Schwert und Ruder absenken, damit das Boot frei schwojen kann."
     ]
   },
   {
@@ -995,22 +479,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Warum ist eine Patenthalse gefährlich?",
     "images": [],
     "answers": [
-      {
-        "id": "297_1",
-        "text": "Es kann zu Verletzungen der Crew, zu Riggschäden und zur Kenterung führen.",
-      },
-      {
-        "id": "297_2",
-        "text": "Es kann zur plötzlichen Änderung der Ausweichpflicht kommen.",
-      },
-      {
-        "id": "297_3",
-        "text": "Es kann zum Verlust der Steuerfähigkeit des Fahrzeuges führen.",
-      },
-      {
-        "id": "297_4",
-        "text": "Es kann erneut eine Patenthalse folgen, wenn nicht sofort abgefallen wird.",
-      }
+      "Es kann zu Verletzungen der Crew, zu Riggschäden und zur Kenterung führen.",
+      "Es kann zur plötzlichen Änderung der Ausweichpflicht kommen.",
+      "Es kann zum Verlust der Steuerfähigkeit des Fahrzeuges führen.",
+      "Es kann erneut eine Patenthalse folgen, wenn nicht sofort abgefallen wird."
     ]
   },
   {
@@ -1018,22 +490,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Ein Segelboot segelt am Wind, plötzlich bricht das Luvwant. Welches Manöver ist sinnvoll?",
     "images": [],
     "answers": [
-      {
-        "id": "298_1",
-        "text": "Wende.",
-      },
-      {
-        "id": "298_2",
-        "text": "Halse.",
-      },
-      {
-        "id": "298_3",
-        "text": "Q-Wende.",
-      },
-      {
-        "id": "298_4",
-        "text": "Aufschießer.",
-      }
+      "Wende.",
+      "Halse.",
+      "Q-Wende.",
+      "Aufschießer."
     ]
   },
   {
@@ -1041,22 +501,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Was ist sofort zu unternehmen?",
     "images": [],
     "answers": [
-      {
-        "id": "299_1",
-        "text": "Abfallen auf Vorwindkurs.",
-      },
-      {
-        "id": "299_2",
-        "text": "Dichtholen und Anluven.",
-      },
-      {
-        "id": "299_3",
-        "text": "Einen Aufschießer fahren.",
-      },
-      {
-        "id": "299_4",
-        "text": "Eine Halse fahren.",
-      }
+      "Abfallen auf Vorwindkurs.",
+      "Dichtholen und Anluven.",
+      "Einen Aufschießer fahren.",
+      "Eine Halse fahren."
     ]
   },
   {
@@ -1064,22 +512,10 @@ export const SBF_BINNEN_SEGEL = [
     "text": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Womit kann das gebrochene Vorstag schnell provisorisch ersetzt werden?",
     "images": [],
     "answers": [
-      {
-        "id": "300_1",
-        "text": "Durch die Fock oder ein Fall.",
-      },
-      {
-        "id": "300_2",
-        "text": "Durch die Fockschot oder das Großfall.",
-      },
-      {
-        "id": "300_3",
-        "text": "Durch die Vor- oder die Achterleine.",
-      },
-      {
-        "id": "300_4",
-        "text": "Durch die Fockschot oder eine Reffleine.",
-      }
+      "Durch die Fock oder ein Fall.",
+      "Durch die Fockschot oder das Großfall.",
+      "Durch die Vor- oder die Achterleine.",
+      "Durch die Fockschot oder eine Reffleine."
     ]
   }
 ];

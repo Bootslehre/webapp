@@ -62,11 +62,7 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
 
     // extract answers and ABORT because next question has been processed completely
     if (el?.tagName === 'OL') {
-      question.answers = Array.from(el.querySelectorAll('li')).map((li, index) => ({
-        id: `${id}_${index + 1}`,
-        text: li?.textContent?.trim() ?? '',
-      }));
-
+      question.answers = Array.from(el.querySelectorAll('li')).map((li) => li?.textContent?.trim() ?? '');
       break;
     }
 
@@ -84,8 +80,26 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
     return;
   }
 
+  for (let i = 0; i < question.answers.length; i++) {
+    for (let j = i + 1; j < question.answers.length; j++) {
+      // validate that each answer is unique
+      if (question.answers[i] === question.answers[j]) {
+        console.log(`\tquestion #${question.id} has non-unique answers. Adding suffixes to avoid conflicts`);
+        question.answers[i] += ' (1)';
+        question.answers[j] += ' (2)';
+      }
+
+      // validate invalid characters
+      if (question.answers[i].includes('\n')) {
+        console.log(`\tquestion #${question.id} includes invalid characters.`);
+      }
+    }
+  }
+
+
   return question;
 }
+
 
 async function processImage(image: HTMLImageElement): Promise<string | undefined> {
   const media = getImageMedia(image);

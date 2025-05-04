@@ -7,10 +7,7 @@ export interface Question {
   id: string;
   text: string;
   images: Array<string>;
-  answers: Array<Answer>;
+  answers: Array<string>;
 }
 
-export interface Answer {
-  id: string;
-  text: string;
-}
+export type AnswerWithCorrectness = { text: string; isCorrect: boolean };
