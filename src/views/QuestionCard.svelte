@@ -9,9 +9,9 @@
   import Paper from '../components/Paper.svelte';
   import Rating from '../components/Rating.svelte';
   import { statsService } from '../stores/stats.svelte';
-  import type { Answer, Question } from '../types';
+  import type { Question } from '../types';
   import type { LicenseId } from '../utils/licenses';
-  import { shuffle } from '../utils/shuffle';
+  import { shuffleAnswers, type AnswerWithCorrectness } from '../utils/shuffleAnswers';
 
   let {
     licenseId,
@@ -32,7 +32,7 @@
   } = $props();
 
   let selectedAnswerIndex = $state<number | undefined>(undefined);
-  let shuffledAnswers = $derived(shuffle(question.answers));
+  let shuffledAnswers = $derived(shuffleAnswers(question.answers));
   let stats = $derived(statsService.getQuestionStats(licenseId, question.id));
 
   function answerQuestion(index: number) {
@@ -45,7 +45,7 @@
     }
   }
 
-  function getAnswerColorVariant(answer: Answer, index: number): ListItemVariant {
+  function getAnswerColorVariant(answer: AnswerWithCorrectness, index: number): ListItemVariant {
     if (selectedAnswerIndex !== undefined) {
       if (answer.isCorrect) {
         return 'success';
@@ -60,7 +60,31 @@
   function reveal() {
     selectedAnswerIndex = -1;
   }
+
+  function onSelection(index: number) {
+    if (selectedAnswerIndex === undefined) {
+      answerQuestion(index);
+    } else {
+      onNextQuestionClick();
+    }
+  }
+
+  function selectAnswer(event: KeyboardEvent) {
+    if (event.key === '1') {
+      onSelection(0);
+    } else if (event.key === '2') {
+      onSelection(1);
+    } else if (event.key === '3') {
+      onSelection(3);
+    } else if (event.key === '4') {
+      onSelection(3);
+    } else if (event.key === 'Enter') {
+      onSelection(-1);
+    }
+  }
 </script>
+
+<svelte:window onkeydown={selectAnswer} />
 
 <Paper class="divide-y divide-slate-200 bg-white">
   <div class="relative min-h-[100px] rounded-t-lg bg-blue-100 p-5">
@@ -94,7 +118,7 @@
       {#key answer.id}
         <ListItem
           variant={getAnswerColorVariant(answer, index)}
-          onclick={() => (selectedAnswerIndex === undefined ? answerQuestion(index) : onNextQuestionClick())}>{answer.text}</ListItem
+          onclick={() => onSelection(index)}>{answer.text}</ListItem
         >
       {/key}
     {/each}

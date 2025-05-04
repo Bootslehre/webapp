@@ -1,50 +1,30 @@
-# sv
-
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+# Bootslehre
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# install dependencies
+npm i
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# start dev server
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# start dev server and open the app in a new browser tab
 npm run dev -- --open
-```
 
-## Building
-
-To create a production version of your app:
-
-```bash
+# start production build
 npm run build
+
+# preview production build
+`npm run preview`
 ```
 
-You can preview the production build with `npm run preview`.
+## Scheinkonfigurationen
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-### Scheine
-
-#### SBF See
+### SBF See
 
 - komplett: 72 Basisfragen + 213 Seefragen + Navigationsaufgaben
 - wenn SBF Binnen (Motor) vorhanden ist: 213 Seefragen + Navigationsaufgaben
 
-#### SBF Binnen
+### SBF Binnen
 
 - komplett (motor + segel)
   - 72 Basisfragen + 181 Binnenfragen + 47 Segelfragen
@@ -63,3 +43,19 @@ You can preview the production build with `npm run preview`.
 - SBF-Binnen nur unter Antriebsmaschine (Motor) für Personen, die den SBF-Binnen unter Segel vor dem 1. Mai 2012 erworben haben
   - 72 Basisfragen
   
+BZW laut APP
+
+- Motor (ohne Segeln)
+    - habe noch keinen schein: 253 fragen, basis und binnen-spez fragen (1-253)
+    - habe sbf see: 181 fragen, binnen-spez fragen, ohne basis (73-253)
+    - habe binnen segelschein ausgestellt vor 05.2012: 71 basis fragen (1-72)
+    - sbf see und binnen segelschein ausgestellt vor 05.2012: keine prüfung notwenidg. sie erhalten den sbf binnen auf antrag beim DMYV oder DSV
+- Segeln und Motor
+    - noch keinen schein: 300 fragen. basis + spez fragen binnen und segeln (1-300)
+    - habe sbf see: 228 fragen, spez fragen binnen und segeln ohne basisfragen (73-300)
+    - sks und sbf-see: sie müssen nur prüfung für binnen-motor ablegen. den binnen segelschein erhaltensie im anschluss durch Umschreibung beim DMYV oder DSV. 
+- Segeln (ohne Motor)
+    - noch keinen schein: 257 fragen, auszuf aus basisfragen und den spez fragen binnen + segel fragen (RANGE!??!?!)
+    - sbf see: 205 fragen, auszug aus spez fragen binnen und segel fragen (RANGE!?!?!?)
+    - binnen motor: 47 fragen, spez fragen segeln (254-300)
+    - sks: keine prüfung notwenidg. sks wird als segelqualifikation anerkannt. sie erhalten ihren schein auf antrag beim DMYV oder DSV

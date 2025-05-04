@@ -65,7 +65,6 @@ async function processParagraph(paragraph: HTMLParagraphElement): Promise<Questi
       question.answers = Array.from(el.querySelectorAll('li')).map((li, index) => ({
         id: `${id}_${index + 1}`,
         text: li?.textContent?.trim() ?? '',
-        isCorrect: index === 0,
       }));
 
       break;
