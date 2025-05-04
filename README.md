@@ -19,6 +19,11 @@ npm run build
 
 ## Scheinkonfigurationen
 
+[Offizielle Übersicht](https://www.sportbootfuehrerscheine.org/fuehrerscheine-funk/sbf-sportbootfuehrerschein/)
+
+![SBF Theorie](https://www.sportbootfuehrerscheine.org/app/uploads/sites/6/2021/05/sbf-theoretischer-teil.jpg)
+![SBF Praxis](https://www.sportbootfuehrerscheine.org/app/uploads/sites/6/2021/05/sbf-praktischer-teil.jpg)
+
 ### SBF See
 
 - komplett: 72 Basisfragen + 213 Seefragen + Navigationsaufgaben
@@ -26,36 +31,20 @@ npm run build
 
 ### SBF Binnen
 
-- komplett (motor + segel)
-  - 72 Basisfragen + 181 Binnenfragen + 47 Segelfragen
-- SBF-Binnen unter Antriebsmaschine (Motor) und unter Segel für Inhaber des SBF-See
-  - 181 Binnenfragen + 47 Segelfragen
-- SBF-Binnen nur unter Antriebsmaschine (Motor)
-  - 72 Basisfragen + 181 Binnenfragen
-- SBF-Binnen nur unter Antriebsmaschine (Motor) für Inhaber des SBF-See
-  - 181 Binnenfragen
-- SBF-Binnen nur unter Segel
-  - 52 Basisfragen (ohne Motor-Fragen) + 158 Binnenfragen (ohne Motor-Fragen) + 47 Segelfragen
-- SBF-Binnen nur unter Segel für Inhaber des SBF-See
-  - 158 Binnenfragen (ohne Motor-Fragen) + 47 Segelfragen
-- SBF-Binnen unter Segel für Inhaber des SBF-Binnen unter Antriebsmaschine (Motor)
-  - 47 Segelfragen
-- SBF-Binnen nur unter Antriebsmaschine (Motor) für Personen, die den SBF-Binnen unter Segel vor dem 1. Mai 2012 erworben haben
-  - 72 Basisfragen
-  
-BZW laut APP
+- Motor + Segel
+  - noch keinen schein: basis + spez binnen + spez segeln
+  - habe sbf see: spez binnen + spez segeln
+  - sks und sbf-see: spez binnen --> Sie müssen nur prüfung für binnen-motor ablegen. danach: umschreibung
+- Motor
+  - habe noch keinen schein: basis + spez binnen
+  - habe sbf see + binnen segel vor 01.05.2012: keine prüfung notwenidg. sie erhalten den sbf binnen auf antrag beim DMYV oder DSV
+  - habe sbf see: spez binnen
+  - habe binnen segel vor 01.05.2012: basis fragen
+- Segel
+  - noch keinen schein: spez binnen + spez segeln + basis (ABER ALLE OHNE MOTORFRAGEN) // 257 fragen laut app
+  - sbf see + sbf binnen motor + sks: keine prüfung erforderlich, umschreibung
+  - sbf see + sbf binnen motor: spez segeln
+  - sbf see: spez binnen + spez segeln (ABER ALLE OHNE MOTORFRAGEN) // 205 fragen laut app
+  - binnen motor: spez segeln
 
-- Motor (ohne Segeln)
-    - habe noch keinen schein: 253 fragen, basis und binnen-spez fragen (1-253)
-    - habe sbf see: 181 fragen, binnen-spez fragen, ohne basis (73-253)
-    - habe binnen segelschein ausgestellt vor 05.2012: 71 basis fragen (1-72)
-    - sbf see und binnen segelschein ausgestellt vor 05.2012: keine prüfung notwenidg. sie erhalten den sbf binnen auf antrag beim DMYV oder DSV
-- Segeln und Motor
-    - noch keinen schein: 300 fragen. basis + spez fragen binnen und segeln (1-300)
-    - habe sbf see: 228 fragen, spez fragen binnen und segeln ohne basisfragen (73-300)
-    - sks und sbf-see: sie müssen nur prüfung für binnen-motor ablegen. den binnen segelschein erhaltensie im anschluss durch Umschreibung beim DMYV oder DSV. 
-- Segeln (ohne Motor)
-    - noch keinen schein: 257 fragen, auszuf aus basisfragen und den spez fragen binnen + segel fragen (RANGE!??!?!)
-    - sbf see: 205 fragen, auszug aus spez fragen binnen und segel fragen (RANGE!?!?!?)
-    - binnen motor: 47 fragen, spez fragen segeln (254-300)
-    - sks: keine prüfung notwenidg. sks wird als segelqualifikation anerkannt. sie erhalten ihren schein auf antrag beim DMYV oder DSV
+>>> Welche Fragen sind die Motorfragen? Diese werden weggelassen in verschiedenen Szenarien
